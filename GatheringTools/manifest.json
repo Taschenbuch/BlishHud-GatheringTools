@@ -5,7 +5,7 @@
   "package": "GatheringTools.dll",
   "manifest_version": 1,
 
-  "description": "Check which character has the unlimited gathering tools equipped.\nShow a reminder when pressing the logout key (default: F12) to not forget putting unlimited tools into shared inventory slots.\nMake sure that the logout key in Guild Wars 2 matches the logout key in the settings of this module.",
+  "description": "Check which character has the unlimited gathering tools equipped.\nWARNING: The search result can be older than 5 minutes because of API delays.\nShow a reminder when pressing the logout key (default: F12) to not forget putting unlimited tools into shared inventory slots. For this to work make sure the logout key in the module settings matches the logout key in Guild Wars 2.",
   "dependencies": {
     "bh.blishhud": ">=0.11.7"
   },
