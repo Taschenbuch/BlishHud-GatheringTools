@@ -1,0 +1,38 @@
+{
+  "name": "Gathering Tools",
+  "version": "1.0.0",
+  "namespace": "ecksofa.gatheringtools",
+  "package": "GatheringTools.dll",
+  "manifest_version": 1,
+
+  "description": "Check which character has the unlimited gathering tools equipped.\nShow a reminder when pressing the logout key (default: F12) to not forget putting unlimited tools into shared inventory slots.\nMake sure that the logout key in Guild Wars 2 matches the logout key in the settings of this module.",
+  "dependencies": {
+    "bh.blishhud": ">=0.11.7"
+  },
+  "url": "https://github.com/Taschenbuch/BlishHud-GatheringTools",
+  "contributors": [
+    {
+      "name": "Ecksofa",
+      "url": "https://github.com/Taschenbuch"
+    }
+  ],
+  "enabled_without_gw2": false,
+  "api_permissions": {
+    "account": {
+      "optional": true,
+      "details": "For searching gathering tools on characters"
+    },
+    "characters": {
+      "optional": true,
+      "details": "For searching gathering tools on characters"
+    },
+    "inventories": {
+      "optional": true,
+      "details": "For searching gathering tools on characters"
+    },
+    "builds": {
+      "optional": true,
+      "details": "For searching gathering tools on characters"
+    }
+  }
+}
