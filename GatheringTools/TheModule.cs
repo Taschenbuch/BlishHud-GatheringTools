@@ -106,16 +106,17 @@ namespace GatheringTools
         protected override void Initialize()
         {
             _windowBackgroundTexture = ContentsManager.GetTexture("155985.png");
-            _sickleTexture        = ContentsManager.GetTexture("sickle.png");
+            _sickleTexture           = ContentsManager.GetTexture("sickle.png");
 
             _toolSearchStandardWindow = new ToolSearchStandardWindow(_showOnlyUnlimitedToolsSetting, _windowBackgroundTexture, Gw2ApiManager, Logger)
             {
-                Title         = "Tools",
-                Emblem        = _sickleTexture, // todo does not work
-                Location      = new Point(300, 300),
-                SavesPosition = true,
-                Id            = "tool search window 6f48189f-0a38-4fad-bc6a-10d323e7f1c4",
-                Parent        = GameService.Graphics.SpriteScreen,
+                Emblem           = _sickleTexture, // hack: has to be first to prevent bug of emblem not being visible
+                Title            = "Tools",
+                BasicTooltipText = "Shows which character has gathering tools equipped.",
+                Location         = new Point(300, 300),
+                SavesPosition    = true,
+                Id               = "tool search window 6f48189f-0a38-4fad-bc6a-10d323e7f1c4",
+                Parent           = GameService.Graphics.SpriteScreen,
             };
 
             _reminderContainer = new ReminderContainer(ContentsManager);

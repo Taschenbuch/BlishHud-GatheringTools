@@ -37,7 +37,7 @@ namespace GatheringTools.ToolSearch
             _toolSearchCornerIcon = new CornerIcon
             {
                 Icon             = _cornerIconTexture,
-                BasicTooltipText = "Click to show/hide gathering tool search window. Can be hidden in module settings.",
+                BasicTooltipText = "Click to show/hide which character has gathering tools equipped.\nIcon can be hidden by module settings.",
                 Parent           = GameService.Graphics.SpriteScreen,
             };
 
