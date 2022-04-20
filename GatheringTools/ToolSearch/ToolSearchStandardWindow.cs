@@ -26,7 +26,6 @@ namespace GatheringTools.ToolSearch
             _infoLabel = new Label()
             {
                 Location       = new Point(0, 30),
-                Font           = GameService.Content.DefaultFont18,
                 TextColor      = Color.White,
                 ShowShadow     = true,
                 Size           = new Point(200, 0),
@@ -62,7 +61,6 @@ namespace GatheringTools.ToolSearch
                 Size          = new Point(200, 500),
                 FlowDirection = ControlFlowDirection.SingleTopToBottom,
                 CanScroll     = true,
-                Visible       = false,
                 Parent        = this,
             };
         }
@@ -93,8 +91,10 @@ namespace GatheringTools.ToolSearch
             Task.Run(async () =>
                 {
                     var charactersAndTools = await GetToolsFromApi();
-                    
-                    if (charactersAndTools.Any())
+
+                    if(_apiAccessFailed)
+                        _infoLabel.Text = API_KEY_ERROR_MESSAGE;
+                    else
                         ShowToolsInUi(charactersAndTools);
 
                     _uiIsUpdating = false;
@@ -104,46 +104,53 @@ namespace GatheringTools.ToolSearch
 
         public async Task<List<CharacterAndTools>> GetToolsFromApi()
         {
+            _apiAccessFailed = false;
+            _infoLabel.Text = string.Empty;
             _charactersFlowPanel.ClearChildren();
 
             if (_gw2ApiManager.HasPermissions(_gw2ApiManager.Permissions) == false)
             {
-                _charactersFlowPanel.Hide();
+                _apiAccessFailed = true;
                 _loadingSpinner.Hide();
-                _infoLabel.Text = API_KEY_ERROR_MESSAGE;
                 return new List<CharacterAndTools>();
             }
 
             _loadingSpinner.Show();
-            _infoLabel.Text = "getting data from API...";
+            _infoLabel.Text = "Getting API data...";
 
             try
             {
                 var charactersAndTools = await GatheringToolsService.GetCharactersAndTools(_gw2ApiManager);
-                _loadingSpinner.Hide();
                 _infoLabel.Text = string.Empty;
                 return charactersAndTools;
             }
             catch (Exception e)
             {
-                _charactersFlowPanel.Hide();
-                _loadingSpinner.Hide();
-                _infoLabel.Text = API_KEY_ERROR_MESSAGE;
+                _apiAccessFailed = true;
                 _logger.Error("Could not get gathering tools from API", e);
                 return new List<CharacterAndTools>();
+            }
+            finally
+            {
+                _loadingSpinner.Hide();
             }
         }
 
         private void ShowToolsInUi(List<CharacterAndTools> charactersAndTools)
         {
-            foreach (var characterAndTools in charactersAndTools)
+            var filteredCharactersAndTools = charactersAndTools.Where(c => c.HasTools()).ToList();
+
+            if (_showOnlyUnlimitedToolsCheckbox.Checked)
+                filteredCharactersAndTools = filteredCharactersAndTools.Where(c => c.HasUnlimitedTools()).ToList();
+
+            if (filteredCharactersAndTools.Any() == false)
             {
-                if (characterAndTools.HasNoTools())
-                    continue;
+                _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
+                return;
+            }
 
-                if (_showOnlyUnlimitedToolsCheckbox.Checked && characterAndTools.HasUnlimitedTools() == false)
-                    continue;
-
+            foreach (var characterAndTools in filteredCharactersAndTools)
+            {
                 var characterAndToolsFlowPanel = new CharacterAndToolsFlowPanel(characterAndTools, _showOnlyUnlimitedToolsCheckbox.Checked, _logger)
                 {
                     FlowDirection    = ControlFlowDirection.SingleTopToBottom,
@@ -153,8 +160,6 @@ namespace GatheringTools.ToolSearch
                     Parent           = _charactersFlowPanel
                 };
             }
-
-            _charactersFlowPanel.Show();
         }
 
         private readonly Gw2ApiManager _gw2ApiManager;
@@ -164,11 +169,13 @@ namespace GatheringTools.ToolSearch
         private readonly LoadingSpinner _loadingSpinner;
         private readonly Checkbox _showOnlyUnlimitedToolsCheckbox;
         private bool _uiIsUpdating;
+        private bool _apiAccessFailed;
 
         private const string API_KEY_ERROR_MESSAGE = "Error: API key problem.\nPossible Reasons:\n" +
                                                      "- After starting GW2 you have to log into a character once for Blish to know which API key to use.\n" +
                                                      "- Blish needs a few more seconds to give an API token to the module. You may have to reopen window to update.\n" +
                                                      "- API key is missing in Blish. Add API key.\n" +
-                                                     "- API key exists but is missing permissions. Add new API key to Blish with necessary permissions.";
+                                                     "- API key exists but is missing permissions. Add new API key to Blish with necessary permissions.\n" +
+                                                     "- Something else went wrong. Check BlishHUD log file.";
     }
 }

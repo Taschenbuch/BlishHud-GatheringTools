@@ -10,7 +10,7 @@ namespace GatheringTools.ToolSearch
         public List<GatheringTool> UnlimitedGatheringTools => GatheringTools.Where(g => g.IsUnlimited)
                                                                             .ToList();
 
-        public bool HasNoTools() => GatheringTools.Any() == false;
+        public bool HasTools() => GatheringTools.Any();
         public bool HasUnlimitedTools() => GatheringTools.Any(g => g.IsUnlimited);
     }
 }
