@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
@@ -77,15 +78,19 @@ namespace GatheringTools.ToolSearch
         {
             Show();
 
-            if (_uiIsUpdating)
+            // ReSharper disable once MethodHasAsyncOverload
+            if (_semaphoreSlim.Wait(0) == false)
                 return;
 
-            _uiIsUpdating = true;
-            
-            var charactersAndTools = await GetToolsFromApi();
-            ShowToolsInUi(charactersAndTools);
-
-            _uiIsUpdating = false;
+            try
+            {
+                var charactersAndTools = await GetToolsFromApi();
+                ShowToolsInUi(charactersAndTools);
+            }
+            finally
+            {
+                _semaphoreSlim.Release();
+            }
         }
 
         public async Task<List<CharacterAndTools>> GetToolsFromApi()
@@ -160,7 +165,7 @@ namespace GatheringTools.ToolSearch
         private readonly FlowPanel _charactersFlowPanel;
         private readonly LoadingSpinner _loadingSpinner;
         private readonly Checkbox _showOnlyUnlimitedToolsCheckbox;
-        private bool _uiIsUpdating;
+        private readonly SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(1);
         private bool _apiAccessFailed;
 
         private const string API_KEY_ERROR_MESSAGE = "Error: API key problem.\nPossible Reasons:\n" +
