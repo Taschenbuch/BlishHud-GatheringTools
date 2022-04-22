@@ -7,6 +7,7 @@ using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules.Managers;
 using Blish_HUD.Settings;
+using Gw2Sharp.WebApi.Exceptions;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Color = Microsoft.Xna.Framework.Color;
@@ -53,7 +54,7 @@ namespace GatheringTools.ToolSearch
             _showOnlyUnlimitedToolsCheckbox.CheckedChanged += async (s, e) => 
             {
                 showOnlyUnlimitedToolsSetting.Value = e.Checked;
-                await ShowAndGetToolsFromApi();
+                await ShowWindowAndUpdateToolsInUi();
             };
 
             _charactersFlowPanel = new FlowPanel()
@@ -71,10 +72,10 @@ namespace GatheringTools.ToolSearch
             if (Visible)
                 Hide();
             else
-                await ShowAndGetToolsFromApi();
+                await ShowWindowAndUpdateToolsInUi();
         }
 
-        public async Task ShowAndGetToolsFromApi()
+        private async Task ShowWindowAndUpdateToolsInUi()
         {
             Show();
 
@@ -84,8 +85,7 @@ namespace GatheringTools.ToolSearch
 
             try
             {
-                var charactersAndTools = await GetToolsFromApi();
-                ShowToolsInUi(charactersAndTools);
+                await UpdateToolsInUiFromApi();
             }
             finally
             {
@@ -93,27 +93,44 @@ namespace GatheringTools.ToolSearch
             }
         }
 
-        public async Task<List<CharacterAndTools>> GetToolsFromApi()
+        private async Task UpdateToolsInUiFromApi()
+        {
+            _charactersFlowPanel.ClearChildren();
+            _infoLabel.Text = "Getting API data...";
+            _loadingSpinner.Show();
+
+            var charactersAndTools = await GetToolsFromApi();
+
+            _infoLabel.Text = string.Empty;
+            _loadingSpinner.Hide();
+
+            if (_apiAccessFailed)
+            {
+                _infoLabel.Text = API_KEY_ERROR_MESSAGE;
+                return;
+            }
+
+            var filteredCharactersAndTools = FilterCharacters(charactersAndTools, _showOnlyUnlimitedToolsCheckbox.Checked);
+
+            if (filteredCharactersAndTools.Any())
+                ShowToolsInUi(filteredCharactersAndTools);
+            else
+                _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
+        }
+
+        private async Task<List<CharacterAndTools>> GetToolsFromApi()
         {
             _apiAccessFailed = false;
-            _infoLabel.Text = string.Empty;
-            _charactersFlowPanel.ClearChildren();
 
             if (_gw2ApiManager.HasPermissions(_gw2ApiManager.Permissions) == false)
             {
                 _apiAccessFailed = true;
-                _loadingSpinner.Hide();
                 return new List<CharacterAndTools>();
             }
 
-            _loadingSpinner.Show();
-            _infoLabel.Text = "Getting API data...";
-
             try
             {
-                var charactersAndTools = await GatheringToolsService.GetCharactersAndTools(_gw2ApiManager);
-                _infoLabel.Text = string.Empty;
-                return charactersAndTools;
+                return await GatheringToolsService.GetCharactersAndTools(_gw2ApiManager);
             }
             catch (Exception e)
             {
@@ -121,32 +138,21 @@ namespace GatheringTools.ToolSearch
                 _logger.Error("Could not get gathering tools from API", e);
                 return new List<CharacterAndTools>();
             }
-            finally
-            {
-                _loadingSpinner.Hide();
-            }
+        }
+
+        private static List<CharacterAndTools> FilterCharacters(List<CharacterAndTools> charactersAndTools, bool showOnlyUnlimitedTools)
+        {
+            var filteredCharactersAndTools = charactersAndTools.Where(c => c.HasTools()).ToList();
+
+            if (showOnlyUnlimitedTools)
+                filteredCharactersAndTools = filteredCharactersAndTools.Where(c => c.HasUnlimitedTools()).ToList();
+
+            return filteredCharactersAndTools;
         }
 
         private void ShowToolsInUi(List<CharacterAndTools> charactersAndTools)
         {
-            if (_apiAccessFailed)
-            {
-                _infoLabel.Text = API_KEY_ERROR_MESSAGE;
-                return;
-            }
-
-            var filteredCharactersAndTools = charactersAndTools.Where(c => c.HasTools()).ToList();
-
-            if (_showOnlyUnlimitedToolsCheckbox.Checked)
-                filteredCharactersAndTools = filteredCharactersAndTools.Where(c => c.HasUnlimitedTools()).ToList();
-
-            if (filteredCharactersAndTools.Any() == false)
-            {
-                _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
-                return;
-            }
-
-            foreach (var characterAndTools in filteredCharactersAndTools)
+            foreach (var characterAndTools in charactersAndTools)
             {
                 var characterAndToolsFlowPanel = new CharacterAndToolsFlowPanel(characterAndTools, _showOnlyUnlimitedToolsCheckbox.Checked, _logger)
                 {
@@ -171,8 +177,8 @@ namespace GatheringTools.ToolSearch
         private const string API_KEY_ERROR_MESSAGE = "Error: API key problem.\nPossible Reasons:\n" +
                                                      "- After starting GW2 you have to log into a character once for Blish to know which API key to use.\n" +
                                                      "- Blish needs a few more seconds to give an API token to the module. You may have to reopen window to update.\n" +
-                                                     "- API key is missing in Blish. Add API key.\n" +
-                                                     "- API key exists but is missing permissions. Add new API key to Blish with necessary permissions.\n" +
-                                                     "- Something else went wrong. Check BlishHUD log file.";
+                                                     "- API key is missing in Blish. Add API key to Blish.\n" +
+                                                     "- API key exists but is missing permissions. Add API key with necessary permissions to Blish.\n" +
+                                                     "- API is down or has issues or something else went wrong. Check Blish log file.";
     }
 }
