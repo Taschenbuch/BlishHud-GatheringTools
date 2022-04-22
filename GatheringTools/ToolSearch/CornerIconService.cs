@@ -41,7 +41,7 @@ namespace GatheringTools.ToolSearch
                 Parent           = GameService.Graphics.SpriteScreen,
             };
 
-            _toolSearchCornerIcon.Click += (s, e) => _toolSearchStandardWindow.ToggleVisibility();
+            _toolSearchCornerIcon.Click += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
         }
 
         private readonly ToolSearchStandardWindow _toolSearchStandardWindow;

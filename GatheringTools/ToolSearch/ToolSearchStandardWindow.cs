@@ -49,10 +49,10 @@ namespace GatheringTools.ToolSearch
                 Parent           = this,
             };
 
-            _showOnlyUnlimitedToolsCheckbox.CheckedChanged += (s, e) =>
+            _showOnlyUnlimitedToolsCheckbox.CheckedChanged += async (s, e) => 
             {
                 showOnlyUnlimitedToolsSetting.Value = e.Checked;
-                ShowWindowAndGetToolsFromApi();
+                await ShowAndGetToolsFromApi();
             };
 
             _charactersFlowPanel = new FlowPanel()
@@ -65,21 +65,15 @@ namespace GatheringTools.ToolSearch
             };
         }
 
-        public void ToggleVisibility()
+        public async Task ToggleVisibility()
         {
             if (Visible)
                 Hide();
             else
-                ShowWindowAndGetToolsFromApi();
+                await ShowAndGetToolsFromApi();
         }
 
-        public void HideAndShow()
-        {
-            Hide();
-            ShowWindowAndGetToolsFromApi();
-        }
-
-        public void ShowWindowAndGetToolsFromApi()
+        public async Task ShowAndGetToolsFromApi()
         {
             Show();
 
@@ -87,19 +81,11 @@ namespace GatheringTools.ToolSearch
                 return;
 
             _uiIsUpdating = true;
+            
+            var charactersAndTools = await GetToolsFromApi();
+            ShowToolsInUi(charactersAndTools);
 
-            Task.Run(async () =>
-                {
-                    var charactersAndTools = await GetToolsFromApi();
-
-                    if(_apiAccessFailed)
-                        _infoLabel.Text = API_KEY_ERROR_MESSAGE;
-                    else
-                        ShowToolsInUi(charactersAndTools);
-
-                    _uiIsUpdating = false;
-                }
-            );
+            _uiIsUpdating = false;
         }
 
         public async Task<List<CharacterAndTools>> GetToolsFromApi()
@@ -138,6 +124,12 @@ namespace GatheringTools.ToolSearch
 
         private void ShowToolsInUi(List<CharacterAndTools> charactersAndTools)
         {
+            if (_apiAccessFailed)
+            {
+                _infoLabel.Text = API_KEY_ERROR_MESSAGE;
+                return;
+            }
+
             var filteredCharactersAndTools = charactersAndTools.Where(c => c.HasTools()).ToList();
 
             if (_showOnlyUnlimitedToolsCheckbox.Checked)

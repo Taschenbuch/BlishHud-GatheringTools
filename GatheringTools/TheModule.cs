@@ -155,7 +155,7 @@ namespace GatheringTools
             _logoutKeyBindingSetting.Value.Activated += OnLogoutKeyBindingActivated;
             _logoutKeyBindingSetting.Value.Enabled   =  true;
 
-            _toolSearchKeyBindingSetting.Value.Activated += (s, e) => _toolSearchStandardWindow.ToggleVisibility();
+            _toolSearchKeyBindingSetting.Value.Activated += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
             _toolSearchKeyBindingSetting.Value.Enabled   =  true;
 
             _cornerIconService = new CornerIconService(_showToolSearchCornerIconSetting, _toolSearchStandardWindow, _sickleTexture);
