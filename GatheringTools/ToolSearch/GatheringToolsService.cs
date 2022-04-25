@@ -2,8 +2,6 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Blish_HUD.Modules.Managers;
-using Gw2Sharp;
-using Gw2Sharp.WebApi;
 using Gw2Sharp.WebApi.V2.Models;
 
 namespace GatheringTools.ToolSearch
@@ -26,7 +24,7 @@ namespace GatheringTools.ToolSearch
                 charactersAndTools.Add(characterAndTools);
             }
 
-            await UpdateGatheringToolsNameEtc(charactersAndTools);
+            await UpdateGatheringToolsNameEtc(charactersAndTools, gw2ApiManager);
 
             return charactersAndTools;
         }
@@ -50,23 +48,20 @@ namespace GatheringTools.ToolSearch
             }
         }
 
-        private static async Task UpdateGatheringToolsNameEtc(List<CharacterAndTools> characterAndTools)
+        private static async Task UpdateGatheringToolsNameEtc(List<CharacterAndTools> characterAndTools, Gw2ApiManager gw2ApiManager)
         {
             var gatheringToolIds = characterAndTools.SelectMany(c => c.GatheringTools)
                                                     .Select(g => g.Id)
                                                     .Distinct();
 
-            using (var gw2Client = new Gw2Client(new Connection(Locale.English)))
-            {
-                var gatheringToolItems = await gw2Client.WebApi.V2.Items.ManyAsync(gatheringToolIds);
+            var gatheringToolItems = await gw2ApiManager.Gw2ApiClient.V2.Items.ManyAsync(gatheringToolIds);
 
-                foreach (var gatheringTool in characterAndTools.SelectMany(c => c.GatheringTools))
-                {
-                    var matchingGatheringToolItem = gatheringToolItems.First(i => i.Id == gatheringTool.Id);
-                    gatheringTool.Name        = matchingGatheringToolItem.Name;
-                    gatheringTool.IconUrl     = matchingGatheringToolItem.Icon.Url.ToString();
-                    gatheringTool.IsUnlimited = matchingGatheringToolItem.Description?.ToLowerInvariant().Contains("unlimited use") ?? false;
-                }
+            foreach (var gatheringTool in characterAndTools.SelectMany(c => c.GatheringTools))
+            {
+                var matchingGatheringToolItem = gatheringToolItems.First(i => i.Id == gatheringTool.Id);
+                gatheringTool.Name        = matchingGatheringToolItem.Name;
+                gatheringTool.IconUrl     = matchingGatheringToolItem.Icon.Url.ToString();
+                gatheringTool.IsUnlimited = matchingGatheringToolItem.Rarity == ItemRarity.Rare;
             }
         }
     }
