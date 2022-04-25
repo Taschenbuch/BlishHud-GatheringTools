@@ -51,7 +51,7 @@ namespace GatheringTools
             _reminderDisplayDurationInSecondsSetting = settings.DefineSetting(
                 "display duration (logout overlay)",
                 DisplayDuration.Seconds3,
-                () => "reminder display duration (1-10s)", 
+                () => "reminder display duration", 
                 () => "The reminder will disappear automatically after this time has expired"); 
 
             _reminderWindowSizeSetting = settings.DefineSetting(
