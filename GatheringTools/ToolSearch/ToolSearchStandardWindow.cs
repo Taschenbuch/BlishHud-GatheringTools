@@ -135,7 +135,7 @@ namespace GatheringTools.ToolSearch
             catch (Exception e)
             {
                 _apiAccessFailed = true;
-                _logger.Error("Could not get gathering tools from API", e);
+                _logger.Error(e, "Could not get gathering tools from API");
                 return new List<CharacterAndTools>();
             }
         }

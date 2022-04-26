@@ -54,7 +54,7 @@ namespace GatheringTools.ToolSearch
                         Parent         = toolsFlowPanel,
                     };
 
-                    logger.Error("Could not get gathering tool icon from API. Show gathering tool name instead.", e);
+                    logger.Error(e, "Could not get gathering tool icon from API. Show gathering tool name instead.");
                 }
             }
         }
