@@ -1,0 +1,5002 @@
+[
+  {
+    "name": "Wooden Plank",
+    "description": "Double-click to gain a wood plank.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8663,
+    "chat_link": "[&AgHXIQAA]",
+    "icon": "https://render.guildwars2.com/file/6CFF221BAA7877C54B243D1DE9C8A211BB6AE170/65938.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Metal Rod",
+    "description": "Double-click to gain a metal rod.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8664,
+    "chat_link": "[&AgHYIQAA]",
+    "icon": "https://render.guildwars2.com/file/6E350F079207B60BFBD5A54A9F14E667677E0016/66184.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Boulder",
+    "description": "Double-click to gain a boulder.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8665,
+    "chat_link": "[&AgHZIQAA]",
+    "icon": "https://render.guildwars2.com/file/5E3FF900B17CD8A0C214E60507299FD1D6DA6308/219348.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Blessing Of Bear",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8666,
+    "chat_link": "[&AgHaIQAA]",
+    "icon": "https://render.guildwars2.com/file/31A44AEE094653092EBBFF47606C5A9177191653/219349.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+20 Power\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Stout Ale Keg",
+    "description": "Double-click to gain a keg of stout ale.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8667,
+    "chat_link": "[&AgHbIQAA]",
+    "icon": "https://render.guildwars2.com/file/661F2AC76A27B81C0029126D0C4ADDFEF56A2668/62167.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jotun Greatsword",
+    "description": "Double-click to gain a Jotun greatsword",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8668,
+    "chat_link": "[&AgHcIQAA]",
+    "icon": "https://render.guildwars2.com/file/5707BD10066A231505CEA06704A879636BF416D5/68500.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Sonic Rifle",
+    "description": "Double-click to gain a sonic rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8669,
+    "chat_link": "[&AgHdIQAA]",
+    "icon": "https://render.guildwars2.com/file/05909FE40ACD31F0201E02DD7E03C41ABD9CC401/66196.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Murellow Tonic",
+    "description": "Double-click to transform into a Murellow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8670,
+    "chat_link": "[&AgHeIQAA]",
+    "icon": "https://render.guildwars2.com/file/6001550DAF4E24209C13A553196ACECB6AE50845/63120.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Dolyak Tincture",
+    "description": "Double-click to transform into a furry lovable dolyak.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8671,
+    "chat_link": "[&AgHfIQAA]",
+    "icon": "https://render.guildwars2.com/file/6001550DAF4E24209C13A553196ACECB6AE50845/63120.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Wooden Plank",
+    "description": "Double-click to gain a wood plank.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8672,
+    "chat_link": "[&AgHgIQAA]",
+    "icon": "https://render.guildwars2.com/file/6CFF221BAA7877C54B243D1DE9C8A211BB6AE170/65938.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Dredge Rifle",
+    "description": "Double-click to gain a Dredge Rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8674,
+    "chat_link": "[&AgHiIQAA]",
+    "icon": "https://render.guildwars2.com/file/CE77194AB7CDCAFA226CF575CD2101C95A68DCE8/574936.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ball of Gunk",
+    "description": "Double-click to use gunk.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8675,
+    "chat_link": "[&AgHjIQAA]",
+    "icon": "https://render.guildwars2.com/file/A9900F02F8CB0CB124FD5E94979855BDBEDA77F7/65897.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Underwater Net",
+    "description": "Double-click to gain an underwater net.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8676,
+    "chat_link": "[&AgHkIQAA]",
+    "icon": "https://render.guildwars2.com/file/004C3CE9A7969F2D73DEC703AEFCE0C7697757B7/223409.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Plank",
+    "description": "Double-click to use plank.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8677,
+    "chat_link": "[&AgHlIQAA]",
+    "icon": "https://render.guildwars2.com/file/6CFF221BAA7877C54B243D1DE9C8A211BB6AE170/65938.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Rock",
+    "description": "Double-click to gain a rock to throw.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8678,
+    "chat_link": "[&AgHmIQAA]",
+    "icon": "https://render.guildwars2.com/file/3728DC6E10FA4DADCD3B0918A70FAE9DEA96BDD4/65962.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Bottle",
+    "description": "Double-click to use bottle.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8679,
+    "chat_link": "[&AgHnIQAA]",
+    "icon": "https://render.guildwars2.com/file/0D04C8CF44F1B1441697C35255CE62D76EE12D79/223723.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Gear",
+    "description": "Double-click to use gear.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8680,
+    "chat_link": "[&AgHoIQAA]",
+    "icon": "https://render.guildwars2.com/file/FC637AA3031B585F5B025B12670C6CD5A5C1BA51/63130.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "MedKit",
+    "description": "Double-click to use medkit.",
+    "type": "Consumable",
+    "level": 22,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8681,
+    "chat_link": "[&AgHpIQAA]",
+    "icon": "https://render.guildwars2.com/file/666209104CCB024D53359C0EA0A299076E610771/65704.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cattle Prod",
+    "description": "Double-click to gain a Cattle Prod bundle item.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8682,
+    "chat_link": "[&AgHqIQAA]",
+    "icon": "https://render.guildwars2.com/file/E4F9C809C0714A07E820A3F2E37E94BADFA66FF4/63128.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Clean Refreshing Drink",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8683,
+    "chat_link": "[&AgHrIQAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Purity",
+      "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+      "description": "Conditions applied to you have 10% reduced duration."
+    }
+  },
+  {
+    "name": "Charr Mine",
+    "description": "Double-click to gain a Charr Mine bundle item.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8684,
+    "chat_link": "[&AgHsIQAA]",
+    "icon": "https://render.guildwars2.com/file/FC637AA3031B585F5B025B12670C6CD5A5C1BA51/63130.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Fire Bomb",
+    "description": "Double-click to gain a Molachev Cocktail bundle item.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8685,
+    "chat_link": "[&AgHtIQAA]",
+    "icon": "https://render.guildwars2.com/file/0DBB98F2690B1A744E49CAD4E5BE940D661299B1/63131.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ash Legion Spy Kit",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8686,
+    "chat_link": "[&AgHuIQAA]",
+    "icon": "https://render.guildwars2.com/file/6229333F2070430675F3440BE9FC801A3EE42014/543776.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Flaming Effigy Piece",
+    "description": "Double-click to gain a piece of a flaming effigy.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8687,
+    "chat_link": "[&AgHvIQAA]",
+    "icon": "https://render.guildwars2.com/file/FA56C5DD5D7494F25D980E432BA129F44209ED0E/63136.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Fireworks",
+    "description": "You gain fireworks",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 9,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8690,
+    "chat_link": "[&AgHyIQAA]",
+    "icon": "https://render.guildwars2.com/file/0B14BB6F00DC32751041D1AB07F827C451E85E3D/63138.png",
+    "details": {
+      "type": "Utility"
+    }
+  },
+  {
+    "name": "Wooden Plank",
+    "description": "You gain a plank",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 9,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8692,
+    "chat_link": "[&AgH0IQAA]",
+    "icon": "https://render.guildwars2.com/file/365903EF113AAD5FF6E5F77F1E46CE1072046A3D/63126.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Plank",
+    "description": "You gain a plank",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 9,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8693,
+    "chat_link": "[&AgH1IQAA]",
+    "icon": "https://render.guildwars2.com/file/365903EF113AAD5FF6E5F77F1E46CE1072046A3D/63126.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Explosive Charge",
+    "description": "Double-click to gain an Explosive Charge.\n<c=@flavor>\"Blow your enemies to smithereens.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8695,
+    "chat_link": "[&AgH3IQAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Skale Venom",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8696,
+    "chat_link": "[&AgH4IQAA]",
+    "icon": "https://render.guildwars2.com/file/0160D1F436C230733DC4235D4947275840B40822/63161.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Skale Venom",
+      "icon": "https://render.guildwars2.com/file/A71B05C116B677EF620780B3D5BC58287EBC6D4B/104078.png",
+      "description": "You have a 10% chance to inflict weakness and vulnerability for 5 seconds when you hit a foe."
+    }
+  },
+  {
+    "name": "Medical Kit",
+    "description": "Double-click to gain a portable Medical Kit.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8697,
+    "chat_link": "[&AgH5IQAA]",
+    "icon": "https://render.guildwars2.com/file/73090436997D49C05FAFD4462757971CADC2E6B4/63155.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ogre Pet Whistle",
+    "description": "Double-click to call an ogre pet to aid you for 5 minutes.",
+    "type": "Consumable",
+    "level": 59,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8698,
+    "chat_link": "[&AgH6IQAA]",
+    "icon": "https://render.guildwars2.com/file/EBA905F8E06B409ABD17DB990D5E6F5162BFB315/455549.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ogre Pet Tonic",
+    "description": "Double-click to transform into an ogre pet for 5 minutes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 49,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8699,
+    "chat_link": "[&AgH7IQAA]",
+    "icon": "https://render.guildwars2.com/file/9B32F3B6A202023A10F1E9EC457A0EC1D809DC9A/219350.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Potion of Ascalonian Mages",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 26,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8700,
+    "chat_link": "[&AgH8IQAA]",
+    "icon": "https://render.guildwars2.com/file/007169B13E3F7D9ED9FE7DC7DB78060977026492/63124.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Charrzooka",
+    "description": "Double-click to gain a Charrzooka",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8701,
+    "chat_link": "[&AgH9IQAA]",
+    "icon": "https://render.guildwars2.com/file/73090436997D49C05FAFD4462757971CADC2E6B4/63155.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Fire Elemental Powder",
+    "description": "Double-click to summon a pet fire elemental for 5 minutes. Can only be used once every 30 minutes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8702,
+    "chat_link": "[&AgH+IQAA]",
+    "icon": "https://render.guildwars2.com/file/F90EEC96BB0C70D5CC2F30BA2E0B45B8326965A8/219351.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Deployable Thumper Turret",
+    "description": "Double-click to use this kit to deploy a thumper turret.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8703,
+    "chat_link": "[&AgH/IQAA]",
+    "icon": "https://render.guildwars2.com/file/730A99AC6A69DD0F5352DAD56A91FC09D76F0D39/62860.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Deployable Mortar Kit",
+    "description": "Double-click to use this kit to deploy a mortar.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8704,
+    "chat_link": "[&AgEAIgAA]",
+    "icon": "https://render.guildwars2.com/file/730A99AC6A69DD0F5352DAD56A91FC09D76F0D39/62860.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Effigy Fragment",
+    "description": "Double-click to activate your effigy fragment.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8705,
+    "chat_link": "[&AgEBIgAA]",
+    "icon": "https://render.guildwars2.com/file/FA56C5DD5D7494F25D980E432BA129F44209ED0E/63136.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ogre Pet Tonic",
+    "description": "Double-click to experience nature from a different perpective.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8706,
+    "chat_link": "[&AgECIgAA]",
+    "icon": "https://render.guildwars2.com/file/9B32F3B6A202023A10F1E9EC457A0EC1D809DC9A/219350.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Charrzooka",
+    "description": "Double-click to gain a Charrzooka.\n<c=@flavor>\"Explosively simple!\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8707,
+    "chat_link": "[&AgEDIgAA]",
+    "icon": "https://render.guildwars2.com/file/0C26440D74AFBEA29F087FB2F2CF40E13F543561/63057.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Smoke Bomb",
+    "description": "Double-click to gain a Smoke Bomb.\n<c=@flavor>\"Make everyone cough like a pro.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8708,
+    "chat_link": "[&AgEEIgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Grawl Ritual Totem",
+    "description": "Double-click to gain a Grawl Ritual Totem",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8709,
+    "chat_link": "[&AgEFIgAA]",
+    "icon": "https://render.guildwars2.com/file/7D22375A92039A341B79017AF3650BF00B5B9D39/65681.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Fighting Pit Training Sword",
+    "description": "Double-click to gain a Fighting Pit Training Sword",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8710,
+    "chat_link": "[&AgEGIgAA]",
+    "icon": "https://render.guildwars2.com/file/4208D4020193450C234C0DC55F7EFCFAB236007B/66216.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jar of Harpy Pheromones",
+    "description": "Double-click to gain a Jar of Harpy Pheromones",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8711,
+    "chat_link": "[&AgEHIgAA]",
+    "icon": "https://render.guildwars2.com/file/D15B7C2E9D741CD9F39C1EAF76D924F3DA25AB1F/222792.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Shiny Stolen Gear",
+    "description": "Double-click to gain a Shiny Stolen Gear",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8712,
+    "chat_link": "[&AgEIIgAA]",
+    "icon": "https://render.guildwars2.com/file/A64CDE12565E07F00470D710377A5EAB5E953816/62264.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Charrzooka",
+    "description": "Double-click to gain a Charrzooka",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8713,
+    "chat_link": "[&AgEJIgAA]",
+    "icon": "https://render.guildwars2.com/file/0C26440D74AFBEA29F087FB2F2CF40E13F543561/63057.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ascalon Tome",
+    "description": "Double-click to gain an Ascalon Tome",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8714,
+    "chat_link": "[&AgEKIgAA]",
+    "icon": "https://render.guildwars2.com/file/031CBF0F0A4780304A1BC81B0F68FFCDFCC41343/220883.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mine",
+    "description": "Double-click to gain a Mine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8715,
+    "chat_link": "[&AgELIgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Growth Tonic",
+    "description": "Double-click to grow in size.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 38,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8717,
+    "chat_link": "[&AgENIgAA]",
+    "icon": "https://render.guildwars2.com/file/026CB2B3FDFF0D2331F1C7502CE109E96E180F0A/222724.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hazmat Suit Transformation Tonic",
+    "description": "Double-click to transform into an Asura Hazmat Suit.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 40,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8718,
+    "chat_link": "[&AgEOIgAA]",
+    "icon": "https://render.guildwars2.com/file/C21F9BD11EF6CD709DC818F8D19F7975E90AC308/63166.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cannonball",
+    "description": "Double-click to gain a cannonball\n<c=@flavor>\"Give it a good throw!\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8720,
+    "chat_link": "[&AgEQIgAA]",
+    "icon": "https://render.guildwars2.com/file/0759C04469062C150B34010A15534E21A49A2C55/61968.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Plank",
+    "description": "Double-click to gain a plank.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8721,
+    "chat_link": "[&AgERIgAA]",
+    "icon": "https://render.guildwars2.com/file/F6950EBB26C9E7E40560234F06059D1944DD7CA5/433572.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Orrian Driftwood",
+    "description": "Double-click to gain driftwood.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8722,
+    "chat_link": "[&AgESIgAA]",
+    "icon": "https://render.guildwars2.com/file/4D80EB58D2C83705292201DF58B3C76FDEB405C9/65906.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Net",
+    "description": "Double-click to gain a net.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8723,
+    "chat_link": "[&AgETIgAA]",
+    "icon": "https://render.guildwars2.com/file/CB6C73BB2A5E0ECF9C359194737D59D2A006136D/63511.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cannonball",
+    "description": "Double-click to gain a cannonball.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8724,
+    "chat_link": "[&AgEUIgAA]",
+    "icon": "https://render.guildwars2.com/file/0759C04469062C150B34010A15534E21A49A2C55/61968.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Golem Transformation Tincture",
+    "description": "Double-click to transform into a Golem.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8725,
+    "chat_link": "[&AgEVIgAA]",
+    "icon": "https://render.guildwars2.com/file/72E638C510AC04A068DDBC3C7B3C49D1A860C114/222670.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cannonball",
+    "description": "Double-click to gain a cannonball.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8727,
+    "chat_link": "[&AgEXIgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Experimental Laser Weapon Variant VL-992",
+    "description": "Double-click to gain an experimental asura gun.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8728,
+    "chat_link": "[&AgEYIgAA]",
+    "icon": "https://render.guildwars2.com/file/50113CEAABC198949852AE1979C1B9F6E000AA4B/63882.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Quaggan Tonic",
+    "description": "Double-click to transform into an extremely adorable Quaggan.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8729,
+    "chat_link": "[&AgEZIgAA]",
+    "icon": "https://render.guildwars2.com/file/5F3D98C8CFF353535A10530E3F38C5E8E3BDF50B/66557.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Spy Kit",
+    "description": "Double-click to gain a super secret spy kit full of secrets and mysteries.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8730,
+    "chat_link": "[&AgEaIgAA]",
+    "icon": "https://render.guildwars2.com/file/E5CFCDEC7DCA7B95DF10094B2241240A783CE1EE/63173.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Power Matrix",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8732,
+    "chat_link": "[&AgEcIgAA]",
+    "icon": "https://render.guildwars2.com/file/6403060B50D222D6DF6B1479A34EA7930A401914/66581.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Experimental Rifle",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8733,
+    "chat_link": "[&AgEdIgAA]",
+    "icon": "https://render.guildwars2.com/file/4BC10759BF216B98F90F996B77336A2456D7C429/67907.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Flame Thrower",
+    "description": "Double-click to gain a flame thrower.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8734,
+    "chat_link": "[&AgEeIgAA]",
+    "icon": "https://render.guildwars2.com/file/0C26440D74AFBEA29F087FB2F2CF40E13F543561/63057.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Bombardment Target Marker",
+    "description": "Double-click to gain a Bombardment Target Marker.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8735,
+    "chat_link": "[&AgEfIgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Pact Med Kit",
+    "description": "Double-click to gain a Pact Med Kit",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8736,
+    "chat_link": "[&AgEgIgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Miner's Explosive Charge",
+    "description": "Double-click to gain a Miner's Explosive Charge.<br><c=@flavor>\"KABBBOM!\"<br>—Dianna</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8739,
+    "chat_link": "[&AgEjIgAA]",
+    "icon": "https://render.guildwars2.com/file/0DBB98F2690B1A744E49CAD4E5BE940D661299B1/63131.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Dam Debris",
+    "description": "Double-click to gain a rock.\n<c=@flavor>\"You throw them. It's fun.\"<br>—Flannum</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8741,
+    "chat_link": "[&AgElIgAA]",
+    "icon": "https://render.guildwars2.com/file/C15F220F0B4DAAE4FEC6673B4B9E3037F9E0114A/63125.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Bone",
+    "description": "Double-click to gain a bone.\n<c=@flavor>\"Krug break bones. Try break this one.\"<br>—Krug</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8743,
+    "chat_link": "[&AgEnIgAA]",
+    "icon": "https://render.guildwars2.com/file/CF9CBA3BB925A59501C6B61E9E46007BEC254947/63142.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Wooden Plank",
+    "description": "Double-click to gain a Wood Plank.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8744,
+    "chat_link": "[&AgEoIgAA]",
+    "icon": "https://render.guildwars2.com/file/365903EF113AAD5FF6E5F77F1E46CE1072046A3D/63126.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Bandit's Improvised Bomb",
+    "description": "Double-click to gain a Miner's Explosive Charge.\n<c=@flavor>\"Run fast and hope it doesn't go off early.\"<br>—Bandit</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8745,
+    "chat_link": "[&AgEpIgAA]",
+    "icon": "https://render.guildwars2.com/file/0DBB98F2690B1A744E49CAD4E5BE940D661299B1/63131.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jar of Bees",
+    "description": "Double-click to gain a Jar of Bees.\n<c=@flavor>\"Don't shake it!\"<br>—Fiona</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8746,
+    "chat_link": "[&AgEqIgAA]",
+    "icon": "https://render.guildwars2.com/file/084D6ECEB001AD6C170E56B6ABCE0E69365D5ED4/63144.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Fireworks",
+    "description": "Double-click to gain Fireworks.\n<c=@flavor>\"Keep away from open flames.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8747,
+    "chat_link": "[&AgErIgAA]",
+    "icon": "https://render.guildwars2.com/file/0B14BB6F00DC32751041D1AB07F827C451E85E3D/63138.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Matlal Enchanted Pig Truffle",
+    "description": "Double-click to transform into a truffle-hungry porcine hero.\n<c=@flavor>\"Oink!\"<br>—Truffle Pig Motto</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 24,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8748,
+    "chat_link": "[&AgEsIgAA]",
+    "icon": "https://render.guildwars2.com/file/0AC2309F684CE0D06929D8BFDE586A9524CD9168/831436.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Rock",
+    "description": "Double-click to gain a rock.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8749,
+    "chat_link": "[&AgEtIgAA]",
+    "icon": "https://render.guildwars2.com/file/0759C04469062C150B34010A15534E21A49A2C55/61968.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Plant Dog Transformation",
+    "description": "Double-click to become a Plant Dog.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 47,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8750,
+    "chat_link": "[&AgEuIgAA]",
+    "icon": "https://render.guildwars2.com/file/0D4F74142AC8CE39002CBEADF252011944C655EE/63096.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Toy Wooden Sword",
+    "description": "Double-click to gain a wooden sword\n<c=@flavor>\"The kids love to play with these.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8751,
+    "chat_link": "[&AgEvIgAA]",
+    "icon": "https://render.guildwars2.com/file/EDCD1B99E2D1DA3DFAC8D408AEDF539B0CFA42D3/866414.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Healing Seed Pod",
+    "description": "Double-click to gain a Sylvari Seed Pod.\n<c=@flavor>\"Relax and take a quick break in the shade.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8752,
+    "chat_link": "[&AgEwIgAA]",
+    "icon": "https://render.guildwars2.com/file/0B2624A031FBF37DECBA167B5C057EDFC76FA3DD/63148.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Pirate's Peg Leg",
+    "description": "Double-click to gain a wooden leg.\n<c=@flavor>\"Wooden legs provide excellent damage when used as a mace.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8753,
+    "chat_link": "[&AgExIgAA]",
+    "icon": "https://render.guildwars2.com/file/11D7F9AD7A0D59F098AC08B310BB096BB5D33458/455550.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Firework",
+    "description": "Double-click to gain fireworks.\n<c=@flavor>\"Light fuse, run away.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8754,
+    "chat_link": "[&AgEyIgAA]",
+    "icon": "https://render.guildwars2.com/file/0B14BB6F00DC32751041D1AB07F827C451E85E3D/63138.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Essence of Jellyfish",
+    "description": "Double-click while underwater to become a Jellyfish.\n<c=@flavor>\"Ever wondered what it would be like to have no bones?\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 26,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8755,
+    "chat_link": "[&AgEzIgAA]",
+    "icon": "https://render.guildwars2.com/file/9995D3ED4F139D289C02C258C1F6953B2742173A/63060.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Frost Gun",
+    "description": "Double-click to draw a frost gun infused with icy magic.\n<c=@flavor>\"Cold-resistant gloves are highly recommended.\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8756,
+    "chat_link": "[&AgE0IgAA]",
+    "icon": "https://render.guildwars2.com/file/6909C7740DF404434BA1D32E4F7042D050FF7FE7/63150.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Molachev Cocktail",
+    "description": "Double-click to gain a Molachev Cocktail.",
+    "type": "Consumable",
+    "level": 52,
+    "rarity": "Basic",
+    "vendor_value": 12,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8757,
+    "chat_link": "[&AgE1IgAA]",
+    "icon": "https://render.guildwars2.com/file/AD9247A55E4E6A295151F6732E5C1A77901E14AA/62768.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Pirate's Peg Leg",
+    "description": "Double-click to gain a Pirates Peg Leg.\n<c=@flavor>\"Pirates Peg Leg\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8758,
+    "chat_link": "[&AgE2IgAA]",
+    "icon": "https://render.guildwars2.com/file/B0C3CB68AFD818CCEE71023A6744FFDF4A2953B7/63141.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Wooden Plank",
+    "description": "Double-click to gain a Wooden Plank.\n<c=@flavor>\"Break it over someones face!\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8759,
+    "chat_link": "[&AgE3IgAA]",
+    "icon": "https://render.guildwars2.com/file/B0C3CB68AFD818CCEE71023A6744FFDF4A2953B7/63141.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cannonball",
+    "description": "Double-click to gain a cannonball\n<c=@flavor>\"Give it a good throw!\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8760,
+    "chat_link": "[&AgE4IgAA]",
+    "icon": "https://render.guildwars2.com/file/B0C3CB68AFD818CCEE71023A6744FFDF4A2953B7/63141.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Drake Egg",
+    "description": "Double-click to gain a Drake Egg\n<c=@flavor>\"Give it a good throw!\"</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8761,
+    "chat_link": "[&AgE5IgAA]",
+    "icon": "https://render.guildwars2.com/file/B0C3CB68AFD818CCEE71023A6744FFDF4A2953B7/63141.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Bomb",
+    "description": "Double-click to gain a bomb.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8763,
+    "chat_link": "[&AgE7IgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Harpy Feathers",
+    "description": "Double-click to gain a pile of harpy feathers.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8764,
+    "chat_link": "[&AgE8IgAA]",
+    "icon": "https://render.guildwars2.com/file/D7A8443608F4C4FD501B25BD0D0E794097B19BAE/66833.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Gear",
+    "description": "Double-click to gain a gear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8765,
+    "chat_link": "[&AgE9IgAA]",
+    "icon": "https://render.guildwars2.com/file/A64CDE12565E07F00470D710377A5EAB5E953816/62264.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Gunk",
+    "description": "Double-click to gain a pile of gunk.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8766,
+    "chat_link": "[&AgE+IgAA]",
+    "icon": "https://render.guildwars2.com/file/E903F3B3231E04D148E1E16C0FB17AB0482C5934/223767.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Drake Egg",
+    "description": "Double-click to gain a drake egg.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8767,
+    "chat_link": "[&AgE/IgAA]",
+    "icon": "https://render.guildwars2.com/file/C138ED7D0C7B43493F563EF2300E0A7774AA6379/67007.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Wooden Plank",
+    "description": "Double-click to gain a plank.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8768,
+    "chat_link": "[&AgFAIgAA]",
+    "icon": "https://render.guildwars2.com/file/5903B1BDD6DB016204B11ADFF1CCFE22265CF566/65937.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Wooden Plank",
+    "description": "Double-click to gain a plank.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8769,
+    "chat_link": "[&AgFBIgAA]",
+    "icon": "https://render.guildwars2.com/file/5903B1BDD6DB016204B11ADFF1CCFE22265CF566/65937.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Seraph Banner",
+    "description": "Double-click to gain a Seraph Banner. FOR THE QUEEN!",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8770,
+    "chat_link": "[&AgFCIgAA]",
+    "icon": "https://render.guildwars2.com/file/CC2E01E0F566A6EEF4F2EC2B19AA7A3E1FEFB1B4/60984.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Medical Kit",
+    "description": "Double-click to gain a portable Medical Kit.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8772,
+    "chat_link": "[&AgFEIgAA]",
+    "icon": "https://render.guildwars2.com/file/73090436997D49C05FAFD4462757971CADC2E6B4/63155.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Inquest Golem Arm",
+    "description": "Double-click to gain a severed golem arm which can be detonated.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8773,
+    "chat_link": "[&AgFFIgAA]",
+    "icon": "https://render.guildwars2.com/file/F0BCB5025A7F6893BB100246D6620B114F2FE1EC/63156.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Potion of Hylek Transformation",
+    "description": "Double-click to become a blue hylek for 5 minutes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 20,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 8776,
+    "chat_link": "[&AgFIIgAA]",
+    "icon": "https://render.guildwars2.com/file/0D4F74142AC8CE39002CBEADF252011944C655EE/63096.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Snowball",
+    "description": "Double-click to gain a snowball.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8777,
+    "chat_link": "[&AgFJIgAA]",
+    "icon": "https://render.guildwars2.com/file/1D05D1EE04E16E69710E1EAB11AC466BBF105778/219347.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mini Golem Bomb",
+    "description": "Double-click to ready the mini golem bomb.",
+    "type": "Consumable",
+    "level": 16,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8778,
+    "chat_link": "[&AgFKIgAA]",
+    "icon": "https://render.guildwars2.com/file/430B1C0B04B9A826DAE7AC0B7A940D02E35DA26E/63048.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hylek Poison Pot",
+    "description": "Double-click to gain a hylek poison pot",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8779,
+    "chat_link": "[&AgFLIgAA]",
+    "icon": "https://render.guildwars2.com/file/F0BCB5025A7F6893BB100246D6620B114F2FE1EC/63156.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Spiky Fruit",
+    "description": "Double-click to gain a spiky fruit that can be thrown at an enemy.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8780,
+    "chat_link": "[&AgFMIgAA]",
+    "icon": "https://render.guildwars2.com/file/ABBD919CC5A0950CD549B5E8DC3711482959CF5E/103592.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mortar Seed Turret",
+    "description": "Double-click to gain a mortar seed turret",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8781,
+    "chat_link": "[&AgFNIgAA]",
+    "icon": "https://render.guildwars2.com/file/A5F4F263EBB9C04F16207A373FC23BE76CFC9C1F/219352.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Pot Of Hylek Poison",
+    "description": "Double-click to gain a pot of hylek poison",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8782,
+    "chat_link": "[&AgFOIgAA]",
+    "icon": "https://render.guildwars2.com/file/A8016DED106A6FA84D506A794EF1BAFA5B0CF8B6/63061.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Termite Shovel",
+    "description": "Double-click to gain a termite shovel",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8783,
+    "chat_link": "[&AgFPIgAA]",
+    "icon": "https://render.guildwars2.com/file/0C0D0D803F9F6F7402449EB70CE6410909F33453/526107.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Depleted Power Crystal",
+    "description": "Double-click to gain a depleted power crystal",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8785,
+    "chat_link": "[&AgFRIgAA]",
+    "icon": "https://render.guildwars2.com/file/045C05C2F83A59FC4B6F15073465C5D3040E4DF5/65674.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hylek Green Hue Potion",
+    "description": "Drink this potion to color yourself green for 5 minutes.",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Basic",
+    "vendor_value": 12,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8786,
+    "chat_link": "[&AgFSIgAA]",
+    "icon": "https://render.guildwars2.com/file/A8016DED106A6FA84D506A794EF1BAFA5B0CF8B6/63061.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hylek Yellow Hue Potion",
+    "description": "Drink this potion to color yourself yellow for 5 minutes.",
+    "type": "Consumable",
+    "level": 56,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8787,
+    "chat_link": "[&AgFTIgAA]",
+    "icon": "https://render.guildwars2.com/file/96D7C50D3BADB56CDF11453866025D65599F43DA/219353.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hylek Blue Hue Potion",
+    "description": "Drink this potion to color yourself blue for 5 minutes.",
+    "type": "Consumable",
+    "level": 57,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8788,
+    "chat_link": "[&AgFUIgAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hylek Orange Hue Potion",
+    "description": "Drink this potion to color yourself orange for 5 minutes.",
+    "type": "Consumable",
+    "level": 57,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8789,
+    "chat_link": "[&AgFVIgAA]",
+    "icon": "https://render.guildwars2.com/file/B076CCDC2EC24A400F3E484B3F0D13512D9EC36A/63162.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hylek Red Hue Potion",
+    "description": "Drink this potion to color yourself red for 5 minutes.",
+    "type": "Consumable",
+    "level": 59,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8790,
+    "chat_link": "[&AgFWIgAA]",
+    "icon": "https://render.guildwars2.com/file/B076CCDC2EC24A400F3E484B3F0D13512D9EC36A/63162.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Vigil Clearing Device",
+    "description": "Double-click to gain a Vigil bomb.\n<c=@flavor>\"We need big explosions to keep the undead at bay. This should have enough yield.\"<br>—Jezza</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 12,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8791,
+    "chat_link": "[&AgFXIgAA]",
+    "icon": "https://render.guildwars2.com/file/FE3280996C7B53BDB497143268031C117592DD14/62483.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jezza's Flamethrower",
+    "description": "Double-click to gain a flamethrower.\n<c=@flavor>\"If we factor in the rate of expansion there's no way we contained the undead. Take this and burn away any corrupted flora or fauna.\"<br>—Jezza</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 12,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8792,
+    "chat_link": "[&AgFYIgAA]",
+    "icon": "https://render.guildwars2.com/file/935CD7A5037BB9F3C46E0D770D2DD9730ED74A18/62495.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hylek Poison Pot",
+    "description": "Double-click to gain a Hylek Poison Pot.\n<c=@flavor>\"Hylek tribes know how to make good poisons. We should learn something about pot making though.\"<br>—Potatlan</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8793,
+    "chat_link": "[&AgFZIgAA]",
+    "icon": "https://render.guildwars2.com/file/AD9247A55E4E6A295151F6732E5C1A77901E14AA/62768.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Hylek Blowgun",
+    "description": "Double-click to gain a Hylek Blowgun.\n<c=@flavor>\"There and wood and poisons here, plenty enough to make weapons to defend our land and fight the undead.\"<br>—Qoetl</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 12,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8794,
+    "chat_link": "[&AgFaIgAA]",
+    "icon": "https://render.guildwars2.com/file/0C6C242CA1999AA91F4518DACF5B16E8CEF8BA1A/66921.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Seaweed Bomb",
+    "description": "Double-click to gain a Seaweed Bomb.\n<c=@flavor>\"It's a bomb made out of what? Seaweed!\"<br>—Warden</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8795,
+    "chat_link": "[&AgFbIgAA]",
+    "icon": "https://render.guildwars2.com/file/E1C7CD1207C2A04DD466D809C776D31D3E554A4B/66858.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Turret Seed",
+    "description": "Double-click to gain a Turret.\n<c=@flavor>\"It's amazing the wonders that hide inside the hard shell of a seed.\"<br>—Qoetl</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8796,
+    "chat_link": "[&AgFcIgAA]",
+    "icon": "https://render.guildwars2.com/file/A5F4F263EBB9C04F16207A373FC23BE76CFC9C1F/219352.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Potion of Azantil",
+    "type": "Consumable",
+    "level": 58,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8797,
+    "chat_link": "[&AgFdIgAA]",
+    "icon": "https://render.guildwars2.com/file/1C0AF9FCE9CCF6C844E3280DDD23AE36060A0AD8/63068.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 3600000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Undead\n-4% Damage from Undead\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Undead Battle Potion",
+    "type": "Consumable",
+    "level": 8,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8798,
+    "chat_link": "[&AgFeIgAA]",
+    "icon": "https://render.guildwars2.com/file/AEFD3923051104E1090D79CC570071F0F7C21B05/63064.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Undead\n-4% Damage from Undead\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Hylek Blowgun",
+    "description": "Double-click to gain a Hylek Blowgun.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8800,
+    "chat_link": "[&AgFgIgAA]",
+    "icon": "https://render.guildwars2.com/file/B4BA303072A62C0AB73A0CBAF0632A38D8B4794A/66190.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Order of Whispers Spy Kit",
+    "description": "Double-click to gain an Order of Whispers Spy Kit",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 2,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8801,
+    "chat_link": "[&AgFhIgAA]",
+    "icon": "https://render.guildwars2.com/file/7B9CE40D2207030F95127BB6E53D0A765FAA46E3/543767.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Shovel",
+    "description": "Double-click to gain a shovel.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8802,
+    "chat_link": "[&AgFiIgAA]",
+    "icon": "https://render.guildwars2.com/file/0C0D0D803F9F6F7402449EB70CE6410909F33453/526107.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Gear",
+    "description": "Double-click to gain a gear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 8803,
+    "chat_link": "[&AgFjIgAA]",
+    "icon": "https://render.guildwars2.com/file/A64CDE12565E07F00470D710377A5EAB5E953816/62264.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Weak Potion of Flame Legion Slaying",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8804,
+    "chat_link": "[&AgFkIgAA]",
+    "icon": "https://render.guildwars2.com/file/FAA4031112F2083CD5400A22FC4BF2FF7713CFC3/63164.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Flame Legion\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Centaur Slaying",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8805,
+    "chat_link": "[&AgFlIgAA]",
+    "icon": "https://render.guildwars2.com/file/AE61699221D742EECD07CE194BB2620812BF2E7B/222732.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Centaur\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Outlaw Slaying",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8806,
+    "chat_link": "[&AgFmIgAA]",
+    "icon": "https://render.guildwars2.com/file/9B32F3B6A202023A10F1E9EC457A0EC1D809DC9A/219350.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Outlaws\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Nightmare Court Slaying",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8807,
+    "chat_link": "[&AgFnIgAA]",
+    "icon": "https://render.guildwars2.com/file/0160D1F436C230733DC4235D4947275840B40822/63161.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Nightmare Court\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Sons of Svanir Slaying",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8808,
+    "chat_link": "[&AgFoIgAA]",
+    "icon": "https://render.guildwars2.com/file/E850A6E39F5011B2FBEF45973AAD40A5309D5ABB/63059.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Sons of Svanir\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Destroyer Slaying",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8809,
+    "chat_link": "[&AgFpIgAA]",
+    "icon": "https://render.guildwars2.com/file/B9FF6E595B1143760B807ABC06EF913F4B37E974/222730.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Destroyers\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Elemental Slaying",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8810,
+    "chat_link": "[&AgFqIgAA]",
+    "icon": "https://render.guildwars2.com/file/F205619F2EF3ED38DE6754B1E374B4472F45414E/63163.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Elementals\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Demon Slaying",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8811,
+    "chat_link": "[&AgFrIgAA]",
+    "icon": "https://render.guildwars2.com/file/66DF56D6BA10D6C22216AD5D02557E7CB875000E/63058.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Demons\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Inquest Slaying",
+    "type": "Consumable",
+    "level": 5,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8812,
+    "chat_link": "[&AgFsIgAA]",
+    "icon": "https://render.guildwars2.com/file/7517A67C7E694B0309F17FA9C205A95A4AFD32C5/63165.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Inquest\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Ogre Slaying",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8813,
+    "chat_link": "[&AgFtIgAA]",
+    "icon": "https://render.guildwars2.com/file/30095CE15529082C0600A90DA46D00AADCD7F631/222726.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Ogres\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Ice Brood Slaying",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8814,
+    "chat_link": "[&AgFuIgAA]",
+    "icon": "https://render.guildwars2.com/file/935916F1E646EEF0CB03A9D1576FA25C17D8DBDB/63112.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Ice Brood\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Grawl Slaying",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8815,
+    "chat_link": "[&AgFvIgAA]",
+    "icon": "https://render.guildwars2.com/file/691FD329745BA60B2C2855074CBE9B5BBC2CF041/63159.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Grawl\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Krait Slaying",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8816,
+    "chat_link": "[&AgFwIgAA]",
+    "icon": "https://render.guildwars2.com/file/026CB2B3FDFF0D2331F1C7502CE109E96E180F0A/222724.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Krait\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Dredge Slaying",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8817,
+    "chat_link": "[&AgFxIgAA]",
+    "icon": "https://render.guildwars2.com/file/53E49FDC2E62DD0290434331BED823757BCD5CF7/63160.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Dredge\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Weak Potion of Undead Slaying",
+    "type": "Consumable",
+    "level": 10,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 8818,
+    "chat_link": "[&AgFyIgAA]",
+    "icon": "https://render.guildwars2.com/file/6DF35B17270BF655560BC800BEE03B5BA95BE305/222728.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+3% Damage vs. Undead\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Flame Legion Slaying",
+    "type": "Consumable",
+    "level": 20,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8819,
+    "chat_link": "[&AgFzIgAA]",
+    "icon": "https://render.guildwars2.com/file/C21F9BD11EF6CD709DC818F8D19F7975E90AC308/63166.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Flame Legion\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Centaur Slaying",
+    "type": "Consumable",
+    "level": 20,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8820,
+    "chat_link": "[&AgF0IgAA]",
+    "icon": "https://render.guildwars2.com/file/1E0BBF086BB0FB2AE7935C771A02D940CA7A6371/222744.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Centaur\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Outlaw Slaying",
+    "type": "Consumable",
+    "level": 20,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8821,
+    "chat_link": "[&AgF1IgAA]",
+    "icon": "https://render.guildwars2.com/file/1E3CE55804A1E961F9E76AB93241903D73CABECA/220455.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% damage vs outlaws"
+    }
+  },
+  {
+    "name": "Minor Potion of Nightmare Court Slaying",
+    "type": "Consumable",
+    "level": 20,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8822,
+    "chat_link": "[&AgF2IgAA]",
+    "icon": "https://render.guildwars2.com/file/92F5F60633DF4E9B049590660B91C4E3C0FFDE50/63168.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Nightmare Court\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Sons of Svanir Slaying",
+    "type": "Consumable",
+    "level": 20,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8823,
+    "chat_link": "[&AgF3IgAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Sons of Svanir\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Destroyer Slaying",
+    "type": "Consumable",
+    "level": 25,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8824,
+    "chat_link": "[&AgF4IgAA]",
+    "icon": "https://render.guildwars2.com/file/3516DA351F99C892FE48143C390695CD5C386773/222742.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Destroyers\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Elemental Slaying",
+    "type": "Consumable",
+    "level": 25,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8825,
+    "chat_link": "[&AgF5IgAA]",
+    "icon": "https://render.guildwars2.com/file/C260262464D23EF73107D05F67E920DDD367656D/222734.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Elementals\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Demon Slaying",
+    "type": "Consumable",
+    "level": 25,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8826,
+    "chat_link": "[&AgF6IgAA]",
+    "icon": "https://render.guildwars2.com/file/532BB51ED1F3ED52224BDF647AC7B1753938C032/222708.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Demons\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Inquest Slaying",
+    "type": "Consumable",
+    "level": 20,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8827,
+    "chat_link": "[&AgF7IgAA]",
+    "icon": "https://render.guildwars2.com/file/9F96299E45E807602CD945469AAABD4A4A92752F/63167.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Inquest\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Ogre Slaying",
+    "type": "Consumable",
+    "level": 25,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8828,
+    "chat_link": "[&AgF8IgAA]",
+    "icon": "https://render.guildwars2.com/file/961A701F2AF895E1DB095CF6FE389DBBC238D602/222738.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Ogres\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Ice Brood Slaying",
+    "type": "Consumable",
+    "level": 25,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8829,
+    "chat_link": "[&AgF9IgAA]",
+    "icon": "https://render.guildwars2.com/file/007169B13E3F7D9ED9FE7DC7DB78060977026492/63124.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Ice Brood\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Grawl Slaying",
+    "type": "Consumable",
+    "level": 25,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8830,
+    "chat_link": "[&AgF+IgAA]",
+    "icon": "https://render.guildwars2.com/file/B076CCDC2EC24A400F3E484B3F0D13512D9EC36A/63162.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Grawl\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Krait Slaying",
+    "type": "Consumable",
+    "level": 25,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8831,
+    "chat_link": "[&AgF/IgAA]",
+    "icon": "https://render.guildwars2.com/file/08AC0B031A989DC54161B86101594603430695A8/222736.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Krait\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Dredge Slaying",
+    "type": "Consumable",
+    "level": 25,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8832,
+    "chat_link": "[&AgGAIgAA]",
+    "icon": "https://render.guildwars2.com/file/96D7C50D3BADB56CDF11453866025D65599F43DA/219353.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Dredge\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Minor Potion of Undead Slaying",
+    "type": "Consumable",
+    "level": 25,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8833,
+    "chat_link": "[&AgGBIgAA]",
+    "icon": "https://render.guildwars2.com/file/67BCBBC96890F1BC9E30B69F42AA7304B948E23C/222740.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+5% Damage vs. Undead\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Flame Legion Slaying",
+    "type": "Consumable",
+    "level": 35,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8834,
+    "chat_link": "[&AgGCIgAA]",
+    "icon": "https://render.guildwars2.com/file/7EB161CC970926AF50CD0547011E7F54D35A407E/222756.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Flame Legion\n-4% Damage from Flame Legion\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Centaur Slaying",
+    "type": "Consumable",
+    "level": 35,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8835,
+    "chat_link": "[&AgGDIgAA]",
+    "icon": "https://render.guildwars2.com/file/F6765C030380F669001041EB967EF453F4383841/222770.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Centaur\n-4% Damage from Centaur\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Outlaw Slaying",
+    "type": "Consumable",
+    "level": 35,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8836,
+    "chat_link": "[&AgGEIgAA]",
+    "icon": "https://render.guildwars2.com/file/7EEB1077C8AF2AD3BBB6CA32A7CD9C22AAF19107/222766.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Outlaws\n-4% Damage from Outlaws\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Nightmare Court Slaying",
+    "type": "Consumable",
+    "level": 35,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8837,
+    "chat_link": "[&AgGFIgAA]",
+    "icon": "https://render.guildwars2.com/file/53D7391102534D7F08972842D2E4051078F3A89F/222748.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Nightmare Court\n-4% Damage from Nightmare Court\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Sons of Svanir Slaying",
+    "type": "Consumable",
+    "level": 35,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8838,
+    "chat_link": "[&AgGGIgAA]",
+    "icon": "https://render.guildwars2.com/file/0B7F9E42C0C4B9B400A7F5F1D233F71E9EA757AA/222746.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Sons of Svanir\n-4% Damage from Sons of Svanir\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Destroyer Slaying",
+    "type": "Consumable",
+    "level": 40,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8839,
+    "chat_link": "[&AgGHIgAA]",
+    "icon": "https://render.guildwars2.com/file/9F5AB048221FC097612C274D0305023DF8B5800B/222768.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Destroyers\n-4% Damage from Destroyers\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Elemental Slaying",
+    "type": "Consumable",
+    "level": 40,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8840,
+    "chat_link": "[&AgGIIgAA]",
+    "icon": "https://render.guildwars2.com/file/11BF2D14C1396C06C7992FF8A80B322DA9CD7BA2/222754.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% damage vs elementals\n-4% damage from elementals"
+    }
+  },
+  {
+    "name": "Potion of Demon Slaying",
+    "type": "Consumable",
+    "level": 40,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8841,
+    "chat_link": "[&AgGJIgAA]",
+    "icon": "https://render.guildwars2.com/file/6D41597AEC924EE557A8E0D0AFF655D04CEB0D14/222696.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Demons\n-4% Damage from Demons\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Inquest Slaying",
+    "type": "Consumable",
+    "level": 35,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8842,
+    "chat_link": "[&AgGKIgAA]",
+    "icon": "https://render.guildwars2.com/file/7D3BA971730ECC0896993357460EDB674F3C05FD/222752.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Inquest\n-4% Damage from Inquest\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Ogre Slaying",
+    "type": "Consumable",
+    "level": 40,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8843,
+    "chat_link": "[&AgGLIgAA]",
+    "icon": "https://render.guildwars2.com/file/3D38351333F30318CA5A5E0E28DDAF6EAA5D35EA/222762.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Ogre\n-4% Damage from Ogre\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Ice Brood Slaying",
+    "type": "Consumable",
+    "level": 40,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8844,
+    "chat_link": "[&AgGMIgAA]",
+    "icon": "https://render.guildwars2.com/file/EE980B9AA5BEB900A49622B9B959E9A8A0249DFF/63139.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Ice Brood\n-4% Damage from Ice Brood\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Grawl Slaying",
+    "type": "Consumable",
+    "level": 40,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8845,
+    "chat_link": "[&AgGNIgAA]",
+    "icon": "https://render.guildwars2.com/file/6DCF02711EFCB46404D5C85A95A228937CDD7DF0/222750.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Grawl\n-4% Damage from Grawl\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Krait Slaying",
+    "type": "Consumable",
+    "level": 40,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8846,
+    "chat_link": "[&AgGOIgAA]",
+    "icon": "https://render.guildwars2.com/file/A6CB53C4202BE165296F1296AD5C68CB1297D5FD/222760.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Krait\n-4% Damage from Krait\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Dredge Slaying",
+    "type": "Consumable",
+    "level": 40,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8847,
+    "chat_link": "[&AgGPIgAA]",
+    "icon": "https://render.guildwars2.com/file/E2D3DD0E94D426CFB806F448BEFA35D0B99C9959/222758.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Dredge\n-4% Damage from Dredge\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potion of Undead Slaying",
+    "type": "Consumable",
+    "level": 40,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8848,
+    "chat_link": "[&AgGQIgAA]",
+    "icon": "https://render.guildwars2.com/file/4D75F2413077590E190A0F9159CCA305EA44F3C1/222764.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+7% Damage vs. Undead\n-4% Damage from Undead\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Flame Legion Slaying",
+    "type": "Consumable",
+    "level": 50,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8849,
+    "chat_link": "[&AgGRIgAA]",
+    "icon": "https://render.guildwars2.com/file/A51834BA98C1455509E9A7E958570CCA30C648E8/222782.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Flame Legion\n-6% Damage from Flame Legion\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Centaur Slaying",
+    "type": "Consumable",
+    "level": 50,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8850,
+    "chat_link": "[&AgGSIgAA]",
+    "icon": "https://render.guildwars2.com/file/4F59E92BDD78A7BD0FB9F971BAFE5F306230ACDF/222798.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Centaur\n-6% Damage from Centaur\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Outlaw Slaying",
+    "type": "Consumable",
+    "level": 50,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8851,
+    "chat_link": "[&AgGTIgAA]",
+    "icon": "https://render.guildwars2.com/file/C7FC2E6BDC6E53ECCB61EB06BB6CDA1C38510B3C/222794.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Outlaws\n-6% Damage from Outlaws\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Nightmare Court Slaying",
+    "type": "Consumable",
+    "level": 50,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8852,
+    "chat_link": "[&AgGUIgAA]",
+    "icon": "https://render.guildwars2.com/file/38E2359C0C2F95492AAB063F3BB65A0490AF4CD4/222774.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Nightmare Court\n-6% Damage from Nightmare Court\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Sons of Svanir Slaying",
+    "type": "Consumable",
+    "level": 50,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8853,
+    "chat_link": "[&AgGVIgAA]",
+    "icon": "https://render.guildwars2.com/file/7D66AE6625079B1A05EA0EFB133BF4F91F960E52/222772.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Sons of Svanir\n-6% Damage from Sons of Svanir\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Destroyer Slaying",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8854,
+    "chat_link": "[&AgGWIgAA]",
+    "icon": "https://render.guildwars2.com/file/6C0CE27ED226905731080D32E922E4E5961B04AD/222796.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Destroyers\n-6% Damage from Destroyers\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Elemental Slaying",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8855,
+    "chat_link": "[&AgGXIgAA]",
+    "icon": "https://render.guildwars2.com/file/B1659FED114515F0694A05FB1609B0790FA96DF8/222780.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% damage vs elementals\n-6% damage from elementals"
+    }
+  },
+  {
+    "name": "Strong Potion of Demon Slaying",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8856,
+    "chat_link": "[&AgGYIgAA]",
+    "icon": "https://render.guildwars2.com/file/55230193D85D0E04456B34B411763DF490E348C9/222636.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Demons\n-6% Damage from Demons\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Inquest Slaying",
+    "type": "Consumable",
+    "level": 50,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8857,
+    "chat_link": "[&AgGZIgAA]",
+    "icon": "https://render.guildwars2.com/file/B1AEEF619795DA2F39B60F72F8E3B97EF925B57F/222778.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Inquest\n-6% Damage from Inquest\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Ogre Slaying",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8858,
+    "chat_link": "[&AgGaIgAA]",
+    "icon": "https://render.guildwars2.com/file/0BED45596FE12C054D9F1165AECA68CE4C635A91/222790.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Ogres\n-6% Damage from Ogres\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Ice Brood Slaying",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8859,
+    "chat_link": "[&AgGbIgAA]",
+    "icon": "https://render.guildwars2.com/file/CCA80D337AA84DC2971E7F61F24E09D3F12B0C32/222786.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Ice Brood\n-6% Damage from Ice Brood\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Grawl Slaying",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8860,
+    "chat_link": "[&AgGcIgAA]",
+    "icon": "https://render.guildwars2.com/file/39480B570E91AADDE3023DCC5C26BC70BEEFA6B1/222776.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Grawl\n-6% Damage from Grawl\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Krait Slaying",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8861,
+    "chat_link": "[&AgGdIgAA]",
+    "icon": "https://render.guildwars2.com/file/B70596D8C4F4DA94740753B99A310655A2152F39/222788.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Krait\n-6% Damage from Krait\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Dredge Slaying",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8862,
+    "chat_link": "[&AgGeIgAA]",
+    "icon": "https://render.guildwars2.com/file/E70461792EE1FE4F3FE47A0E2AF33F5ED9F13A3B/222784.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Dredge\n-6% Damage from Dredge\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Strong Potion of Undead Slaying",
+    "type": "Consumable",
+    "level": 55,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8863,
+    "chat_link": "[&AgGfIgAA]",
+    "icon": "https://render.guildwars2.com/file/D15B7C2E9D741CD9F39C1EAF76D924F3DA25AB1F/222792.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+8% Damage vs. Undead\n-6% Damage from Undead\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Flame Legion Slaying",
+    "type": "Consumable",
+    "level": 65,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8864,
+    "chat_link": "[&AgGgIgAA]",
+    "icon": "https://render.guildwars2.com/file/A5B0EBA401446C99372475FBD1AF9825921C6BF9/222810.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Flame Legion\n-8% Damage from Flame Legion\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Centaur Slaying",
+    "type": "Consumable",
+    "level": 65,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8865,
+    "chat_link": "[&AgGhIgAA]",
+    "icon": "https://render.guildwars2.com/file/80DDFCD0B326F7FE3A264A58BAB4B377DA274D70/222650.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Centaur\n-8% Damage from Centaur\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Outlaw Slaying",
+    "type": "Consumable",
+    "level": 65,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8866,
+    "chat_link": "[&AgGiIgAA]",
+    "icon": "https://render.guildwars2.com/file/9E69734C5E0EB2E0B7BB36B3B4F6444BB5BF61D6/222646.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Outlaws\n-8% Damage from Outlaws\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Nightmare Court Slaying",
+    "type": "Consumable",
+    "level": 65,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8867,
+    "chat_link": "[&AgGjIgAA]",
+    "icon": "https://render.guildwars2.com/file/C247C4FBAF48B769257B9E08390CA51F9B19F724/222802.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Nightmare Court\n-8% Damage from Nightmare Court\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Sons of Svanir Slaying",
+    "type": "Consumable",
+    "level": 65,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8868,
+    "chat_link": "[&AgGkIgAA]",
+    "icon": "https://render.guildwars2.com/file/AAD09854FC72046ECF3B01250DE40C360F356579/222800.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Sons of Svanir\n-8% Damage from Sons of Svanir\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Destroyer Slaying",
+    "type": "Consumable",
+    "level": 70,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8869,
+    "chat_link": "[&AgGlIgAA]",
+    "icon": "https://render.guildwars2.com/file/5FD20F09226805DF9C08BE23F4C418442F4DAE93/222648.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Destroyers\n-8% Damage from Destroyers\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Elemental Slaying",
+    "type": "Consumable",
+    "level": 70,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8870,
+    "chat_link": "[&AgGmIgAA]",
+    "icon": "https://render.guildwars2.com/file/5F134F7548B12BB3B3090A0E5B395DAAFCD909C9/222808.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Elementals\n-8% Damage from Elementals\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Demon Slaying",
+    "type": "Consumable",
+    "level": 70,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8871,
+    "chat_link": "[&AgGnIgAA]",
+    "icon": "https://render.guildwars2.com/file/B24798E63B6BD771063CFC440F9491EBC42897F1/222662.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Demons\n-8% Damage from Demons\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Inquest Slaying",
+    "type": "Consumable",
+    "level": 65,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8872,
+    "chat_link": "[&AgGoIgAA]",
+    "icon": "https://render.guildwars2.com/file/947DB197DA701B95C7A04CBB57036A2CDBD892F4/222806.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Inquest\n-8% Damage from Inquest\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Ogre Slaying",
+    "type": "Consumable",
+    "level": 70,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8873,
+    "chat_link": "[&AgGpIgAA]",
+    "icon": "https://render.guildwars2.com/file/76CFFE3E686A3F03E5571890F903221E9719EACE/222642.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Ogres\n-8% Damage from Ogres\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Ice Brood Slaying",
+    "type": "Consumable",
+    "level": 70,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8874,
+    "chat_link": "[&AgGqIgAA]",
+    "icon": "https://render.guildwars2.com/file/DAFCBF617A0CD468E20F911DD64BB9616195543F/63169.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Ice Brood\n-8% Damage from Ice Brood\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Grawl Slaying",
+    "type": "Consumable",
+    "level": 70,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8875,
+    "chat_link": "[&AgGrIgAA]",
+    "icon": "https://render.guildwars2.com/file/CA69A2E7043CCA0A1E9DF871D41409666C387946/222804.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Grawl\n-8% Damage from Grawl\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Krait Slaying",
+    "type": "Consumable",
+    "level": 70,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8876,
+    "chat_link": "[&AgGsIgAA]",
+    "icon": "https://render.guildwars2.com/file/FF99ADFCD63FB656C02AFAA80B39063821A77AF9/222640.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Krait\n-8% Damage from Krait\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Dredge Slaying",
+    "type": "Consumable",
+    "level": 70,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8877,
+    "chat_link": "[&AgGtIgAA]",
+    "icon": "https://render.guildwars2.com/file/0E560536F609C50677D0069907D744E95DD0D775/222812.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Dredge\n-8% Damage from Dredge\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Potent Potion of Undead Slaying",
+    "type": "Consumable",
+    "level": 70,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8878,
+    "chat_link": "[&AgGuIgAA]",
+    "icon": "https://render.guildwars2.com/file/41ED25550B673BE44B49200B5E2BC2021EE9C6BE/222644.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+9% Damage vs. Undead\n-8% Damage from Undead\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Powerful Potion of Flame Legion Slaying",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8879,
+    "chat_link": "[&AgGvIgAA]",
+    "icon": "https://render.guildwars2.com/file/11CF3D6BF000C19FFAD9800A0B01080B5149A1D0/222674.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 3600000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+10% Damage vs. Flame Legion\n-10% Damage from Flame Legion\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Powerful Potion of Centaur Slaying",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8880,
+    "chat_link": "[&AgGwIgAA]",
+    "icon": "https://render.guildwars2.com/file/C19144A7A8D94297E71D34D009D66F1D23A3BB07/222686.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 3600000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+10% Damage vs. Centaur\n-10% Damage from Centaur\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Powerful Potion of Outlaw Slaying",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Fine",
+    "vendor_value": 2,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 8881,
+    "chat_link": "[&AgGxIgAA]",
+    "icon": "https://render.guildwars2.com/file/EEB3B79C03ABBFE25E55272967535C5BBD656EB3/220452.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 3600000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "+10% Damage vs. Outlaws\n-10% Damage from Outlaws\n+10% Experience from Kills"
+    }
+  }
+]

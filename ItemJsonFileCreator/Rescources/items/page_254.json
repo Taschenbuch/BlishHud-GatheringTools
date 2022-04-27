@@ -1,0 +1,8281 @@
+[
+  {
+    "name": "White Mantle Scroll",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 7089,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80369,
+    "chat_link": "[&AgHxOQEA]",
+    "icon": "https://render.guildwars2.com/file/C2BDB5AB57A1041002FE50DF0A22DB2F07A19FE7/1633868.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    }
+  },
+  {
+    "name": "Thackeray's Visage",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 124,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80370,
+    "chat_link": "[&AgHyOQEA]",
+    "icon": "https://render.guildwars2.com/file/0EBB9F33579CC54CC39F685868FFD79D7A0FEEDC/699204.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 54
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 30
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 54
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 30
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mini Demmi Beetlestone",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80371,
+    "chat_link": "[&AgHzOQEA]",
+    "icon": "https://render.guildwars2.com/file/F2AAE1C99223CBF8DB314E1DC704F0C7532B2917/1632615.png",
+    "details": {
+      "minipet_id": 444
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Pillar",
+    "description": "A recipe to make an ascended staff with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80372,
+    "chat_link": "[&AgH0OQEA]",
+    "icon": "https://render.guildwars2.com/file/6233E7A2A3C9BE1E3DB8B2735819C3A13F1A7912/849322.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11992
+    }
+  },
+  {
+    "name": "Lake Doric Mussels",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 80373,
+    "chat_link": "[&AgH1OQEA]",
+    "icon": "https://render.guildwars2.com/file/7F5C2A2CA4E575ED6EEBF0766B270CEFE63B53B4/1633932.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+100 Precision\n+70 Healing Power\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bronze Samarog Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80374,
+    "chat_link": "[&AgH2OQEA]",
+    "icon": "https://render.guildwars2.com/file/CEECEF3EE5296E16A15E459F9B6D34D172622DC7/1634879.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 826
+    }
+  },
+  {
+    "name": "Thackeray's Rod",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4206,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80375,
+    "chat_link": "[&AgH3OQEA]",
+    "icon": "https://render.guildwars2.com/file/4A3CA8C270DBFBABDC97A9DF2F4AE6450A089B3E/631999.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 940,
+      "max_power": 1060,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 108
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 59
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 108
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Seraph Insignia",
+    "description": "A recipe to make an ascended insignia for crafting armor with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80376,
+    "chat_link": "[&AgH4OQEA]",
+    "icon": "https://render.guildwars2.com/file/31A92DEB4BA191A809ACD83D3D007DCE010E68DA/849324.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12009
+    }
+  },
+  {
+    "name": "Frigate",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 7117,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80377,
+    "chat_link": "[&AgH5OQEA]",
+    "icon": "https://render.guildwars2.com/file/FC0D3C9EB20CF01EF9D3913FC4DEC6E81B54E1A5/1634171.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Seraph Pearl Blunderbuss",
+    "description": "A recipe to make a Seraph Pearl Blunderbuss.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80379,
+    "chat_link": "[&AgH7OQEA]",
+    "icon": "https://render.guildwars2.com/file/B2185DEB0847396E0902B24A03A8CA36589F46A1/849300.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11994
+    }
+  },
+  {
+    "name": "Shard o' War",
+    "description": "Used to craft the legendary rifle precursor Man o' War.\nCombine in the Mystic Forge with Mystic Runestones, a Gift of Wood, and a Gift of the Mists to create the Gift of Divinity.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 83,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80380,
+    "chat_link": "[&AgH8OQEA]",
+    "icon": "https://render.guildwars2.com/file/D6E25B2AA6AAD6AD131DCF3EA4FF90B6684631B2/1633952.png"
+  },
+  {
+    "name": "Recipe: Seraph Pearl Crusher",
+    "description": "A recipe to make a Seraph Pearl Crusher.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80381,
+    "chat_link": "[&AgH9OQEA]",
+    "icon": "https://render.guildwars2.com/file/0E6ECF2B7D5B300979A70325120A646195C213F0/849290.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11903
+    }
+  },
+  {
+    "name": "Perfected Envoy Helmet",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 7108,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80384,
+    "chat_link": "[&AgEAOgEA]",
+    "icon": "https://render.guildwars2.com/file/2695A8E44B7F07EF15A20857790EFCA91513F5F0/1634565.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Seraph Pearl Quarterstaff",
+    "description": "A recipe to make a Seraph Pearl Quarterstaff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80385,
+    "chat_link": "[&AgEBOgEA]",
+    "icon": "https://render.guildwars2.com/file/B00E062899E80C806A7BB83DDCCDE213E19151B9/849329.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11995
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Leggings",
+    "description": "A recipe to make ascended medium leggings with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80386,
+    "chat_link": "[&AgECOgEA]",
+    "icon": "https://render.guildwars2.com/file/0813027CDADB9135602EB1B1AFD90A3FE335410B/849283.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12004
+    }
+  },
+  {
+    "name": "Refined Envoy Helmet",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7072,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80387,
+    "chat_link": "[&AgEDOgEA]",
+    "icon": "https://render.guildwars2.com/file/08BD6169AA1807487D2D025CA92459D3655B9B53/1634571.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Bundle of Jade Shards",
+    "description": "Can be consumed for unbound magic or traded with Quartermaster Hitchens.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80388,
+    "chat_link": "[&AgEEOgEA]",
+    "icon": "https://render.guildwars2.com/file/B3D1DB6458480968B2FC0C0115476EC892CD0555/1633883.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Seraph Pearl Rod",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3995,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80389,
+    "chat_link": "[&AgEFOgEA]",
+    "icon": "https://render.guildwars2.com/file/09C51476177A48D86C44965D3034F4A8EA073A48/67794.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 102
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 102
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Thackeray's Crescent",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4152,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80391,
+    "chat_link": "[&AgEHOgEA]",
+    "icon": "https://render.guildwars2.com/file/FCB40B396E6605C5DBB79345BF7EDFBAF8714402/632015.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 215
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 118
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 215
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Devoted Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 80392,
+    "chat_link": "[&AgEIOgEA]",
+    "icon": "https://render.guildwars2.com/file/0B67473F9065F671EFD354FA3F2005B26F806A48/1634063.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        7138
+      ]
+    }
+  },
+  {
+    "name": "Bundle of Jade Shards",
+    "description": "Can be consumed for unbound magic or traded with Quartermaster Hitchens.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80394,
+    "chat_link": "[&AgEKOgEA]",
+    "icon": "https://render.guildwars2.com/file/B3D1DB6458480968B2FC0C0115476EC892CD0555/1633883.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Devoted Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 80395,
+    "chat_link": "[&AgELOgEA]",
+    "icon": "https://render.guildwars2.com/file/F3AA0A2DD7135768AFEFC24BEA070D2EC4A217BC/1634023.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        7081
+      ]
+    }
+  },
+  {
+    "name": "Mounted Dolyak Head",
+    "description": "Bring this item to the Guild Decoration Trader in your guild hall to gain a decoration.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80397,
+    "chat_link": "[&AgENOgEA]",
+    "icon": "https://render.guildwars2.com/file/7769390ED71E9EC1F4CA48C6A5B46FB7070678A3/1634125.png"
+  },
+  {
+    "name": "Devoted Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 80398,
+    "chat_link": "[&AgEOOgEA]",
+    "icon": "https://render.guildwars2.com/file/65797F5F1622519BBB421127204209BBB231D379/1634006.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        7122
+      ]
+    }
+  },
+  {
+    "name": "Perfected Envoy Shoes",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 7143,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80399,
+    "chat_link": "[&AgEPOgEA]",
+    "icon": "https://render.guildwars2.com/file/FD60D4E3986FA46F4FEBB8131B65159195260B19/1634578.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686
+      ]
+    }
+  },
+  {
+    "name": "Thackeray's Greatbow",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4202,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80402,
+    "chat_link": "[&AgESOgEA]",
+    "icon": "https://render.guildwars2.com/file/E80A036DDBDE45EA0874AC76FC1BBAA3F939F04A/631969.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 966,
+      "max_power": 1134,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 215
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 118
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 215
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Tower Shard",
+    "description": "<c=@flavor>\"There's a sucker born every minute. Did I say sucker? I meant collector.\"<br>—Cin</c><br><br>This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80403,
+    "chat_link": "[&AgETOgEA]",
+    "icon": "https://render.guildwars2.com/file/A52545446DC607E26CC39AB90F10003BABC4B473/1423827.png"
+  },
+  {
+    "name": "Healer's Burden (Infused)",
+    "description": "<c=@flavor>The penitent shall bear the weight of their sins.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 7114,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80405,
+    "chat_link": "[&AgEVOgEA]",
+    "icon": "https://render.guildwars2.com/file/AB12DAE578C653B0B237B0DDBE42466A32F70631/1633862.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        659,
+        588,
+        656,
+        1430,
+        1037,
+        1265,
+        1269,
+        1566,
+        1367,
+        1374,
+        1549
+      ]
+    }
+  },
+  {
+    "name": "Seraph Exalted Pants",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 162,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80406,
+    "chat_link": "[&AgEWOgEA]",
+    "icon": "https://render.guildwars2.com/file/A74E3461167960693591EF5E4AE1A81C0CBD03B2/61524.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 194,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 77
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 42
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 77
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 42
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Thackeray's Bugle",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4147,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80407,
+    "chat_link": "[&AgEXOgEA]",
+    "icon": "https://render.guildwars2.com/file/0CB2D2C940DA26010CE49129BB4615A3DDD19833/632064.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 855,
+      "max_power": 945,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 108
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 59
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 108
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Bronze Mursaat Overseer Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80408,
+    "chat_link": "[&AgEYOgEA]",
+    "icon": "https://render.guildwars2.com/file/3F2C0098F99560B5BD3D4A22B69022AC3C31B81F/1634831.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 820
+    }
+  },
+  {
+    "name": "Recipe: Seraph Pearl Carver",
+    "description": "A recipe to make a Seraph Pearl Carver.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80411,
+    "chat_link": "[&AgEbOgEA]",
+    "icon": "https://render.guildwars2.com/file/A4334E5830B017094A03FBF208A79B4BBF392917/849292.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11977
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Doublet",
+    "description": "A recipe to make an ascended light coat with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80412,
+    "chat_link": "[&AgEcOgEA]",
+    "icon": "https://render.guildwars2.com/file/0F26173B2EDE1CCE9C06AFDFE3EB3E0F17C2ACEC/849294.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11989
+    }
+  },
+  {
+    "name": "Assaulter's Arbiter Greatbow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7097,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80414,
+    "chat_link": "[&AgEeOgEA]",
+    "icon": "https://render.guildwars2.com/file/931EAD56CB1370601803C8AF74D57D01A1E27C09/1633872.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 966,
+      "max_power": 1134,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Lynx Statue",
+    "description": "Bring this item to the Guild Decoration Trader in your guild hall to gain a decoration.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80417,
+    "chat_link": "[&AgEhOgEA]",
+    "icon": "https://render.guildwars2.com/file/ADB896B8DE0C465868029313FD9DC94701E8D206/1634124.png"
+  },
+  {
+    "name": "Seraph Emblazoned Pants",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 187,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80419,
+    "chat_link": "[&AgEjOgEA]",
+    "icon": "https://render.guildwars2.com/file/A9202FB70500E8A74AB070D32E3A4E1033023476/61614.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 218,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 77
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 42
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 77
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 42
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Seraph Pearl Crusher",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 4109,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80421,
+    "chat_link": "[&AgElOgEA]",
+    "icon": "https://render.guildwars2.com/file/69D11CA2D5B30802312B7D0A02C8A048B7E6743D/67770.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 205
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 205
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Cord of Stolen Wood",
+    "description": "<c=@flavor>\"It's not stealing. The ghosts already took it once. This is...recovery. It's patriotic.\"<br>—Cin</c><br><br>This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80422,
+    "chat_link": "[&AgEmOgEA]",
+    "icon": "https://render.guildwars2.com/file/576ED6A37FA1130DDD230D5D0E0D80484E25260C/220466.png"
+  },
+  {
+    "name": "Recipe: Thackeray's Spire",
+    "description": "A recipe to make an ascended trident with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80423,
+    "chat_link": "[&AgEnOgEA]",
+    "icon": "https://render.guildwars2.com/file/01330C982F9439EA15BF43627DB50AB798746340/849323.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11997
+    }
+  },
+  {
+    "name": "Mini Eye of Janthir",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 80424,
+    "chat_link": "[&AgEoOgEA]",
+    "icon": "https://render.guildwars2.com/file/3E7702EEEF3478F6E4E0196472E216D25C54A701/1633962.png",
+    "details": {
+      "minipet_id": 447
+    }
+  },
+  {
+    "name": "Seraph Pearl Needler",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 3952,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80426,
+    "chat_link": "[&AgEqOgEA]",
+    "icon": "https://render.guildwars2.com/file/655E24F31AFA03C0699AAAD6BCA7FF317D2B2849/67754.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 205
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 205
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Refined Envoy Tassets",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7110,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80427,
+    "chat_link": "[&AgErOgEA]",
+    "icon": "https://render.guildwars2.com/file/33BB05D56F5C0F79151F07EFBF4BB0D952346C0E/1634572.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 254,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Vambraces",
+    "description": "A recipe to make ascended medium gloves with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80428,
+    "chat_link": "[&AgEsOgEA]",
+    "icon": "https://render.guildwars2.com/file/EEC8F3F85DA3B3920C4ADAD9D81DBCA62711FFE5/849280.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11932
+    }
+  },
+  {
+    "name": "Recipe: Refined Envoy Vestments",
+    "description": "A recipe to make Refined Envoy Vestments.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 165,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80431,
+    "chat_link": "[&AgEvOgEA]",
+    "icon": "https://render.guildwars2.com/file/0F26173B2EDE1CCE9C06AFDFE3EB3E0F17C2ACEC/849294.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11907
+    }
+  },
+  {
+    "name": "Box of Raider's Sustenance",
+    "description": "Double-click to choose from a set of food consumables.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80432,
+    "chat_link": "[&AgEwOgEA]",
+    "icon": "https://render.guildwars2.com/file/3D09B99DD5920996BAFD070F06F963CF03BC42CF/1635215.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Malicious Burden",
+    "description": "<c=@flavor>The penitent shall bear the weight of their sins.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 7114,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80434,
+    "chat_link": "[&AgEyOgEA]",
+    "icon": "https://render.guildwars2.com/file/AB12DAE578C653B0B237B0DDBE42466A32F70631/1633862.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        1436,
+        1038,
+        588,
+        1114,
+        585,
+        1097,
+        1064,
+        1269,
+        1262,
+        1268,
+        1366,
+        1549
+      ]
+    }
+  },
+  {
+    "name": "Perfected Envoy Pauldrons",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 7094,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80435,
+    "chat_link": "[&AgEzOgEA]",
+    "icon": "https://render.guildwars2.com/file/0F0F4BE73C9316BAA4956A3AA622CB0AE84D9CEA/1634567.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686
+      ]
+    }
+  },
+  {
+    "name": "Silver Mursaat Overseer Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80436,
+    "chat_link": "[&AgE0OgEA]",
+    "icon": "https://render.guildwars2.com/file/CE6B8003CAC3203E5E4563D005AFC294E2ECB4B0/1634833.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 807
+    }
+  },
+  {
+    "name": "Assaulter's Burden (Infused)",
+    "description": "<c=@flavor>The penitent shall bear the weight of their sins.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 7114,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80437,
+    "chat_link": "[&AgE1OgEA]",
+    "icon": "https://render.guildwars2.com/file/AB12DAE578C653B0B237B0DDBE42466A32F70631/1633862.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        1128,
+        584,
+        588,
+        583,
+        657,
+        658,
+        1064,
+        586,
+        1119,
+        1163,
+        1267,
+        1271,
+        1263,
+        1264,
+        1268,
+        1270,
+        1566,
+        1366,
+        1367,
+        1374
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Bulwark",
+    "description": "A recipe to make an ascended shield with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80439,
+    "chat_link": "[&AgE3OgEA]",
+    "icon": "https://render.guildwars2.com/file/583E335F780D3FD5AA2E149DBC9F28CEF6224F09/849315.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11909
+    }
+  },
+  {
+    "name": "Recipe: Seraph Pearl Broadsword",
+    "description": "A recipe to make a Seraph Pearl Broadsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80440,
+    "chat_link": "[&AgE4OgEA]",
+    "icon": "https://render.guildwars2.com/file/F634A41B46C73C3AD3A70E02697C9370A2F9F34B/849291.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12007
+    }
+  },
+  {
+    "name": "Refined Envoy Cowl",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7095,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80441,
+    "chat_link": "[&AgE5OgEA]",
+    "icon": "https://render.guildwars2.com/file/4A6F447F0ED0501AA0631592EE7DE12719EBFFAF/1634583.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Seraph Pearl Brazier",
+    "description": "A recipe to make a Seraph Pearl Brazier.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80442,
+    "chat_link": "[&AgE6OgEA]",
+    "icon": "https://render.guildwars2.com/file/2AA251A1001C64AFAEFFBC2443B4D8BFE0373B52/849302.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11965
+    }
+  },
+  {
+    "name": "Seraph Pearl Conch",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3978,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80443,
+    "chat_link": "[&AgE7OgEA]",
+    "icon": "https://render.guildwars2.com/file/C5483504F9F474C1CCAF060F57265D137F990A99/67762.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 102
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 102
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Refined Envoy Greaves",
+    "description": "A recipe to make Refined Envoy Greaves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 165,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80446,
+    "chat_link": "[&AgE+OgEA]",
+    "icon": "https://render.guildwars2.com/file/3153B6543A4502614239094397322C4EEA0FAA48/849295.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11946
+    }
+  },
+  {
+    "name": "Thackeray's Harpoon Gun",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80447,
+    "chat_link": "[&AgE/OgEA]",
+    "icon": "https://render.guildwars2.com/file/58D835FA92D8BAC4C3D034550BB0CF1C2CF80E1A/632023.png",
+    "details": {
+      "type": "Speargun",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1118,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 215
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 215
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 118
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Thackeray's Epaulets",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 119,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80448,
+    "chat_link": "[&AgFAOgEA]",
+    "icon": "https://render.guildwars2.com/file/0C4E1FEED2C75BC8F6F1D3D11C18303EEF573EED/699208.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 22
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 40
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 22
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Jade Fragment Node",
+    "description": "Activates a Jade Fragments Node in your home instance.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80450,
+    "chat_link": "[&AgFCOgEA]",
+    "icon": "https://render.guildwars2.com/file/489951E3A79027CE4D6DDDDC6060D60967F6E70A/1633947.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Thackeray's Barbute",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 122,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80451,
+    "chat_link": "[&AgFDOgEA]",
+    "icon": "https://render.guildwars2.com/file/D4FC06FD1B58AF62E771D7747C66F0E8FAAB8054/699216.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 54
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 30
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 54
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 30
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Cairn's Cache",
+    "description": "Double-click to open. Contains a choice of rewards unique to the Cairn the Indomitable encounter.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80452,
+    "chat_link": "[&AgFEOgEA]",
+    "icon": "https://render.guildwars2.com/file/A565E2A72643970299713833ACCBFD631719F603/1635212.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Seraph Orichalcum Imbued Inscription",
+    "description": "Used in the crafting of weapons with +Condition Damage, +Precision, +Concentration, and +Healing Power.",
+    "type": "CraftingMaterial",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80454,
+    "chat_link": "[&AgFGOgEA]",
+    "icon": "https://render.guildwars2.com/file/6028CF06111605F6AD0ED7FDEB3B63780D4895F5/1633948.png"
+  },
+  {
+    "name": "Recipe: Thackeray's Epaulets",
+    "description": "A recipe to make ascended light shoulders with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80456,
+    "chat_link": "[&AgFIOgEA]",
+    "icon": "https://render.guildwars2.com/file/90E9F7590C17DA7933339AE7C52FD83432B33E01/849296.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11984
+    }
+  },
+  {
+    "name": "Refined Envoy Gloves",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7082,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80460,
+    "chat_link": "[&AgFMOgEA]",
+    "icon": "https://render.guildwars2.com/file/03653011AA6E3EA0ABFFE46A03F20FD6050EE098/1634582.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Malicious Watchkeeper Trophy Bow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7155,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80461,
+    "chat_link": "[&AgFNOgEA]",
+    "icon": "https://render.guildwars2.com/file/A06624D603CD9875AE00600202B0A7F92822640F/1633878.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Samarog's Top-Tier Supplies",
+    "description": "Contains a selection of rewards including ascended items and valuable consumables.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80462,
+    "chat_link": "[&AgFOOgEA]",
+    "icon": "https://render.guildwars2.com/file/F3CC3D19A2BDF9026DD7B376B49557C6C42EA5BB/1635211.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Chest of Light Refined Envoy Armor",
+    "description": "Double-click to acquire a set of ascended armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80463,
+    "chat_link": "[&AgFPOgEA]",
+    "icon": "https://render.guildwars2.com/file/BE76037236B87E4F544956EE4617A0DD33C87C44/1302724.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Seraph Pearl Sabre",
+    "description": "A recipe to make a Seraph Pearl Sabre.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80465,
+    "chat_link": "[&AgFROgEA]",
+    "icon": "https://render.guildwars2.com/file/F1AEEAB8041F78F2B90515E55306A5260FA640BC/849286.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11978
+    }
+  },
+  {
+    "name": "Saffron Mussels",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 80466,
+    "chat_link": "[&AgFSOgEA]",
+    "icon": "https://render.guildwars2.com/file/DF80BC5BF94D025D2C6C216EB0FA75C8CDE234A8/1633931.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+100 Condition Damage\n+70 Healing Power\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Seraph Emblazoned Boots",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 198,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80467,
+    "chat_link": "[&AgFTOgEA]",
+    "icon": "https://render.guildwars2.com/file/E8E3621EE10F44A6ED1CC4295161E7D5C0F17F36/61610.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 157,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 38
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 38
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 21
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Overseer's Top-Tier Supplies",
+    "description": "Contains a selection of rewards including ascended items and valuable consumables.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80469,
+    "chat_link": "[&AgFVOgEA]",
+    "icon": "https://render.guildwars2.com/file/F3CC3D19A2BDF9026DD7B376B49557C6C42EA5BB/1635211.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "A Day in Kryta",
+    "description": "Bring this item to the Guild Decoration Trader in your guild hall to gain a decoration.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80470,
+    "chat_link": "[&AgFWOgEA]",
+    "icon": "https://render.guildwars2.com/file/509E671D1029C653AA95A03529EBF1F29326CD77/1634127.png"
+  },
+  {
+    "name": "Silver Deimos Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80471,
+    "chat_link": "[&AgFXOgEA]",
+    "icon": "https://render.guildwars2.com/file/5633E3E14FECE51CEB3C775DF7D57AB1ADF89679/1634874.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 823
+    }
+  },
+  {
+    "name": "Defender's Treasured Bough",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7104,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80476,
+    "chat_link": "[&AgFcOgEA]",
+    "icon": "https://render.guildwars2.com/file/3EFE7D05A694AD25760A0B7E77E45530013AA202/1634182.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Confessor Caudecus's Mask",
+    "description": "<c=@flavor>Worn by Confessor Beetlestone himself, this mask emits massive amounts of raw bloodstone energy, channeled through Caudecus's signature beard.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 7074,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80477,
+    "chat_link": "[&AgFdOgEA]",
+    "icon": "https://render.guildwars2.com/file/FDE2BC02F36CE6134E7B3DE69177565AB23509FC/1634559.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Skewer",
+    "description": "A recipe to make an ascended spear with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80479,
+    "chat_link": "[&AgFfOgEA]",
+    "icon": "https://render.guildwars2.com/file/915013AA311A6EBD77FBE4786F674275D4219DA8/849326.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11950
+    }
+  },
+  {
+    "name": "E's Correspondence",
+    "description": "Letters from E",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80480,
+    "chat_link": "[&AgFgOgEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Defender's Gloves of the Obedient",
+    "description": "<c=@flavor>Dedicated to the Unseen.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7115,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80481,
+    "chat_link": "[&AgFhOgEA]",
+    "icon": "https://render.guildwars2.com/file/5AD8950A1EB9423D03BB40FDE7DFBE4879BC9C75/1634561.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Defender's Watchkeeper Trophy Warhorn",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7147,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80482,
+    "chat_link": "[&AgFiOgEA]",
+    "icon": "https://render.guildwars2.com/file/F020DDC3EDA6AA0E31637F055AEF00499371687A/1634212.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 855,
+      "max_power": 945,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Magic-Imbued Peach Core",
+    "description": "The core of the peach you ate is still radiating with the energy of the tree it came from.<br><br>This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80483,
+    "chat_link": "[&AgFjOgEA]",
+    "icon": "https://render.guildwars2.com/file/DD80F9B2A1B22E1737DCB19DF97BBE5915120393/1633935.png"
+  },
+  {
+    "name": "Necrotic Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80484,
+    "chat_link": "[&AgFkOgEA]",
+    "icon": "https://render.guildwars2.com/file/283E52BC9D9B07D7EFD95B5AA3A347AE3677CEC1/1633990.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Thackeray's Focus",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4172,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80486,
+    "chat_link": "[&AgFmOgEA]",
+    "icon": "https://render.guildwars2.com/file/C5EA5646B27DCF05B8909397E6BB1B47F273FFE0/631937.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 873,
+      "max_power": 927,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 108
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 59
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 108
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "The HMS Divinity",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 100000,
+    "default_skin": 7078,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80488,
+    "chat_link": "[&AgFoOgEA]",
+    "icon": "https://render.guildwars2.com/file/0E9706D871154B6D43B62CC2969C2108905B9A12/1634157.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 1035,
+      "max_power": 1265,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "suffix_item_id": 24773,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Seraph Emblazoned Pants",
+    "description": "A recipe to make Seraph Emblazoned Pants.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80489,
+    "chat_link": "[&AgFpOgEA]",
+    "icon": "https://render.guildwars2.com/file/2D1AE5B60CDBBC50075CA20EE6191EC4707DBF44/849310.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12001
+    }
+  },
+  {
+    "name": "Lumpy Pearl",
+    "description": "Villagers in New Loamhurst need this valuable item to boost their economy. There are other merchants around Lake Doric who might also be interested in them.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80490,
+    "chat_link": "[&AgFqOgEA]",
+    "icon": "https://render.guildwars2.com/file/CD4E4A59A6E86211F71DAF5366EF4F3A6B73E0D0/66268.png"
+  },
+  {
+    "name": "Thackeray's Footwear",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 115,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80491,
+    "chat_link": "[&AgFrOgEA]",
+    "icon": "https://render.guildwars2.com/file/5C63AF3E5541CBBF54C8656DD8F5E274590BEA52/699213.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 22
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 40
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 22
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mini White Mantle Battle Mage",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80492,
+    "chat_link": "[&AgFsOgEA]",
+    "icon": "https://render.guildwars2.com/file/65B427709798026562EA06FC64263F377A1CDA00/1651078.png",
+    "details": {
+      "minipet_id": 443
+    }
+  },
+  {
+    "name": "Defender's Arbiter Greatbow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7097,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80493,
+    "chat_link": "[&AgFtOgEA]",
+    "icon": "https://render.guildwars2.com/file/931EAD56CB1370601803C8AF74D57D01A1E27C09/1633872.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 966,
+      "max_power": 1134,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Seraph Emblazoned Helm",
+    "description": "A recipe to make a Seraph Emblazoned Helm.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80495,
+    "chat_link": "[&AgFvOgEA]",
+    "icon": "https://render.guildwars2.com/file/0235F4DFF0183339CEB32FAD37522770D6AA55D0/849311.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11945
+    }
+  },
+  {
+    "name": "Seraph Emblazoned Shoulders",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 195,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80496,
+    "chat_link": "[&AgFwOgEA]",
+    "icon": "https://render.guildwars2.com/file/133E6EFBE67F7D962398BA000416F9C6C54063C0/61615.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 38
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 38
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 21
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Jade Shard Strongbox",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80498,
+    "chat_link": "[&AgFyOgEA]",
+    "icon": "https://render.guildwars2.com/file/A8A7AF7DF2087B676215F3157835CF7F9A419F32/1465577.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Assaulter's Watchkeeper Trophy Bow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7155,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80499,
+    "chat_link": "[&AgFzOgEA]",
+    "icon": "https://render.guildwars2.com/file/A06624D603CD9875AE00600202B0A7F92822640F/1633878.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Visionary Inscription",
+    "description": "Used in the crafting of weapons with the potential to become Legend.",
+    "type": "CraftingMaterial",
+    "level": 10,
+    "rarity": "Ascended",
+    "vendor_value": 83,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80503,
+    "chat_link": "[&AgF3OgEA]",
+    "icon": "https://render.guildwars2.com/file/0157605EB6E9272D03242B31E0DA2424CCB23A6D/1634116.png"
+  },
+  {
+    "name": "Seraph Draconic Legs",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80504,
+    "chat_link": "[&AgF4OgEA]",
+    "icon": "https://render.guildwars2.com/file/5B4F503619F5F5C659E961E76E290BAB6F234816/61566.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 242,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 77
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 42
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 77
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 42
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Footwear",
+    "description": "A recipe to make ascended light boots with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80506,
+    "chat_link": "[&AgF6OgEA]",
+    "icon": "https://render.guildwars2.com/file/3153B6543A4502614239094397322C4EEA0FAA48/849295.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11908
+    }
+  },
+  {
+    "name": "Noran's Key Oil",
+    "description": "Apply this to Noran's key to unlock the secret chest in the basement of his homestead.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80508,
+    "chat_link": "[&AgF8OgEA]",
+    "icon": "https://render.guildwars2.com/file/04DF083606A9DF38515A392E2F1F100C7401D202/1651944.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Slicer",
+    "description": "A recipe to make an ascended dagger with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80509,
+    "chat_link": "[&AgF9OgEA]",
+    "icon": "https://render.guildwars2.com/file/D7ABB45DB032945542623BABC6291639C0B4C7B2/849317.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11971
+    }
+  },
+  {
+    "name": "Defender's Indomitable Gladius",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7125,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80510,
+    "chat_link": "[&AgF+OgEA]",
+    "icon": "https://render.guildwars2.com/file/A47C155CBEAAEF3FA85F410F7E607E4048F496EE/1634209.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Thackeray's Gladius",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4253,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80512,
+    "chat_link": "[&AgGAOgEA]",
+    "icon": "https://render.guildwars2.com/file/5668B50E2326D8EA08E5D5A946075D7061DC92D8/632039.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 108
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 59
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 108
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Bundle of Jade Shards",
+    "description": "Can be consumed for unbound magic or traded with Quartermaster Hitchens.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80513,
+    "chat_link": "[&AgGBOgEA]",
+    "icon": "https://render.guildwars2.com/file/B3D1DB6458480968B2FC0C0115476EC892CD0555/1633883.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Handcannon",
+    "description": "A recipe to make an ascended pistol with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80515,
+    "chat_link": "[&AgGDOgEA]",
+    "icon": "https://render.guildwars2.com/file/01C770B1294490176DB874720555FCAD9E9A5514/849334.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11991
+    }
+  },
+  {
+    "name": "Envoy Insignia",
+    "description": "Used in the crafting of Envoy armor pieces.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 80,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80516,
+    "chat_link": "[&AgGEOgEA]",
+    "icon": "https://render.guildwars2.com/file/C904D7ABDA5B972F6F34FA5B6A9A5BBBC1E61D53/1201849.png"
+  },
+  {
+    "name": "Recipe: Thackeray's Pauldrons",
+    "description": "A recipe to make ascended heavy shoulders with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80518,
+    "chat_link": "[&AgGGOgEA]",
+    "icon": "https://render.guildwars2.com/file/90E9F7590C17DA7933339AE7C52FD83432B33E01/849296.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11917
+    }
+  },
+  {
+    "name": "White Mantle Elite Guard Mask",
+    "description": "<c=@flavor>This mask is worn by elite members of Confessor Beetlestone's guard. Equipping does not guarantee acceptance in White Mantle cliques.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 7106,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80519,
+    "chat_link": "[&AgGHOgEA]",
+    "icon": "https://render.guildwars2.com/file/780A12759801FD3EE23077D19E6DF33CC3A3D755/1634560.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Thackeray's Handcannon",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4171,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80520,
+    "chat_link": "[&AgGIOgEA]",
+    "icon": "https://render.guildwars2.com/file/30CE6EC06B1F9C1F084E61101EFE0170504D0824/631983.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 108
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 59
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 108
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Greaves",
+    "description": "A recipe to make ascended heavy boots with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80521,
+    "chat_link": "[&AgGJOgEA]",
+    "icon": "https://render.guildwars2.com/file/3153B6543A4502614239094397322C4EEA0FAA48/849295.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11912
+    }
+  },
+  {
+    "name": "Thackeray's Crusher",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4232,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80522,
+    "chat_link": "[&AgGKOgEA]",
+    "icon": "https://render.guildwars2.com/file/396D663DF0730E9579AF5D3AD9B499EE06E462D8/631953.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 215
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 118
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 215
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Seraph Pearl Quarterstaff",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 4113,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80523,
+    "chat_link": "[&AgGLOgEA]",
+    "icon": "https://render.guildwars2.com/file/FAD2A5B1BC93C70E110F09595F7D50C9B12B500A/67802.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 205
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 205
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Schooner",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 7086,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80524,
+    "chat_link": "[&AgGMOgEA]",
+    "icon": "https://render.guildwars2.com/file/D50573340903CBE4906FBAB13443C20AF259E89A/1634167.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "White Mantle Elite Guard Mask Box",
+    "description": "Open to choose a White Mantle Elite Guard Mask.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80525,
+    "chat_link": "[&AgGNOgEA]",
+    "icon": "https://render.guildwars2.com/file/789811FE130F2198F546B3E9A1E1B930720CD80C/1465541.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Seraph Seraph Protector",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 7135,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80526,
+    "chat_link": "[&AgGOOgEA]",
+    "icon": "https://render.guildwars2.com/file/48704E4F280815C824D7467BF2CBFB79E75CFDDB/1634181.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 806,
+      "max_power": 909,
+      "defense": 61,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 102
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 102
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Defender's Spire of Samarog",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7113,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80527,
+    "chat_link": "[&AgGPOgEA]",
+    "icon": "https://render.guildwars2.com/file/0AAD4AC005A7E4C645D3BD4F0A80A428D2B4080C/1634191.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Mini Fire Tornado",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80528,
+    "chat_link": "[&AgGQOgEA]",
+    "icon": "https://render.guildwars2.com/file/6CC4302EB706A8C576E66795E10B3CA23E3C0ECE/1633964.png",
+    "details": {
+      "minipet_id": 439
+    }
+  },
+  {
+    "name": "Bronze Deimos Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80530,
+    "chat_link": "[&AgGSOgEA]",
+    "icon": "https://render.guildwars2.com/file/EEE4E76C9D0BC69A906B7B216ADC18D33314E702/1634872.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 829
+    }
+  },
+  {
+    "name": "Malicious Indomitable Pistol",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7101,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80531,
+    "chat_link": "[&AgGTOgEA]",
+    "icon": "https://render.guildwars2.com/file/9F0CD9576CCEC967B306E4D055074C0B07620E90/1634115.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Saffron Mussels",
+    "description": "Double-click to learn a recipe",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 13,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80532,
+    "chat_link": "[&AgGUOgEA]",
+    "icon": "https://render.guildwars2.com/file/BBF80F4920FE7C970CA1C9007CAB0043AD7EE762/1201551.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11906
+    }
+  },
+  {
+    "name": "Recipe: Refined Envoy Breastplate",
+    "description": "A recipe to make Refined Envoy Breastplate.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 165,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80533,
+    "chat_link": "[&AgGVOgEA]",
+    "icon": "https://render.guildwars2.com/file/0F26173B2EDE1CCE9C06AFDFE3EB3E0F17C2ACEC/849294.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12011
+    }
+  },
+  {
+    "name": "Recipe: Man o' War",
+    "description": "Unlocks the recipe to craft Man o' War.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80534,
+    "chat_link": "[&AgGWOgEA]",
+    "icon": "https://render.guildwars2.com/file/7178B149E19C65A5FEF44FFB71EBFA0968946B99/849335.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11999,
+      "extra_recipe_ids": [
+        11851,
+        11847,
+        11854,
+        11849,
+        11852,
+        11867,
+        11850,
+        10442,
+        11987
+      ]
+    }
+  },
+  {
+    "name": "Seraph Exalted Boots",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 172,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80535,
+    "chat_link": "[&AgGXOgEA]",
+    "icon": "https://render.guildwars2.com/file/AE26D521B64460E45F69FBD7784313D4BAF070CA/61520.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 38
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 38
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 21
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Healer's Watchkeeper Trophy Warhorn",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7147,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80537,
+    "chat_link": "[&AgGZOgEA]",
+    "icon": "https://render.guildwars2.com/file/F020DDC3EDA6AA0E31637F055AEF00499371687A/1634212.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 855,
+      "max_power": 945,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Healer's Burden",
+    "description": "<c=@flavor>The penitent shall bear the weight of their sins.</c>",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 7114,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80541,
+    "chat_link": "[&AgGdOgEA]",
+    "icon": "https://render.guildwars2.com/file/AB12DAE578C653B0B237B0DDBE42466A32F70631/1633862.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        659,
+        588,
+        656,
+        1430,
+        1037,
+        1265,
+        1269,
+        1566,
+        1367,
+        1374,
+        1549
+      ]
+    }
+  },
+  {
+    "name": "Fragment of Saul's Burden",
+    "description": "Found inside Saul's chest. Double-click or trade in at the guild decoration trader to earn a decoration.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80542,
+    "chat_link": "[&AgGeOgEA]",
+    "icon": "https://render.guildwars2.com/file/BB7AC0B2FB23067DBC09C3A36B80B94FD2092ACE/1634875.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 806
+    }
+  },
+  {
+    "name": "Seraph Pearl Sabre",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 4112,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80543,
+    "chat_link": "[&AgGfOgEA]",
+    "icon": "https://render.guildwars2.com/file/9BBF12452129E90C7FD30C0EF60A630A507ECDEF/67808.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 102
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 102
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Seraph Emblazoned Boots",
+    "description": "A recipe to make Seraph Emblazoned Boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80544,
+    "chat_link": "[&AgGgOgEA]",
+    "icon": "https://render.guildwars2.com/file/4FB13A730DD207E3344E02B87F4CB1ACD675FA15/849305.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11913
+    }
+  },
+  {
+    "name": "Mini White Mantle Figurehead",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80545,
+    "chat_link": "[&AgGhOgEA]",
+    "icon": "https://render.guildwars2.com/file/BB9F4D4535A836077A2A18BBC17C045A51B12DB0/1633965.png",
+    "details": {
+      "minipet_id": 440
+    }
+  },
+  {
+    "name": "Seraph Pearl Brazier",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3975,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80547,
+    "chat_link": "[&AgGjOgEA]",
+    "icon": "https://render.guildwars2.com/file/98B15511979E1AFE4360EF45935C261C4A77C55C/67814.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 102
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 102
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Crusher",
+    "description": "A recipe to make an ascended hammer with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80549,
+    "chat_link": "[&AgGlOgEA]",
+    "icon": "https://render.guildwars2.com/file/3520E022E7E669026648DC6A280B3CDD7DBE1302/849327.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11902
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Gavel",
+    "description": "A recipe to make an ascended mace with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80550,
+    "chat_link": "[&AgGmOgEA]",
+    "icon": "https://render.guildwars2.com/file/BB7898A431A3B9190EEEF3B408226B9E20CED208/849316.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11943
+    }
+  },
+  {
+    "name": "Recipe: Refined Envoy Shoes",
+    "description": "A recipe to make Refined Envoy Shoes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 165,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80551,
+    "chat_link": "[&AgGnOgEA]",
+    "icon": "https://render.guildwars2.com/file/3153B6543A4502614239094397322C4EEA0FAA48/849295.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11980
+    }
+  },
+  {
+    "name": "Justiciar's Pendant",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80553,
+    "chat_link": "[&AgGpOgEA]",
+    "icon": "https://render.guildwars2.com/file/E433A51B5D0FB70203480845BAFA23990322CDA3/1633843.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 102
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 102
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Refined Envoy Shoulderpads",
+    "description": "A recipe to make Refined Envoy Shoulderpads.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 165,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80556,
+    "chat_link": "[&AgGsOgEA]",
+    "icon": "https://render.guildwars2.com/file/90E9F7590C17DA7933339AE7C52FD83432B33E01/849296.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12012
+    }
+  },
+  {
+    "name": "Perfected Envoy Greaves",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 7136,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80557,
+    "chat_link": "[&AgGtOgEA]",
+    "icon": "https://render.guildwars2.com/file/E895D40AE0D1A500FFFDB955C27A98FF687AA4C1/1634562.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Seraph Draconic Boots",
+    "description": "A recipe to make Seraph Draconic Boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80558,
+    "chat_link": "[&AgGuOgEA]",
+    "icon": "https://render.guildwars2.com/file/4FB13A730DD207E3344E02B87F4CB1ACD675FA15/849305.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11970
+    }
+  },
+  {
+    "name": "Healer's Indomitable Pistol",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7101,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80559,
+    "chat_link": "[&AgGvOgEA]",
+    "icon": "https://render.guildwars2.com/file/9F0CD9576CCEC967B306E4D055074C0B07620E90/1634115.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Justiciar's Ring",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80560,
+    "chat_link": "[&AgGwOgEA]",
+    "icon": "https://render.guildwars2.com/file/22066375DB16625271A604D1DC944E35F9EA8027/1634175.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 77
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 42
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 77
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 42
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Visage",
+    "description": "A recipe to make an ascended medium helm with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80561,
+    "chat_link": "[&AgGxOgEA]",
+    "icon": "https://render.guildwars2.com/file/AC1C3075784E0C4235BD9E22E1752D6B49D66F0F/849281.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11959
+    }
+  },
+  {
+    "name": "Mini Cairn the Indomitable",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80562,
+    "chat_link": "[&AgGyOgEA]",
+    "icon": "https://render.guildwars2.com/file/0863ADC609086A5E5F6C031DDC1766033432250C/1633961.png",
+    "details": {
+      "minipet_id": 441
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Crusader",
+    "description": "A recipe to make an ascended greatsword with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80563,
+    "chat_link": "[&AgGzOgEA]",
+    "icon": "https://render.guildwars2.com/file/04ADE6C44959217F7B2A05720DBFB25B55AA42E4/849318.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11961
+    }
+  },
+  {
+    "name": "Invitation from Queen Jennah",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 10,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80565,
+    "chat_link": "[&AgG1OgEA]",
+    "icon": "https://render.guildwars2.com/file/61BD98A8976CFF20A17F5FFB9C17215D0DABB697/66824.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Cairn's Top-Tier Supplies",
+    "description": "Contains a selection of rewards including ascended items and valuable consumables.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80566,
+    "chat_link": "[&AgG2OgEA]",
+    "icon": "https://render.guildwars2.com/file/F3CC3D19A2BDF9026DD7B376B49557C6C42EA5BB/1635211.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "The Heart of the Priory",
+    "description": "Bring this item to the Guild Decoration Trader in your guild hall to gain a decoration.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80567,
+    "chat_link": "[&AgG3OgEA]",
+    "icon": "https://render.guildwars2.com/file/AF0C03F403C12B050801A1CDEA99AD0DAE42071C/1634126.png"
+  },
+  {
+    "name": "Healer's Axe of the Unseen",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7091,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80568,
+    "chat_link": "[&AgG4OgEA]",
+    "icon": "https://render.guildwars2.com/file/AB9953FD6F5C7DF04A91594D309768BEB51E6E05/1633846.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 900,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Gauntlets of the Obedient",
+    "description": "<c=@flavor>Dedicated to the Unseen.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7121,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80572,
+    "chat_link": "[&AgG8OgEA]",
+    "icon": "https://render.guildwars2.com/file/5AD8950A1EB9423D03BB40FDE7DFBE4879BC9C75/1634561.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Bronze Cairn the Indomitable Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80573,
+    "chat_link": "[&AgG9OgEA]",
+    "icon": "https://render.guildwars2.com/file/B0F65779FF5FB368D63A2C3E0D17ABDC424648B0/1634853.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 818
+    }
+  },
+  {
+    "name": "Fancy Greatsword",
+    "description": "<c=@flavor>\"I bought it years ago. Anyone who says otherwise will be hearing from my lawyers.\"<br>—Cin</c><br><br>This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80574,
+    "chat_link": "[&AgG+OgEA]",
+    "icon": "https://render.guildwars2.com/file/F04D5F110B62650F07352556AA1065BE6E3E0ECE/65625.png"
+  },
+  {
+    "name": "Recipe: Seraph Pearl Rod",
+    "description": "A recipe to make a Seraph Pearl Rod.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80577,
+    "chat_link": "[&AgHBOgEA]",
+    "icon": "https://render.guildwars2.com/file/4B0EB245A6ABB5A52C3A533E2D571920E8D9E509/849325.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11927
+    }
+  },
+  {
+    "name": "Perfected Envoy Jerkin",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Legendary",
+    "vendor_value": 240,
+    "default_skin": 7083,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80578,
+    "chat_link": "[&AgHCOgEA]",
+    "icon": "https://render.guildwars2.com/file/57360F35D1210D12010F6AE772382450A07D08F6/1634586.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 355,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1111,
+        1109,
+        1123,
+        1140,
+        1085,
+        1153,
+        1118,
+        1131,
+        1222,
+        1344,
+        1363,
+        1364,
+        1559,
+        1556,
+        1681,
+        1686
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Seraph Pearl Reaver",
+    "description": "A recipe to make a Seraph Pearl Reaver.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80579,
+    "chat_link": "[&AgHDOgEA]",
+    "icon": "https://render.guildwars2.com/file/D1CC662DD44379089A64450B395C4B54BE2EE756/849298.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12000
+    }
+  },
+  {
+    "name": "Malicious Arbiter Greatbow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7097,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80581,
+    "chat_link": "[&AgHFOgEA]",
+    "icon": "https://render.guildwars2.com/file/931EAD56CB1370601803C8AF74D57D01A1E27C09/1633872.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 966,
+      "max_power": 1134,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Refined Envoy Shoes",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7150,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80583,
+    "chat_link": "[&AgHHOgEA]",
+    "icon": "https://render.guildwars2.com/file/CFC4C80ACAD86398BFD91318BCE70E2AA3ABBC65/1634580.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Mini Ghostly Cat",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80584,
+    "chat_link": "[&AgHIOgEA]",
+    "icon": "https://render.guildwars2.com/file/CB6D5877FF6CAD380FE24D03CF47D403DCF1F159/1633959.png",
+    "details": {
+      "minipet_id": 437
+    }
+  },
+  {
+    "name": "Seraph Pearl Blunderbuss",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 4117,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80585,
+    "chat_link": "[&AgHJOgEA]",
+    "icon": "https://render.guildwars2.com/file/6301EC09D0083C6B209DFDC4A8A8D8B52BB5F91B/67788.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 205
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 205
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Gladius",
+    "description": "A recipe to make an ascended sword with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80586,
+    "chat_link": "[&AgHKOgEA]",
+    "icon": "https://render.guildwars2.com/file/6D0D731F0DB34D90B72CD1FC79340CC00C91C1D2/849314.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11974
+    }
+  },
+  {
+    "name": "White Mantle Rations",
+    "description": "<c=@flavor>\"As long as the food's still good, I don't want to know.\"<br>—Cin</c><br><br>This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80587,
+    "chat_link": "[&AgHLOgEA]",
+    "icon": "https://render.guildwars2.com/file/EB78371F9DADA4A130EDBD0D192D320402370F47/433656.png"
+  },
+  {
+    "name": "Thackeray's Vambraces",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 120,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80588,
+    "chat_link": "[&AgHMOgEA]",
+    "icon": "https://render.guildwars2.com/file/E3BCBC4053466DEBC50B0B0894996353DE03C749/699205.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 22
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 40
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 22
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Seraph Pearl Bludgeoner",
+    "description": "A recipe to make a Seraph Pearl Bludgeoner.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80589,
+    "chat_link": "[&AgHNOgEA]",
+    "icon": "https://render.guildwars2.com/file/802E0895B53955AC0E23CAB89C01D42C6E3525AF/849289.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11960
+    }
+  },
+  {
+    "name": "Recipe: Seraph Draconic Helm",
+    "description": "A recipe to make a Seraph Draconic Helm.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80590,
+    "chat_link": "[&AgHOOgEA]",
+    "icon": "https://render.guildwars2.com/file/0235F4DFF0183339CEB32FAD37522770D6AA55D0/849311.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11922
+    }
+  },
+  {
+    "name": "Chest of Heavy Refined Envoy Armor",
+    "description": "Double-click to acquire a set of ascended armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80594,
+    "chat_link": "[&AgHSOgEA]",
+    "icon": "https://render.guildwars2.com/file/BE76037236B87E4F544956EE4617A0DD33C87C44/1302724.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Thackeray's Seraph Inscription",
+    "description": "Used in the crafting of weapons with +Condition Damage, +Precision, +Concentration, and +Healing Power.",
+    "type": "CraftingMaterial",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 30,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80595,
+    "chat_link": "[&AgHTOgEA]",
+    "icon": "https://render.guildwars2.com/file/467536F0AC9E7D3071E4530A469530284222215A/1633949.png"
+  },
+  {
+    "name": "Recipe: Refined Envoy Cowl",
+    "description": "A recipe to make Refined Envoy Cowl.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 165,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80596,
+    "chat_link": "[&AgHUOgEA]",
+    "icon": "https://render.guildwars2.com/file/AC1C3075784E0C4235BD9E22E1752D6B49D66F0F/849281.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11904
+    }
+  },
+  {
+    "name": "Recipe: Refined Envoy Mantle",
+    "description": "A recipe to make Refined Envoy Mantle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 165,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80597,
+    "chat_link": "[&AgHVOgEA]",
+    "icon": "https://render.guildwars2.com/file/90E9F7590C17DA7933339AE7C52FD83432B33E01/849296.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11953
+    }
+  },
+  {
+    "name": "Stolen Flank Steak",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80600,
+    "chat_link": "[&AgHYOgEA]",
+    "icon": "https://render.guildwars2.com/file/276D5B6C55460C25F50FC5ABFA2114C0753C023C/63253.png"
+  },
+  {
+    "name": "Recipe: Seraph Draconic Coat",
+    "description": "A recipe to make a Seraph Draconic Coat.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80601,
+    "chat_link": "[&AgHZOgEA]",
+    "icon": "https://render.guildwars2.com/file/28B4037C69C2A00A0603FBBE0864441B9948B8E5/849297.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11937
+    }
+  },
+  {
+    "name": "Box of Raider's Utilities",
+    "description": "Double-click to choose from a set of utility consumables.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80602,
+    "chat_link": "[&AgHaOgEA]",
+    "icon": "https://render.guildwars2.com/file/E574F2587947C1C7ECC0A2ABC8479BF37B23AAF4/1635213.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Portrait of Logan Thackeray",
+    "description": "Bring this item to the Guild Decoration Trader in your guild hall to gain a decoration.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80603,
+    "chat_link": "[&AgHbOgEA]",
+    "icon": "https://render.guildwars2.com/file/397C5E29CF7B2C0EAC934FBB049365A5E82B36D8/1634122.png"
+  },
+  {
+    "name": "Healer's Spire of Samarog",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7113,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80605,
+    "chat_link": "[&AgHdOgEA]",
+    "icon": "https://render.guildwars2.com/file/0AAD4AC005A7E4C645D3BD4F0A80A428D2B4080C/1634191.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Healer's Demon Gavel",
+    "description": "<c=@flavor>Such that the defense may rest.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7151,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80606,
+    "chat_link": "[&AgHeOgEA]",
+    "icon": "https://render.guildwars2.com/file/99B12FFFB0524EB5A7D0F7AEA6015A5DECEEAFB3/1633944.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Refined Envoy Jerkin",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7141,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80607,
+    "chat_link": "[&AgHfOgEA]",
+    "icon": "https://render.guildwars2.com/file/F7A6A2E3D04FDEE614D9F646B0759B9955B63157/1634593.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 355,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Seraph Draconic Helm",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 152,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80608,
+    "chat_link": "[&AgHgOgEA]",
+    "icon": "https://render.guildwars2.com/file/0CDB4F0534D023449B6202B3566E23F4B8C10CE6/61565.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 51
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 28
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 51
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 28
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Healer's Gloves of the Obedient",
+    "description": "<c=@flavor>Dedicated to the Unseen.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7115,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80610,
+    "chat_link": "[&AgHiOgEA]",
+    "icon": "https://render.guildwars2.com/file/5AD8950A1EB9423D03BB40FDE7DFBE4879BC9C75/1634561.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Axe of the Unseen",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7091,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80611,
+    "chat_link": "[&AgHjOgEA]",
+    "icon": "https://render.guildwars2.com/file/AB9953FD6F5C7DF04A91594D309768BEB51E6E05/1633846.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 900,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Greatbow",
+    "description": "A recipe to make an ascended longbow with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80613,
+    "chat_link": "[&AgHlOgEA]",
+    "icon": "https://render.guildwars2.com/file/1A060693BEC1773D0F07514442E81F60CF270D07/849330.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11918
+    }
+  },
+  {
+    "name": "Recipe: Seraph Exalted Coat",
+    "description": "A recipe to make a Seraph Exalted Coat.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80615,
+    "chat_link": "[&AgHnOgEA]",
+    "icon": "https://render.guildwars2.com/file/28B4037C69C2A00A0603FBBE0864441B9948B8E5/849297.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11966
+    }
+  },
+  {
+    "name": "Thackeray's Pauldrons",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 113,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80616,
+    "chat_link": "[&AgHoOgEA]",
+    "icon": "https://render.guildwars2.com/file/BCF8FD08CF3F4A263704370659D69FEE2EDD0C45/699214.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 22
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 40
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 22
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Devoted Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 80617,
+    "chat_link": "[&AgHpOgEA]",
+    "icon": "https://render.guildwars2.com/file/577DEA6F1678A7459E254710FD0F01A9FB3FF0CD/1634029.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        7096
+      ]
+    }
+  },
+  {
+    "name": "Thackeray's Spire",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4138,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80618,
+    "chat_link": "[&AgHqOgEA]",
+    "icon": "https://render.guildwars2.com/file/92DE9B0DEB27146F92B450B30624E36CDFD82892/632056.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 215
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 118
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 215
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Seraph Pearl Handcannon",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3976,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80619,
+    "chat_link": "[&AgHrOgEA]",
+    "icon": "https://render.guildwars2.com/file/4CFF5C04AF27A6DB4E1BEC2CE97763ED73D6680E/67782.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 876,
+      "max_power": 1029,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 102
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 102
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Deimos's Top-Tier Supplies",
+    "description": "Contains a selection of rewards including ascended items and valuable consumables.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80620,
+    "chat_link": "[&AgHsOgEA]",
+    "icon": "https://render.guildwars2.com/file/F3CC3D19A2BDF9026DD7B376B49557C6C42EA5BB/1635211.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Seraph Exalted Gloves",
+    "description": "A recipe to make Seraph Exalted Gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80621,
+    "chat_link": "[&AgHtOgEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11944
+    }
+  },
+  {
+    "name": "Cairn Fragment",
+    "description": "Found inside Cairn the Indomitable's chest. Double-click or trade in at the guild decoration trader to earn a decoration.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80623,
+    "chat_link": "[&AgHvOgEA]",
+    "icon": "https://render.guildwars2.com/file/D7AC43DAD263F2BDF8ED4CF26EA7463FA134FDE8/1634864.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 812
+    }
+  },
+  {
+    "name": "Thackeray's Gavel",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4187,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80624,
+    "chat_link": "[&AgHwOgEA]",
+    "icon": "https://render.guildwars2.com/file/65341E0E04C7184A08E5B5727F186BBE610A7407/631975.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 940,
+      "max_power": 1060,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 108
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 59
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 108
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Gold Samarog Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80625,
+    "chat_link": "[&AgHxOgEA]",
+    "icon": "https://render.guildwars2.com/file/68977C25156EF272DD6B042C9EF203D92A91D042/1634880.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 832
+    }
+  },
+  {
+    "name": "Devoted Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 80629,
+    "chat_link": "[&AgH1OgEA]",
+    "icon": "https://render.guildwars2.com/file/B065DC3F4B1E55D6E793CDD398FF1AE21421FB32/1634095.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        7140
+      ]
+    }
+  },
+  {
+    "name": "Devoted Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 80630,
+    "chat_link": "[&AgH2OgEA]",
+    "icon": "https://render.guildwars2.com/file/29D71B44560FAAEAF51412A75FD2A4593131EA4F/1634049.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        7132
+      ]
+    }
+  },
+  {
+    "name": "Warm Animal Pelt",
+    "description": "<c=@flavor>\"Have you seen how drafty these buildings are?\"<br>—Cin</c><br><br>This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80631,
+    "chat_link": "[&AgH3OgEA]",
+    "icon": "https://render.guildwars2.com/file/0B10F83192919E5CF4C3A5B291BC057607C8C097/66500.png"
+  },
+  {
+    "name": "Recipe: Seraph Exalted Pants",
+    "description": "A recipe to make Seraph Exalted Pants.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80632,
+    "chat_link": "[&AgH4OgEA]",
+    "icon": "https://render.guildwars2.com/file/2D1AE5B60CDBBC50075CA20EE6191EC4707DBF44/849310.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11986
+    }
+  },
+  {
+    "name": "Refined Envoy Mask",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7099,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80634,
+    "chat_link": "[&AgH6OgEA]",
+    "icon": "https://render.guildwars2.com/file/65DC63CC1BC4B8E898800102C372F8ACD85421FA/1634595.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Refined Envoy Vambraces",
+    "description": "A recipe to make Refined Envoy Vambraces.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 165,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80636,
+    "chat_link": "[&AgH8OgEA]",
+    "icon": "https://render.guildwars2.com/file/EEC8F3F85DA3B3920C4ADAD9D81DBCA62711FFE5/849280.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11910
+    }
+  },
+  {
+    "name": "Thackeray's Leggings",
+    "description": "<c=@flavor>Crafted in the style of the Seraph commander, Logan Thackeray.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 112,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80637,
+    "chat_link": "[&AgH9OgEA]",
+    "icon": "https://render.guildwars2.com/file/0D284759AF7E3E9454210A3E7DECF0000B7E5D7F/699203.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 229,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 1222,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 81
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 44
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 81
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 44
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Healer's Gauntlets of the Obedient",
+    "description": "<c=@flavor>Dedicated to the Unseen.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7121,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80639,
+    "chat_link": "[&AgH/OgEA]",
+    "icon": "https://render.guildwars2.com/file/5AD8950A1EB9423D03BB40FDE7DFBE4879BC9C75/1634561.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Schooner",
+    "description": "Unlocks all recipes needed to craft Schooner.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80640,
+    "chat_link": "[&AgEAOwEA]",
+    "icon": "https://render.guildwars2.com/file/B2185DEB0847396E0902B24A03A8CA36589F46A1/849300.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11955,
+      "extra_recipe_ids": [
+        11926,
+        11851,
+        11847,
+        11854,
+        11849,
+        11852,
+        11867,
+        11850,
+        10442,
+        11987
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Harpoon Gun",
+    "description": "A recipe to make an ascended harpoon gun with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80642,
+    "chat_link": "[&AgECOwEA]",
+    "icon": "https://render.guildwars2.com/file/0B34A40EC8F5585EABD807015FFAB1084D1E6B01/849312.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11979
+    }
+  },
+  {
+    "name": "Bundle of Jade Shards",
+    "description": "Can be consumed for unbound magic or traded with Quartermaster Hitchens.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80646,
+    "chat_link": "[&AgEGOwEA]",
+    "icon": "https://render.guildwars2.com/file/B3D1DB6458480968B2FC0C0115476EC892CD0555/1633883.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Assaulter's Indomitable Gladius",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7125,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80647,
+    "chat_link": "[&AgEHOwEA]",
+    "icon": "https://render.guildwars2.com/file/A47C155CBEAAEF3FA85F410F7E607E4048F496EE/1634209.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Refined Envoy Breastplate",
+    "description": "<c=@flavor>This armor attempts to channel the power of the envoys.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7075,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80648,
+    "chat_link": "[&AgEIOwEA]",
+    "icon": "https://render.guildwars2.com/file/2AA96D63CFBA41DD5FE805D94A073BB22E7EBC57/1634569.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 381,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Devoted Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 80649,
+    "chat_link": "[&AgEJOwEA]",
+    "icon": "https://render.guildwars2.com/file/484FB8226B47087E9DEB5C1A36989ADD6A4004E8/1634101.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        7159
+      ]
+    }
+  },
+  {
+    "name": "Gift of Divinity",
+    "description": "Used to craft the legendary rifle the HMS Divinity.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 80650,
+    "chat_link": "[&AgEKOwEA]",
+    "icon": "https://render.guildwars2.com/file/A927497D0A7AA3A643C8BABD4820D50D370C135A/1633956.png"
+  },
+  {
+    "name": "Recipe: Thackeray's Boots",
+    "description": "A recipe to make ascended medium boots with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80652,
+    "chat_link": "[&AgEMOwEA]",
+    "icon": "https://render.guildwars2.com/file/3153B6543A4502614239094397322C4EEA0FAA48/849295.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12013
+    }
+  },
+  {
+    "name": "Recipe: Seraph Pearl Speargun",
+    "description": "A recipe to make a Seraph Pearl Speargun",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80653,
+    "chat_link": "[&AgENOwEA]",
+    "icon": "https://render.guildwars2.com/file/4DC06DB73F095613CB6CB2D5E007C3AF1634990F/849284.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11941
+    }
+  },
+  {
+    "name": "Recipe: Thackeray's Bugle",
+    "description": "A recipe to make an ascended warhorn with Seraph (+Condition Damage, +Precision, +Concentration, and +Healing Power) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80655,
+    "chat_link": "[&AgEPOwEA]",
+    "icon": "https://render.guildwars2.com/file/98B83AED2BFA9B24D46797DC95E0A0112D6C3D64/849338.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11948
+    }
+  },
+  {
+    "name": "Recipe: Seraph Draconic Legs",
+    "description": "A recipe to make Seraph Draconic Legs.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 80656,
+    "chat_link": "[&AgEQOwEA]",
+    "icon": "https://render.guildwars2.com/file/2D1AE5B60CDBBC50075CA20EE6191EC4707DBF44/849310.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11962
+    }
+  }
+]
