@@ -53,14 +53,14 @@ namespace GatheringTools
             _reminderDisplayDurationInSecondsSetting = settings.DefineSetting(
                 "display duration (logout overlay)",
                 DisplayDuration.Seconds3,
-                () => "reminder display duration", 
-                () => "The reminder will disappear automatically after this time has expired"); 
+                () => "reminder display duration",
+                () => "The reminder will disappear automatically after this time has expired");
 
             _reminderWindowSizeSetting = settings.DefineSetting(
                 "window size (logout overlay)",
                 34,
-                () => "reminder size", 
-                () => "Change reminder window size to fit to the size of the logout dialog with your current screen settings");  
+                () => "reminder size",
+                () => "Change reminder window size to fit to the size of the logout dialog with your current screen settings");
             _reminderWindowSizeSetting.SetRange(1, 100);
 
             _reminderTextFontSizeIndexSetting = FontService.CreateFontSizeIndexSetting(settings);
@@ -139,7 +139,7 @@ namespace GatheringTools
             _enterKeyBinding           =  new KeyBinding(Keys.Enter);
             _enterKeyBinding.Activated += OnEnterKeyBindingActivated;
             _enterKeyBinding.Enabled   =  true;
-            
+
             _logoutKeyBindingSetting.Value.Activated += OnLogoutKeyBindingActivated;
             _logoutKeyBindingSetting.Value.Enabled   =  true;
         }
@@ -179,20 +179,20 @@ namespace GatheringTools
             {
                 _runningTime += gameTime.ElapsedGameTime.TotalMilliseconds;
 
-                if (_runningTime > 1000 * (int) _reminderDisplayDurationInSecondsSetting.Value)
+                if (_runningTime > 1000 * (int)_reminderDisplayDurationInSecondsSetting.Value)
                     HideReminderAndResetRunningTime();
             }
         }
 
         protected override void Unload()
         {
-            GameService.Graphics.SpriteScreen.Resized    -= OnSpriteScreenResized;
-            _escKeyBinding.Activated                     -= OnEscKeyBindingActivated;
-            _logoutKeyBindingSetting.Value.Activated     -= OnLogoutKeyBindingActivated;
-            
+            GameService.Graphics.SpriteScreen.Resized -= OnSpriteScreenResized;
+            _escKeyBinding.Activated                  -= OnEscKeyBindingActivated;
+            _logoutKeyBindingSetting.Value.Activated  -= OnLogoutKeyBindingActivated;
+
             _windowBackgroundTexture?.Dispose();
             _sickleTexture?.Dispose();
-            
+
             _toolSearchStandardWindow?.Dispose();
             _reminderContainer?.Dispose();
             _cornerIconService?.RemoveCornerIcon();
@@ -211,7 +211,7 @@ namespace GatheringTools
             if (_reminderContainer.Visible == false)
                 return;
 
-            if(_escIsHidingReminderSetting.Value)
+            if (_escIsHidingReminderSetting.Value)
                 HideReminderAndResetRunningTime();
         }
 
