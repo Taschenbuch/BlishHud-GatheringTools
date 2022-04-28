@@ -8,14 +8,22 @@ namespace GatheringTools.ToolSearch
 {
     public class GatheringToolsService
     {
-        public static async Task<List<CharacterAndTools>> GetCharactersAndTools(Gw2ApiManager gw2ApiManager)
+        public static async Task<List<CharacterAndTools>> GetCharactersAndTools(List<GatheringTool> allGatheringTools, Gw2ApiManager gw2ApiManager)
         {
             var charactersResponse = await gw2ApiManager.Gw2ApiClient.V2.Characters.AllAsync();
             var charactersAndTools = new List<CharacterAndTools>();
 
             foreach (var characterResponse in charactersResponse)
             {
-                var gatheringTools = GetGatheringToolsWithIdAndType(characterResponse.Equipment).ToList();
+                var gatheringToolIds = GetEquippedGatheringToolIds(characterResponse.Equipment).ToList();
+                var gatheringTools   = new List<GatheringTool>();
+
+                foreach (var gatheringToolId in gatheringToolIds)
+                {
+                    var matchingGatheringTool = allGatheringTools.SingleOrDefault(a => a.Id == gatheringToolId);
+                    var gatheringTool         = matchingGatheringTool ?? CreateUnknownGatheringTool(gatheringToolId);
+                    gatheringTools.Add(gatheringTool);
+                }
 
                 var characterAndTools = new CharacterAndTools();
                 characterAndTools.CharacterName = characterResponse.Name;
@@ -24,45 +32,55 @@ namespace GatheringTools.ToolSearch
                 charactersAndTools.Add(characterAndTools);
             }
 
-            await UpdateGatheringToolsNameEtc(charactersAndTools, gw2ApiManager);
+            await UpdateUnknownGatheringTools(charactersAndTools, gw2ApiManager);
 
             return charactersAndTools;
         }
 
-        private static IEnumerable<GatheringTool> GetGatheringToolsWithIdAndType(IReadOnlyList<CharacterEquipmentItem> equipmentItems)
+        private static GatheringTool CreateUnknownGatheringTool(int gatheringToolId)
+        {
+            return new GatheringTool
+            {
+                Id = gatheringToolId, 
+                Name = UNKNOWN_GATHERING_TOOL_NAME
+            };
+        }
+
+        private static IEnumerable<int> GetEquippedGatheringToolIds(IReadOnlyList<CharacterEquipmentItem> equipmentItems)
         {
             foreach (var equipmentItem in equipmentItems ?? new List<CharacterEquipmentItem>())
-            {
                 switch (equipmentItem.Slot.Value)
                 {
                     case ItemEquipmentSlotType.Sickle:
                     case ItemEquipmentSlotType.Axe:
                     case ItemEquipmentSlotType.Pick:
-                        yield return new GatheringTool
-                        {
-                            Id   = equipmentItem.Id,
-                            Type = equipmentItem.Slot.Value
-                        };
+                        yield return equipmentItem.Id;
                         break;
                 }
-            }
         }
 
-        private static async Task UpdateGatheringToolsNameEtc(List<CharacterAndTools> characterAndTools, Gw2ApiManager gw2ApiManager)
+        private static async Task UpdateUnknownGatheringTools(List<CharacterAndTools> characterAndTools, Gw2ApiManager gw2ApiManager)
         {
-            var gatheringToolIds = characterAndTools.SelectMany(c => c.GatheringTools)
-                                                    .Select(g => g.Id)
-                                                    .Distinct();
+            var unknownGatheringToolIds = characterAndTools.SelectMany(c => c.GatheringTools)
+                                                           .Where(g => g.Name == UNKNOWN_GATHERING_TOOL_NAME)
+                                                           .Select(g => g.Id)
+                                                           .Distinct()
+                                                           .ToList();
 
-            var gatheringToolItems = await gw2ApiManager.Gw2ApiClient.V2.Items.ManyAsync(gatheringToolIds);
+            if (unknownGatheringToolIds.Any() == false)
+                return;
 
-            foreach (var gatheringTool in characterAndTools.SelectMany(c => c.GatheringTools))
+            var gatheringToolItems = await gw2ApiManager.Gw2ApiClient.V2.Items.ManyAsync(unknownGatheringToolIds);
+
+            foreach (var unknownGatheringTool in characterAndTools.SelectMany(c => c.GatheringTools).Where(g => g.Name == UNKNOWN_GATHERING_TOOL_NAME))
             {
-                var matchingGatheringToolItem = gatheringToolItems.First(i => i.Id == gatheringTool.Id);
-                gatheringTool.Name        = matchingGatheringToolItem.Name;
-                gatheringTool.IconUrl     = matchingGatheringToolItem.Icon.Url.ToString();
-                gatheringTool.IsUnlimited = matchingGatheringToolItem.Rarity == ItemRarity.Rare;
+                var matchingGatheringToolItem = gatheringToolItems.Single(i => i.Id == unknownGatheringTool.Id);
+                unknownGatheringTool.Name        = matchingGatheringToolItem.Name;
+                unknownGatheringTool.IconUrl     = matchingGatheringToolItem.Icon.Url.ToString();
+                unknownGatheringTool.IsUnlimited = matchingGatheringToolItem.Rarity == ItemRarity.Rare;
             }
         }
+
+        private const string UNKNOWN_GATHERING_TOOL_NAME = "???";
     }
 }

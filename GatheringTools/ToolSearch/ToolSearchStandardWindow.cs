@@ -7,7 +7,6 @@ using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules.Managers;
 using Blish_HUD.Settings;
-using Gw2Sharp.WebApi.Exceptions;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Color = Microsoft.Xna.Framework.Color;
@@ -18,12 +17,14 @@ namespace GatheringTools.ToolSearch
     {
         public ToolSearchStandardWindow(SettingEntry<bool> showOnlyUnlimitedToolsSetting,
                                         Texture2D windowBackgroundTexture,
+                                        List<GatheringTool> allGatheringTools,
                                         Gw2ApiManager gw2ApiManager,
                                         Logger logger)
             : base(windowBackgroundTexture, new Rectangle(10, 30, 235, 610), new Rectangle(30, 30, 230, 600))
         {
-            _gw2ApiManager                 = gw2ApiManager;
-            _logger                        = logger;
+            _allGatheringTools = allGatheringTools;
+            _gw2ApiManager     = gw2ApiManager;
+            _logger            = logger;
 
             _infoLabel = new Label()
             {
@@ -99,7 +100,7 @@ namespace GatheringTools.ToolSearch
             _infoLabel.Text = "Getting API data...";
             _loadingSpinner.Show();
 
-            var charactersAndTools = await GetToolsFromApi();
+            var charactersAndTools = await GetToolsFromApi(_allGatheringTools, _gw2ApiManager);
 
             _infoLabel.Text = string.Empty;
             _loadingSpinner.Hide();
@@ -118,11 +119,11 @@ namespace GatheringTools.ToolSearch
                 _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
         }
 
-        private async Task<List<CharacterAndTools>> GetToolsFromApi()
+        private async Task<List<CharacterAndTools>> GetToolsFromApi(List<GatheringTool> allGatheringTools, Gw2ApiManager gw2ApiManager)
         {
             _apiAccessFailed = false;
 
-            if (_gw2ApiManager.HasPermissions(_gw2ApiManager.Permissions) == false)
+            if (gw2ApiManager.HasPermissions(gw2ApiManager.Permissions) == false)
             {
                 _apiAccessFailed = true;
                 return new List<CharacterAndTools>();
@@ -130,7 +131,7 @@ namespace GatheringTools.ToolSearch
 
             try
             {
-                return await GatheringToolsService.GetCharactersAndTools(_gw2ApiManager);
+                return await GatheringToolsService.GetCharactersAndTools(allGatheringTools, gw2ApiManager);
             }
             catch (Exception e)
             {
@@ -165,6 +166,7 @@ namespace GatheringTools.ToolSearch
             }
         }
 
+        private readonly List<GatheringTool> _allGatheringTools;
         private readonly Gw2ApiManager _gw2ApiManager;
         private readonly Logger _logger;
         private readonly Label _infoLabel;

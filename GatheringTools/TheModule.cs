@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.Composition;
+using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Input;
@@ -105,20 +107,6 @@ namespace GatheringTools
 
         protected override void Initialize()
         {
-            _windowBackgroundTexture = ContentsManager.GetTexture("155985.png");
-            _sickleTexture           = ContentsManager.GetTexture("sickle.png");
-
-            _toolSearchStandardWindow = new ToolSearchStandardWindow(_showOnlyUnlimitedToolsSetting, _windowBackgroundTexture, Gw2ApiManager, Logger)
-            {
-                Emblem           = _sickleTexture, // hack: has to be first to prevent bug of emblem not being visible
-                Title            = "Tools",
-                BasicTooltipText = "Shows which character has gathering tools equipped.",
-                Location         = new Point(300, 300),
-                SavesPosition    = true,
-                Id               = "tool search window 6f48189f-0a38-4fad-bc6a-10d323e7f1c4",
-                Parent           = GameService.Graphics.SpriteScreen,
-            };
-
             _reminderContainer = new ReminderContainer(ContentsManager);
             _reminderContainer.UpdateReminderText(_reminderTextSetting.Value);
             _reminderContainer.UpdateReminderTextFontSize(_reminderTextFontSizeIndexSetting.Value);
@@ -154,6 +142,27 @@ namespace GatheringTools
             
             _logoutKeyBindingSetting.Value.Activated += OnLogoutKeyBindingActivated;
             _logoutKeyBindingSetting.Value.Enabled   =  true;
+        }
+
+        protected override async Task LoadAsync()
+        {
+            var allGatheringTools = await FileService.GetAllGatheringToolsFromFile(ContentsManager, Logger);
+            _allGatheringTools.AddRange(allGatheringTools);
+
+            _windowBackgroundTexture = ContentsManager.GetTexture("155985.png");
+            _sickleTexture           = ContentsManager.GetTexture("sickle.png");
+
+            _toolSearchStandardWindow = new ToolSearchStandardWindow(
+                _showOnlyUnlimitedToolsSetting, _windowBackgroundTexture, _allGatheringTools, Gw2ApiManager, Logger)
+            {
+                Emblem           = _sickleTexture, // hack: has to be first to prevent bug of emblem not being visible
+                Title            = "Tools",
+                BasicTooltipText = "Shows which character has gathering tools equipped.",
+                Location         = new Point(300, 300),
+                SavesPosition    = true,
+                Id               = "tool search window 6f48189f-0a38-4fad-bc6a-10d323e7f1c4",
+                Parent           = GameService.Graphics.SpriteScreen,
+            };
 
             _toolSearchKeyBindingSetting.Value.Activated += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
             _toolSearchKeyBindingSetting.Value.Enabled   =  true;
@@ -258,5 +267,6 @@ namespace GatheringTools
         private Texture2D _sickleTexture;
         private Texture2D _windowBackgroundTexture;
         private CornerIconService _cornerIconService;
+        private readonly List<GatheringTool> _allGatheringTools = new List<GatheringTool>();
     }
 }
