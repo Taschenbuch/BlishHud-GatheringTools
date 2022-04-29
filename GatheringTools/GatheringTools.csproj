@@ -64,6 +64,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\SettingsService.cs" />
     <Compile Include="ToolSearch\Model\AccountTools.cs" />
     <Compile Include="ToolSearch\Model\CharacterTools.cs" />
     <Compile Include="ToolSearch\Services\TextureService.cs" />
