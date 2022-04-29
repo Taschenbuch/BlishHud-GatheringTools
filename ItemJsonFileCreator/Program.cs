@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using GatheringTools.ToolSearch;
+using GatheringTools.ToolSearch.Model;
 using Gw2Sharp.WebApi.V2.Models;
 using ItemJsonFileCreator.Model;
 using Newtonsoft.Json;

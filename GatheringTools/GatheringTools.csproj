@@ -64,17 +64,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ToolSearch\CharacterAndTools.cs" />
-    <Compile Include="ToolSearch\CornerIconService.cs" />
-    <Compile Include="ToolSearch\FileService.cs" />
-    <Compile Include="ToolSearch\GatheringToolsService.cs" />
-    <Compile Include="ToolSearch\CharacterAndToolsFlowPanel.cs" />
+    <Compile Include="ToolSearch\Model\AccountTools.cs" />
+    <Compile Include="ToolSearch\Model\CharacterTools.cs" />
+    <Compile Include="ToolSearch\Services\TextureService.cs" />
+    <Compile Include="ToolSearch\Services\CornerIconService.cs" />
+    <Compile Include="ToolSearch\Services\FileService.cs" />
+    <Compile Include="ToolSearch\Services\FilterGatheringToolsService.cs" />
+    <Compile Include="ToolSearch\Services\GatheringToolsService.cs" />
+    <Compile Include="ToolSearch\Controls\HeaderWithToolsFlowPanel.cs" />
     <Compile Include="LogoutOverlay\DisplayDuration.cs" />
     <Compile Include="LogoutOverlay\FontService.cs" />
-    <Compile Include="ToolSearch\GatheringTool.cs" />
+    <Compile Include="ToolSearch\Model\GatheringTool.cs" />
     <Compile Include="TheModule.cs" />
     <Compile Include="LogoutOverlay\ReminderContainer.cs" />
-    <Compile Include="ToolSearch\ToolSearchStandardWindow.cs" />
+    <Compile Include="ToolSearch\Services\UnknownGatheringToolsService.cs" />
+    <Compile Include="ToolSearch\Controls\ToolSearchStandardWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="AsyncClipboardService, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">

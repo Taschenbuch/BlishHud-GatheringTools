@@ -7,21 +7,23 @@ using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules.Managers;
 using Blish_HUD.Settings;
+using GatheringTools.ToolSearch.Model;
+using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Color = Microsoft.Xna.Framework.Color;
 
-namespace GatheringTools.ToolSearch
+namespace GatheringTools.ToolSearch.Controls
 {
     public class ToolSearchStandardWindow : StandardWindow
     {
-        public ToolSearchStandardWindow(SettingEntry<bool> showOnlyUnlimitedToolsSetting,
-                                        Texture2D windowBackgroundTexture,
+        public ToolSearchStandardWindow(TextureService textureService,
+                                        SettingEntry<bool> showOnlyUnlimitedToolsSetting,
                                         List<GatheringTool> allGatheringTools,
                                         Gw2ApiManager gw2ApiManager,
                                         Logger logger)
-            : base(windowBackgroundTexture, new Rectangle(10, 30, 235, 610), new Rectangle(30, 30, 230, 600))
+            : base(textureService.WindowBackgroundTexture, new Rectangle(10, 30, 235, 610), new Rectangle(30, 30, 230, 600))
         {
+            _textureService    = textureService;
             _allGatheringTools = allGatheringTools;
             _gw2ApiManager     = gw2ApiManager;
             _logger            = logger;
@@ -31,7 +33,7 @@ namespace GatheringTools.ToolSearch
                 Location       = new Point(0, 30),
                 TextColor      = Color.White,
                 ShowShadow     = true,
-                Size           = new Point(200, 0),
+                Size           = new Point(MAX_CONTENT_WIDTH, 0),
                 AutoSizeHeight = true,
                 ClipsBounds    = false,
                 WrapText       = true,
@@ -52,16 +54,16 @@ namespace GatheringTools.ToolSearch
                 Parent           = this,
             };
 
-            _showOnlyUnlimitedToolsCheckbox.CheckedChanged += async (s, e) => 
+            _showOnlyUnlimitedToolsCheckbox.CheckedChanged += async (s, e) =>
             {
                 showOnlyUnlimitedToolsSetting.Value = e.Checked;
                 await ShowWindowAndUpdateToolsInUi();
             };
 
-            _charactersFlowPanel = new FlowPanel()
+            _rootFlowPanel = new FlowPanel()
             {
                 Location      = new Point(0, 30),
-                Size          = new Point(200, 500),
+                Size          = new Point(MAX_CONTENT_WIDTH, 500),
                 FlowDirection = ControlFlowDirection.SingleTopToBottom,
                 CanScroll     = true,
                 Parent        = this,
@@ -96,11 +98,11 @@ namespace GatheringTools.ToolSearch
 
         private async Task UpdateToolsInUiFromApi()
         {
-            _charactersFlowPanel.ClearChildren();
+            _rootFlowPanel.ClearChildren();
             _infoLabel.Text = "Getting API data...";
             _loadingSpinner.Show();
 
-            var charactersAndTools = await GetToolsFromApi(_allGatheringTools, _gw2ApiManager);
+            var accountTools = await GetToolsFromApi(_allGatheringTools, _gw2ApiManager);
 
             _infoLabel.Text = string.Empty;
             _loadingSpinner.Hide();
@@ -111,66 +113,112 @@ namespace GatheringTools.ToolSearch
                 return;
             }
 
-            var filteredCharactersAndTools = FilterCharacters(charactersAndTools, _showOnlyUnlimitedToolsCheckbox.Checked);
+            FilterGatheringToolsService.FilterTools(accountTools, _showOnlyUnlimitedToolsCheckbox.Checked);
 
-            if (filteredCharactersAndTools.Any())
-                ShowToolsInUi(filteredCharactersAndTools);
+            if (accountTools.HasTools())
+                ShowToolsInUi(accountTools, _textureService);
             else
                 _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
         }
 
-        private async Task<List<CharacterAndTools>> GetToolsFromApi(List<GatheringTool> allGatheringTools, Gw2ApiManager gw2ApiManager)
+        private async Task<AccountTools> GetToolsFromApi(List<GatheringTool> allGatheringTools, Gw2ApiManager gw2ApiManager)
         {
             _apiAccessFailed = false;
 
             if (gw2ApiManager.HasPermissions(gw2ApiManager.Permissions) == false)
             {
                 _apiAccessFailed = true;
-                return new List<CharacterAndTools>();
+                return new AccountTools();
             }
 
             try
             {
-                return await GatheringToolsService.GetCharactersAndTools(allGatheringTools, gw2ApiManager);
+                // Task.run because not just await but also a lot of cpu-bound look ups
+                return await Task.Run(() => GatheringToolsService.GetToolsOnAccount(allGatheringTools, gw2ApiManager));
             }
             catch (Exception e)
             {
                 _apiAccessFailed = true;
                 _logger.Error(e, "Could not get gathering tools from API");
-                return new List<CharacterAndTools>();
+                return new AccountTools();
             }
         }
 
-        private static List<CharacterAndTools> FilterCharacters(List<CharacterAndTools> charactersAndTools, bool showOnlyUnlimitedTools)
+        private void ShowToolsInUi(AccountTools accountTools, TextureService textureService)
         {
-            var filteredCharactersAndTools = charactersAndTools.Where(c => c.HasTools()).ToList();
-
-            if (showOnlyUnlimitedTools)
-                filteredCharactersAndTools = filteredCharactersAndTools.Where(c => c.HasUnlimitedTools()).ToList();
-
-            return filteredCharactersAndTools;
-        }
-
-        private void ShowToolsInUi(List<CharacterAndTools> charactersAndTools)
-        {
-            foreach (var characterAndTools in charactersAndTools)
+            if (accountTools.BankGatheringTools.Any())
             {
-                var characterAndToolsFlowPanel = new CharacterAndToolsFlowPanel(characterAndTools, _showOnlyUnlimitedToolsCheckbox.Checked, _logger)
+                var bankToolsFlowPanel = new HeaderWithToolsFlowPanel(
+                    "Bank", _textureService.BankTexture, accountTools.BankGatheringTools, _logger)
+                {
+                    ShowBorder = true,
+                    Parent     = _rootFlowPanel
+                };
+            }
+
+            if (accountTools.SharedInventoryGatheringTools.Any())
+            {
+                var sharedInventoryFlowPanel = new HeaderWithToolsFlowPanel(
+                    "Shared inventory", _textureService.SharedInventoryTexture, accountTools.SharedInventoryGatheringTools, _logger)
+                {
+                    ShowBorder = true,
+                    Parent     = _rootFlowPanel
+                };
+            }
+
+            foreach (var character in accountTools.Characters)
+            {
+                if (character.HasTools() == false)
+                    continue;
+
+                var characterFlowPanel = new FlowPanel()
                 {
                     FlowDirection    = ControlFlowDirection.SingleTopToBottom,
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
                     ShowBorder       = true,
-                    Parent           = _charactersFlowPanel
+                    Parent           = _rootFlowPanel
                 };
+
+                var headerLabel = new Label
+                {
+                    Text             = character.CharacterName,
+                    BasicTooltipText = character.CharacterName,
+                    Font             = GameService.Content.DefaultFont18,
+                    ShowShadow       = true,
+                    Size             = new Point(MAX_CONTENT_WIDTH - 30, 0),
+                    AutoSizeHeight   = true,
+                    Parent           = characterFlowPanel
+                };
+
+                if (character.EquippedGatheringTools.Any())
+                {
+                    var equippedFlowPanel = new HeaderWithToolsFlowPanel(
+                        $"{character.CharacterName}'s equipped tools", _textureService.EquipmentTexture, character.EquippedGatheringTools, _logger)
+                    {
+                        ShowBorder = false,
+                        Parent     = characterFlowPanel
+                    };
+                }
+
+                if (character.InventoryGatheringTools.Any())
+                {
+                    var inventoryFlowPanel2 = new HeaderWithToolsFlowPanel(
+                        $"{character.CharacterName}'s inventory", _textureService.CharacterInventoryTexture, character.InventoryGatheringTools, _logger)
+                    {
+                        ShowBorder = false,
+                        Parent     = characterFlowPanel
+                    };
+                }
             }
         }
 
+        private readonly TextureService _textureService;
         private readonly List<GatheringTool> _allGatheringTools;
         private readonly Gw2ApiManager _gw2ApiManager;
         private readonly Logger _logger;
         private readonly Label _infoLabel;
-        private readonly FlowPanel _charactersFlowPanel;
+        private readonly FlowPanel _rootFlowPanel;
         private readonly LoadingSpinner _loadingSpinner;
         private readonly Checkbox _showOnlyUnlimitedToolsCheckbox;
         private readonly SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(1);
@@ -182,5 +230,7 @@ namespace GatheringTools.ToolSearch
                                                      "- API key is missing in Blish. Add API key to Blish.\n" +
                                                      "- API key exists but is missing permissions. Add API key with necessary permissions to Blish.\n" +
                                                      "- API is down or has issues or something else went wrong. Check Blish log file.";
+
+        private const int MAX_CONTENT_WIDTH = 200;
     }
 }

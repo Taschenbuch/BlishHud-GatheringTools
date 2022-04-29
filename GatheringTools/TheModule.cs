@@ -10,8 +10,10 @@ using Blish_HUD.Modules.Managers;
 using Blish_HUD.Settings;
 using GatheringTools.LogoutOverlay;
 using GatheringTools.ToolSearch;
+using GatheringTools.ToolSearch.Controls;
+using GatheringTools.ToolSearch.Model;
+using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 namespace GatheringTools
@@ -105,9 +107,11 @@ namespace GatheringTools
                 () => "show only unlimited tools in the tool search window.");
         }
 
-        protected override void Initialize()
+        protected override async Task LoadAsync()
         {
-            _reminderContainer = new ReminderContainer(ContentsManager);
+            _textureService = new TextureService(ContentsManager);
+
+            _reminderContainer = new ReminderContainer(_textureService);
             _reminderContainer.UpdateReminderText(_reminderTextSetting.Value);
             _reminderContainer.UpdateReminderTextFontSize(_reminderTextFontSizeIndexSetting.Value);
             _reminderContainer.UpdateContainerSizeAndMoveAboveLogoutDialog(_reminderWindowSizeSetting.Value);
@@ -142,20 +146,13 @@ namespace GatheringTools
 
             _logoutKeyBindingSetting.Value.Activated += OnLogoutKeyBindingActivated;
             _logoutKeyBindingSetting.Value.Enabled   =  true;
-        }
 
-        protected override async Task LoadAsync()
-        {
             var allGatheringTools = await FileService.GetAllGatheringToolsFromFile(ContentsManager, Logger);
             _allGatheringTools.AddRange(allGatheringTools);
 
-            _windowBackgroundTexture = ContentsManager.GetTexture("155985.png");
-            _sickleTexture           = ContentsManager.GetTexture("sickle.png");
-
-            _toolSearchStandardWindow = new ToolSearchStandardWindow(
-                _showOnlyUnlimitedToolsSetting, _windowBackgroundTexture, _allGatheringTools, Gw2ApiManager, Logger)
+            _toolSearchStandardWindow = new ToolSearchStandardWindow(_textureService, _showOnlyUnlimitedToolsSetting, _allGatheringTools, Gw2ApiManager, Logger)
             {
-                Emblem           = _sickleTexture, // hack: has to be first to prevent bug of emblem not being visible
+                Emblem           = _textureService.SickleTexture, // hack: has to be first to prevent bug of emblem not being visible
                 Title            = "Tools",
                 BasicTooltipText = "Shows which character has gathering tools equipped.",
                 Location         = new Point(300, 300),
@@ -167,7 +164,7 @@ namespace GatheringTools
             _toolSearchKeyBindingSetting.Value.Activated += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
             _toolSearchKeyBindingSetting.Value.Enabled   =  true;
 
-            _cornerIconService = new CornerIconService(_showToolSearchCornerIconSetting, _toolSearchStandardWindow, _sickleTexture);
+            _cornerIconService = new CornerIconService(_showToolSearchCornerIconSetting, _toolSearchStandardWindow, _textureService.SickleTexture);
         }
 
         protected override void Update(GameTime gameTime)
@@ -190,8 +187,7 @@ namespace GatheringTools
             _escKeyBinding.Activated                  -= OnEscKeyBindingActivated;
             _logoutKeyBindingSetting.Value.Activated  -= OnLogoutKeyBindingActivated;
 
-            _windowBackgroundTexture?.Dispose();
-            _sickleTexture?.Dispose();
+            _textureService?.Dispose();
 
             _toolSearchStandardWindow?.Dispose();
             _reminderContainer?.Dispose();
@@ -264,8 +260,7 @@ namespace GatheringTools
         private SettingCollection _internalSettingSubCollection;
         private KeyBinding _escKeyBinding;
         private KeyBinding _enterKeyBinding;
-        private Texture2D _sickleTexture;
-        private Texture2D _windowBackgroundTexture;
+        private TextureService _textureService;
         private CornerIconService _cornerIconService;
         private readonly List<GatheringTool> _allGatheringTools = new List<GatheringTool>();
     }

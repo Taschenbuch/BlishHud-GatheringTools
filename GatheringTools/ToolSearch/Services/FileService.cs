@@ -4,9 +4,10 @@ using System.IO;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Modules.Managers;
+using GatheringTools.ToolSearch.Model;
 using Newtonsoft.Json;
 
-namespace GatheringTools.ToolSearch
+namespace GatheringTools.ToolSearch.Services
 {
     public class FileService
     {
@@ -14,7 +15,7 @@ namespace GatheringTools.ToolSearch
         {
             try
             {
-                using (var fileStream = contentsManager.GetFileStream("gatheringTools.json"))
+                using (var fileStream = contentsManager.GetFileStream(@"toolSearch\gatheringTools.json"))
                 using (var streamReader = new StreamReader(fileStream))
                 {
                     var json = await streamReader.ReadToEndAsync();
@@ -23,7 +24,7 @@ namespace GatheringTools.ToolSearch
             }
             catch (Exception e)
             {
-                logger.Error(e, "Failed to read ref/gatheringTools.json. :(");
+                logger.Error(e, @"Failed to read ref\toolSearch\gatheringTools.json. :(");
                 return new List<GatheringTool>();
             }
         }

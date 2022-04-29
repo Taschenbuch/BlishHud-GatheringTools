@@ -1,6 +1,6 @@
 ﻿using Gw2Sharp.WebApi.V2.Models;
 
-namespace GatheringTools.ToolSearch
+namespace GatheringTools.ToolSearch.Model
 {
     public class GatheringTool
     {

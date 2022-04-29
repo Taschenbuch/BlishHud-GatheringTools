@@ -1,9 +1,10 @@
 ﻿using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Settings;
+using GatheringTools.ToolSearch.Controls;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace GatheringTools.ToolSearch
+namespace GatheringTools.ToolSearch.Services
 {
     public class CornerIconService
     {

@@ -1,6 +1,6 @@
 ﻿using Blish_HUD;
 using Blish_HUD.Controls;
-using Blish_HUD.Modules.Managers;
+using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -8,22 +8,17 @@ namespace GatheringTools.LogoutOverlay
 {
     public class ReminderContainer : Container
     {
-        public ReminderContainer(ContentsManager contentsManager)
+        public ReminderContainer(TextureService textureService)
         {
             Parent = GameService.Graphics.SpriteScreen;
 
-            _reminderBackgroundTexture = contentsManager.GetTexture("logoutDialogTextArea.png");
-            _tool1Texture              = contentsManager.GetTexture("1998933.png");
-            _tool2Texture              = contentsManager.GetTexture("1998934.png");
-            _tool3Texture              = contentsManager.GetTexture("1998935.png");
+            _reminderBackgroundImage = new Image(textureService.ReminderBackgroundTexture) { Parent = this, Size = Size };
 
-            _reminderBackgroundImage = new Image(_reminderBackgroundTexture) { Parent = this, Size = Size };
+            _tool1Image = new Image(textureService.Tool1Texture) { Parent = this, ClipsBounds = false };
+            _tool2Image = new Image(textureService.Tool2Texture) { Parent = this, ClipsBounds = false };
+            _tool3Image = new Image(textureService.Tool3Texture) { Parent = this, ClipsBounds = false };
 
-            _tool1Image = new Image(_tool1Texture) { Parent = this, ClipsBounds = false };
-            _tool2Image = new Image(_tool2Texture) { Parent = this, ClipsBounds = false };
-            _tool3Image = new Image(_tool3Texture) { Parent = this, ClipsBounds = false };
-
-            _reminderTextLabel = new Label() 
+            _reminderTextLabel = new Label()
             {
                 TextColor      = Color.Red,
                 ShowShadow     = true,
@@ -34,16 +29,6 @@ namespace GatheringTools.LogoutOverlay
             };
 
             Resized += (s, e) => _reminderBackgroundImage.Size = Size;
-        }
-
-        protected override void DisposeControl()
-        {
-            _tool1Texture?.Dispose();
-            _tool3Texture?.Dispose();
-            _tool2Texture?.Dispose();
-            _reminderBackgroundTexture?.Dispose();
-
-            base.DisposeControl();
         }
 
         public void MoveAboveLogoutDialog()
@@ -109,10 +94,6 @@ namespace GatheringTools.LogoutOverlay
 
         private const float RELATIVE_Y_OFFSET_FROM_SCREEN_CENTER = 0.005f;
         private readonly Image _reminderBackgroundImage;
-        private readonly Texture2D _reminderBackgroundTexture;
-        private readonly Texture2D _tool1Texture;
-        private readonly Texture2D _tool2Texture;
-        private readonly Texture2D _tool3Texture;
         private readonly Label _reminderTextLabel;
         private readonly Image _tool1Image;
         private readonly Image _tool2Image;
