@@ -102,12 +102,13 @@ namespace GatheringTools.ToolSearch.Controls
             _infoLabel.Text = "Getting API data...";
             _loadingSpinner.Show();
 
-            var accountTools = await GetToolsFromApi(_allGatheringTools, _gw2ApiManager);
+            var (accountTools, apiAccessFailed) = await FindGatheringToolsService.GetToolsFromApi(_allGatheringTools, _gw2ApiManager, _logger);
+
 
             _infoLabel.Text = string.Empty;
             _loadingSpinner.Hide();
 
-            if (_apiAccessFailed)
+            if (apiAccessFailed)
             {
                 _infoLabel.Text = API_KEY_ERROR_MESSAGE;
                 return;
@@ -116,53 +117,32 @@ namespace GatheringTools.ToolSearch.Controls
             FilterGatheringToolsService.FilterTools(accountTools, _showOnlyUnlimitedToolsCheckbox.Checked);
 
             if (accountTools.HasTools())
-                ShowToolsInUi(accountTools, _textureService);
+                ShowToolsInUi(accountTools, _rootFlowPanel, _textureService, _logger);
             else
                 _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
         }
 
-        private async Task<AccountTools> GetToolsFromApi(List<GatheringTool> allGatheringTools, Gw2ApiManager gw2ApiManager)
-        {
-            _apiAccessFailed = false;
+        
 
-            if (gw2ApiManager.HasPermissions(gw2ApiManager.Permissions) == false)
-            {
-                _apiAccessFailed = true;
-                return new AccountTools();
-            }
-
-            try
-            {
-                // Task.run because not just await but also a lot of cpu-bound look ups
-                return await Task.Run(() => GatheringToolsService.GetToolsOnAccount(allGatheringTools, gw2ApiManager));
-            }
-            catch (Exception e)
-            {
-                _apiAccessFailed = true;
-                _logger.Error(e, "Could not get gathering tools from API");
-                return new AccountTools();
-            }
-        }
-
-        private void ShowToolsInUi(AccountTools accountTools, TextureService textureService)
+        private static void ShowToolsInUi(AccountTools accountTools, FlowPanel rootFlowPanel, TextureService textureService, Logger logger)
         {
             if (accountTools.BankGatheringTools.Any())
             {
                 var bankToolsFlowPanel = new HeaderWithToolsFlowPanel(
-                    "Bank", _textureService.BankTexture, accountTools.BankGatheringTools, _logger)
+                    "Bank", textureService.BankTexture, accountTools.BankGatheringTools, logger)
                 {
                     ShowBorder = true,
-                    Parent     = _rootFlowPanel
+                    Parent     = rootFlowPanel
                 };
             }
 
             if (accountTools.SharedInventoryGatheringTools.Any())
             {
                 var sharedInventoryFlowPanel = new HeaderWithToolsFlowPanel(
-                    "Shared inventory", _textureService.SharedInventoryTexture, accountTools.SharedInventoryGatheringTools, _logger)
+                    "Shared inventory", textureService.SharedInventoryTexture, accountTools.SharedInventoryGatheringTools, logger)
                 {
                     ShowBorder = true,
-                    Parent     = _rootFlowPanel
+                    Parent     = rootFlowPanel
                 };
             }
 
@@ -177,7 +157,7 @@ namespace GatheringTools.ToolSearch.Controls
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
                     ShowBorder       = true,
-                    Parent           = _rootFlowPanel
+                    Parent           = rootFlowPanel
                 };
 
                 var headerLabel = new Label
@@ -194,7 +174,7 @@ namespace GatheringTools.ToolSearch.Controls
                 if (character.EquippedGatheringTools.Any())
                 {
                     var equippedFlowPanel = new HeaderWithToolsFlowPanel(
-                        $"{character.CharacterName}'s equipped tools", _textureService.EquipmentTexture, character.EquippedGatheringTools, _logger)
+                        $"{character.CharacterName}'s equipped tools", textureService.EquipmentTexture, character.EquippedGatheringTools, logger)
                     {
                         ShowBorder = false,
                         Parent     = characterFlowPanel
@@ -204,7 +184,7 @@ namespace GatheringTools.ToolSearch.Controls
                 if (character.InventoryGatheringTools.Any())
                 {
                     var inventoryFlowPanel2 = new HeaderWithToolsFlowPanel(
-                        $"{character.CharacterName}'s inventory", _textureService.CharacterInventoryTexture, character.InventoryGatheringTools, _logger)
+                        $"{character.CharacterName}'s inventory", textureService.CharacterInventoryTexture, character.InventoryGatheringTools, logger)
                     {
                         ShowBorder = false,
                         Parent     = characterFlowPanel
@@ -222,7 +202,6 @@ namespace GatheringTools.ToolSearch.Controls
         private readonly LoadingSpinner _loadingSpinner;
         private readonly Checkbox _showOnlyUnlimitedToolsCheckbox;
         private readonly SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(1);
-        private bool _apiAccessFailed;
 
         private const string API_KEY_ERROR_MESSAGE = "Error: API key problem.\nPossible Reasons:\n" +
                                                      "- After starting GW2 you have to log into a character once for Blish to know which API key to use.\n" +

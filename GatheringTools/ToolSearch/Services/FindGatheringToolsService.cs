@@ -1,40 +1,52 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Blish_HUD;
 using Blish_HUD.Modules.Managers;
 using GatheringTools.ToolSearch.Model;
 using Gw2Sharp.WebApi.V2.Models;
-using Microsoft.IdentityModel.Tokens;
 
 namespace GatheringTools.ToolSearch.Services
 {
-    public class GatheringToolsService
+    public static class FindGatheringToolsService
     {
-        public static async Task<AccountTools> GetToolsOnAccount(List<GatheringTool> allGatheringTools, Gw2ApiManager gw2ApiManager)
+        public static async Task<(AccountTools, bool apiAccessFailed)> GetToolsFromApi(
+            List<GatheringTool> allGatheringTools,
+            Gw2ApiManager gw2ApiManager,
+            Logger logger)
+        {
+            if (gw2ApiManager.HasPermissions(gw2ApiManager.Permissions) == false)
+                return (new AccountTools(), true);
+
+            try
+            {
+                // Task.run because not just await but also a lot of cpu-bound look ups
+                return (await Task.Run(() => FindGatheringToolsService.GetToolsOnAccount(allGatheringTools, gw2ApiManager)), false);
+            }
+            catch (Exception e)
+            {
+                logger.Error(e, "Could not get gathering tools from API");
+                return (new AccountTools(), true);
+            }
+        }
+
+        private static async Task<AccountTools> GetToolsOnAccount(List<GatheringTool> allGatheringTools, Gw2ApiManager gw2ApiManager)
         {
             var sharedInventoryTask = gw2ApiManager.Gw2ApiClient.V2.Account.Inventory.GetAsync();
             var bankTask            = gw2ApiManager.Gw2ApiClient.V2.Account.Bank.GetAsync();
             var charactersTask      = gw2ApiManager.Gw2ApiClient.V2.Characters.AllAsync();
-
             await Task.WhenAll(sharedInventoryTask, bankTask, charactersTask);
 
             var bankGatheringTools            = FindGatheringTools(bankTask.Result, allGatheringTools).ToList();
             var sharedInventoryGatheringTools = FindGatheringTools(sharedInventoryTask.Result, allGatheringTools).ToList();
-
-            var accountTools = new AccountTools();
-            accountTools.BankGatheringTools.AddRange(bankGatheringTools);
-            accountTools.SharedInventoryGatheringTools.AddRange(sharedInventoryGatheringTools);
+            var accountTools                  = new AccountTools(bankGatheringTools, sharedInventoryGatheringTools);
 
             foreach (var characterResponse in charactersTask.Result)
             {
                 var inventoryGatheringTools = FindInventoryGatheringTools(characterResponse, allGatheringTools);
                 var equippedGatheringTools  = FindEquippedGatheringTools(allGatheringTools, characterResponse).ToList();
-
-                var character = new CharacterTools();
-                character.CharacterName = characterResponse.Name;
-                character.InventoryGatheringTools.AddRange(inventoryGatheringTools);
-                character.EquippedGatheringTools.AddRange(equippedGatheringTools);
-
+                var character               = new CharacterTools(characterResponse.Name, inventoryGatheringTools, equippedGatheringTools);
                 accountTools.Characters.Add(character);
             }
 
@@ -46,27 +58,31 @@ namespace GatheringTools.ToolSearch.Services
         private static List<GatheringTool> FindInventoryGatheringTools(Character characterResponse, List<GatheringTool> allGatheringTools)
         {
             var inventoryItems = characterResponse.Bags
-                                                  .Where(b => b != null) // empty bag slot = null
+                                                  .Where(IsNotEmptyBagSlot)
                                                   .Select(b => b.Inventory)
                                                   .SelectMany(i => i);
 
             return FindGatheringTools(inventoryItems, allGatheringTools).ToList();
         }
 
+        private static bool IsNotEmptyBagSlot(CharacterInventoryBag bag) => bag != null;
+
         private static IEnumerable<GatheringTool> FindGatheringTools(IEnumerable<AccountItem> accountItems, List<GatheringTool> allGatheringTools)
         {
-            var itemIds = accountItems.Where(i => i != null) // empty item slot = null
+            var itemIds = accountItems.Where(IsNotEmptyItemSlot)
                                       .Select(i => i.Id)
                                       .ToList();
 
             foreach (var itemId in itemIds)
             {
-                var matchingGatheringTool = allGatheringTools.SingleOrDefault(g => g.Id == itemId);
+                var matchingGatheringTool = allGatheringTools.FindToolById(itemId); ;
 
                 if (matchingGatheringTool != null)
                     yield return matchingGatheringTool;
             }
         }
+
+        private static bool IsNotEmptyItemSlot(AccountItem itemSlot) => itemSlot != null;
 
         private static IEnumerable<GatheringTool> FindEquippedGatheringTools(List<GatheringTool> allGatheringTools, Character characterResponse)
         {
@@ -74,7 +90,7 @@ namespace GatheringTools.ToolSearch.Services
 
             foreach (var gatheringToolId in equippedGatheringToolIds)
             {
-                var matchingGatheringTool = allGatheringTools.SingleOrDefault(a => a.Id == gatheringToolId);
+                var matchingGatheringTool = allGatheringTools.FindToolById(gatheringToolId);
                 var gatheringTool         = matchingGatheringTool ?? UnknownGatheringToolsService.CreateUnknownGatheringTool(gatheringToolId);
                 yield return gatheringTool;
             }
@@ -91,6 +107,11 @@ namespace GatheringTools.ToolSearch.Services
                         yield return equipmentItem.Id;
                         break;
                 }
+        }
+
+        private static GatheringTool FindToolById(this List<GatheringTool> allGatheringTools, int itemId)
+        {
+            return allGatheringTools.SingleOrDefault(a => a.Id == itemId);
         }
     }
 }

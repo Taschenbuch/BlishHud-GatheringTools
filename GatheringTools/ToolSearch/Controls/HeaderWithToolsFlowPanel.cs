@@ -16,28 +16,12 @@ namespace GatheringTools.ToolSearch.Controls
             WidthSizingMode  = SizingMode.AutoSize;
             HeightSizingMode = SizingMode.AutoSize;
 
-            if (headerTexture == null)
+            var headerImage = new Image(headerTexture)
             {
-                var headerLabel = new Label
-                {
-                    Text             = headerText,
-                    BasicTooltipText = headerText,
-                    Font             = GameService.Content.DefaultFont18,
-                    ShowShadow       = true,
-                    Size             = new Point(WIDTH_OF_3_GATHERING_TOOLS, 0),
-                    AutoSizeHeight   = true,
-                    Parent           = this,
-                };
-            }
-            else
-            {
-                var headerImage = new Image(headerTexture)
-                {
-                    BasicTooltipText = headerText,
-                    Size             = new Point(30, 30),
-                    Parent           = this,
-                };
-            }
+                BasicTooltipText = headerText,
+                Size             = new Point(30, 30),
+                Parent           = this,
+            };
 
             var toolsFlowPanel = new FlowPanel()
             {
@@ -48,31 +32,34 @@ namespace GatheringTools.ToolSearch.Controls
             };
 
             foreach (var gatheringTool in gatheringTools)
-            {
-                try
-                {
-                    var gatheringToolImage = new Image(GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl))
-                    {
-                        BasicTooltipText = gatheringTool.Name,
-                        Size             = new Point(ICON_WIDTH_HEIGHT, ICON_WIDTH_HEIGHT),
-                        Parent           = toolsFlowPanel,
-                    };
-                }
-                catch (Exception e)
-                {
-                    var gatheringToolLabel = new Label
-                    {
-                        Text             = gatheringTool.Name,
-                        BasicTooltipText = gatheringTool.Name,
-                        Font             = GameService.Content.DefaultFont18,
-                        ShowShadow       = true,
-                        AutoSizeHeight   = true,
-                        AutoSizeWidth    = true,
-                        Parent           = toolsFlowPanel,
-                    };
+                ShowGatheringToolImageOrLabelFallback(logger, gatheringTool, toolsFlowPanel);
+        }
 
-                    logger.Error(e, "Could not get gathering tool icon from API. Show gathering tool name instead.");
-                }
+        private static void ShowGatheringToolImageOrLabelFallback(Logger logger, GatheringTool gatheringTool, FlowPanel toolsFlowPanel)
+        {
+            try
+            {
+                var gatheringToolImage = new Image(GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl))
+                {
+                    BasicTooltipText = gatheringTool.Name,
+                    Size             = new Point(ICON_WIDTH_HEIGHT, ICON_WIDTH_HEIGHT),
+                    Parent           = toolsFlowPanel,
+                };
+            }
+            catch (Exception e)
+            {
+                var gatheringToolLabel = new Label
+                {
+                    Text             = gatheringTool.Name,
+                    BasicTooltipText = gatheringTool.Name,
+                    Font             = GameService.Content.DefaultFont18,
+                    ShowShadow       = true,
+                    AutoSizeHeight   = true,
+                    AutoSizeWidth    = true,
+                    Parent           = toolsFlowPanel,
+                };
+
+                logger.Error(e, "Could not get gathering tool icon from API. Show gathering tool name instead.");
             }
         }
 
