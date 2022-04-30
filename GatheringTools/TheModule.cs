@@ -39,13 +39,8 @@ namespace GatheringTools
 
         protected override async Task LoadAsync()
         {
-            _textureService = new TextureService(ContentsManager);
-
-            _reminderContainer = new ReminderContainer(_textureService);
-            _reminderContainer.UpdateReminderText(_settingService.ReminderTextSetting.Value);
-            _reminderContainer.UpdateReminderTextFontSize(_settingService.ReminderTextFontSizeIndexSetting.Value);
-            _reminderContainer.UpdateContainerSizeAndMoveAboveLogoutDialog(_settingService.ReminderWindowSizeSetting.Value);
-            _reminderContainer.UpdateIconSize(_settingService.ReminderIconSizeSetting.Value);
+            _textureService    = new TextureService(ContentsManager);
+            _reminderContainer = new ReminderContainer(_textureService, _settingService);
 
             if (_settingService.ReminderIsVisibleForSetupSetting.Value)
                 ShowReminderAndResetRunningTime();
@@ -59,12 +54,6 @@ namespace GatheringTools
                 else
                     HideReminderAndResetRunningTime();
             };
-
-            _settingService.ReminderTextFontSizeIndexSetting.SettingChanged += (s, e) => _reminderContainer.UpdateReminderTextFontSize(e.NewValue);
-            _settingService.ReminderTextSetting.SettingChanged              += (s, e) => _reminderContainer.UpdateReminderText(e.NewValue);
-            _settingService.ReminderWindowSizeSetting.SettingChanged        += (s, e) => _reminderContainer.UpdateContainerSizeAndMoveAboveLogoutDialog(e.NewValue);
-            _settingService.ReminderIconSizeSetting.SettingChanged          += (s, e) => _reminderContainer.UpdateIconSize(e.NewValue);
-            GameService.Graphics.SpriteScreen.Resized                       += OnSpriteScreenResized;
 
             _escKeyBinding           =  new KeyBinding(Keys.Escape);
             _escKeyBinding.Activated += OnEscKeyBindingActivated;
@@ -112,20 +101,13 @@ namespace GatheringTools
 
         protected override void Unload()
         {
-            GameService.Graphics.SpriteScreen.Resized               -= OnSpriteScreenResized;
             _escKeyBinding.Activated                                -= OnEscKeyBindingActivated;
             _settingService.LogoutKeyBindingSetting.Value.Activated -= OnLogoutKeyBindingActivated;
 
             _textureService?.Dispose();
-
             _toolSearchStandardWindow?.Dispose();
             _reminderContainer?.Dispose();
             _cornerIconService?.RemoveCornerIcon();
-        }
-
-        private void OnSpriteScreenResized(object sender, ResizedEventArgs e)
-        {
-            _reminderContainer.MoveAboveLogoutDialog();
         }
 
         private void OnEscKeyBindingActivated(object sender, System.EventArgs e)

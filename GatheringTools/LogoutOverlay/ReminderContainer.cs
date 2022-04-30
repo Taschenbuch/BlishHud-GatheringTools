@@ -1,14 +1,14 @@
 ﻿using Blish_HUD;
 using Blish_HUD.Controls;
+using GatheringTools.Services;
 using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 
 namespace GatheringTools.LogoutOverlay
 {
     public class ReminderContainer : Container
     {
-        public ReminderContainer(TextureService textureService)
+        public ReminderContainer(TextureService textureService, SettingService settingService)
         {
             Parent = GameService.Graphics.SpriteScreen;
 
@@ -28,36 +28,52 @@ namespace GatheringTools.LogoutOverlay
                 Parent         = this
             };
 
-            Resized += (s, e) => _reminderBackgroundImage.Size = Size;
+            UpdateReminderText(settingService.ReminderTextSetting.Value);
+            UpdateReminderTextFontSize(settingService.ReminderTextFontSizeIndexSetting.Value);
+            UpdateIconSize(settingService.ReminderIconSizeSetting.Value);
+            UpdateContainerSizeAndMoveAboveLogoutDialog(settingService.ReminderWindowSizeSetting.Value);
+
+            settingService.ReminderTextFontSizeIndexSetting.SettingChanged += (s, e) => UpdateReminderTextFontSize(e.NewValue);
+            settingService.ReminderTextSetting.SettingChanged              += (s, e) => UpdateReminderText(e.NewValue);
+            settingService.ReminderWindowSizeSetting.SettingChanged        += (s, e) => UpdateContainerSizeAndMoveAboveLogoutDialog(e.NewValue);
+            settingService.ReminderIconSizeSetting.SettingChanged          += (s, e) => UpdateIconSize(e.NewValue);
+            GameService.Graphics.SpriteScreen.Resized                      += OnSpriteScreenResized;
         }
 
-        public void MoveAboveLogoutDialog()
+        private void OnSpriteScreenResized(object sender, ResizedEventArgs e)
+        {
+            MoveAboveLogoutDialog();
+        }
+
+        private void MoveAboveLogoutDialog()
         {
             var logoutDialogTextCenter               = GetLogoutDialogTextCenter(GameService.Graphics.SpriteScreen.Size.X, GameService.Graphics.SpriteScreen.Size.Y);
             var containerCenterToTopLeftCornerOffset = new Point(Size.X / 2, Size.Y / 2);
             Location = logoutDialogTextCenter - containerCenterToTopLeftCornerOffset;
         }
 
-        public void UpdateReminderText(string reminderText)
+        private void UpdateReminderText(string reminderText)
         {
             _reminderTextLabel.Text = reminderText;
             UpdateChildLocations();
         }
 
-        public void UpdateContainerSizeAndMoveAboveLogoutDialog(int size)
+        private void UpdateContainerSizeAndMoveAboveLogoutDialog(int size)
         {
             Size = new Point(670 * (5 + size) / 40, 75 * (5 + size) / 40);
+
+            _reminderBackgroundImage.Size = Size;
             UpdateChildLocations();
             MoveAboveLogoutDialog();
         }
 
-        public void UpdateReminderTextFontSize(int fontSizeIndex)
+        private void UpdateReminderTextFontSize(int fontSizeIndex)
         {
             _reminderTextLabel.Font = FontService.Fonts[fontSizeIndex];
             UpdateChildLocations();
         }
 
-        public void UpdateIconSize(int iconSize)
+        private void UpdateIconSize(int iconSize)
         {
             var size = new Point(iconSize, iconSize);
             _tool1Image.Size = size;
@@ -83,7 +99,7 @@ namespace GatheringTools.LogoutOverlay
             _tool3Image.Location        = new Point(tool3OffsetX, toolOffsetY);
         }
 
-        public static Point GetLogoutDialogTextCenter(int screenWidth, int screenHeight)
+        private static Point GetLogoutDialogTextCenter(int screenWidth, int screenHeight)
         {
             var x = (int)(screenWidth * 0.5f);
             var y = (int)(screenHeight * (0.5f + RELATIVE_Y_OFFSET_FROM_SCREEN_CENTER));
@@ -91,6 +107,11 @@ namespace GatheringTools.LogoutOverlay
             return new Point(x, y);
         }
 
+        protected override void DisposeControl()
+        {
+            GameService.Graphics.SpriteScreen.Resized -= OnSpriteScreenResized;
+            base.DisposeControl();
+        }
 
         private const float RELATIVE_Y_OFFSET_FROM_SCREEN_CENTER = 0.005f;
         private readonly Image _reminderBackgroundImage;
