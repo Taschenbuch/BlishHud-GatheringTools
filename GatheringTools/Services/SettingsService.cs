@@ -74,25 +74,24 @@ namespace GatheringTools.Services
                 () => "Show sickle icon at the top left of GW2 next to other menu icons. Icon can be clicked to show/hide the gathering tool search window");
 
             var internalSettingSubCollection = settings.AddSubCollection("internal settings (not visible in UI)");
-
-            ShowOnlyUnlimitedToolsSetting = internalSettingSubCollection.DefineSetting(
-                "only unlimited tools",
-                true,
-                () => "only unlimited tools",
-                () => "show only unlimited tools in the tool search window.");
+            ShowOnlyUnlimitedToolsSetting   = internalSettingSubCollection.DefineSetting("only unlimited tools", true);
+            ShowBankToolsSetting            = internalSettingSubCollection.DefineSetting("show bank tools", true);
+            ShowSharedInventoryToolsSetting = internalSettingSubCollection.DefineSetting("show shared inventory tools", true);
         }
 
-        public SettingEntry<int> ReminderWindowSizeSetting { get; set; }
-        public SettingEntry<DisplayDuration> ReminderDisplayDurationInSecondsSetting { get; set; }
-        public SettingEntry<string> ReminderTextSetting { get; set; }
-        public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; set; }
-        public SettingEntry<int> ReminderIconSizeSetting { get; set; }
-        public SettingEntry<bool> EscIsHidingReminderSetting { get; set; }
-        public SettingEntry<bool> EnterIsHidingReminderSetting { get; set; }
-        public SettingEntry<bool> ReminderIsVisibleForSetupSetting { get; set; }
-        public SettingEntry<bool> ShowToolSearchCornerIconSetting { get; set; }
-        public SettingEntry<bool> ShowOnlyUnlimitedToolsSetting { get; set; }
-        public SettingEntry<KeyBinding> ToolSearchKeyBindingSetting { get; set; }
-        public SettingEntry<KeyBinding> LogoutKeyBindingSetting { get; set; }
+        public SettingEntry<int> ReminderWindowSizeSetting { get; }
+        public SettingEntry<DisplayDuration> ReminderDisplayDurationInSecondsSetting { get; }
+        public SettingEntry<string> ReminderTextSetting { get; }
+        public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; }
+        public SettingEntry<int> ReminderIconSizeSetting { get; }
+        public SettingEntry<bool> EscIsHidingReminderSetting { get; }
+        public SettingEntry<bool> EnterIsHidingReminderSetting { get; }
+        public SettingEntry<bool> ReminderIsVisibleForSetupSetting { get; }
+        public SettingEntry<bool> ShowToolSearchCornerIconSetting { get; }
+        public SettingEntry<bool> ShowOnlyUnlimitedToolsSetting { get; }
+        public SettingEntry<bool> ShowSharedInventoryToolsSetting { get; }
+        public SettingEntry<bool> ShowBankToolsSetting { get; }
+        public SettingEntry<KeyBinding> ToolSearchKeyBindingSetting { get; }
+        public SettingEntry<KeyBinding> LogoutKeyBindingSetting { get; }
     }
 }

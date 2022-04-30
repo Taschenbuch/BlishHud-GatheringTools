@@ -80,11 +80,10 @@ namespace GatheringTools
             var allGatheringTools = await FileService.GetAllGatheringToolsFromFile(ContentsManager, Logger);
             _allGatheringTools.AddRange(allGatheringTools);
 
-            _toolSearchStandardWindow = new ToolSearchStandardWindow(_textureService, _settingService.ShowOnlyUnlimitedToolsSetting, _allGatheringTools, Gw2ApiManager, Logger)
+            _toolSearchStandardWindow = new ToolSearchStandardWindow(_textureService, _settingService, _allGatheringTools, Gw2ApiManager, Logger)
             {
                 Emblem           = _textureService.SickleTexture, // hack: has to be first to prevent bug of emblem not being visible
                 Title            = "Tools",
-                BasicTooltipText = "Shows which character has gathering tools equipped.",
                 Location         = new Point(300, 300),
                 SavesPosition    = true,
                 Id               = "tool search window 6f48189f-0a38-4fad-bc6a-10d323e7f1c4",

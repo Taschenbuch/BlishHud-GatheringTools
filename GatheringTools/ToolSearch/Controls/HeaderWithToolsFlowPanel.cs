@@ -12,9 +12,7 @@ namespace GatheringTools.ToolSearch.Controls
     {
         public HeaderWithToolsFlowPanel(string headerText, Texture2D headerTexture, List<GatheringTool> gatheringTools, Logger logger)
         {
-            FlowDirection    = ControlFlowDirection.SingleTopToBottom;
-            WidthSizingMode  = SizingMode.AutoSize;
-            HeightSizingMode = SizingMode.AutoSize;
+            FlowDirection = ControlFlowDirection.SingleTopToBottom;
 
             var headerImage = new Image(headerTexture)
             {

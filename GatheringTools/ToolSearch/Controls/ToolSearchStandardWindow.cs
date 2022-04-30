@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules.Managers;
-using Blish_HUD.Settings;
+using GatheringTools.Services;
 using GatheringTools.ToolSearch.Model;
 using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
@@ -17,7 +16,7 @@ namespace GatheringTools.ToolSearch.Controls
     public class ToolSearchStandardWindow : StandardWindow
     {
         public ToolSearchStandardWindow(TextureService textureService,
-                                        SettingEntry<bool> showOnlyUnlimitedToolsSetting,
+                                        SettingService settingService,
                                         List<GatheringTool> allGatheringTools,
                                         Gw2ApiManager gw2ApiManager,
                                         Logger logger)
@@ -28,45 +27,77 @@ namespace GatheringTools.ToolSearch.Controls
             _gw2ApiManager     = gw2ApiManager;
             _logger            = logger;
 
-            _infoLabel = new Label()
+            var settingsAndLoadingInfoFlowPanel = new FlowPanel
             {
-                Location       = new Point(0, 30),
-                TextColor      = Color.White,
-                ShowShadow     = true,
-                Size           = new Point(MAX_CONTENT_WIDTH, 0),
-                AutoSizeHeight = true,
-                ClipsBounds    = false,
-                WrapText       = true,
-                Parent         = this
-            };
-
-            _loadingSpinner = new LoadingSpinner
-            {
-                Location = new Point(60, 60),
-                Parent   = this
+                FlowDirection    = ControlFlowDirection.SingleTopToBottom,
+                WidthSizingMode  = SizingMode.AutoSize,
+                HeightSizingMode = SizingMode.AutoSize,
+                Parent           = this
             };
 
             _showOnlyUnlimitedToolsCheckbox = new Checkbox
             {
                 Text             = "Only unlimited tools",
-                Checked          = showOnlyUnlimitedToolsSetting.Value,
+                Checked          = settingService.ShowOnlyUnlimitedToolsSetting.Value,
                 BasicTooltipText = "Show only unlimited tools",
-                Parent           = this,
+                Parent           = settingsAndLoadingInfoFlowPanel,
             };
 
-            _showOnlyUnlimitedToolsCheckbox.CheckedChanged += async (s, e) =>
+            _showBankCheckbox = new Checkbox
             {
-                showOnlyUnlimitedToolsSetting.Value = e.Checked;
-                await ShowWindowAndUpdateToolsInUi();
+                Text             = "Bank",
+                Checked          = settingService.ShowBankToolsSetting.Value,
+                BasicTooltipText = "Show gathering tools in bank",
+                Parent           = settingsAndLoadingInfoFlowPanel,
+            };
+
+            _showSharedInventoryCheckbox = new Checkbox
+            {
+                Text             = "Shared inventory slots",
+                Checked          = settingService.ShowSharedInventoryToolsSetting.Value,
+                BasicTooltipText = "Show gathering tools in shared inventory slots",
+                Parent           = settingsAndLoadingInfoFlowPanel,
+            };
+
+            _infoLabel = new Label()
+            {
+                ShowShadow     = true,
+                Size           = new Point(MAX_CONTENT_WIDTH, 0),
+                AutoSizeHeight = true,
+                ClipsBounds    = false,
+                WrapText       = true,
+                Parent         = settingsAndLoadingInfoFlowPanel
+            };
+
+            _loadingSpinner = new LoadingSpinner
+            {
+                Parent = settingsAndLoadingInfoFlowPanel
             };
 
             _rootFlowPanel = new FlowPanel()
             {
-                Location      = new Point(0, 30),
                 Size          = new Point(MAX_CONTENT_WIDTH, 500),
                 FlowDirection = ControlFlowDirection.SingleTopToBottom,
                 CanScroll     = true,
-                Parent        = this,
+                Parent        = settingsAndLoadingInfoFlowPanel
+            };
+
+            _showOnlyUnlimitedToolsCheckbox.CheckedChanged += async (s, e) =>
+            {
+                settingService.ShowOnlyUnlimitedToolsSetting.Value = e.Checked;
+                await ShowWindowAndUpdateToolsInUi();
+            };
+
+            _showBankCheckbox.CheckedChanged += async (s, e) =>
+            {
+                settingService.ShowBankToolsSetting.Value = e.Checked;
+                await ShowWindowAndUpdateToolsInUi();
+            };
+
+            _showSharedInventoryCheckbox.CheckedChanged += async (s, e) =>
+            {
+                settingService.ShowSharedInventoryToolsSetting.Value = e.Checked;
+                await ShowWindowAndUpdateToolsInUi();
             };
         }
 
@@ -82,7 +113,7 @@ namespace GatheringTools.ToolSearch.Controls
         {
             Show();
 
-            // ReSharper disable once MethodHasAsyncOverload
+            // ReSharper disable once MethodHasAsyncOverload // no need for AsyncWait because it would return instantly anyway and wont be awaited
             if (_semaphoreSlim.Wait(0) == false)
                 return;
 
@@ -104,7 +135,6 @@ namespace GatheringTools.ToolSearch.Controls
 
             var (accountTools, apiAccessFailed) = await FindGatheringToolsService.GetToolsFromApi(_allGatheringTools, _gw2ApiManager, _logger);
 
-
             _infoLabel.Text = string.Empty;
             _loadingSpinner.Hide();
 
@@ -114,15 +144,17 @@ namespace GatheringTools.ToolSearch.Controls
                 return;
             }
 
-            FilterGatheringToolsService.FilterTools(accountTools, _showOnlyUnlimitedToolsCheckbox.Checked);
+            FilterGatheringToolsService.FilterTools(
+                accountTools,
+                _showOnlyUnlimitedToolsCheckbox.Checked,
+                _showBankCheckbox.Checked,
+                _showSharedInventoryCheckbox.Checked);
 
             if (accountTools.HasTools())
                 ShowToolsInUi(accountTools, _rootFlowPanel, _textureService, _logger);
             else
                 _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
         }
-
-        
 
         private static void ShowToolsInUi(AccountTools accountTools, FlowPanel rootFlowPanel, TextureService textureService, Logger logger)
         {
@@ -131,8 +163,10 @@ namespace GatheringTools.ToolSearch.Controls
                 var bankToolsFlowPanel = new HeaderWithToolsFlowPanel(
                     "Bank", textureService.BankTexture, accountTools.BankGatheringTools, logger)
                 {
-                    ShowBorder = true,
-                    Parent     = rootFlowPanel
+                    WidthSizingMode  = SizingMode.AutoSize,
+                    HeightSizingMode = SizingMode.AutoSize,
+                    ShowBorder       = true,
+                    Parent           = rootFlowPanel
                 };
             }
 
@@ -141,55 +175,54 @@ namespace GatheringTools.ToolSearch.Controls
                 var sharedInventoryFlowPanel = new HeaderWithToolsFlowPanel(
                     "Shared inventory", textureService.SharedInventoryTexture, accountTools.SharedInventoryGatheringTools, logger)
                 {
-                    ShowBorder = true,
-                    Parent     = rootFlowPanel
-                };
-            }
-
-            foreach (var character in accountTools.Characters)
-            {
-                if (character.HasTools() == false)
-                    continue;
-
-                var characterFlowPanel = new FlowPanel()
-                {
-                    FlowDirection    = ControlFlowDirection.SingleTopToBottom,
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
                     ShowBorder       = true,
                     Parent           = rootFlowPanel
                 };
+            }
 
-                var headerLabel = new Label
+            foreach (var character in accountTools.Characters)
+                if (character.HasTools())
+                    ShowCharacterTools(character, rootFlowPanel, textureService, logger);
+        }
+
+        private static void ShowCharacterTools(CharacterTools character, FlowPanel rootFlowPanel, TextureService textureService, Logger logger)
+        {
+            var characterFlowPanel = new FlowPanel()
+            {
+                Title            = character.CharacterName,
+                BasicTooltipText = character.CharacterName,
+                FlowDirection    = ControlFlowDirection.SingleTopToBottom,
+                WidthSizingMode  = SizingMode.AutoSize,
+                HeightSizingMode = SizingMode.AutoSize,
+                ShowBorder       = true,
+                CanCollapse      = true,
+                Parent           = rootFlowPanel
+            };
+
+            if (character.EquippedGatheringTools.Any())
+            {
+                var equippedFlowPanel = new HeaderWithToolsFlowPanel(
+                    $"Equipped tools", textureService.EquipmentTexture, character.EquippedGatheringTools, logger)
                 {
-                    Text             = character.CharacterName,
-                    BasicTooltipText = character.CharacterName,
-                    Font             = GameService.Content.DefaultFont18,
-                    ShowShadow       = true,
-                    Size             = new Point(MAX_CONTENT_WIDTH - 30, 0),
-                    AutoSizeHeight   = true,
+                    WidthSizingMode  = SizingMode.AutoSize,
+                    HeightSizingMode = SizingMode.AutoSize,
+                    ShowBorder       = false,
                     Parent           = characterFlowPanel
                 };
+            }
 
-                if (character.EquippedGatheringTools.Any())
+            if (character.InventoryGatheringTools.Any())
+            {
+                var inventoryFlowPanel2 = new HeaderWithToolsFlowPanel(
+                    $"Inventory", textureService.CharacterInventoryTexture, character.InventoryGatheringTools, logger)
                 {
-                    var equippedFlowPanel = new HeaderWithToolsFlowPanel(
-                        $"{character.CharacterName}'s equipped tools", textureService.EquipmentTexture, character.EquippedGatheringTools, logger)
-                    {
-                        ShowBorder = false,
-                        Parent     = characterFlowPanel
-                    };
-                }
-
-                if (character.InventoryGatheringTools.Any())
-                {
-                    var inventoryFlowPanel2 = new HeaderWithToolsFlowPanel(
-                        $"{character.CharacterName}'s inventory", textureService.CharacterInventoryTexture, character.InventoryGatheringTools, logger)
-                    {
-                        ShowBorder = false,
-                        Parent     = characterFlowPanel
-                    };
-                }
+                    WidthSizingMode  = SizingMode.AutoSize,
+                    HeightSizingMode = SizingMode.AutoSize,
+                    ShowBorder       = false,
+                    Parent           = characterFlowPanel
+                };
             }
         }
 
@@ -201,6 +234,8 @@ namespace GatheringTools.ToolSearch.Controls
         private readonly FlowPanel _rootFlowPanel;
         private readonly LoadingSpinner _loadingSpinner;
         private readonly Checkbox _showOnlyUnlimitedToolsCheckbox;
+        private readonly Checkbox _showBankCheckbox;
+        private readonly Checkbox _showSharedInventoryCheckbox;
         private readonly SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(1);
 
         private const string API_KEY_ERROR_MESSAGE = "Error: API key problem.\nPossible Reasons:\n" +
