@@ -22,10 +22,10 @@ namespace GatheringTools
     public class TheModule : Module
     {
         private static readonly Logger Logger = Logger.GetLogger<TheModule>();
-        internal SettingsManager SettingsManager => this.ModuleParameters.SettingsManager;
-        internal ContentsManager ContentsManager => this.ModuleParameters.ContentsManager;
-        internal DirectoriesManager DirectoriesManager => this.ModuleParameters.DirectoriesManager;
-        internal Gw2ApiManager Gw2ApiManager => this.ModuleParameters.Gw2ApiManager;
+        internal SettingsManager SettingsManager => ModuleParameters.SettingsManager;
+        internal ContentsManager ContentsManager => ModuleParameters.ContentsManager;
+        internal DirectoriesManager DirectoriesManager => ModuleParameters.DirectoriesManager;
+        internal Gw2ApiManager Gw2ApiManager => ModuleParameters.Gw2ApiManager;
 
         [ImportingConstructor]
         public TheModule([Import("ModuleParameters")] ModuleParameters moduleParameters) : base(moduleParameters)
@@ -110,7 +110,7 @@ namespace GatheringTools
             _cornerIconService?.RemoveCornerIcon();
         }
 
-        private void OnEscKeyBindingActivated(object sender, System.EventArgs e)
+        private void OnEscKeyBindingActivated(object sender, EventArgs e)
         {
             if (_settingService.ReminderIsVisibleForSetupSetting.Value)
                 return;
@@ -134,7 +134,7 @@ namespace GatheringTools
                 HideReminderAndResetRunningTime();
         }
 
-        private void OnLogoutKeyBindingActivated(object sender, System.EventArgs e)
+        private void OnLogoutKeyBindingActivated(object sender, EventArgs e)
         {
             if (_reminderContainer.Visible == false)
                 ShowReminderAndResetRunningTime();
