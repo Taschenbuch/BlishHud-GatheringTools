@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace GatheringTools.ToolSearch.Model
 {
-    public class AccountTools // name because Gw2Api has "Account" type
+    public class AccountTools // name because gw2sharp has "Account" type
     {
         public AccountTools() // for api error handling cases
         {

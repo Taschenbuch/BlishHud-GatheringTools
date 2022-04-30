@@ -82,12 +82,12 @@ namespace GatheringTools
 
             _toolSearchStandardWindow = new ToolSearchStandardWindow(_textureService, _settingService, _allGatheringTools, Gw2ApiManager, Logger)
             {
-                Emblem           = _textureService.SickleTexture, // hack: has to be first to prevent bug of emblem not being visible
-                Title            = "Tools",
-                Location         = new Point(300, 300),
-                SavesPosition    = true,
-                Id               = "tool search window 6f48189f-0a38-4fad-bc6a-10d323e7f1c4",
-                Parent           = GameService.Graphics.SpriteScreen,
+                Emblem        = _textureService.SickleTexture, // hack: has to be first to prevent bug of emblem not being visible
+                Title         = "Tools",
+                Location      = new Point(300, 300),
+                SavesPosition = true,
+                Id            = "tool search window 6f48189f-0a38-4fad-bc6a-10d323e7f1c4",
+                Parent        = GameService.Graphics.SpriteScreen,
             };
 
             _settingService.ToolSearchKeyBindingSetting.Value.Activated += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();

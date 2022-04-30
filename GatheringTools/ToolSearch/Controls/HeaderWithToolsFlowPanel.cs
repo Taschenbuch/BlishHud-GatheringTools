@@ -12,7 +12,7 @@ namespace GatheringTools.ToolSearch.Controls
     {
         public HeaderWithToolsFlowPanel(string headerText, Texture2D headerTexture, List<GatheringTool> gatheringTools, Logger logger)
         {
-            FlowDirection = ControlFlowDirection.SingleTopToBottom;
+            FlowDirection = ControlFlowDirection.SingleLeftToRight;
 
             var headerImage = new Image(headerTexture)
             {
@@ -30,14 +30,15 @@ namespace GatheringTools.ToolSearch.Controls
             };
 
             foreach (var gatheringTool in gatheringTools)
-                ShowGatheringToolImageOrLabelFallback(logger, gatheringTool, toolsFlowPanel);
+                ShowGatheringToolImageOrFallbackLabel(logger, gatheringTool, toolsFlowPanel);
         }
 
-        private static void ShowGatheringToolImageOrLabelFallback(Logger logger, GatheringTool gatheringTool, FlowPanel toolsFlowPanel)
+        private static void ShowGatheringToolImageOrFallbackLabel(Logger logger, GatheringTool gatheringTool, FlowPanel toolsFlowPanel)
         {
             try
             {
-                var gatheringToolImage = new Image(GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl))
+                var gatheringToolTexture = GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl);
+                new Image(gatheringToolTexture)
                 {
                     BasicTooltipText = gatheringTool.Name,
                     Size             = new Point(ICON_WIDTH_HEIGHT, ICON_WIDTH_HEIGHT),

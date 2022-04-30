@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace GatheringTools.ToolSearch.Model
 {
-    public class CharacterTools // name because Gw2Api has "Character" type
+    public class CharacterTools // name because gw2sharp has "Character" type
     {
         public CharacterTools(string characterName, List<GatheringTool> inventoryGatheringTools, List<GatheringTool> equippedGatheringTools)
         {

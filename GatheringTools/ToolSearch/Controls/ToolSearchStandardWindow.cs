@@ -9,7 +9,6 @@ using GatheringTools.Services;
 using GatheringTools.ToolSearch.Model;
 using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
-using Color = Microsoft.Xna.Framework.Color;
 
 namespace GatheringTools.ToolSearch.Controls
 {
@@ -27,7 +26,7 @@ namespace GatheringTools.ToolSearch.Controls
             _gw2ApiManager     = gw2ApiManager;
             _logger            = logger;
 
-            var settingsAndLoadingInfoFlowPanel = new FlowPanel
+            var rootFlowPanel = new FlowPanel
             {
                 FlowDirection    = ControlFlowDirection.SingleTopToBottom,
                 WidthSizingMode  = SizingMode.AutoSize,
@@ -40,7 +39,7 @@ namespace GatheringTools.ToolSearch.Controls
                 Text             = "Only unlimited tools",
                 Checked          = settingService.ShowOnlyUnlimitedToolsSetting.Value,
                 BasicTooltipText = "Show only unlimited tools",
-                Parent           = settingsAndLoadingInfoFlowPanel,
+                Parent           = rootFlowPanel,
             };
 
             _showBankCheckbox = new Checkbox
@@ -48,7 +47,7 @@ namespace GatheringTools.ToolSearch.Controls
                 Text             = "Bank",
                 Checked          = settingService.ShowBankToolsSetting.Value,
                 BasicTooltipText = "Show gathering tools in bank",
-                Parent           = settingsAndLoadingInfoFlowPanel,
+                Parent           = rootFlowPanel,
             };
 
             _showSharedInventoryCheckbox = new Checkbox
@@ -56,7 +55,7 @@ namespace GatheringTools.ToolSearch.Controls
                 Text             = "Shared inventory slots",
                 Checked          = settingService.ShowSharedInventoryToolsSetting.Value,
                 BasicTooltipText = "Show gathering tools in shared inventory slots",
-                Parent           = settingsAndLoadingInfoFlowPanel,
+                Parent           = rootFlowPanel,
             };
 
             _infoLabel = new Label()
@@ -64,22 +63,24 @@ namespace GatheringTools.ToolSearch.Controls
                 ShowShadow     = true,
                 Size           = new Point(MAX_CONTENT_WIDTH, 0),
                 AutoSizeHeight = true,
-                ClipsBounds    = false,
                 WrapText       = true,
-                Parent         = settingsAndLoadingInfoFlowPanel
+                Parent         = rootFlowPanel
             };
 
-            _loadingSpinner = new LoadingSpinner
+            _loadingSpinnerContainer = new LoadingSpinnerContainer()
             {
-                Parent = settingsAndLoadingInfoFlowPanel
+                WidthSizingMode  = SizingMode.AutoSize,
+                HeightSizingMode = SizingMode.AutoSize,
+                Parent           = rootFlowPanel
             };
 
-            _rootFlowPanel = new FlowPanel()
+            _toolLocationsFlowPanel = new FlowPanel()
             {
-                Size          = new Point(MAX_CONTENT_WIDTH, 500),
-                FlowDirection = ControlFlowDirection.SingleTopToBottom,
-                CanScroll     = true,
-                Parent        = settingsAndLoadingInfoFlowPanel
+                ControlPadding = new Vector2(0, 5),
+                Size           = new Point(MAX_CONTENT_WIDTH, 500),
+                FlowDirection  = ControlFlowDirection.SingleTopToBottom,
+                CanScroll      = true,
+                Parent         = rootFlowPanel
             };
 
             _showOnlyUnlimitedToolsCheckbox.CheckedChanged += async (s, e) =>
@@ -129,14 +130,14 @@ namespace GatheringTools.ToolSearch.Controls
 
         private async Task UpdateToolsInUiFromApi()
         {
-            _rootFlowPanel.ClearChildren();
+            _toolLocationsFlowPanel.ClearChildren();
             _infoLabel.Text = "Getting API data...";
-            _loadingSpinner.Show();
+            _loadingSpinnerContainer.Show();
 
             var (accountTools, apiAccessFailed) = await FindGatheringToolsService.GetToolsFromApi(_allGatheringTools, _gw2ApiManager, _logger);
 
             _infoLabel.Text = string.Empty;
-            _loadingSpinner.Hide();
+            _loadingSpinnerContainer.Hide();
 
             if (apiAccessFailed)
             {
@@ -151,40 +152,38 @@ namespace GatheringTools.ToolSearch.Controls
                 _showSharedInventoryCheckbox.Checked);
 
             if (accountTools.HasTools())
-                ShowToolsInUi(accountTools, _rootFlowPanel, _textureService, _logger);
+                ShowToolsInUi(accountTools, _toolLocationsFlowPanel, _textureService, _logger);
             else
                 _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
         }
 
-        private static void ShowToolsInUi(AccountTools accountTools, FlowPanel rootFlowPanel, TextureService textureService, Logger logger)
+        private static void ShowToolsInUi(AccountTools accountTools, FlowPanel toolLocationsFlowPanel, TextureService textureService, Logger logger)
         {
             if (accountTools.BankGatheringTools.Any())
             {
-                var bankToolsFlowPanel = new HeaderWithToolsFlowPanel(
-                    "Bank", textureService.BankTexture, accountTools.BankGatheringTools, logger)
+                new HeaderWithToolsFlowPanel("Bank", textureService.BankTexture, accountTools.BankGatheringTools, logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
                     ShowBorder       = true,
-                    Parent           = rootFlowPanel
+                    Parent           = toolLocationsFlowPanel
                 };
             }
 
             if (accountTools.SharedInventoryGatheringTools.Any())
             {
-                var sharedInventoryFlowPanel = new HeaderWithToolsFlowPanel(
-                    "Shared inventory", textureService.SharedInventoryTexture, accountTools.SharedInventoryGatheringTools, logger)
+                new HeaderWithToolsFlowPanel("Shared inventory", textureService.SharedInventoryTexture, accountTools.SharedInventoryGatheringTools, logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
                     ShowBorder       = true,
-                    Parent           = rootFlowPanel
+                    Parent           = toolLocationsFlowPanel
                 };
             }
 
             foreach (var character in accountTools.Characters)
                 if (character.HasTools())
-                    ShowCharacterTools(character, rootFlowPanel, textureService, logger);
+                    ShowCharacterTools(character, toolLocationsFlowPanel, textureService, logger);
         }
 
         private static void ShowCharacterTools(CharacterTools character, FlowPanel rootFlowPanel, TextureService textureService, Logger logger)
@@ -194,6 +193,7 @@ namespace GatheringTools.ToolSearch.Controls
                 Title            = character.CharacterName,
                 BasicTooltipText = character.CharacterName,
                 FlowDirection    = ControlFlowDirection.SingleTopToBottom,
+                ControlPadding   = new Vector2(0, SPACING_BETWEEN_EQUIPPED_AND_INVENTORY_TOOLS),
                 WidthSizingMode  = SizingMode.AutoSize,
                 HeightSizingMode = SizingMode.AutoSize,
                 ShowBorder       = true,
@@ -203,8 +203,7 @@ namespace GatheringTools.ToolSearch.Controls
 
             if (character.EquippedGatheringTools.Any())
             {
-                var equippedFlowPanel = new HeaderWithToolsFlowPanel(
-                    $"Equipped tools", textureService.EquipmentTexture, character.EquippedGatheringTools, logger)
+                new HeaderWithToolsFlowPanel($"Equipped tools", textureService.EquipmentTexture, character.EquippedGatheringTools, logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
@@ -215,8 +214,7 @@ namespace GatheringTools.ToolSearch.Controls
 
             if (character.InventoryGatheringTools.Any())
             {
-                var inventoryFlowPanel2 = new HeaderWithToolsFlowPanel(
-                    $"Inventory", textureService.CharacterInventoryTexture, character.InventoryGatheringTools, logger)
+                new HeaderWithToolsFlowPanel($"Inventory", textureService.CharacterInventoryTexture, character.InventoryGatheringTools, logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
@@ -231,12 +229,15 @@ namespace GatheringTools.ToolSearch.Controls
         private readonly Gw2ApiManager _gw2ApiManager;
         private readonly Logger _logger;
         private readonly Label _infoLabel;
-        private readonly FlowPanel _rootFlowPanel;
-        private readonly LoadingSpinner _loadingSpinner;
+        private readonly FlowPanel _toolLocationsFlowPanel;
         private readonly Checkbox _showOnlyUnlimitedToolsCheckbox;
         private readonly Checkbox _showBankCheckbox;
         private readonly Checkbox _showSharedInventoryCheckbox;
         private readonly SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(1);
+        private readonly LoadingSpinnerContainer _loadingSpinnerContainer;
+
+        private const int MAX_CONTENT_WIDTH = 210;
+        private const int SPACING_BETWEEN_EQUIPPED_AND_INVENTORY_TOOLS = 5;
 
         private const string API_KEY_ERROR_MESSAGE = "Error: API key problem.\nPossible Reasons:\n" +
                                                      "- After starting GW2 you have to log into a character once for Blish to know which API key to use.\n" +
@@ -244,7 +245,5 @@ namespace GatheringTools.ToolSearch.Controls
                                                      "- API key is missing in Blish. Add API key to Blish.\n" +
                                                      "- API key exists but is missing permissions. Add API key with necessary permissions to Blish.\n" +
                                                      "- API is down or has issues or something else went wrong. Check Blish log file.";
-
-        private const int MAX_CONTENT_WIDTH = 200;
     }
 }
