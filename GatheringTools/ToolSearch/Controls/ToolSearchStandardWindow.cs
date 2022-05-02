@@ -239,11 +239,12 @@ namespace GatheringTools.ToolSearch.Controls
         private const int MAX_CONTENT_WIDTH = 210;
         private const int SPACING_BETWEEN_EQUIPPED_AND_INVENTORY_TOOLS = 5;
 
-        private const string API_KEY_ERROR_MESSAGE = "Error: API key problem.\nPossible Reasons:\n" +
+        private const string API_KEY_ERROR_MESSAGE = "Error: API problem.\nPossible Reasons:\n" +
                                                      "- After starting GW2 you have to log into a character once for Blish to know which API key to use.\n" +
-                                                     "- Blish needs a few more seconds to give an API token to the module. You may have to reopen window to update.\n" +
+                                                     "- Blish needs a few more seconds to give an API token to the module. You have to reopen window to update.\n" +
                                                      "- API key is missing in Blish. Add API key to Blish.\n" +
                                                      "- API key exists but is missing permissions. Add API key with necessary permissions to Blish.\n" +
+                                                     "- If the API key has all permissions, disable and enable the module again. This can fix issues especially right after a module update.\n" +
                                                      "- API is down or has issues or something else went wrong. Check Blish log file.";
     }
 }
