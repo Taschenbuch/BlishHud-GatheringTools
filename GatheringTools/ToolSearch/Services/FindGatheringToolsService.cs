@@ -55,7 +55,7 @@ namespace GatheringTools.ToolSearch.Services
 
             foreach (var characterResponse in charactersTask.Result)
             {
-                var inventoryGatheringTools = FindInventoryGatheringTools(characterResponse, allGatheringTools);
+                var inventoryGatheringTools = FindInventoryGatheringTools(characterResponse, allGatheringTools, logger);
                 var equippedGatheringTools  = FindEquippedGatheringTools(allGatheringTools, characterResponse).ToList();
                 var character               = new CharacterTools(characterResponse.Name, inventoryGatheringTools, equippedGatheringTools);
                 accountTools.Characters.Add(character);
@@ -66,8 +66,18 @@ namespace GatheringTools.ToolSearch.Services
             return accountTools;
         }
 
-        private static List<GatheringTool> FindInventoryGatheringTools(Character characterResponse, List<GatheringTool> allGatheringTools)
+        private static List<GatheringTool> FindInventoryGatheringTools(Character characterResponse,
+                                                                       List<GatheringTool> allGatheringTools,
+                                                                       Logger logger)
         {
+            if (characterResponse.Bags == null) // .Bags == null happened to a user, though the permission check should have prevented it.
+            {
+                logger.Error($"Character.Bags is NULL for a character (Name: {characterResponse.Name}). " +
+                             $"This can happen when api key is missing inventory permission.");
+
+                return new List<GatheringTool>();
+            }
+
             var inventoryItems = characterResponse.Bags
                                                   .Where(IsNotEmptyBagSlot)
                                                   .Select(b => b.Inventory)
