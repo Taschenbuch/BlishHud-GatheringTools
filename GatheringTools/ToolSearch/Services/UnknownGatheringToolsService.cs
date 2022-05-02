@@ -45,8 +45,14 @@ namespace GatheringTools.ToolSearch.Services
             }
             catch (Exception e)
             {
-                logger.Error(e, $"API call for details on unknown gathering tool ids failed. " +
-                                $"unknown ids: {String.Join(", ", unknownGatheringToolIds)}");
+                var characterNamesWithUnknownTools = characters.Where(c => c.EquippedGatheringTools.Any(g => unknownGatheringToolIds.Contains(g.Id)))
+                                                           .Select(c => c.CharacterName)
+                                                           .ToList();
+
+                logger.Error(e, $"V2.Items.ManyAsync() for unknown gathering tool ids failed. " +
+                                $"This can be the case for historical items like Master Pick/Axe/Sickle and Black Lion Pick/Axe/Sickle. " +
+                                $"unknown ids: {String.Join(", ", unknownGatheringToolIds)}. " +
+                                $"Characters equipped with unknown tools: {String.Join(", ", characterNamesWithUnknownTools)}.");
                 return;
             }
 
