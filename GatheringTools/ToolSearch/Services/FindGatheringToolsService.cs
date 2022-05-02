@@ -16,13 +16,21 @@ namespace GatheringTools.ToolSearch.Services
             Gw2ApiManager gw2ApiManager,
             Logger logger)
         {
-            if (gw2ApiManager.HasPermissions(gw2ApiManager.Permissions) == false)
+            if (gw2ApiManager.HasPermissions(NECESSARY_API_TOKEN_PERMISSIONS) == false)
+            {
+                var missingPermissionsErrorMessage = "HasPermissions() returned false. Possible reasons: " +
+                                                     "API subToken does not have the necessary permissions: " +
+                                                     $"{String.Join(", ", NECESSARY_API_TOKEN_PERMISSIONS)}. " +
+                                                     $"Or module did not get API subToken from Blish yet. Or API key is missing.";
+
+                logger.Warn(missingPermissionsErrorMessage);
                 return (new AccountTools(), true);
+            }
 
             try
             {
                 // Task.run because not just await but also a lot of cpu-bound look ups
-                return (await Task.Run(() => FindGatheringToolsService.GetToolsOnAccount(allGatheringTools, gw2ApiManager)), false);
+                return (await Task.Run(() => GetToolsOnAccount(allGatheringTools, gw2ApiManager, logger)), false);
             }
             catch (Exception e)
             {
@@ -113,5 +121,13 @@ namespace GatheringTools.ToolSearch.Services
         {
             return allGatheringTools.SingleOrDefault(a => a.Id == itemId);
         }
+
+        private static readonly List<TokenPermission> NECESSARY_API_TOKEN_PERMISSIONS = new List<TokenPermission>
+        {
+            TokenPermission.Account, 
+            TokenPermission.Characters,
+            TokenPermission.Inventories, 
+            TokenPermission.Builds
+        };
     }
 }
