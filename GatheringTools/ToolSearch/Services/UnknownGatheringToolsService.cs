@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Blish_HUD;
 using Blish_HUD.Modules.Managers;
 using GatheringTools.ToolSearch.Model;
 using Gw2Sharp.WebApi.V2.Models;
@@ -14,14 +16,20 @@ namespace GatheringTools.ToolSearch.Services
             return new GatheringTool
             {
                 Id   = gatheringToolId,
-                Name = UNKNOWN_GATHERING_TOOL_NAME
+                IdIsUnknown = true,
+                Name = $"unknown itemId: {gatheringToolId}",
+                IsUnlimited = true, // to always show it in tool search, when it can not be identified correctly
+                IconUrl = @"https://render.guildwars2.com/file/CC2E01E0F566A6EEF4F2EC2B19AA7A3E1FEFB1B4/60984.png"
             };
         }
 
-        public static async Task UpdateUnknownEquippedGatheringTools(List<CharacterTools> characters, Gw2ApiManager gw2ApiManager)
+        public static async Task UpdateUnknownEquippedGatheringTools(
+            List<CharacterTools> characters, 
+            Gw2ApiManager gw2ApiManager,
+            Logger logger)
         {
             var unknownGatheringToolIds = characters.SelectMany(c => c.EquippedGatheringTools)
-                                                    .Where(g => g.Name == UNKNOWN_GATHERING_TOOL_NAME)
+                                                    .Where(g => g.IdIsUnknown)
                                                     .Select(g => g.Id)
                                                     .Distinct()
                                                     .ToList();
@@ -29,9 +37,23 @@ namespace GatheringTools.ToolSearch.Services
             if (unknownGatheringToolIds.Any() == false)
                 return;
 
-            var gatheringToolItems = await gw2ApiManager.Gw2ApiClient.V2.Items.ManyAsync(unknownGatheringToolIds);
+            IReadOnlyList<Item> gatheringToolItems;
 
-            foreach (var unknownGatheringTool in characters.SelectMany(c => c.EquippedGatheringTools).Where(g => g.Name == UNKNOWN_GATHERING_TOOL_NAME))
+            try
+            {
+                gatheringToolItems = await gw2ApiManager.Gw2ApiClient.V2.Items.ManyAsync(unknownGatheringToolIds);
+            }
+            catch (Exception e)
+            {
+                logger.Error(e, $"API call for details on unknown gathering tool ids failed. " +
+                                $"unknown ids: {String.Join(", ", unknownGatheringToolIds)}");
+                return;
+            }
+
+            var unknownGatheringTools = characters.SelectMany(c => c.EquippedGatheringTools)
+                                                  .Where(g => g.IdIsUnknown);
+
+            foreach (var unknownGatheringTool in unknownGatheringTools)
             {
                 var matchingGatheringToolItem = gatheringToolItems.Single(i => i.Id == unknownGatheringTool.Id);
                 unknownGatheringTool.Name        = matchingGatheringToolItem.Name;
@@ -39,7 +61,5 @@ namespace GatheringTools.ToolSearch.Services
                 unknownGatheringTool.IsUnlimited = matchingGatheringToolItem.Rarity == ItemRarity.Rare;
             }
         }
-
-        private const string UNKNOWN_GATHERING_TOOL_NAME = "???";
     }
 }

@@ -39,7 +39,10 @@ namespace GatheringTools.ToolSearch.Services
             }
         }
 
-        private static async Task<AccountTools> GetToolsOnAccount(List<GatheringTool> allGatheringTools, Gw2ApiManager gw2ApiManager)
+        private static async Task<AccountTools> GetToolsOnAccount(
+            List<GatheringTool> allGatheringTools,
+            Gw2ApiManager gw2ApiManager,
+            Logger logger)
         {
             var sharedInventoryTask = gw2ApiManager.Gw2ApiClient.V2.Account.Inventory.GetAsync();
             var bankTask            = gw2ApiManager.Gw2ApiClient.V2.Account.Bank.GetAsync();
@@ -58,7 +61,7 @@ namespace GatheringTools.ToolSearch.Services
                 accountTools.Characters.Add(character);
             }
 
-            await UnknownGatheringToolsService.UpdateUnknownEquippedGatheringTools(accountTools.Characters, gw2ApiManager);
+            await UnknownGatheringToolsService.UpdateUnknownEquippedGatheringTools(accountTools.Characters, gw2ApiManager, logger);
 
             return accountTools;
         }
@@ -83,7 +86,7 @@ namespace GatheringTools.ToolSearch.Services
 
             foreach (var itemId in itemIds)
             {
-                var matchingGatheringTool = allGatheringTools.FindToolById(itemId); ;
+                var matchingGatheringTool = allGatheringTools.FindToolById(itemId);
 
                 if (matchingGatheringTool != null)
                     yield return matchingGatheringTool;
@@ -124,9 +127,9 @@ namespace GatheringTools.ToolSearch.Services
 
         private static readonly List<TokenPermission> NECESSARY_API_TOKEN_PERMISSIONS = new List<TokenPermission>
         {
-            TokenPermission.Account, 
+            TokenPermission.Account,
             TokenPermission.Characters,
-            TokenPermission.Inventories, 
+            TokenPermission.Inventories,
             TokenPermission.Builds
         };
     }
