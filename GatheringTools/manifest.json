@@ -19,19 +19,19 @@
   "enabled_without_gw2": false,
   "api_permissions": {
     "account": {
-      "optional": true,
+      "optional": false,
       "details": "For searching gathering tools"
     },
     "characters": {
-      "optional": true,
+      "optional": false,
       "details": "For searching gathering tools"
     },
     "inventories": {
-      "optional": true,
+      "optional": false,
       "details": "For searching gathering tools"
     },
     "builds": {
-      "optional": true,
+      "optional": false,
       "details": "For searching gathering tools"
     }
   }
