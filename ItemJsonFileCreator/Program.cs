@@ -46,7 +46,6 @@ namespace ItemJsonFileCreator
                             {
                                 Id          = g.Id,
                                 Name        = g.Name,
-                                Type        = DetermineType(g.Details.Type),
                                 IsUnlimited = g.Rarity.Equals("rare", StringComparison.OrdinalIgnoreCase),
                                 IconUrl     = g.Icon
                             }
@@ -62,20 +61,6 @@ namespace ItemJsonFileCreator
             return type.Equals("Foraging", StringComparison.OrdinalIgnoreCase)
                    || type.Equals("Logging", StringComparison.OrdinalIgnoreCase)
                    || type.Equals("Mining", StringComparison.OrdinalIgnoreCase);
-        }
-
-        private static ItemEquipmentSlotType DetermineType(string type)
-        {
-            if (type.Equals("Foraging", StringComparison.OrdinalIgnoreCase))
-                return ItemEquipmentSlotType.Sickle;
-
-            if (type.Equals("Logging", StringComparison.OrdinalIgnoreCase))
-                return ItemEquipmentSlotType.Axe;
-
-            if (type.Equals("Mining", StringComparison.OrdinalIgnoreCase))
-                return ItemEquipmentSlotType.Pick;
-
-            return ItemEquipmentSlotType.Unknown;
         }
 
         private static void WriteToJsonOutputFile(IEnumerable<GatheringTool> gatheringTools, string filePath)
