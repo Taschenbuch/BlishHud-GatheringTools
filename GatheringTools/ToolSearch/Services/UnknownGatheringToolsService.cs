@@ -15,18 +15,17 @@ namespace GatheringTools.ToolSearch.Services
         {
             return new GatheringTool
             {
-                Id   = gatheringToolId,
+                Id          = gatheringToolId,
                 IdIsUnknown = true,
-                Name = $"unknown itemId: {gatheringToolId}",
+                Name        = $"unknown itemId: {gatheringToolId}",
                 IsUnlimited = true, // to always show it in tool search, when it can not be identified correctly
                 IconUrl = @"https://render.guildwars2.com/file/CC2E01E0F566A6EEF4F2EC2B19AA7A3E1FEFB1B4/60984.png"
             };
         }
 
-        public static async Task UpdateUnknownEquippedGatheringTools(
-            List<CharacterTools> characters, 
-            Gw2ApiManager gw2ApiManager,
-            Logger logger)
+        public static async Task UpdateUnknownEquippedGatheringTools(List<CharacterTools> characters, 
+                                                                     Gw2ApiManager gw2ApiManager,
+                                                                     Logger logger)
         {
             var unknownGatheringToolIds = characters.SelectMany(c => c.EquippedGatheringTools)
                                                     .Where(g => g.IdIsUnknown)
@@ -46,8 +45,8 @@ namespace GatheringTools.ToolSearch.Services
             catch (Exception e)
             {
                 var characterNamesWithUnknownTools = characters.Where(c => c.EquippedGatheringTools.Any(g => unknownGatheringToolIds.Contains(g.Id)))
-                                                           .Select(c => c.CharacterName)
-                                                           .ToList();
+                                                               .Select(c => c.CharacterName)
+                                                               .ToList();
 
                 logger.Error(e, $"V2.Items.ManyAsync() for unknown gathering tool ids failed. " +
                                 $"This can be the case for historical items like Master Pick/Axe/Sickle and Black Lion Pick/Axe/Sickle. " +

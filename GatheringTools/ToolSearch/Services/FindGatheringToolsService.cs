@@ -11,10 +11,9 @@ namespace GatheringTools.ToolSearch.Services
 {
     public static class FindGatheringToolsService
     {
-        public static async Task<(AccountTools, bool apiAccessFailed)> GetToolsFromApi(
-            List<GatheringTool> allGatheringTools,
-            Gw2ApiManager gw2ApiManager,
-            Logger logger)
+        public static async Task<(AccountTools, bool apiAccessFailed)> GetToolsFromApi(List<GatheringTool> allGatheringTools,
+                                                                                       Gw2ApiManager gw2ApiManager,
+                                                                                       Logger logger)
         {
             if (gw2ApiManager.HasPermissions(NECESSARY_API_TOKEN_PERMISSIONS) == false)
             {
@@ -39,10 +38,9 @@ namespace GatheringTools.ToolSearch.Services
             }
         }
 
-        private static async Task<AccountTools> GetToolsOnAccount(
-            List<GatheringTool> allGatheringTools,
-            Gw2ApiManager gw2ApiManager,
-            Logger logger)
+        private static async Task<AccountTools> GetToolsOnAccount(List<GatheringTool> allGatheringTools,
+                                                                  Gw2ApiManager gw2ApiManager,
+                                                                  Logger logger)
         {
             var sharedInventoryTask = gw2ApiManager.Gw2ApiClient.V2.Account.Inventory.GetAsync();
             var bankTask            = gw2ApiManager.Gw2ApiClient.V2.Account.Bank.GetAsync();
