@@ -6,14 +6,16 @@ using Blish_HUD;
 using Blish_HUD.Modules.Managers;
 using GatheringTools.ToolSearch.Model;
 using Gw2Sharp.WebApi.V2.Models;
+using Account = GatheringTools.ToolSearch.Model.Account;
+using Character = GatheringTools.ToolSearch.Model.Character;
 
 namespace GatheringTools.ToolSearch.Services
 {
     public static class FindGatheringToolsService
     {
-        public static async Task<(AccountTools, bool apiAccessFailed)> GetToolsFromApi(List<GatheringTool> allGatheringTools,
-                                                                                       Gw2ApiManager gw2ApiManager,
-                                                                                       Logger logger)
+        public static async Task<(Account, bool apiAccessFailed)> GetToolsFromApi(List<GatheringTool> allGatheringTools,
+                                                                                  Gw2ApiManager gw2ApiManager,
+                                                                                  Logger logger)
         {
             if (gw2ApiManager.HasPermissions(NECESSARY_API_TOKEN_PERMISSIONS) == false)
             {
@@ -22,7 +24,7 @@ namespace GatheringTools.ToolSearch.Services
                             $"{String.Join(", ", NECESSARY_API_TOKEN_PERMISSIONS)}. " +
                             $"Or module did not get API subToken from Blish yet. Or API key is missing.");
 
-                return (new AccountTools(), true);
+                return (new Account(), true);
             }
 
             try
@@ -33,13 +35,13 @@ namespace GatheringTools.ToolSearch.Services
             catch (Exception e)
             {
                 logger.Error(e, "Could not get gathering tools from API");
-                return (new AccountTools(), true);
+                return (new Account(), true);
             }
         }
 
-        private static async Task<AccountTools> GetToolsOnAccount(List<GatheringTool> allGatheringTools,
-                                                                  Gw2ApiManager gw2ApiManager,
-                                                                  Logger logger)
+        private static async Task<Account> GetToolsOnAccount(List<GatheringTool> allGatheringTools,
+                                                             Gw2ApiManager gw2ApiManager,
+                                                             Logger logger)
         {
             var sharedInventoryTask = gw2ApiManager.Gw2ApiClient.V2.Account.Inventory.GetAsync();
             var bankTask            = gw2ApiManager.Gw2ApiClient.V2.Account.Bank.GetAsync();
@@ -48,23 +50,23 @@ namespace GatheringTools.ToolSearch.Services
 
             var bankGatheringTools            = FindGatheringTools(bankTask.Result, allGatheringTools).ToList();
             var sharedInventoryGatheringTools = FindGatheringTools(sharedInventoryTask.Result, allGatheringTools).ToList();
-            var accountTools                  = new AccountTools(bankGatheringTools, sharedInventoryGatheringTools);
+            var account                       = new Account(bankGatheringTools, sharedInventoryGatheringTools);
 
             foreach (var characterResponse in charactersTask.Result)
             {
                 var inventoryGatheringTools = FindInventoryGatheringTools(characterResponse, allGatheringTools, logger);
                 var equippedGatheringTools  = FindEquippedGatheringTools(allGatheringTools, characterResponse).ToList();
-                var character               = new CharacterTools(characterResponse.Name, inventoryGatheringTools, equippedGatheringTools);
+                var character               = new Character(characterResponse.Name, inventoryGatheringTools, equippedGatheringTools);
 
-                accountTools.Characters.Add(character);
+                account.Characters.Add(character);
             }
 
-            await UnknownGatheringToolsService.UpdateUnknownEquippedGatheringTools(accountTools.Characters, gw2ApiManager, logger);
+            await UnknownGatheringToolsService.UpdateUnknownEquippedGatheringTools(account.Characters, gw2ApiManager, logger);
 
-            return accountTools;
+            return account;
         }
 
-        private static List<GatheringTool> FindInventoryGatheringTools(Character characterResponse,
+        private static List<GatheringTool> FindInventoryGatheringTools(Gw2Sharp.WebApi.V2.Models.Character characterResponse,
                                                                        List<GatheringTool> allGatheringTools,
                                                                        Logger logger)
         {
@@ -108,7 +110,7 @@ namespace GatheringTools.ToolSearch.Services
 
         private static bool IsNotEmptyItemSlot(AccountItem itemSlot) => itemSlot != null;
 
-        private static IEnumerable<GatheringTool> FindEquippedGatheringTools(List<GatheringTool> allGatheringTools, Character characterResponse)
+        private static IEnumerable<GatheringTool> FindEquippedGatheringTools(List<GatheringTool> allGatheringTools, Gw2Sharp.WebApi.V2.Models.Character characterResponse)
         {
             var equippedGatheringToolIds = GetEquippedGatheringToolIds(characterResponse.Equipment).ToList();
 

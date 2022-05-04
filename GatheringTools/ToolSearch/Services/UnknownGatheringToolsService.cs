@@ -7,6 +7,7 @@ using Blish_HUD.Modules.Managers;
 using GatheringTools.ToolSearch.Model;
 using Gw2Sharp.WebApi.V2.Models;
 using Microsoft.IdentityModel.Tokens;
+using Character = GatheringTools.ToolSearch.Model.Character;
 
 namespace GatheringTools.ToolSearch.Services
 {
@@ -32,7 +33,7 @@ namespace GatheringTools.ToolSearch.Services
             };
         }
 
-        public static async Task UpdateUnknownEquippedGatheringTools(List<CharacterTools> characters,
+        public static async Task UpdateUnknownEquippedGatheringTools(List<Character> characters,
                                                                      Gw2ApiManager gw2ApiManager,
                                                                      Logger logger)
         {
@@ -47,15 +48,15 @@ namespace GatheringTools.ToolSearch.Services
                 UpdateUnknownGatheringTools(unknownGatheringTools, matchingGatheringToolItems);
         }
 
-        private static List<GatheringTool> GetUnknownGatheringTools(List<CharacterTools> characters)
+        private static List<GatheringTool> GetUnknownGatheringTools(List<Character> charactersToolsList)
         {
-            return characters.SelectMany(c => c.EquippedGatheringTools)
-                             .Where(g => g.ToolType == ToolType.UnknownId)
-                             .ToList();
+            return charactersToolsList.SelectMany(c => c.EquippedGatheringTools)
+                                      .Where(g => g.ToolType == ToolType.UnknownId)
+                                      .ToList();
         }
 
         private static async Task<IReadOnlyList<Item>> GetGatheringToolItemsFromApi(List<GatheringTool> unknownGatheringTools,
-                                                                                    List<CharacterTools> characters,
+                                                                                    List<Character> characters,
                                                                                     Gw2ApiManager gw2ApiManager,
                                                                                     Logger logger)
         {

@@ -10,7 +10,6 @@ namespace GatheringTools.ToolSearch.Model
         public bool IsUnlimited { get; set; }
         public string IconUrl { get; set; }
 
-        [JsonIgnore]
-        public ToolType ToolType { get; set; } = ToolType.Normal;
+        [JsonIgnore] public ToolType ToolType { get; set; } = ToolType.Normal;
     }
 }

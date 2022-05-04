@@ -6,24 +6,24 @@ namespace GatheringTools.ToolSearch.Services
 {
     public class FilterGatheringToolsService
     {
-        public static void FilterTools(AccountTools accountTools, bool showOnlyUnlimitedTools, bool showBank, bool showSharedInventory)
+        public static void FilterTools(Account account, bool showOnlyUnlimitedTools, bool showBank, bool showSharedInventory)
         {
             if (showOnlyUnlimitedTools)
-                FilterUnlimitedTools(accountTools);
+                FilterUnlimitedTools(account);
 
-            if(showBank == false)
-                accountTools.BankGatheringTools.Clear();
+            if (showBank == false)
+                account.BankGatheringTools.Clear();
 
-            if(showSharedInventory == false)
-                accountTools.SharedInventoryGatheringTools.Clear();
+            if (showSharedInventory == false)
+                account.SharedInventoryGatheringTools.Clear();
         }
 
-        private static void FilterUnlimitedTools(AccountTools accountTools)
+        private static void FilterUnlimitedTools(Account account)
         {
-            FilterTools(accountTools.BankGatheringTools);
-            FilterTools(accountTools.SharedInventoryGatheringTools);
+            FilterTools(account.BankGatheringTools);
+            FilterTools(account.SharedInventoryGatheringTools);
 
-            foreach (var character in accountTools.Characters)
+            foreach (var character in account.Characters)
             {
                 FilterTools(character.EquippedGatheringTools);
                 FilterTools(character.InventoryGatheringTools);

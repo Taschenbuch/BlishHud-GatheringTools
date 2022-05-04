@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace GatheringTools.ToolSearch.Model
 {
-    public class CharacterTools // name because gw2sharp has "Character" type
+    public class Character // name because gw2sharp has "Character" type
     {
-        public CharacterTools(string characterName, List<GatheringTool> inventoryGatheringTools, List<GatheringTool> equippedGatheringTools)
+        public Character(string characterName, List<GatheringTool> inventoryGatheringTools, List<GatheringTool> equippedGatheringTools)
         {
             CharacterName           = characterName;
             InventoryGatheringTools = inventoryGatheringTools;
