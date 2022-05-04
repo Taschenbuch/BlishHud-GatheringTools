@@ -19,28 +19,41 @@ namespace GatheringTools.ToolSearch.Services
                 IdIsUnknown = true,
                 Name        = $"unknown itemId: {gatheringToolId}",
                 IsUnlimited = true, // to always show it in tool search, when it can not be identified correctly
-                IconUrl = @"https://render.guildwars2.com/file/CC2E01E0F566A6EEF4F2EC2B19AA7A3E1FEFB1B4/60984.png"
             };
         }
 
-        public static async Task UpdateUnknownEquippedGatheringTools(List<CharacterTools> characters, 
+        public static async Task UpdateUnknownEquippedGatheringTools(List<CharacterTools> characters,
                                                                      Gw2ApiManager gw2ApiManager,
                                                                      Logger logger)
         {
-            var unknownGatheringToolIds = characters.SelectMany(c => c.EquippedGatheringTools)
-                                                    .Where(g => g.IdIsUnknown)
-                                                    .Select(g => g.Id)
-                                                    .Distinct()
-                                                    .ToList();
+            var unknownGatheringTools = GetUnknownGatheringTools(characters);
 
-            if (unknownGatheringToolIds.Any() == false)
-                return;
+            if (unknownGatheringTools.Any())
+            {
+                var matchingGatheringToolItems = await GetGatheringToolItemsFromApi(unknownGatheringTools, characters, gw2ApiManager, logger);
+                UpdateUnknownGatheringTools(unknownGatheringTools, matchingGatheringToolItems);
+            }
+        }
 
-            IReadOnlyList<Item> gatheringToolItems;
+        private static List<GatheringTool> GetUnknownGatheringTools(List<CharacterTools> characters)
+        {
+            return characters.SelectMany(c => c.EquippedGatheringTools)
+                             .Where(g => g.IdIsUnknown)
+                             .ToList();
+        }
+
+        private static async Task<IReadOnlyList<Item>> GetGatheringToolItemsFromApi(List<GatheringTool> unknownGatheringTools,
+                                                                                      List<CharacterTools> characters,
+                                                                                      Gw2ApiManager gw2ApiManager,
+                                                                                      Logger logger)
+        {
+            var unknownGatheringToolIds = unknownGatheringTools.Select(g => g.Id)
+                                                               .Distinct()
+                                                               .ToList();
 
             try
             {
-                gatheringToolItems = await gw2ApiManager.Gw2ApiClient.V2.Items.ManyAsync(unknownGatheringToolIds);
+                return await gw2ApiManager.Gw2ApiClient.V2.Items.ManyAsync(unknownGatheringToolIds);
             }
             catch (Exception e)
             {
@@ -52,18 +65,20 @@ namespace GatheringTools.ToolSearch.Services
                                 $"This can be the case for historical items like Master Pick/Axe/Sickle and Black Lion Pick/Axe/Sickle. " +
                                 $"unknown ids: {String.Join(", ", unknownGatheringToolIds)}. " +
                                 $"Characters equipped with unknown tools: {String.Join(", ", characterNamesWithUnknownTools)}.");
-                return;
+
+                return new List<Item>().AsReadOnly();
             }
+        }
 
-            var unknownGatheringTools = characters.SelectMany(c => c.EquippedGatheringTools)
-                                                  .Where(g => g.IdIsUnknown);
-
+        private static void UpdateUnknownGatheringTools(List<GatheringTool> unknownGatheringTools, IReadOnlyList<Item> matchingGatheringToolItems)
+        {
             foreach (var unknownGatheringTool in unknownGatheringTools)
             {
-                var matchingGatheringToolItem = gatheringToolItems.Single(i => i.Id == unknownGatheringTool.Id);
+                var matchingGatheringToolItem = matchingGatheringToolItems.Single(i => i.Id == unknownGatheringTool.Id);
                 unknownGatheringTool.Name        = matchingGatheringToolItem.Name;
                 unknownGatheringTool.IconUrl     = matchingGatheringToolItem.Icon.Url.ToString();
                 unknownGatheringTool.IsUnlimited = matchingGatheringToolItem.Rarity == ItemRarity.Rare;
+                unknownGatheringTool.IdIsUnknown = false;
             }
         }
     }
