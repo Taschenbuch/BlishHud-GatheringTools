@@ -11,6 +11,6 @@ namespace GatheringTools.ToolSearch.Model
         public string IconUrl { get; set; }
 
         [JsonIgnore]
-        public bool IdIsUnknown { get; set; } = false;
+        public ToolType ToolType { get; set; } = ToolType.Normal;
     }
 }

@@ -12,14 +12,23 @@ namespace GatheringTools.ToolSearch.Services
 {
     public class UnknownGatheringToolsService
     {
-        public static GatheringTool CreateUnknownGatheringTool(int id, string name)
+        public static GatheringTool CreateNoInventoryAccessPlaceholderTool()
+        {
+            return new GatheringTool
+            {
+                Id          = -1,
+                IsUnlimited = true, // to always show it in tool search, when it can not be identified correctly
+                ToolType    = ToolType.InventoryCanNotBeAccessedPlaceHolder,
+            };
+        }
+
+        public static GatheringTool CreateUnknownGatheringTool(int id)
         {
             return new GatheringTool
             {
                 Id          = id,
-                Name        = name,
                 IsUnlimited = true, // to always show it in tool search, when it can not be identified correctly
-                IdIsUnknown = true,
+                ToolType    = ToolType.UnknownId,
             };
         }
 
@@ -41,7 +50,7 @@ namespace GatheringTools.ToolSearch.Services
         private static List<GatheringTool> GetUnknownGatheringTools(List<CharacterTools> characters)
         {
             return characters.SelectMany(c => c.EquippedGatheringTools)
-                             .Where(g => g.IdIsUnknown)
+                             .Where(g => g.ToolType == ToolType.UnknownId)
                              .ToList();
         }
 
@@ -83,7 +92,7 @@ namespace GatheringTools.ToolSearch.Services
                 unknownGatheringTool.Name        = matchingGatheringToolItem.Name;
                 unknownGatheringTool.IconUrl     = matchingGatheringToolItem.Icon.Url.ToString();
                 unknownGatheringTool.IsUnlimited = matchingGatheringToolItem.Rarity == ItemRarity.Rare;
-                unknownGatheringTool.IdIsUnknown = false;
+                unknownGatheringTool.ToolType    = ToolType.Normal;
             }
         }
     }

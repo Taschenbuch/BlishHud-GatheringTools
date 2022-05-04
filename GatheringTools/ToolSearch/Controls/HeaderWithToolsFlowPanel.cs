@@ -11,11 +11,15 @@ namespace GatheringTools.ToolSearch.Controls
 {
     public class HeaderWithToolsFlowPanel : FlowPanel
     {
-        public HeaderWithToolsFlowPanel(string headerText, List<GatheringTool> gatheringTools, Texture2D headerTexture, Texture2D unknownToolTexture, Logger logger)
+        public HeaderWithToolsFlowPanel(string headerText,
+                                        List<GatheringTool> gatheringTools,
+                                        Texture2D headerTexture,
+                                        Texture2D unknownToolTexture,
+                                        Logger logger)
         {
             FlowDirection = ControlFlowDirection.SingleLeftToRight;
 
-            var headerImage = new Image(headerTexture)
+            new Image(headerTexture)
             {
                 BasicTooltipText = headerText,
                 Size             = new Point(30, 30),
@@ -40,19 +44,36 @@ namespace GatheringTools.ToolSearch.Controls
                                                                     Logger logger)
         {
             var gatheringToolTexture = DetermineToolTexture(gatheringTool, unknownToolTexture, logger);
+            var tooltipText          = DetermineTooltipText(gatheringTool);
 
             new Image(gatheringToolTexture)
             {
-                BasicTooltipText = gatheringTool.Name,
+                BasicTooltipText = tooltipText,
                 Size             = new Point(ICON_WIDTH_HEIGHT, ICON_WIDTH_HEIGHT),
                 Parent           = toolsFlowPanel,
             };
+        }
 
+        private static string DetermineTooltipText(GatheringTool gatheringTool)
+        {
+            switch (gatheringTool.ToolType)
+            {
+                case ToolType.Normal:
+                    return gatheringTool.Name;
+                case ToolType.UnknownId:
+                    return $"No data in the API for this item ID: {gatheringTool.Id}. :(\n" +
+                           $"Could be a very new or very old item. Or a bug in the API.";
+                case ToolType.InventoryCanNotBeAccessedPlaceHolder:
+                    return "Can not access inventory for this character. :(\n" +
+                           "Could be an API error or API key has no 'inventories' permission.";
+                default:
+                    return $"Bug in module code. ToolType {gatheringTool.ToolType} is not handled. :(";
+            }
         }
 
         private static AsyncTexture2D DetermineToolTexture(GatheringTool gatheringTool, Texture2D unknownToolTexture, Logger logger)
         {
-            if (gatheringTool.IdIsUnknown)
+            if (gatheringTool.ToolType != ToolType.Normal)
                 return unknownToolTexture;
 
             try
@@ -61,7 +82,7 @@ namespace GatheringTools.ToolSearch.Controls
             }
             catch (Exception e)
             {
-                logger.Error(e, "Could not get gathering tool icon from API. Show gathering tool name instead.");
+                logger.Error(e, "Could not get gathering tool icon from API. Show placeholder icon instead.");
                 return unknownToolTexture;
             }
         }

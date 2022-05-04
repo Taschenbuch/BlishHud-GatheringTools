@@ -81,6 +81,7 @@
     <Compile Include="LogoutOverlay\ReminderContainer.cs" />
     <Compile Include="ToolSearch\Services\UnknownGatheringToolsService.cs" />
     <Compile Include="ToolSearch\Controls\ToolSearchStandardWindow.cs" />
+    <Compile Include="ToolSearch\ToolType.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="AsyncClipboardService, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">

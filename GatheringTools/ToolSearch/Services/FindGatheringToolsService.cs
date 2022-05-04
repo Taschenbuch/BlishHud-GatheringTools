@@ -55,6 +55,7 @@ namespace GatheringTools.ToolSearch.Services
                 var inventoryGatheringTools = FindInventoryGatheringTools(characterResponse, allGatheringTools, logger);
                 var equippedGatheringTools  = FindEquippedGatheringTools(allGatheringTools, characterResponse).ToList();
                 var character               = new CharacterTools(characterResponse.Name, inventoryGatheringTools, equippedGatheringTools);
+
                 accountTools.Characters.Add(character);
             }
 
@@ -67,12 +68,17 @@ namespace GatheringTools.ToolSearch.Services
                                                                        List<GatheringTool> allGatheringTools,
                                                                        Logger logger)
         {
-            if (characterResponse.Bags == null) // .Bags == null happened to a user, though the permission check should have prevented it.
+            if (characterResponse.Bags == null)
             {
+                // .Bags == null happened to a user, though the permission check should have prevented it.
+                // But it worked later for the user without changing anything.
                 logger.Error($"Character.Bags is NULL for a character (Name: {characterResponse.Name}). " +
                              $"This can happen when api key is missing inventory permission.");
 
-                return new List<GatheringTool>();
+                return new List<GatheringTool>
+                {
+                    UnknownGatheringToolsService.CreateNoInventoryAccessPlaceholderTool()
+                };
             }
 
             var inventoryItems = characterResponse.Bags
@@ -109,7 +115,7 @@ namespace GatheringTools.ToolSearch.Services
             foreach (var gatheringToolId in equippedGatheringToolIds)
             {
                 var matchingGatheringTool = allGatheringTools.FindToolById(gatheringToolId);
-                var gatheringTool         = matchingGatheringTool ?? UnknownGatheringToolsService.CreateUnknownGatheringTool(gatheringToolId, $"unknown itemId: {gatheringToolId}");
+                var gatheringTool         = matchingGatheringTool ?? UnknownGatheringToolsService.CreateUnknownGatheringTool(gatheringToolId);
                 yield return gatheringTool;
             }
         }
