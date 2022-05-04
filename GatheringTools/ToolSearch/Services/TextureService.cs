@@ -19,6 +19,7 @@ namespace GatheringTools.ToolSearch.Services
             CharacterInventoryTexture = contentsManager.GetTexture(@"toolSearch\inventory_157098.png");
             SharedInventoryTexture    = contentsManager.GetTexture(@"toolSearch\sharedInventory.png");
             EquipmentTexture          = contentsManager.GetTexture(@"toolSearch\equipment_156714.png");
+            UnknownToolTexture        = contentsManager.GetTexture(@"toolSearch\unknownTool_66591.png");
         }
 
         public void Dispose()
@@ -34,6 +35,7 @@ namespace GatheringTools.ToolSearch.Services
             CharacterInventoryTexture?.Dispose();
             SharedInventoryTexture?.Dispose();
             EquipmentTexture?.Dispose();
+            UnknownToolTexture?.Dispose();
         }
 
         public Texture2D ReminderBackgroundTexture { get; }
@@ -46,5 +48,6 @@ namespace GatheringTools.ToolSearch.Services
         public Texture2D CharacterInventoryTexture { get; }
         public Texture2D SharedInventoryTexture { get; }
         public Texture2D EquipmentTexture { get; }
+        public Texture2D UnknownToolTexture { get; }
     }
 }

@@ -17,12 +17,11 @@ namespace GatheringTools.ToolSearch.Services
         {
             if (gw2ApiManager.HasPermissions(NECESSARY_API_TOKEN_PERMISSIONS) == false)
             {
-                var missingPermissionsErrorMessage = "HasPermissions() returned false. Possible reasons: " +
-                                                     "API subToken does not have the necessary permissions: " +
-                                                     $"{String.Join(", ", NECESSARY_API_TOKEN_PERMISSIONS)}. " +
-                                                     $"Or module did not get API subToken from Blish yet. Or API key is missing.";
+                logger.Warn("HasPermissions() returned false. Possible reasons: " +
+                            "API subToken does not have the necessary permissions: " +
+                            $"{String.Join(", ", NECESSARY_API_TOKEN_PERMISSIONS)}. " +
+                            $"Or module did not get API subToken from Blish yet. Or API key is missing.");
 
-                logger.Warn(missingPermissionsErrorMessage);
                 return (new AccountTools(), true);
             }
 
@@ -110,7 +109,7 @@ namespace GatheringTools.ToolSearch.Services
             foreach (var gatheringToolId in equippedGatheringToolIds)
             {
                 var matchingGatheringTool = allGatheringTools.FindToolById(gatheringToolId);
-                var gatheringTool         = matchingGatheringTool ?? UnknownGatheringToolsService.CreateUnknownGatheringTool(gatheringToolId);
+                var gatheringTool         = matchingGatheringTool ?? UnknownGatheringToolsService.CreateUnknownGatheringTool(gatheringToolId, $"unknown itemId: {gatheringToolId}");
                 yield return gatheringTool;
             }
         }

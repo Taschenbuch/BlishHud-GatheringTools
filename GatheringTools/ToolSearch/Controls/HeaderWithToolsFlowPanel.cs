@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Blish_HUD;
+using Blish_HUD.Content;
 using Blish_HUD.Controls;
 using GatheringTools.ToolSearch.Model;
 using Microsoft.Xna.Framework;
@@ -10,7 +11,7 @@ namespace GatheringTools.ToolSearch.Controls
 {
     public class HeaderWithToolsFlowPanel : FlowPanel
     {
-        public HeaderWithToolsFlowPanel(string headerText, Texture2D headerTexture, List<GatheringTool> gatheringTools, Logger logger)
+        public HeaderWithToolsFlowPanel(string headerText, List<GatheringTool> gatheringTools, Texture2D headerTexture, Texture2D unknownToolTexture, Logger logger)
         {
             FlowDirection = ControlFlowDirection.SingleLeftToRight;
 
@@ -30,35 +31,38 @@ namespace GatheringTools.ToolSearch.Controls
             };
 
             foreach (var gatheringTool in gatheringTools)
-                ShowGatheringToolImageOrFallbackLabel(logger, gatheringTool, toolsFlowPanel);
+                ShowGatheringToolImageOrFallbackControl(gatheringTool, unknownToolTexture, toolsFlowPanel, logger);
         }
 
-        private static void ShowGatheringToolImageOrFallbackLabel(Logger logger, GatheringTool gatheringTool, FlowPanel toolsFlowPanel)
+        private static void ShowGatheringToolImageOrFallbackControl(GatheringTool gatheringTool,
+                                                                    Texture2D unknownToolTexture,
+                                                                    FlowPanel toolsFlowPanel,
+                                                                    Logger logger)
         {
+            var gatheringToolTexture = DetermineToolTexture(gatheringTool, unknownToolTexture, logger);
+
+            new Image(gatheringToolTexture)
+            {
+                BasicTooltipText = gatheringTool.Name,
+                Size             = new Point(ICON_WIDTH_HEIGHT, ICON_WIDTH_HEIGHT),
+                Parent           = toolsFlowPanel,
+            };
+
+        }
+
+        private static AsyncTexture2D DetermineToolTexture(GatheringTool gatheringTool, Texture2D unknownToolTexture, Logger logger)
+        {
+            if (gatheringTool.IdIsUnknown)
+                return unknownToolTexture;
+
             try
             {
-                var gatheringToolTexture = GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl);
-                new Image(gatheringToolTexture)
-                {
-                    BasicTooltipText = gatheringTool.Name,
-                    Size             = new Point(ICON_WIDTH_HEIGHT, ICON_WIDTH_HEIGHT),
-                    Parent           = toolsFlowPanel,
-                };
+                return GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl);
             }
             catch (Exception e)
             {
-                var gatheringToolLabel = new Label
-                {
-                    Text             = gatheringTool.Name,
-                    BasicTooltipText = gatheringTool.Name,
-                    Font             = GameService.Content.DefaultFont18,
-                    ShowShadow       = true,
-                    AutoSizeHeight   = true,
-                    AutoSizeWidth    = true,
-                    Parent           = toolsFlowPanel,
-                };
-
                 logger.Error(e, "Could not get gathering tool icon from API. Show gathering tool name instead.");
+                return unknownToolTexture;
             }
         }
 

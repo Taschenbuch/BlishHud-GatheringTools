@@ -6,19 +6,20 @@ using Blish_HUD;
 using Blish_HUD.Modules.Managers;
 using GatheringTools.ToolSearch.Model;
 using Gw2Sharp.WebApi.V2.Models;
+using Microsoft.IdentityModel.Tokens;
 
 namespace GatheringTools.ToolSearch.Services
 {
     public class UnknownGatheringToolsService
     {
-        public static GatheringTool CreateUnknownGatheringTool(int gatheringToolId)
+        public static GatheringTool CreateUnknownGatheringTool(int id, string name)
         {
             return new GatheringTool
             {
-                Id          = gatheringToolId,
-                IdIsUnknown = true,
-                Name        = $"unknown itemId: {gatheringToolId}",
+                Id          = id,
+                Name        = name,
                 IsUnlimited = true, // to always show it in tool search, when it can not be identified correctly
+                IdIsUnknown = true,
             };
         }
 
@@ -28,11 +29,13 @@ namespace GatheringTools.ToolSearch.Services
         {
             var unknownGatheringTools = GetUnknownGatheringTools(characters);
 
-            if (unknownGatheringTools.Any())
-            {
-                var matchingGatheringToolItems = await GetGatheringToolItemsFromApi(unknownGatheringTools, characters, gw2ApiManager, logger);
+            if (unknownGatheringTools.IsNullOrEmpty())
+                return;
+
+            var matchingGatheringToolItems = await GetGatheringToolItemsFromApi(unknownGatheringTools, characters, gw2ApiManager, logger);
+
+            if (matchingGatheringToolItems.Any())
                 UpdateUnknownGatheringTools(unknownGatheringTools, matchingGatheringToolItems);
-            }
         }
 
         private static List<GatheringTool> GetUnknownGatheringTools(List<CharacterTools> characters)
@@ -43,9 +46,9 @@ namespace GatheringTools.ToolSearch.Services
         }
 
         private static async Task<IReadOnlyList<Item>> GetGatheringToolItemsFromApi(List<GatheringTool> unknownGatheringTools,
-                                                                                      List<CharacterTools> characters,
-                                                                                      Gw2ApiManager gw2ApiManager,
-                                                                                      Logger logger)
+                                                                                    List<CharacterTools> characters,
+                                                                                    Gw2ApiManager gw2ApiManager,
+                                                                                    Logger logger)
         {
             var unknownGatheringToolIds = unknownGatheringTools.Select(g => g.Id)
                                                                .Distinct()
@@ -53,6 +56,8 @@ namespace GatheringTools.ToolSearch.Services
 
             try
             {
+                // will throw an exception when at least one itemId can not be found in V2.Items. even when the other itemIds could be found. 
+                // Thus gw2sharp behavior seems to differ from a request via url in this case. Probably of the way how it asks the api with ManyAsync().
                 return await gw2ApiManager.Gw2ApiClient.V2.Items.ManyAsync(unknownGatheringToolIds);
             }
             catch (Exception e)
@@ -62,7 +67,7 @@ namespace GatheringTools.ToolSearch.Services
                                                                .ToList();
 
                 logger.Error(e, $"V2.Items.ManyAsync() for unknown gathering tool ids failed. " +
-                                $"This can be the case for historical items like Master Pick/Axe/Sickle and Black Lion Pick/Axe/Sickle. " +
+                                $"This can be the case for old historical items. " +
                                 $"unknown ids: {String.Join(", ", unknownGatheringToolIds)}. " +
                                 $"Characters equipped with unknown tools: {String.Join(", ", characterNamesWithUnknownTools)}.");
 

@@ -157,11 +157,19 @@ namespace GatheringTools.ToolSearch.Controls
                 _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
         }
 
-        private static void ShowToolsInUi(AccountTools accountTools, FlowPanel toolLocationsFlowPanel, TextureService textureService, Logger logger)
+        private static void ShowToolsInUi(AccountTools accountTools,
+                                          FlowPanel toolLocationsFlowPanel, 
+                                          TextureService textureService, 
+                                          Logger logger)
         {
             if (accountTools.BankGatheringTools.Any())
             {
-                new HeaderWithToolsFlowPanel("Bank", textureService.BankTexture, accountTools.BankGatheringTools, logger)
+                new HeaderWithToolsFlowPanel(
+                    "Bank", 
+                    accountTools.BankGatheringTools, 
+                    textureService.BankTexture, 
+                    textureService.UnknownToolTexture, 
+                    logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
@@ -172,7 +180,12 @@ namespace GatheringTools.ToolSearch.Controls
 
             if (accountTools.SharedInventoryGatheringTools.Any())
             {
-                new HeaderWithToolsFlowPanel("Shared inventory", textureService.SharedInventoryTexture, accountTools.SharedInventoryGatheringTools, logger)
+                new HeaderWithToolsFlowPanel(
+                    "Shared inventory", 
+                    accountTools.SharedInventoryGatheringTools,
+                    textureService.SharedInventoryTexture,
+                    textureService.UnknownToolTexture, 
+                    logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
@@ -203,7 +216,12 @@ namespace GatheringTools.ToolSearch.Controls
 
             if (character.EquippedGatheringTools.Any())
             {
-                new HeaderWithToolsFlowPanel($"Equipped tools", textureService.EquipmentTexture, character.EquippedGatheringTools, logger)
+                new HeaderWithToolsFlowPanel(
+                    $"Equipped tools", 
+                    character.EquippedGatheringTools,
+                    textureService.EquipmentTexture, 
+                    textureService.UnknownToolTexture,
+                    logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
@@ -214,7 +232,12 @@ namespace GatheringTools.ToolSearch.Controls
 
             if (character.InventoryGatheringTools.Any())
             {
-                new HeaderWithToolsFlowPanel($"Inventory", textureService.CharacterInventoryTexture, character.InventoryGatheringTools, logger)
+                new HeaderWithToolsFlowPanel(
+                    $"Inventory", 
+                    character.InventoryGatheringTools, 
+                    textureService.CharacterInventoryTexture, 
+                    textureService.UnknownToolTexture, 
+                    logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
                     HeightSizingMode = SizingMode.AutoSize,
