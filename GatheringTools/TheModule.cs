@@ -66,7 +66,7 @@ namespace GatheringTools
             _settingService.LogoutKeyBindingSetting.Value.Activated += OnLogoutKeyBindingActivated;
             _settingService.LogoutKeyBindingSetting.Value.Enabled   =  true;
 
-            var allGatheringTools = await FileService.GetAllGatheringToolsFromFile(ContentsManager, Logger);
+            var allGatheringTools = await FileService.GetAllGatheringToolsFromFiles(ContentsManager, Logger);
             _allGatheringTools.AddRange(allGatheringTools);
 
             _toolSearchStandardWindow = new ToolSearchStandardWindow(_textureService, _settingService, _allGatheringTools, Gw2ApiManager, Logger)
