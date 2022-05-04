@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using GatheringTools.ToolSearch;
 using GatheringTools.ToolSearch.Model;
-using Gw2Sharp.WebApi.V2.Models;
 using ItemJsonFileCreator.Model;
 using Newtonsoft.Json;
 using File = System.IO.File;
@@ -16,7 +14,7 @@ namespace ItemJsonFileCreator
         private const string INPUT_FOLDER_PATH_WITH_JSON_FILES = @"c:\gw2\items";
         private const string OUTPUT_JSON_FILE_PATH = @"c:\gw2\gatheringTools.json";
 
-        static void Main(string[] args)
+        static void Main()
         {
             var items          = ParseItemsFromJsonFiles(INPUT_FOLDER_PATH_WITH_JSON_FILES);
             var gatheringTools = FindGatheringTools(items);
