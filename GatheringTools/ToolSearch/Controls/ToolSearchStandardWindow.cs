@@ -154,7 +154,7 @@ namespace GatheringTools.ToolSearch.Controls
             if (account.HasTools())
                 ShowToolsInUi(account, _toolLocationsFlowPanel, _textureService, _logger);
             else
-                _infoLabel.Text = "No tools found with current search filter or no character has tools equipped!";
+                _infoLabel.Text = "No tools found with current search filter!";
         }
 
         private static void ShowToolsInUi(Account account,
