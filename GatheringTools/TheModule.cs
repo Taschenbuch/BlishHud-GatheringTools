@@ -82,7 +82,7 @@ namespace GatheringTools
             _settingService.ToolSearchKeyBindingSetting.Value.Activated += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
             _settingService.ToolSearchKeyBindingSetting.Value.Enabled   =  true;
 
-            _cornerIconService = new CornerIconService(_settingService.ShowToolSearchCornerIconSetting, _toolSearchStandardWindow, _textureService.SickleTexture);
+            _cornerIconService = new CornerIconService(_settingService.ShowToolSearchCornerIconSetting, _toolSearchStandardWindow, _textureService);
         }
 
         protected override void Update(GameTime gameTime)

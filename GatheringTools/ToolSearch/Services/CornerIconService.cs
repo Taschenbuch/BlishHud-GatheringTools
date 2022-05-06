@@ -10,10 +10,11 @@ namespace GatheringTools.ToolSearch.Services
     {
         public CornerIconService(SettingEntry<bool> showToolSearchCornerIconSetting,
                                  ToolSearchStandardWindow toolSearchStandardWindow,
-                                 Texture2D cornerIconTexture)
+                                 TextureService textureService)
         {
             _toolSearchStandardWindow = toolSearchStandardWindow;
-            _cornerIconTexture        = cornerIconTexture;
+            _cornerIconTexture        = textureService.CornerIconTexture;
+            _hoverCornerIconTexture   = textureService.HoverCornerIconTexture;
 
             if (showToolSearchCornerIconSetting.Value)
                 CreateCornerIcon();
@@ -38,6 +39,7 @@ namespace GatheringTools.ToolSearch.Services
             _toolSearchCornerIcon = new CornerIcon
             {
                 Icon             = _cornerIconTexture,
+                HoverIcon        = _hoverCornerIconTexture,
                 BasicTooltipText = "Click to show/hide which character has gathering tools equipped.\nIcon can be hidden by module settings.",
                 Parent           = GameService.Graphics.SpriteScreen,
             };
@@ -47,6 +49,7 @@ namespace GatheringTools.ToolSearch.Services
 
         private readonly ToolSearchStandardWindow _toolSearchStandardWindow;
         private readonly Texture2D _cornerIconTexture;
+        private readonly Texture2D _hoverCornerIconTexture;
         private CornerIcon _toolSearchCornerIcon;
     }
 }
