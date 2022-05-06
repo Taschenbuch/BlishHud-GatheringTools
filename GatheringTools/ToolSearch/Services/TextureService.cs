@@ -13,15 +13,15 @@ namespace GatheringTools.ToolSearch.Services
             Tool2Texture              = contentsManager.GetTexture(@"logoutOverlay\tool2_1998934.png");
             Tool3Texture              = contentsManager.GetTexture(@"logoutOverlay\tool3_1998935.png");
 
-            WindowBackgroundTexture   = contentsManager.GetTexture(@"toolSearch\windowsBackground_155985.png");
-            ToolSearchWindowEmblem    = contentsManager.GetTexture(@"toolSearch\sickle.png");
-            CornerIconTexture         = contentsManager.GetTexture(@"toolSearch\sickle.png");
-            HoverCornerIconTexture    = contentsManager.GetTexture(@"toolSearch\sickle_hover.png");
-            BankTexture               = contentsManager.GetTexture(@"toolSearch\bank_156670.png");
-            CharacterInventoryTexture = contentsManager.GetTexture(@"toolSearch\inventory_157098.png");
-            SharedInventoryTexture    = contentsManager.GetTexture(@"toolSearch\sharedInventory.png");
-            EquipmentTexture          = contentsManager.GetTexture(@"toolSearch\equipment_156714.png");
-            UnknownToolTexture        = contentsManager.GetTexture(@"toolSearch\unknownTool_66591.png");
+            WindowBackgroundTexture   = contentsManager.GetTexture(@"toolSearch\textures\windowsBackground_155985.png");
+            ToolSearchWindowEmblem    = contentsManager.GetTexture(@"toolSearch\textures\sickle.png");
+            CornerIconTexture         = contentsManager.GetTexture(@"toolSearch\textures\sickle.png");
+            HoverCornerIconTexture    = contentsManager.GetTexture(@"toolSearch\textures\sickle_hover.png");
+            BankTexture               = contentsManager.GetTexture(@"toolSearch\textures\bank_156670.png");
+            CharacterInventoryTexture = contentsManager.GetTexture(@"toolSearch\textures\inventory_157098.png");
+            SharedInventoryTexture    = contentsManager.GetTexture(@"toolSearch\textures\sharedInventory.png");
+            EquipmentTexture          = contentsManager.GetTexture(@"toolSearch\textures\equipment_156714.png");
+            UnknownToolTexture        = contentsManager.GetTexture(@"toolSearch\textures\unknownTool_66591.png");
         }
 
         public void Dispose()

@@ -14,8 +14,8 @@ namespace GatheringTools.ToolSearch.Services
     {
         public static async Task<IEnumerable<GatheringTool>> GetAllGatheringToolsFromFiles(ContentsManager contentsManager, Logger logger)
         {
-            var knownGatheringToolsTask   = GetGatheringToolsFromFile(@"toolSearch\gatheringToolsFromV2ItemsApi.json", contentsManager, logger);
-            var unknownGatheringToolsTask = GetGatheringToolsFromFile(@"toolSearch\gatheringToolsMissingInV2ItemsApi.json", contentsManager, logger);
+            var knownGatheringToolsTask   = GetGatheringToolsFromFile(@"toolSearch\data\gatheringToolsFromV2ItemsApi.json", contentsManager, logger);
+            var unknownGatheringToolsTask = GetGatheringToolsFromFile(@"toolSearch\data\gatheringToolsMissingInV2ItemsApi.json", contentsManager, logger);
             await Task.WhenAll(knownGatheringToolsTask, unknownGatheringToolsTask);
             return knownGatheringToolsTask.Result.Concat(unknownGatheringToolsTask.Result);
         }
