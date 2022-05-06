@@ -15,8 +15,8 @@ namespace GatheringTools.ToolSearch.Services
 
             WindowBackgroundTexture   = contentsManager.GetTexture(@"toolSearch\textures\windowsBackground_155985.png");
             ToolSearchWindowEmblem    = contentsManager.GetTexture(@"toolSearch\textures\sickle.png");
-            CornerIconTexture         = contentsManager.GetTexture(@"toolSearch\textures\sickle.png");
-            HoverCornerIconTexture    = contentsManager.GetTexture(@"toolSearch\textures\sickle_hover.png");
+            CornerIconTexture         = contentsManager.GetTexture(@"toolSearch\textures\cornerIcon.png");
+            HoverCornerIconTexture    = contentsManager.GetTexture(@"toolSearch\textures\cornerIcon_hover.png");
             BankTexture               = contentsManager.GetTexture(@"toolSearch\textures\bank_156670.png");
             CharacterInventoryTexture = contentsManager.GetTexture(@"toolSearch\textures\inventory_157098.png");
             SharedInventoryTexture    = contentsManager.GetTexture(@"toolSearch\textures\sharedInventory.png");
