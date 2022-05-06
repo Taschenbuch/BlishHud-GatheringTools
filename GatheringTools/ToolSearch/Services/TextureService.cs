@@ -15,6 +15,7 @@ namespace GatheringTools.ToolSearch.Services
 
             WindowBackgroundTexture   = contentsManager.GetTexture(@"toolSearch\windowsBackground_155985.png");
             SickleTexture             = contentsManager.GetTexture(@"toolSearch\sickle.png");
+            ToolSearchWindowEmblem    = contentsManager.GetTexture(@"toolSearch\sickle.png");
             BankTexture               = contentsManager.GetTexture(@"toolSearch\bank_156670.png");
             CharacterInventoryTexture = contentsManager.GetTexture(@"toolSearch\inventory_157098.png");
             SharedInventoryTexture    = contentsManager.GetTexture(@"toolSearch\sharedInventory.png");
@@ -31,6 +32,7 @@ namespace GatheringTools.ToolSearch.Services
 
             WindowBackgroundTexture?.Dispose();
             SickleTexture?.Dispose();
+            ToolSearchWindowEmblem?.Dispose();
             BankTexture?.Dispose();
             CharacterInventoryTexture?.Dispose();
             SharedInventoryTexture?.Dispose();
@@ -44,6 +46,7 @@ namespace GatheringTools.ToolSearch.Services
         public Texture2D Tool3Texture { get; }
         public Texture2D WindowBackgroundTexture { get; }
         public Texture2D SickleTexture { get; }
+        public Texture2D ToolSearchWindowEmblem { get; }
         public Texture2D BankTexture { get; }
         public Texture2D CharacterInventoryTexture { get; }
         public Texture2D SharedInventoryTexture { get; }

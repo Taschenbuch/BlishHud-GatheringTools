@@ -71,7 +71,7 @@ namespace GatheringTools
 
             _toolSearchStandardWindow = new ToolSearchStandardWindow(_textureService, _settingService, _allGatheringTools, Gw2ApiManager, Logger)
             {
-                Emblem        = _textureService.SickleTexture, // hack: has to be first to prevent bug of emblem not being visible
+                Emblem        = _textureService.ToolSearchWindowEmblem, // hack: has to be first to prevent bug of emblem not being visible
                 Title         = "Tools",
                 Location      = new Point(300, 300),
                 SavesPosition = true,
