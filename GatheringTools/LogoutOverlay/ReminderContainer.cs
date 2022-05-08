@@ -31,12 +31,14 @@ namespace GatheringTools.LogoutOverlay
             UpdateReminderText(settingService.ReminderTextSetting.Value);
             UpdateReminderTextFontSize(settingService.ReminderTextFontSizeIndexSetting.Value);
             UpdateIconSize(settingService.ReminderIconSizeSetting.Value);
+            UpdateIconsVisibility(settingService.ReminderIconsAreVisibleSettings.Value);
             UpdateContainerSizeAndMoveAboveLogoutDialog(settingService.ReminderWindowSizeSetting.Value);
 
             settingService.ReminderTextFontSizeIndexSetting.SettingChanged += (s, e) => UpdateReminderTextFontSize(e.NewValue);
             settingService.ReminderTextSetting.SettingChanged              += (s, e) => UpdateReminderText(e.NewValue);
             settingService.ReminderWindowSizeSetting.SettingChanged        += (s, e) => UpdateContainerSizeAndMoveAboveLogoutDialog(e.NewValue);
             settingService.ReminderIconSizeSetting.SettingChanged          += (s, e) => UpdateIconSize(e.NewValue);
+            settingService.ReminderIconsAreVisibleSettings.SettingChanged  += (s, e) => UpdateIconsVisibility(e.NewValue);
             GameService.Graphics.SpriteScreen.Resized                      += OnSpriteScreenResized;
         }
 
@@ -82,9 +84,19 @@ namespace GatheringTools.LogoutOverlay
             UpdateChildLocations();
         }
 
+        private void UpdateIconsVisibility(bool areVisible)
+        {
+            _tool1Image.Visible = areVisible;
+            _tool2Image.Visible = areVisible;
+            _tool3Image.Visible = areVisible;
+            UpdateChildLocations();
+        }
+
         private void UpdateChildLocations()
         {
-            var labelAndToolWidth = _reminderTextLabel.Width + 3 * _tool1Image.Width;
+            var labelAndToolWidth = _tool1Image.Visible
+                ? _reminderTextLabel.Width + 3 * _tool1Image.Width
+                : _reminderTextLabel.Width;
 
             var labelLocationOffsetX = (Width - labelAndToolWidth) / 2;
             var labelLocationOffsetY = (Height - _reminderTextLabel.Height) / 2;

@@ -49,6 +49,15 @@ namespace GatheringTools.Services
                 () => "Change size of the icons in the reminder window");
             ReminderIconSizeSetting.SetRange(10, 300);
 
+            ReminderIconsAreVisibleSettings = settings.DefineSetting(
+                "show reminder icons",
+                false,
+                () => "show icons in reminder",
+                () => "Show gathering tool icons in the reminder.\n" +
+                      "The icons are static placeholders. They do not represent the tools " +
+                      "your character has equipped. Sadly the API would be too slow for " +
+                      "updating those correctly.");
+
             EscIsHidingReminderSetting = settings.DefineSetting(
                 "hide on ESC",
                 true,
@@ -84,6 +93,7 @@ namespace GatheringTools.Services
         public SettingEntry<string> ReminderTextSetting { get; }
         public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; }
         public SettingEntry<int> ReminderIconSizeSetting { get; }
+        public SettingEntry<bool> ReminderIconsAreVisibleSettings { get; set; }
         public SettingEntry<bool> EscIsHidingReminderSetting { get; }
         public SettingEntry<bool> EnterIsHidingReminderSetting { get; }
         public SettingEntry<bool> ReminderIsVisibleForSetupSetting { get; }
