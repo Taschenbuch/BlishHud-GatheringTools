@@ -42,6 +42,22 @@ namespace GatheringTools.Services
                       "with your current screen settings");
             ReminderWindowSizeSetting.SetRange(1, 100);
 
+            ReminderWindowOffsetXSetting = settings.DefineSetting(
+                "reminder window offset x",
+                0,
+                () => "reminder X position",
+                () => "Change the reminder window position relatively to the logout dialog.\n" +
+                      "Position of the additional reminder hint is not affected.");
+            ReminderWindowOffsetXSetting.SetRange(-1500, 1500);
+
+            ReminderWindowOffsetYSetting = settings.DefineSetting(
+                "reminder window offset y",
+                0,
+                () => "reminder Y position",
+                () => "Change the reminder window position relatively to the logout dialog.\n" +
+                      "Position of the additional reminder hint is not affected.");
+            ReminderWindowOffsetYSetting.SetRange(-1500, 1500);
+
             ReminderTextFontSizeIndexSetting = FontService.CreateFontSizeIndexSetting(settings);
 
             ReminderIconSizeSetting = settings.DefineSetting(
@@ -100,9 +116,13 @@ namespace GatheringTools.Services
             ShowSharedInventoryToolsSetting = internalSettingSubCollection.DefineSetting("show shared inventory tools", true);
         }
 
-        public SettingEntry<bool> ReminderScreenNotificationIsEnabled { get; set; }
 
+        public SettingEntry<bool> ReminderScreenNotificationIsEnabled { get; set; }
         public SettingEntry<int> ReminderWindowSizeSetting { get; }
+        public SettingEntry<int> ReminderWindowOffsetXSetting { get; set; }
+        public SettingEntry<int> ReminderWindowOffsetYSetting { get; set; }
+        public int ReminderWindowOffsetX => (int)ReminderWindowOffsetXSetting.Value;
+        public int ReminderWindowOffsetY => (int)ReminderWindowOffsetYSetting.Value;
         public SettingEntry<DisplayDuration> ReminderDisplayDurationInSecondsSetting { get; }
         public SettingEntry<string> ReminderTextSetting { get; }
         public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; }

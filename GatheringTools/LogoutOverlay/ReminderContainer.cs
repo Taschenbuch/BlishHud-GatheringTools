@@ -10,7 +10,8 @@ namespace GatheringTools.LogoutOverlay
     {
         public ReminderContainer(TextureService textureService, SettingService settingService)
         {
-            Parent = GameService.Graphics.SpriteScreen;
+            Parent          = GameService.Graphics.SpriteScreen;
+            _settingService = settingService;
 
             _reminderBackgroundImage = new Image(textureService.ReminderBackgroundTexture) { Parent = this, Size = Size };
 
@@ -39,19 +40,22 @@ namespace GatheringTools.LogoutOverlay
             settingService.ReminderWindowSizeSetting.SettingChanged        += (s, e) => UpdateContainerSizeAndMoveAboveLogoutDialog(e.NewValue);
             settingService.ReminderIconSizeSetting.SettingChanged          += (s, e) => UpdateIconSize(e.NewValue);
             settingService.ReminderIconsAreVisibleSettings.SettingChanged  += (s, e) => UpdateIconsVisibility(e.NewValue);
+            settingService.ReminderWindowOffsetXSetting.SettingChanged     += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
+            settingService.ReminderWindowOffsetYSetting.SettingChanged     += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
             GameService.Graphics.SpriteScreen.Resized                      += OnSpriteScreenResized;
         }
 
         private void OnSpriteScreenResized(object sender, ResizedEventArgs e)
         {
-            MoveAboveLogoutDialog();
+            MoveAboveLogoutDialogAndApplyOffsetFromSettings();
         }
 
-        private void MoveAboveLogoutDialog()
+        private void MoveAboveLogoutDialogAndApplyOffsetFromSettings()
         {
             var logoutDialogTextCenter               = GetLogoutDialogTextCenter(GameService.Graphics.SpriteScreen.Size.X, GameService.Graphics.SpriteScreen.Size.Y);
             var containerCenterToTopLeftCornerOffset = new Point(Size.X / 2, Size.Y / 2);
-            Location = logoutDialogTextCenter - containerCenterToTopLeftCornerOffset;
+            var offsetFromSettings                   = new Point(_settingService.ReminderWindowOffsetX, _settingService.ReminderWindowOffsetY);
+            Location = logoutDialogTextCenter - containerCenterToTopLeftCornerOffset + offsetFromSettings;
         }
 
         private void UpdateText(string reminderText)
@@ -66,7 +70,7 @@ namespace GatheringTools.LogoutOverlay
 
             _reminderBackgroundImage.Size = Size;
             UpdateChildLocations();
-            MoveAboveLogoutDialog();
+            MoveAboveLogoutDialogAndApplyOffsetFromSettings();
         }
 
         private void UpdateTextFontSize(int fontSizeIndex)
@@ -125,6 +129,7 @@ namespace GatheringTools.LogoutOverlay
             base.DisposeControl();
         }
 
+        private readonly SettingService _settingService;
         private const float RELATIVE_Y_OFFSET_FROM_SCREEN_CENTER = 0.005f;
         private readonly Image _reminderBackgroundImage;
         private readonly Label _reminderTextLabel;
