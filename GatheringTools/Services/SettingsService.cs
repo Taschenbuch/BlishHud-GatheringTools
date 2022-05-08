@@ -23,7 +23,7 @@ namespace GatheringTools.Services
 
             ReminderTextSetting = settings.DefineSetting(
                 "text (logout overlay)",
-                "shared inventory",
+                "Don't forget Tools!",
                 () => "reminder text",
                 () => "text shown inside the reminder window");
 
@@ -31,13 +31,15 @@ namespace GatheringTools.Services
                 "display duration (logout overlay)",
                 DisplayDuration.Seconds3,
                 () => "reminder display duration",
-                () => "The reminder will disappear automatically after this time has expired");
+                () => "The reminder will disappear automatically after this time has expired.\n" +
+                      "This setting is ignored when the 'hide on ESC/ENTER' setting is enabled");
 
             ReminderWindowSizeSetting = settings.DefineSetting(
                 "window size (logout overlay)",
                 34,
                 () => "reminder size",
-                () => "Change reminder window size to fit to the size of the logout dialog with your current screen settings");
+                () => "Change reminder window size to fit to the size of the logout dialog " +
+                      "with your current screen settings");
             ReminderWindowSizeSetting.SetRange(1, 100);
 
             ReminderTextFontSizeIndexSetting = FontService.CreateFontSizeIndexSetting(settings);
@@ -45,7 +47,7 @@ namespace GatheringTools.Services
             ReminderIconSizeSetting = settings.DefineSetting(
                 "reminder icon size (logout overlay)",
                 60,
-                () => "icon size",
+                () => "reminder icon size",
                 () => "Change size of the icons in the reminder window");
             ReminderIconSizeSetting.SetRange(10, 300);
 
@@ -74,13 +76,16 @@ namespace GatheringTools.Services
                 "show reminder for setup",
                 false,
                 () => "show reminder permanently for setup",
-                () => "show reminder for easier setup of position etc. This will ignore display duration and ESC or ENTER being pressed. Do not forget to uncheck after you set up everything.");
+                () => "show reminder for easier setup of position etc. This will ignore " +
+                      "display duration and ESC or ENTER being pressed. Do not forget to " +
+                      "uncheck after you set up everything.");
 
             ShowToolSearchCornerIconSetting = settings.DefineSetting(
                 "show tool search corner icon",
                 true,
                 () => "show sickle icon",
-                () => "Show sickle icon at the top left of GW2 next to other menu icons. Icon can be clicked to show/hide the gathering tool search window");
+                () => "Show sickle icon at the top left of GW2 next to other menu icons. Icon " +
+                      "can be clicked to show/hide the gathering tool search window");
 
             var internalSettingSubCollection = settings.AddSubCollection("internal settings (not visible in UI)");
             ShowOnlyUnlimitedToolsSetting   = internalSettingSubCollection.DefineSetting("only unlimited tools", true);

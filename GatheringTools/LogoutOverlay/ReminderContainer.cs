@@ -28,14 +28,14 @@ namespace GatheringTools.LogoutOverlay
                 Parent         = this
             };
 
-            UpdateReminderText(settingService.ReminderTextSetting.Value);
-            UpdateReminderTextFontSize(settingService.ReminderTextFontSizeIndexSetting.Value);
+            UpdateText(settingService.ReminderTextSetting.Value);
+            UpdateTextFontSize(settingService.ReminderTextFontSizeIndexSetting.Value);
             UpdateIconSize(settingService.ReminderIconSizeSetting.Value);
             UpdateIconsVisibility(settingService.ReminderIconsAreVisibleSettings.Value);
             UpdateContainerSizeAndMoveAboveLogoutDialog(settingService.ReminderWindowSizeSetting.Value);
 
-            settingService.ReminderTextFontSizeIndexSetting.SettingChanged += (s, e) => UpdateReminderTextFontSize(e.NewValue);
-            settingService.ReminderTextSetting.SettingChanged              += (s, e) => UpdateReminderText(e.NewValue);
+            settingService.ReminderTextFontSizeIndexSetting.SettingChanged += (s, e) => UpdateTextFontSize(e.NewValue);
+            settingService.ReminderTextSetting.SettingChanged              += (s, e) => UpdateText(e.NewValue);
             settingService.ReminderWindowSizeSetting.SettingChanged        += (s, e) => UpdateContainerSizeAndMoveAboveLogoutDialog(e.NewValue);
             settingService.ReminderIconSizeSetting.SettingChanged          += (s, e) => UpdateIconSize(e.NewValue);
             settingService.ReminderIconsAreVisibleSettings.SettingChanged  += (s, e) => UpdateIconsVisibility(e.NewValue);
@@ -54,7 +54,7 @@ namespace GatheringTools.LogoutOverlay
             Location = logoutDialogTextCenter - containerCenterToTopLeftCornerOffset;
         }
 
-        private void UpdateReminderText(string reminderText)
+        private void UpdateText(string reminderText)
         {
             _reminderTextLabel.Text = reminderText;
             UpdateChildLocations();
@@ -69,7 +69,7 @@ namespace GatheringTools.LogoutOverlay
             MoveAboveLogoutDialog();
         }
 
-        private void UpdateReminderTextFontSize(int fontSizeIndex)
+        private void UpdateTextFontSize(int fontSizeIndex)
         {
             _reminderTextLabel.Font = FontService.Fonts[fontSizeIndex];
             UpdateChildLocations();
