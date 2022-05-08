@@ -48,7 +48,7 @@ namespace GatheringTools.Services
                 () => "reminder X position",
                 () => "Change the reminder window position relatively to the logout dialog.\n" +
                       "Position of the additional reminder hint is not affected.");
-            ReminderWindowOffsetXSetting.SetRange(-1500, 1500);
+            ReminderWindowOffsetXSetting.SetRange(-1000, 1000);
 
             ReminderWindowOffsetYSetting = settings.DefineSetting(
                 "reminder window offset y",
@@ -56,7 +56,7 @@ namespace GatheringTools.Services
                 () => "reminder Y position",
                 () => "Change the reminder window position relatively to the logout dialog.\n" +
                       "Position of the additional reminder hint is not affected.");
-            ReminderWindowOffsetYSetting.SetRange(-1500, 1500);
+            ReminderWindowOffsetYSetting.SetRange(-1000, 1000);
 
             ReminderTextFontSizeIndexSetting = FontService.CreateFontSizeIndexSetting(settings);
 
