@@ -60,6 +60,13 @@ namespace GatheringTools.Services
                       "your character has equipped. Sadly the API would be too slow for " +
                       "updating those correctly.");
 
+            ReminderScreenNotificationIsEnabled = settings.DefineSetting(
+                "reminder screen notification is enabled",
+                true,
+                () => "additional reminder hint",
+                () => "Show an additional floating reminder hint above the logout dialog.\n" +
+                      "This is hint is not affected by 'hide on ESC/ENTER'.");
+
             EscIsHidingReminderSetting = settings.DefineSetting(
                 "hide on ESC",
                 true,
@@ -92,6 +99,8 @@ namespace GatheringTools.Services
             ShowBankToolsSetting            = internalSettingSubCollection.DefineSetting("show bank tools", true);
             ShowSharedInventoryToolsSetting = internalSettingSubCollection.DefineSetting("show shared inventory tools", true);
         }
+
+        public SettingEntry<bool> ReminderScreenNotificationIsEnabled { get; set; }
 
         public SettingEntry<int> ReminderWindowSizeSetting { get; }
         public SettingEntry<DisplayDuration> ReminderDisplayDurationInSecondsSetting { get; }
