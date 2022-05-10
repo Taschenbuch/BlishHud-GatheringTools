@@ -74,14 +74,17 @@ namespace GatheringTools.Services
                 () => "Change the position of the reminder icon relatively to reminder position.");
             ReminderIconOffsetYSetting.SetRange(-1000, 1000);
 
-            ReminderIconsAreVisibleSetting = settings.DefineSetting(
+            ReminderBackgroundIsVisibleSetting = settings.DefineSetting(
+                "show reminder background",
+                true,
+                () => "show reminder background",
+                () => "Show reminder background to hide logout text.");
+
+            ReminderIconIsVisibleSetting = settings.DefineSetting(
                 "show reminder icons",
                 false,
-                () => "show icons in reminder",
-                () => "Show gathering tool icons in the reminder.\n" +
-                      "The icons are static placeholders. They do not represent the tools " +
-                      "your character has equipped. Sadly the API would be too slow for " +
-                      "updating those correctly.");
+                () => "show image in reminder",
+                () => "Show image in the reminder.");
 
             ReminderScreenNotificationIsEnabledSetting = settings.DefineSetting(
                 "reminder screen notification is enabled",
@@ -135,7 +138,8 @@ namespace GatheringTools.Services
         public SettingEntry<string> ReminderTextSetting { get; }
         public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; }
         public SettingEntry<int> ReminderIconSizeSetting { get; }
-        public SettingEntry<bool> ReminderIconsAreVisibleSetting { get; set; }
+        public SettingEntry<bool> ReminderIconIsVisibleSetting { get; set; }
+        public SettingEntry<bool> ReminderBackgroundIsVisibleSetting { get; set; }
         public SettingEntry<bool> EscIsHidingReminderSetting { get; }
         public SettingEntry<bool> EnterIsHidingReminderSetting { get; }
         public SettingEntry<bool> ReminderIsVisibleForSetupSetting { get; }

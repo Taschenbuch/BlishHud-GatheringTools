@@ -42,7 +42,8 @@ namespace GatheringTools
             CreateSettingViewContainer(_settingService.ReminderWindowOffsetYSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderIconOffsetYSetting, reminderFlowPanel, buildPanel.Width);
             CreateResetReminderPositionButton(reminderFlowPanel);
-            CreateSettingViewContainer(_settingService.ReminderIconsAreVisibleSetting, reminderFlowPanel, buildPanel.Width);
+            CreateSettingViewContainer(_settingService.ReminderIconIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
+            CreateSettingViewContainer(_settingService.ReminderBackgroundIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderScreenNotificationIsEnabledSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.EscIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.EnterIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);

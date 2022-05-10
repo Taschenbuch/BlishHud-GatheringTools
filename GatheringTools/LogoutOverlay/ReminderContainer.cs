@@ -38,18 +38,20 @@ namespace GatheringTools.LogoutOverlay
             UpdateText(settingService.ReminderTextSetting.Value);
             UpdateTextFontSize(settingService.ReminderTextFontSizeIndexSetting.Value);
             UpdateIconSize(settingService.ReminderIconSizeSetting.Value);
-            UpdateIconsVisibility(settingService.ReminderIconsAreVisibleSetting.Value);
+            UpdateIconVisibility(settingService.ReminderIconIsVisibleSetting.Value);
             UpdateContainerSizeAndMoveAboveLogoutDialog(settingService.ReminderWindowSizeSetting.Value);
+            UpdateBackgroundVisibility(settingService.ReminderBackgroundIsVisibleSetting.Value);
 
-            settingService.ReminderTextFontSizeIndexSetting.SettingChanged += (s, e) => UpdateTextFontSize(e.NewValue);
-            settingService.ReminderTextSetting.SettingChanged              += (s, e) => UpdateText(e.NewValue);
-            settingService.ReminderWindowSizeSetting.SettingChanged        += (s, e) => UpdateContainerSizeAndMoveAboveLogoutDialog(e.NewValue);
-            settingService.ReminderIconSizeSetting.SettingChanged          += (s, e) => UpdateIconSize(e.NewValue);
-            settingService.ReminderIconsAreVisibleSetting.SettingChanged  += (s, e) => UpdateIconsVisibility(e.NewValue);
-            settingService.ReminderWindowOffsetXSetting.SettingChanged     += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
-            settingService.ReminderWindowOffsetYSetting.SettingChanged     += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
-            settingService.ReminderIconOffsetYSetting.SettingChanged       += (s, e) => UpdateLabelAndIconLocations();
-            GameService.Graphics.SpriteScreen.Resized                      += OnSpriteScreenResized;
+            settingService.ReminderTextFontSizeIndexSetting.SettingChanged   += (s, e) => UpdateTextFontSize(e.NewValue);
+            settingService.ReminderTextSetting.SettingChanged                += (s, e) => UpdateText(e.NewValue);
+            settingService.ReminderWindowSizeSetting.SettingChanged          += (s, e) => UpdateContainerSizeAndMoveAboveLogoutDialog(e.NewValue);
+            settingService.ReminderIconSizeSetting.SettingChanged            += (s, e) => UpdateIconSize(e.NewValue);
+            settingService.ReminderIconIsVisibleSetting.SettingChanged     += (s, e) => UpdateIconVisibility(e.NewValue);
+            settingService.ReminderBackgroundIsVisibleSetting.SettingChanged += (s, e) => UpdateBackgroundVisibility(e.NewValue);
+            settingService.ReminderWindowOffsetXSetting.SettingChanged       += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
+            settingService.ReminderWindowOffsetYSetting.SettingChanged       += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
+            settingService.ReminderIconOffsetYSetting.SettingChanged         += (s, e) => UpdateLabelAndIconLocations();
+            GameService.Graphics.SpriteScreen.Resized                        += OnSpriteScreenResized;
         }
 
         private void OnSpriteScreenResized(object sender, ResizedEventArgs e)
@@ -92,11 +94,8 @@ namespace GatheringTools.LogoutOverlay
             UpdateLabelAndIconLocations();
         }
 
-        private void UpdateIconsVisibility(bool areVisible)
-        {
-            _reminderIconImage.Visible = areVisible;
-            UpdateLabelAndIconLocations();
-        }
+        private void UpdateIconVisibility(bool isVisible) => _reminderIconImage.Visible = isVisible;
+        private void UpdateBackgroundVisibility(bool isVisible) => _reminderBackgroundImage.Visible = isVisible;
 
         private void UpdateLabelAndIconLocations()
         {
