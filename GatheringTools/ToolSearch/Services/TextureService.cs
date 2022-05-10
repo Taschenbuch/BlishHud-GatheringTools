@@ -8,8 +8,8 @@ namespace GatheringTools.ToolSearch.Services
     {
         public TextureService(ContentsManager contentsManager)
         {
-            ReminderBackgroundTexture = contentsManager.GetTexture(@"logoutOverlay\logoutDialogTextArea.png");
-            ReminderImageTexture      = contentsManager.GetTexture(@"logoutOverlay\reminderIcon.png");
+            ReminderBackgroundTexture = contentsManager.GetTexture(@"reminder\logoutDialogTextArea.png");
+            ReminderImageTexture      = contentsManager.GetTexture(@"reminder\reminderImage.png");
             WindowBackgroundTexture   = contentsManager.GetTexture(@"toolSearch\textures\windowsBackground_155985.png");
             ToolSearchWindowEmblem    = contentsManager.GetTexture(@"toolSearch\textures\toolSearchWindowEmblem.png");
             CornerIconTexture         = contentsManager.GetTexture(@"toolSearch\textures\cornerIcon.png");
