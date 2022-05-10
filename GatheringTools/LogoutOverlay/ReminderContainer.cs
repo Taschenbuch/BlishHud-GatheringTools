@@ -50,6 +50,7 @@ namespace GatheringTools.LogoutOverlay
             settingService.ReminderBackgroundIsVisibleSetting.SettingChanged += (s, e) => UpdateBackgroundVisibility(e.NewValue);
             settingService.ReminderWindowOffsetXSetting.SettingChanged       += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
             settingService.ReminderWindowOffsetYSetting.SettingChanged       += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
+            settingService.ReminderImageOffsetXSetting.SettingChanged        += (s, e) => UpdateLabelAndImageLocations();
             settingService.ReminderImageOffsetYSetting.SettingChanged        += (s, e) => UpdateLabelAndImageLocations();
             GameService.Graphics.SpriteScreen.Resized                        += OnSpriteScreenResized;
         }
@@ -102,7 +103,7 @@ namespace GatheringTools.LogoutOverlay
             var labelLocationOffsetX = (Width - _reminderTextLabel.Width) / 2;
             var labelLocationOffsetY = (Height - _reminderTextLabel.Height) / 2;
             var imageOffsetY         = Height / 2 + _reminderTextLabel.Height / 2 - _reminderImage.Height + _settingService.ReminderImageOffsetY;
-            var imageOffsetX         = (Width - _reminderImage.Width) / 2;
+            var imageOffsetX         = (Width - _reminderImage.Width) / 2 + _settingService.ReminderImageOffsetX;
 
             _reminderTextLabel.Location = new Point(labelLocationOffsetX, labelLocationOffsetY);
             _reminderImage.Location     = new Point(imageOffsetX, imageOffsetY);

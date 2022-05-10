@@ -40,8 +40,10 @@ namespace GatheringTools
             CreateSettingViewContainer(_settingService.ReminderWindowSizeSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderWindowOffsetXSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderWindowOffsetYSetting, reminderFlowPanel, buildPanel.Width);
+            CreateSettingViewContainer(_settingService.ReminderImageOffsetXSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderImageOffsetYSetting, reminderFlowPanel, buildPanel.Width);
             CreateResetReminderPositionButton(reminderFlowPanel);
+            CreateResetIconPositionButton(reminderFlowPanel);
             CreateSettingViewContainer(_settingService.ReminderImageIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderBackgroundIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderScreenNotificationIsEnabledSetting, reminderFlowPanel, buildPanel.Width);
@@ -50,17 +52,34 @@ namespace GatheringTools
             CreateSettingViewContainer(_settingService.ReminderIsVisibleForSetupSetting, reminderFlowPanel, buildPanel.Width);
         }
 
-        private void CreateResetReminderPositionButton(Container parent)
+        private void CreateResetIconPositionButton(Container parent)
         {
-            var resetReminderPositionButton = new StandardButton
+            var button = new StandardButton
             {
-                Text             = "Reset reminder position",
-                BasicTooltipText = "Reset the logout dialog reminder position back to the screen center",
+                Text             = "Reset image position",
+                BasicTooltipText = "Reset the icon position back to the default position in the reminder.",
                 Width            = 200,
                 Parent           = parent,
             };
 
-            resetReminderPositionButton.Click += (s, e) =>
+            button.Click += (s, e) =>
+            {
+                _settingService.ReminderImageOffsetXSetting.Value = 0;
+                _settingService.ReminderImageOffsetYSetting.Value = 0;
+            };
+        }
+
+        private void CreateResetReminderPositionButton(Container parent)
+        {
+            var button = new StandardButton
+            {
+                Text             = "Reset reminder position",
+                BasicTooltipText = "Reset the logout dialog reminder position back to the screen center.",
+                Width            = 200,
+                Parent           = parent,
+            };
+
+            button.Click += (s, e) =>
             {
                 _settingService.ReminderWindowOffsetXSetting.Value = 0;
                 _settingService.ReminderWindowOffsetYSetting.Value = 0;

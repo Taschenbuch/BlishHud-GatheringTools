@@ -67,6 +67,13 @@ namespace GatheringTools.Services
                 () => "Change size of the image in the reminder window.");
             ReminderImageSizeSetting.SetRange(10, 2000);
 
+            ReminderImageOffsetXSetting = settings.DefineSetting(
+                "reminder icon offset x",
+                0,
+                () => "image X position",
+                () => "Change the position of the reminder image relatively to reminder position.");
+            ReminderImageOffsetXSetting.SetRange(-1000, 1000);
+
             ReminderImageOffsetYSetting = settings.DefineSetting(
                 "reminder icon offset y",
                 0,
@@ -126,13 +133,16 @@ namespace GatheringTools.Services
             ShowSharedInventoryToolsSetting = internalSettingSubCollection.DefineSetting("show shared inventory tools", true);
         }
 
+
         public SettingEntry<bool> ReminderScreenNotificationIsEnabledSetting { get; set; }
         public SettingEntry<int> ReminderWindowSizeSetting { get; }
         public SettingEntry<int> ReminderWindowOffsetXSetting { get; set; }
         public SettingEntry<int> ReminderWindowOffsetYSetting { get; set; }
+        public SettingEntry<int> ReminderImageOffsetXSetting { get; set; }
         public SettingEntry<int> ReminderImageOffsetYSetting { get; set; }
         public int ReminderWindowOffsetX => ReminderWindowOffsetXSetting.Value;
         public int ReminderWindowOffsetY => ReminderWindowOffsetYSetting.Value;
+        public int ReminderImageOffsetX => ReminderImageOffsetXSetting.Value;
         public int ReminderImageOffsetY => ReminderImageOffsetYSetting.Value;
         public SettingEntry<DisplayDuration> ReminderDisplayDurationInSecondsSetting { get; }
         public SettingEntry<string> ReminderTextSetting { get; }
