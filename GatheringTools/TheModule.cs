@@ -4,6 +4,7 @@ using System.ComponentModel.Composition;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
+using Blish_HUD.Graphics.UI;
 using Blish_HUD.Input;
 using Blish_HUD.Modules;
 using Blish_HUD.Modules.Managers;
@@ -35,6 +36,11 @@ namespace GatheringTools
         protected override void DefineSettings(SettingCollection settings)
         {
             _settingService = new SettingService(settings);
+        }
+
+        public override IView GetSettingsView()
+        {
+            return new ModuleSettingsView(_settingService);
         }
 
         protected override async Task LoadAsync()

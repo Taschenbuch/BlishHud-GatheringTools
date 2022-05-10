@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Services\SettingsService.cs" />
+    <Compile Include="ModuleSettingsView.cs" />
     <Compile Include="ToolSearch\Controls\LoadingSpinnerContainer.cs" />
     <Compile Include="ToolSearch\Model\Account.cs" />
     <Compile Include="ToolSearch\Model\Character.cs" />
