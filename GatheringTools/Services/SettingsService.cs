@@ -60,19 +60,19 @@ namespace GatheringTools.Services
 
             ReminderTextFontSizeIndexSetting = FontService.CreateFontSizeIndexSetting(settings);
 
-            ReminderIconSizeSetting = settings.DefineSetting(
+            ReminderImageSizeSetting = settings.DefineSetting(
                 "reminder icon size (logout overlay)",
-                60,
-                () => "reminder icon size",
-                () => "Change size of the icons in the reminder window");
-            ReminderIconSizeSetting.SetRange(10, 300);
+                600,
+                () => "reminder image size",
+                () => "Change size of the image in the reminder window.");
+            ReminderImageSizeSetting.SetRange(10, 2000);
 
-            ReminderIconOffsetYSetting = settings.DefineSetting(
+            ReminderImageOffsetYSetting = settings.DefineSetting(
                 "reminder icon offset y",
                 0,
-                () => "icon Y position",
-                () => "Change the position of the reminder icon relatively to reminder position.");
-            ReminderIconOffsetYSetting.SetRange(-1000, 1000);
+                () => "image Y position",
+                () => "Change the position of the reminder image relatively to reminder position.");
+            ReminderImageOffsetYSetting.SetRange(-1000, 1000);
 
             ReminderBackgroundIsVisibleSetting = settings.DefineSetting(
                 "show reminder background",
@@ -80,9 +80,9 @@ namespace GatheringTools.Services
                 () => "show reminder background",
                 () => "Show reminder background to hide logout text.");
 
-            ReminderIconIsVisibleSetting = settings.DefineSetting(
+            ReminderImageIsVisibleSetting = settings.DefineSetting(
                 "show reminder icons",
-                false,
+                true,
                 () => "show image in reminder",
                 () => "Show image in the reminder.");
 
@@ -130,15 +130,15 @@ namespace GatheringTools.Services
         public SettingEntry<int> ReminderWindowSizeSetting { get; }
         public SettingEntry<int> ReminderWindowOffsetXSetting { get; set; }
         public SettingEntry<int> ReminderWindowOffsetYSetting { get; set; }
-        public SettingEntry<int> ReminderIconOffsetYSetting { get; set; }
+        public SettingEntry<int> ReminderImageOffsetYSetting { get; set; }
         public int ReminderWindowOffsetX => ReminderWindowOffsetXSetting.Value;
         public int ReminderWindowOffsetY => ReminderWindowOffsetYSetting.Value;
-        public int ReminderIconOffsetY => ReminderIconOffsetYSetting.Value;
+        public int ReminderImageOffsetY => ReminderImageOffsetYSetting.Value;
         public SettingEntry<DisplayDuration> ReminderDisplayDurationInSecondsSetting { get; }
         public SettingEntry<string> ReminderTextSetting { get; }
         public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; }
-        public SettingEntry<int> ReminderIconSizeSetting { get; }
-        public SettingEntry<bool> ReminderIconIsVisibleSetting { get; set; }
+        public SettingEntry<int> ReminderImageSizeSetting { get; }
+        public SettingEntry<bool> ReminderImageIsVisibleSetting { get; set; }
         public SettingEntry<bool> ReminderBackgroundIsVisibleSetting { get; set; }
         public SettingEntry<bool> EscIsHidingReminderSetting { get; }
         public SettingEntry<bool> EnterIsHidingReminderSetting { get; }

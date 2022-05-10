@@ -36,13 +36,13 @@ namespace GatheringTools
             CreateSettingViewContainer(_settingService.ReminderDisplayDurationInSecondsSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderTextSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderTextFontSizeIndexSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderIconSizeSetting, reminderFlowPanel, buildPanel.Width);
+            CreateSettingViewContainer(_settingService.ReminderImageSizeSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderWindowSizeSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderWindowOffsetXSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderWindowOffsetYSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderIconOffsetYSetting, reminderFlowPanel, buildPanel.Width);
+            CreateSettingViewContainer(_settingService.ReminderImageOffsetYSetting, reminderFlowPanel, buildPanel.Width);
             CreateResetReminderPositionButton(reminderFlowPanel);
-            CreateSettingViewContainer(_settingService.ReminderIconIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
+            CreateSettingViewContainer(_settingService.ReminderImageIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderBackgroundIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderScreenNotificationIsEnabledSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.EscIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);

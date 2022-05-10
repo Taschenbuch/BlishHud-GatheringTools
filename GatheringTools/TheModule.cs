@@ -157,12 +157,12 @@ namespace GatheringTools
             _runningTime = 0;
             _reminderContainer.Show();
 
-            if(_settingService.ReminderScreenNotificationIsEnabledSetting.Value)
+            if (_settingService.ReminderScreenNotificationIsEnabledSetting.Value)
                 ScreenNotification.ShowNotification(
                     _settingService.ReminderTextSetting.Value,
                     ScreenNotification.NotificationType.Error,
                     null,
-                    (int) _settingService.ReminderDisplayDurationInSecondsSetting.Value);
+                    (int)_settingService.ReminderDisplayDurationInSecondsSetting.Value);
         }
 
         private double _runningTime;

@@ -19,7 +19,7 @@ namespace GatheringTools.LogoutOverlay
                 Parent = this
             };
 
-            _reminderIconImage = new Image(textureService.ReminderIconTexture)
+            _reminderImage = new Image(textureService.ReminderImageTexture)
             {
                 ClipsBounds = false,
                 Parent      = this
@@ -37,20 +37,20 @@ namespace GatheringTools.LogoutOverlay
 
             UpdateText(settingService.ReminderTextSetting.Value);
             UpdateTextFontSize(settingService.ReminderTextFontSizeIndexSetting.Value);
-            UpdateIconSize(settingService.ReminderIconSizeSetting.Value);
-            UpdateIconVisibility(settingService.ReminderIconIsVisibleSetting.Value);
+            UpdateImageSize(settingService.ReminderImageSizeSetting.Value);
+            UpdateImageVisibility(settingService.ReminderImageIsVisibleSetting.Value);
             UpdateContainerSizeAndMoveAboveLogoutDialog(settingService.ReminderWindowSizeSetting.Value);
             UpdateBackgroundVisibility(settingService.ReminderBackgroundIsVisibleSetting.Value);
 
             settingService.ReminderTextFontSizeIndexSetting.SettingChanged   += (s, e) => UpdateTextFontSize(e.NewValue);
             settingService.ReminderTextSetting.SettingChanged                += (s, e) => UpdateText(e.NewValue);
             settingService.ReminderWindowSizeSetting.SettingChanged          += (s, e) => UpdateContainerSizeAndMoveAboveLogoutDialog(e.NewValue);
-            settingService.ReminderIconSizeSetting.SettingChanged            += (s, e) => UpdateIconSize(e.NewValue);
-            settingService.ReminderIconIsVisibleSetting.SettingChanged     += (s, e) => UpdateIconVisibility(e.NewValue);
+            settingService.ReminderImageSizeSetting.SettingChanged           += (s, e) => UpdateImageSize(e.NewValue);
+            settingService.ReminderImageIsVisibleSetting.SettingChanged      += (s, e) => UpdateImageVisibility(e.NewValue);
             settingService.ReminderBackgroundIsVisibleSetting.SettingChanged += (s, e) => UpdateBackgroundVisibility(e.NewValue);
             settingService.ReminderWindowOffsetXSetting.SettingChanged       += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
             settingService.ReminderWindowOffsetYSetting.SettingChanged       += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
-            settingService.ReminderIconOffsetYSetting.SettingChanged         += (s, e) => UpdateLabelAndIconLocations();
+            settingService.ReminderImageOffsetYSetting.SettingChanged        += (s, e) => UpdateLabelAndImageLocations();
             GameService.Graphics.SpriteScreen.Resized                        += OnSpriteScreenResized;
         }
 
@@ -70,7 +70,7 @@ namespace GatheringTools.LogoutOverlay
         private void UpdateText(string reminderText)
         {
             _reminderTextLabel.Text = reminderText;
-            UpdateLabelAndIconLocations();
+            UpdateLabelAndImageLocations();
         }
 
         private void UpdateContainerSizeAndMoveAboveLogoutDialog(int size)
@@ -78,34 +78,34 @@ namespace GatheringTools.LogoutOverlay
             Size = new Point(670 * (5 + size) / 40, 75 * (5 + size) / 40);
 
             _reminderBackgroundImage.Size = Size;
-            UpdateLabelAndIconLocations();
+            UpdateLabelAndImageLocations();
             MoveAboveLogoutDialogAndApplyOffsetFromSettings();
         }
 
         private void UpdateTextFontSize(int fontSizeIndex)
         {
             _reminderTextLabel.Font = FontService.Fonts[fontSizeIndex];
-            UpdateLabelAndIconLocations();
+            UpdateLabelAndImageLocations();
         }
 
-        private void UpdateIconSize(int iconSize)
+        private void UpdateImageSize(int imageSize)
         {
-            _reminderIconImage.Size = new Point(iconSize * 13 / 10, iconSize);
-            UpdateLabelAndIconLocations();
+            _reminderImage.Size = new Point(imageSize * 13 / 10, imageSize);
+            UpdateLabelAndImageLocations();
         }
 
-        private void UpdateIconVisibility(bool isVisible) => _reminderIconImage.Visible = isVisible;
+        private void UpdateImageVisibility(bool isVisible) => _reminderImage.Visible = isVisible;
         private void UpdateBackgroundVisibility(bool isVisible) => _reminderBackgroundImage.Visible = isVisible;
 
-        private void UpdateLabelAndIconLocations()
+        private void UpdateLabelAndImageLocations()
         {
             var labelLocationOffsetX = (Width - _reminderTextLabel.Width) / 2;
             var labelLocationOffsetY = (Height - _reminderTextLabel.Height) / 2;
-            var iconOffsetY          = Height / 2 + _reminderTextLabel.Height / 2 - _reminderIconImage.Height + _settingService.ReminderIconOffsetY;
-            var iconOffsetX          = (Width - _reminderIconImage.Width) / 2;
+            var imageOffsetY         = Height / 2 + _reminderTextLabel.Height / 2 - _reminderImage.Height + _settingService.ReminderImageOffsetY;
+            var imageOffsetX         = (Width - _reminderImage.Width) / 2;
 
             _reminderTextLabel.Location = new Point(labelLocationOffsetX, labelLocationOffsetY);
-            _reminderIconImage.Location = new Point(iconOffsetX, iconOffsetY);
+            _reminderImage.Location     = new Point(imageOffsetX, imageOffsetY);
         }
 
         private static Point GetLogoutDialogTextCenter(int screenWidth, int screenHeight)
@@ -126,6 +126,6 @@ namespace GatheringTools.LogoutOverlay
         private const float RELATIVE_Y_OFFSET_FROM_SCREEN_CENTER = 0.005f;
         private readonly Image _reminderBackgroundImage;
         private readonly Label _reminderTextLabel;
-        private readonly Image _reminderIconImage;
+        private readonly Image _reminderImage;
     }
 }
