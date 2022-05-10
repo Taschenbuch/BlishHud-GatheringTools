@@ -67,6 +67,13 @@ namespace GatheringTools.Services
                 () => "Change size of the icons in the reminder window");
             ReminderIconSizeSetting.SetRange(10, 300);
 
+            ReminderIconOffsetYSetting = settings.DefineSetting(
+                "reminder icon offset y",
+                0,
+                () => "icon Y position",
+                () => "Change the position of the reminder icon relatively to reminder position.");
+            ReminderIconOffsetYSetting.SetRange(-1000, 1000);
+
             ReminderIconsAreVisibleSetting = settings.DefineSetting(
                 "show reminder icons",
                 false,
@@ -120,8 +127,10 @@ namespace GatheringTools.Services
         public SettingEntry<int> ReminderWindowSizeSetting { get; }
         public SettingEntry<int> ReminderWindowOffsetXSetting { get; set; }
         public SettingEntry<int> ReminderWindowOffsetYSetting { get; set; }
-        public int ReminderWindowOffsetX => (int)ReminderWindowOffsetXSetting.Value;
-        public int ReminderWindowOffsetY => (int)ReminderWindowOffsetYSetting.Value;
+        public SettingEntry<int> ReminderIconOffsetYSetting { get; set; }
+        public int ReminderWindowOffsetX => ReminderWindowOffsetXSetting.Value;
+        public int ReminderWindowOffsetY => ReminderWindowOffsetYSetting.Value;
+        public int ReminderIconOffsetY => ReminderIconOffsetYSetting.Value;
         public SettingEntry<DisplayDuration> ReminderDisplayDurationInSecondsSetting { get; }
         public SettingEntry<string> ReminderTextSetting { get; }
         public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; }

@@ -9,10 +9,7 @@ namespace GatheringTools.ToolSearch.Services
         public TextureService(ContentsManager contentsManager)
         {
             ReminderBackgroundTexture = contentsManager.GetTexture(@"logoutOverlay\logoutDialogTextArea.png");
-            Tool1Texture              = contentsManager.GetTexture(@"logoutOverlay\tool1_1998933.png");
-            Tool2Texture              = contentsManager.GetTexture(@"logoutOverlay\tool2_1998934.png");
-            Tool3Texture              = contentsManager.GetTexture(@"logoutOverlay\tool3_1998935.png");
-
+            ReminderIconTexture       = contentsManager.GetTexture(@"logoutOverlay\reminderIcon.png");
             WindowBackgroundTexture   = contentsManager.GetTexture(@"toolSearch\textures\windowsBackground_155985.png");
             ToolSearchWindowEmblem    = contentsManager.GetTexture(@"toolSearch\textures\toolSearchWindowEmblem.png");
             CornerIconTexture         = contentsManager.GetTexture(@"toolSearch\textures\cornerIcon.png");
@@ -27,10 +24,7 @@ namespace GatheringTools.ToolSearch.Services
         public void Dispose()
         {
             ReminderBackgroundTexture?.Dispose();
-            Tool1Texture?.Dispose();
-            Tool2Texture?.Dispose();
-            Tool3Texture?.Dispose();
-
+            ReminderIconTexture?.Dispose();
             WindowBackgroundTexture?.Dispose();
             ToolSearchWindowEmblem?.Dispose();
             CornerIconTexture?.Dispose();
@@ -43,9 +37,7 @@ namespace GatheringTools.ToolSearch.Services
         }
 
         public Texture2D ReminderBackgroundTexture { get; }
-        public Texture2D Tool1Texture { get; }
-        public Texture2D Tool2Texture { get; }
-        public Texture2D Tool3Texture { get; }
+        public Texture2D ReminderIconTexture { get; }
         public Texture2D WindowBackgroundTexture { get; }
         public Texture2D ToolSearchWindowEmblem { get; }
         public Texture2D CornerIconTexture { get; }

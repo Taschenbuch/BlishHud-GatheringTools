@@ -13,11 +13,17 @@ namespace GatheringTools.LogoutOverlay
             Parent          = GameService.Graphics.SpriteScreen;
             _settingService = settingService;
 
-            _reminderBackgroundImage = new Image(textureService.ReminderBackgroundTexture) { Parent = this, Size = Size };
+            _reminderBackgroundImage = new Image(textureService.ReminderBackgroundTexture)
+            {
+                Size   = Size,
+                Parent = this
+            };
 
-            _tool1Image = new Image(textureService.Tool1Texture) { Parent = this, ClipsBounds = false };
-            _tool2Image = new Image(textureService.Tool2Texture) { Parent = this, ClipsBounds = false };
-            _tool3Image = new Image(textureService.Tool3Texture) { Parent = this, ClipsBounds = false };
+            _reminderIconImage = new Image(textureService.ReminderIconTexture)
+            {
+                ClipsBounds = false,
+                Parent      = this
+            };
 
             _reminderTextLabel = new Label()
             {
@@ -42,6 +48,7 @@ namespace GatheringTools.LogoutOverlay
             settingService.ReminderIconsAreVisibleSetting.SettingChanged  += (s, e) => UpdateIconsVisibility(e.NewValue);
             settingService.ReminderWindowOffsetXSetting.SettingChanged     += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
             settingService.ReminderWindowOffsetYSetting.SettingChanged     += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
+            settingService.ReminderIconOffsetYSetting.SettingChanged       += (s, e) => UpdateLabelAndIconLocations();
             GameService.Graphics.SpriteScreen.Resized                      += OnSpriteScreenResized;
         }
 
@@ -61,7 +68,7 @@ namespace GatheringTools.LogoutOverlay
         private void UpdateText(string reminderText)
         {
             _reminderTextLabel.Text = reminderText;
-            UpdateChildLocations();
+            UpdateLabelAndIconLocations();
         }
 
         private void UpdateContainerSizeAndMoveAboveLogoutDialog(int size)
@@ -69,50 +76,37 @@ namespace GatheringTools.LogoutOverlay
             Size = new Point(670 * (5 + size) / 40, 75 * (5 + size) / 40);
 
             _reminderBackgroundImage.Size = Size;
-            UpdateChildLocations();
+            UpdateLabelAndIconLocations();
             MoveAboveLogoutDialogAndApplyOffsetFromSettings();
         }
 
         private void UpdateTextFontSize(int fontSizeIndex)
         {
             _reminderTextLabel.Font = FontService.Fonts[fontSizeIndex];
-            UpdateChildLocations();
+            UpdateLabelAndIconLocations();
         }
 
         private void UpdateIconSize(int iconSize)
         {
-            var size = new Point(iconSize, iconSize);
-            _tool1Image.Size = size;
-            _tool2Image.Size = size;
-            _tool3Image.Size = size;
-            UpdateChildLocations();
+            _reminderIconImage.Size = new Point(iconSize * 13 / 10, iconSize);
+            UpdateLabelAndIconLocations();
         }
 
         private void UpdateIconsVisibility(bool areVisible)
         {
-            _tool1Image.Visible = areVisible;
-            _tool2Image.Visible = areVisible;
-            _tool3Image.Visible = areVisible;
-            UpdateChildLocations();
+            _reminderIconImage.Visible = areVisible;
+            UpdateLabelAndIconLocations();
         }
 
-        private void UpdateChildLocations()
+        private void UpdateLabelAndIconLocations()
         {
-            var labelAndToolWidth = _tool1Image.Visible
-                ? _reminderTextLabel.Width + 3 * _tool1Image.Width
-                : _reminderTextLabel.Width;
-
-            var labelLocationOffsetX = (Width - labelAndToolWidth) / 2;
+            var labelLocationOffsetX = (Width - _reminderTextLabel.Width) / 2;
             var labelLocationOffsetY = (Height - _reminderTextLabel.Height) / 2;
-            var toolOffsetY          = (Height - _tool1Image.Height) / 2;
-            var tool1OffsetX         = labelLocationOffsetX + _reminderTextLabel.Width;
-            var tool2OffsetX         = tool1OffsetX + _tool1Image.Width;
-            var tool3OffsetX         = tool1OffsetX + 2 * _tool1Image.Width;
+            var iconOffsetY          = Height / 2 + _reminderTextLabel.Height / 2 - _reminderIconImage.Height + _settingService.ReminderIconOffsetY;
+            var iconOffsetX          = (Width - _reminderIconImage.Width) / 2;
 
             _reminderTextLabel.Location = new Point(labelLocationOffsetX, labelLocationOffsetY);
-            _tool1Image.Location        = new Point(tool1OffsetX, toolOffsetY);
-            _tool2Image.Location        = new Point(tool2OffsetX, toolOffsetY);
-            _tool3Image.Location        = new Point(tool3OffsetX, toolOffsetY);
+            _reminderIconImage.Location = new Point(iconOffsetX, iconOffsetY);
         }
 
         private static Point GetLogoutDialogTextCenter(int screenWidth, int screenHeight)
@@ -133,8 +127,6 @@ namespace GatheringTools.LogoutOverlay
         private const float RELATIVE_Y_OFFSET_FROM_SCREEN_CENTER = 0.005f;
         private readonly Image _reminderBackgroundImage;
         private readonly Label _reminderTextLabel;
-        private readonly Image _tool1Image;
-        private readonly Image _tool2Image;
-        private readonly Image _tool3Image;
+        private readonly Image _reminderIconImage;
     }
 }
