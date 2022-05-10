@@ -67,7 +67,7 @@ namespace GatheringTools.Services
                 () => "Change size of the icons in the reminder window");
             ReminderIconSizeSetting.SetRange(10, 300);
 
-            ReminderIconsAreVisibleSettings = settings.DefineSetting(
+            ReminderIconsAreVisibleSetting = settings.DefineSetting(
                 "show reminder icons",
                 false,
                 () => "show icons in reminder",
@@ -76,7 +76,7 @@ namespace GatheringTools.Services
                       "your character has equipped. Sadly the API would be too slow for " +
                       "updating those correctly.");
 
-            ReminderScreenNotificationIsEnabled = settings.DefineSetting(
+            ReminderScreenNotificationIsEnabledSetting = settings.DefineSetting(
                 "reminder screen notification is enabled",
                 true,
                 () => "additional reminder hint",
@@ -116,8 +116,7 @@ namespace GatheringTools.Services
             ShowSharedInventoryToolsSetting = internalSettingSubCollection.DefineSetting("show shared inventory tools", true);
         }
 
-
-        public SettingEntry<bool> ReminderScreenNotificationIsEnabled { get; set; }
+        public SettingEntry<bool> ReminderScreenNotificationIsEnabledSetting { get; set; }
         public SettingEntry<int> ReminderWindowSizeSetting { get; }
         public SettingEntry<int> ReminderWindowOffsetXSetting { get; set; }
         public SettingEntry<int> ReminderWindowOffsetYSetting { get; set; }
@@ -127,7 +126,7 @@ namespace GatheringTools.Services
         public SettingEntry<string> ReminderTextSetting { get; }
         public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; }
         public SettingEntry<int> ReminderIconSizeSetting { get; }
-        public SettingEntry<bool> ReminderIconsAreVisibleSettings { get; set; }
+        public SettingEntry<bool> ReminderIconsAreVisibleSetting { get; set; }
         public SettingEntry<bool> EscIsHidingReminderSetting { get; }
         public SettingEntry<bool> EnterIsHidingReminderSetting { get; }
         public SettingEntry<bool> ReminderIsVisibleForSetupSetting { get; }

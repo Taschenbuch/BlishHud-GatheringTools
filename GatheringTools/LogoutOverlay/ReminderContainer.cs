@@ -32,14 +32,14 @@ namespace GatheringTools.LogoutOverlay
             UpdateText(settingService.ReminderTextSetting.Value);
             UpdateTextFontSize(settingService.ReminderTextFontSizeIndexSetting.Value);
             UpdateIconSize(settingService.ReminderIconSizeSetting.Value);
-            UpdateIconsVisibility(settingService.ReminderIconsAreVisibleSettings.Value);
+            UpdateIconsVisibility(settingService.ReminderIconsAreVisibleSetting.Value);
             UpdateContainerSizeAndMoveAboveLogoutDialog(settingService.ReminderWindowSizeSetting.Value);
 
             settingService.ReminderTextFontSizeIndexSetting.SettingChanged += (s, e) => UpdateTextFontSize(e.NewValue);
             settingService.ReminderTextSetting.SettingChanged              += (s, e) => UpdateText(e.NewValue);
             settingService.ReminderWindowSizeSetting.SettingChanged        += (s, e) => UpdateContainerSizeAndMoveAboveLogoutDialog(e.NewValue);
             settingService.ReminderIconSizeSetting.SettingChanged          += (s, e) => UpdateIconSize(e.NewValue);
-            settingService.ReminderIconsAreVisibleSettings.SettingChanged  += (s, e) => UpdateIconsVisibility(e.NewValue);
+            settingService.ReminderIconsAreVisibleSetting.SettingChanged  += (s, e) => UpdateIconsVisibility(e.NewValue);
             settingService.ReminderWindowOffsetXSetting.SettingChanged     += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
             settingService.ReminderWindowOffsetYSetting.SettingChanged     += (s, e) => MoveAboveLogoutDialogAndApplyOffsetFromSettings();
             GameService.Graphics.SpriteScreen.Resized                      += OnSpriteScreenResized;
