@@ -113,7 +113,6 @@ namespace GatheringTools.LogoutOverlay
         private void UpdateImageSize(int imageSize)
         {
             _reminderImage.Size = new Point(imageSize, imageSize);
-            //_reminderImage.Size = new Point(imageSize * 13 / 10, imageSize);
             UpdateLabelAndImageLocations();
         }
 
@@ -124,7 +123,7 @@ namespace GatheringTools.LogoutOverlay
         {
             var labelLocationOffsetX = (Width - _reminderTextLabel.Width) / 2;
             var labelLocationOffsetY = (Height - _reminderTextLabel.Height) / 2;
-            var imageOffsetY         = Height / 2 + _reminderTextLabel.Height / 2 - _reminderImage.Height + _settingService.ReminderImageOffsetY;
+            var imageOffsetY         = Height / 2 - _reminderImage.Height + _settingService.ReminderImageOffsetY;
             var imageOffsetX         = (Width - _reminderImage.Width) / 2 + _settingService.ReminderImageOffsetX;
 
             _reminderTextLabel.Location = new Point(labelLocationOffsetX, labelLocationOffsetY);
