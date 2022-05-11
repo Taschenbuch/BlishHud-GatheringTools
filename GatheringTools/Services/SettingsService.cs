@@ -134,12 +134,12 @@ namespace GatheringTools.Services
         }
 
 
-        public SettingEntry<bool> ReminderScreenNotificationIsEnabledSetting { get; set; }
+        public SettingEntry<bool> ReminderScreenNotificationIsEnabledSetting { get; }
         public SettingEntry<int> ReminderWindowSizeSetting { get; }
-        public SettingEntry<int> ReminderWindowOffsetXSetting { get; set; }
-        public SettingEntry<int> ReminderWindowOffsetYSetting { get; set; }
-        public SettingEntry<int> ReminderImageOffsetXSetting { get; set; }
-        public SettingEntry<int> ReminderImageOffsetYSetting { get; set; }
+        public SettingEntry<int> ReminderWindowOffsetXSetting { get; }
+        public SettingEntry<int> ReminderWindowOffsetYSetting { get; }
+        public SettingEntry<int> ReminderImageOffsetXSetting { get; }
+        public SettingEntry<int> ReminderImageOffsetYSetting { get; }
         public int ReminderWindowOffsetX => ReminderWindowOffsetXSetting.Value;
         public int ReminderWindowOffsetY => ReminderWindowOffsetYSetting.Value;
         public int ReminderImageOffsetX => ReminderImageOffsetXSetting.Value;
@@ -148,8 +148,8 @@ namespace GatheringTools.Services
         public SettingEntry<string> ReminderTextSetting { get; }
         public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; }
         public SettingEntry<int> ReminderImageSizeSetting { get; }
-        public SettingEntry<bool> ReminderImageIsVisibleSetting { get; set; }
-        public SettingEntry<bool> ReminderBackgroundIsVisibleSetting { get; set; }
+        public SettingEntry<bool> ReminderImageIsVisibleSetting { get; }
+        public SettingEntry<bool> ReminderBackgroundIsVisibleSetting { get; }
         public SettingEntry<bool> EscIsHidingReminderSetting { get; }
         public SettingEntry<bool> EnterIsHidingReminderSetting { get; }
         public SettingEntry<bool> ReminderIsVisibleForSetupSetting { get; }
