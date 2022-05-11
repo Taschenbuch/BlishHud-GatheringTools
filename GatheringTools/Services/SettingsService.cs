@@ -87,6 +87,12 @@ namespace GatheringTools.Services
                 () => "show reminder background",
                 () => "Show reminder background to hide logout text.");
 
+            ReminderImageOutlineSetting = settings.DefineSetting(
+                "reminder image outline",
+                Outline.Small,
+                () => "image outline",
+                () => "Change the outline around the reminder image.");
+
             ReminderImageIsVisibleSetting = settings.DefineSetting(
                 "show reminder icons",
                 true,
@@ -144,6 +150,7 @@ namespace GatheringTools.Services
         public int ReminderWindowOffsetY => ReminderWindowOffsetYSetting.Value;
         public int ReminderImageOffsetX => ReminderImageOffsetXSetting.Value;
         public int ReminderImageOffsetY => ReminderImageOffsetYSetting.Value;
+        public SettingEntry<Outline> ReminderImageOutlineSetting { get; }
         public SettingEntry<DisplayDuration> ReminderDisplayDurationInSecondsSetting { get; }
         public SettingEntry<string> ReminderTextSetting { get; }
         public SettingEntry<int> ReminderTextFontSizeIndexSetting { get; }

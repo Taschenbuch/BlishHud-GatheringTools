@@ -64,6 +64,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\Outline.cs" />
     <Compile Include="Services\SettingsService.cs" />
     <Compile Include="ModuleSettingsView.cs" />
     <Compile Include="ToolSearch\Controls\LoadingSpinnerContainer.cs" />
