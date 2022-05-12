@@ -133,13 +133,41 @@ namespace GatheringTools.Services
                 () => "Show sickle icon at the top left of GW2 next to other menu icons. Icon " +
                       "can be clicked to show/hide the gathering tool search window");
 
+            LogoutButtonIsVisible = settings.DefineSetting(
+                "show logout button",
+                false,
+                () => "show logout button",
+                () => "Show a logout button which can be pressed to open the logout dialog");
+
+            LogoutButtonDragWithMouseIsEnabledSetting = settings.DefineSetting(
+                "dragging logout button is allowed",
+                true,
+                () => "allow dragging with mouse",
+                () => "Allow dragging the button by moving the mouse while left mouse button is pressed.");
+
+            LogoutButtonSizeSetting = settings.DefineSetting(
+                "logout button size",
+                100,
+                () => "logout button size",
+                () => "Change the logout button size.");
+            LogoutButtonSizeSetting.SetRange(10, 500);
+
             var internalSettingSubCollection = settings.AddSubCollection("internal settings (not visible in UI)");
             ShowOnlyUnlimitedToolsSetting   = internalSettingSubCollection.DefineSetting("only unlimited tools", true);
             ShowBankToolsSetting            = internalSettingSubCollection.DefineSetting("show bank tools", true);
             ShowSharedInventoryToolsSetting = internalSettingSubCollection.DefineSetting("show shared inventory tools", true);
+            LogoutButtonPositionXSetting    = internalSettingSubCollection.DefineSetting("logout button x position", 0);
+            LogoutButtonPositionYSetting    = internalSettingSubCollection.DefineSetting("logout button y position", DEFAULT_LOGOUT_BUTTON_POSITION_Y);
+
+            LogoutButtonPositionXSetting.SetRange(0, 4000);
+            LogoutButtonPositionYSetting.SetRange(0, 4000);
         }
 
-
+        public SettingEntry<bool> LogoutButtonIsVisible { get; }
+        public SettingEntry<bool> LogoutButtonDragWithMouseIsEnabledSetting { get; }
+        public SettingEntry<int> LogoutButtonPositionYSetting { get; }
+        public SettingEntry<int> LogoutButtonPositionXSetting { get; }
+        public SettingEntry<int> LogoutButtonSizeSetting { get; }
         public SettingEntry<bool> ReminderScreenNotificationIsEnabledSetting { get; }
         public SettingEntry<int> ReminderWindowSizeSetting { get; }
         public SettingEntry<int> ReminderWindowOffsetXSetting { get; }
@@ -166,5 +194,7 @@ namespace GatheringTools.Services
         public SettingEntry<bool> ShowBankToolsSetting { get; }
         public SettingEntry<KeyBinding> ToolSearchKeyBindingSetting { get; }
         public SettingEntry<KeyBinding> LogoutKeyBindingSetting { get; }
+
+        public const int DEFAULT_LOGOUT_BUTTON_POSITION_Y = 50;
     }
 }

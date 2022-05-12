@@ -4,11 +4,13 @@ using System.ComponentModel.Composition;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
+using Blish_HUD.Controls.Extern;
 using Blish_HUD.Graphics.UI;
 using Blish_HUD.Input;
 using Blish_HUD.Modules;
 using Blish_HUD.Modules.Managers;
 using Blish_HUD.Settings;
+using GatheringTools.LogoutControl;
 using GatheringTools.LogoutOverlay;
 using GatheringTools.Services;
 using GatheringTools.ToolSearch.Controls;
@@ -59,6 +61,13 @@ namespace GatheringTools
                     ShowReminderAndResetRunningTime();
                 else
                     HideReminderAndResetRunningTime();
+            };
+
+            _logoutButton = new LogoutButton(_settingService, _textureService);
+            _logoutButton.Click += (s, o) =>
+            {
+                Blish_HUD.Controls.Intern.Keyboard.Stroke(VirtualKeyShort.F12);
+                OnLogoutKeyBindingActivated(null, EventArgs.Empty);
             };
 
             _escKeyBinding           =  new KeyBinding(Keys.Escape);
@@ -113,6 +122,7 @@ namespace GatheringTools
             _textureService?.Dispose();
             _toolSearchStandardWindow?.Dispose();
             _reminderContainer?.Dispose();
+            _logoutButton?.Dispose();
             _cornerIconService?.RemoveCornerIcon();
         }
 
@@ -174,5 +184,6 @@ namespace GatheringTools
         private TextureService _textureService;
         private CornerIconService _cornerIconService;
         private readonly List<GatheringTool> _allGatheringTools = new List<GatheringTool>();
+        private LogoutButton _logoutButton;
     }
 }

@@ -64,6 +64,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogoutControl\LogoutButton.cs" />
     <Compile Include="Services\Outline.cs" />
     <Compile Include="Services\SettingsService.cs" />
     <Compile Include="ModuleSettingsView.cs" />

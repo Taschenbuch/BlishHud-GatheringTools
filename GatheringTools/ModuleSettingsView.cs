@@ -31,6 +31,12 @@ namespace GatheringTools
             CreateSettingViewContainer(_settingService.ToolSearchKeyBindingSetting, toolSearchFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ShowToolSearchCornerIconSetting, toolSearchFlowPanel, buildPanel.Width);
 
+            var logoutButtonFlowPanel = CreateSettingsGroupFlowPanel("Logout Button", _rootFlowPanel);
+            CreateSettingViewContainer(_settingService.LogoutButtonIsVisible, logoutButtonFlowPanel, buildPanel.Width);
+            CreateSettingViewContainer(_settingService.LogoutButtonDragWithMouseIsEnabledSetting, logoutButtonFlowPanel, buildPanel.Width);
+            CreateSettingViewContainer(_settingService.LogoutButtonSizeSetting, logoutButtonFlowPanel, buildPanel.Width);
+            CreateResetLogoutPositionButton(logoutButtonFlowPanel);
+
             var reminderFlowPanel = CreateSettingsGroupFlowPanel("Logout Reminder", _rootFlowPanel);
             CreateSettingViewContainer(_settingService.LogoutKeyBindingSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderDisplayDurationInSecondsSetting, reminderFlowPanel, buildPanel.Width);
@@ -51,6 +57,23 @@ namespace GatheringTools
             CreateSettingViewContainer(_settingService.EscIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.EnterIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);
             CreateSettingViewContainer(_settingService.ReminderIsVisibleForSetupSetting, reminderFlowPanel, buildPanel.Width);
+        }
+
+        private void CreateResetLogoutPositionButton(Container parent)
+        {
+            var button = new StandardButton
+            {
+                Text             = "Reset logout button position",
+                BasicTooltipText = "Reset the logout button position back to the default position.",
+                Width            = 300,
+                Parent           = parent,
+            };
+
+            button.Click += (s, e) =>
+            {
+                _settingService.LogoutButtonPositionXSetting.Value = 0;
+                _settingService.LogoutButtonPositionYSetting.Value = SettingService.DEFAULT_LOGOUT_BUTTON_POSITION_Y;
+            };
         }
 
         private void CreateResetIconPositionButton(Container parent)

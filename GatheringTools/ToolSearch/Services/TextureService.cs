@@ -8,6 +8,8 @@ namespace GatheringTools.ToolSearch.Services
     {
         public TextureService(ContentsManager contentsManager)
         {
+            LogoutButtonTexture              = contentsManager.GetTexture(@"reminder\logoutButton.png");
+            LogoutButtonActiveTexture        = contentsManager.GetTexture(@"reminder\logoutButtonActive.png");
             ReminderBackgroundTexture        = contentsManager.GetTexture(@"reminder\logoutDialogTextArea.png");
             ReminderImageNoOutlineTexture    = contentsManager.GetTexture(@"reminder\reminderImage_noOutline.png");
             ReminderImageSmallOutlineTexture = contentsManager.GetTexture(@"reminder\reminderImage_smallOutline.png");
@@ -25,6 +27,8 @@ namespace GatheringTools.ToolSearch.Services
 
         public void Dispose()
         {
+            LogoutButtonTexture?.Dispose();
+            LogoutButtonActiveTexture?.Dispose();
             ReminderBackgroundTexture?.Dispose();
             ReminderImageNoOutlineTexture?.Dispose();
             ReminderImageSmallOutlineTexture?.Dispose();
@@ -40,6 +44,8 @@ namespace GatheringTools.ToolSearch.Services
             UnknownToolTexture?.Dispose();
         }
 
+        public Texture2D LogoutButtonTexture { get; }
+        public Texture2D LogoutButtonActiveTexture { get; }
         public Texture2D ReminderBackgroundTexture { get; }
         public Texture2D ReminderImageNoOutlineTexture { get; }
         public Texture2D ReminderImageSmallOutlineTexture { get; }
