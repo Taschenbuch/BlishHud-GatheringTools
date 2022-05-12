@@ -16,12 +16,12 @@ namespace GatheringTools.LogoutControl
             Icon       = textureService.LogoutButtonTexture;
             ActiveIcon = textureService.LogoutButtonActiveTexture;
             Location   = new Point(settingService.LogoutButtonPositionXSetting.Value, settingService.LogoutButtonPositionYSetting.Value);
-            Size       = new Point(settingService.LogoutButtonSizeSetting.Value, settingService.LogoutButtonSizeSetting.Value * 65 / 60);
+            Size       = CreateImageSize(settingService.LogoutButtonSizeSetting.Value);
             Visible    = settingService.LogoutButtonIsVisible.Value;
             Parent     = GameService.Graphics.SpriteScreen;
 
             settingService.LogoutButtonIsVisible.SettingChanged        += (s, e) => Visible  = e.NewValue;
-            settingService.LogoutButtonSizeSetting.SettingChanged      += (s, e) => Size     = new Point(e.NewValue, e.NewValue * 65 / 60);
+            settingService.LogoutButtonSizeSetting.SettingChanged      += (s, e) => Size     = CreateImageSize(e.NewValue);
             settingService.LogoutButtonPositionXSetting.SettingChanged += (s, e) => Location = new Point(e.NewValue, Location.Y);
             settingService.LogoutButtonPositionYSetting.SettingChanged += (s, e) => Location = new Point(Location.X, e.NewValue);
 
@@ -61,6 +61,11 @@ namespace GatheringTools.LogoutControl
         {
             if (_settingService.LogoutButtonDragWithMouseIsEnabledSetting.Value)
                 _isDraggedByMouse = false;
+        }
+
+        private static Point CreateImageSize(int width)
+        {
+            return new Point(width, width * 65 / 60);
         }
 
         private readonly SettingService _settingService;
