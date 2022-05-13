@@ -37,8 +37,8 @@ namespace GatheringTools.Services
             ReminderWindowSizeSetting = settings.DefineSetting(
                 "window size (logout overlay)",
                 34,
-                () => "reminder size",
-                () => "Change reminder window size to fit to the size of the logout dialog " +
+                () => "reminder background size",
+                () => "Change reminder background size to fit to the size of the logout dialog " +
                       "with your current screen settings");
             ReminderWindowSizeSetting.SetRange(1, 100);
 
@@ -63,7 +63,7 @@ namespace GatheringTools.Services
             ReminderImageSizeSetting = settings.DefineSetting(
                 "reminder icon size (logout overlay)",
                 600,
-                () => "reminder image size",
+                () => "image size",
                 () => "Change size of the image in the reminder window.");
             ReminderImageSizeSetting.SetRange(10, 2000);
 

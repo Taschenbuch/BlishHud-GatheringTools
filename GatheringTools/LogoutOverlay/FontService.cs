@@ -12,8 +12,8 @@ namespace GatheringTools.LogoutOverlay
             var fontSizeIndex = settings.DefineSetting(
                 "font size index (logout overlay)",
                 Fonts.Count - 1,
-                () => "reminder font size",
-                () => "Change font size of the reminder text");
+                () => "reminder text size",
+                () => "Change reminder text size");
 
             fontSizeIndex.SetRange(0, Fonts.Count - 1);
 
