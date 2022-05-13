@@ -1,6 +1,6 @@
 ﻿using Blish_HUD;
 using Blish_HUD.Controls;
-using GatheringTools.Services;
+using GatheringTools.Settings;
 using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;

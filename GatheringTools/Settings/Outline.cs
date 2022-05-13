@@ -1,4 +1,4 @@
-﻿namespace GatheringTools.Services
+﻿namespace GatheringTools.Settings
 {
     public enum Outline
     {

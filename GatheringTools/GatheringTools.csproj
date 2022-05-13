@@ -65,9 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogoutControl\LogoutButton.cs" />
-    <Compile Include="Services\Outline.cs" />
-    <Compile Include="Services\SettingsService.cs" />
-    <Compile Include="ModuleSettingsView.cs" />
+    <Compile Include="Settings\Outline.cs" />
+    <Compile Include="Settings\SettingsService.cs" />
+    <Compile Include="Settings\ModuleSettingsView.cs" />
     <Compile Include="ToolSearch\Controls\LoadingSpinnerContainer.cs" />
     <Compile Include="ToolSearch\Model\Account.cs" />
     <Compile Include="ToolSearch\Model\Character.cs" />

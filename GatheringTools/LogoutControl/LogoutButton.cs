@@ -2,7 +2,7 @@
 using Blish_HUD.Controls;
 using Blish_HUD.Controls.Extern;
 using Blish_HUD.Input;
-using GatheringTools.Services;
+using GatheringTools.Settings;
 using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
 

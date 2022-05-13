@@ -3,7 +3,7 @@ using Blish_HUD.Settings;
 using GatheringTools.LogoutOverlay;
 using Microsoft.Xna.Framework.Input;
 
-namespace GatheringTools.Services
+namespace GatheringTools.Settings
 {
     public class SettingService // singular because Setting"s"Service already exists in Blish
     {

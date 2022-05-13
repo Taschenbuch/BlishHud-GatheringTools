@@ -2,10 +2,9 @@
 using Blish_HUD.Graphics.UI;
 using Blish_HUD.Settings;
 using Blish_HUD.Settings.UI.Views;
-using GatheringTools.Services;
 using Microsoft.Xna.Framework;
 
-namespace GatheringTools
+namespace GatheringTools.Settings
 {
     public class ModuleSettingsView : View
     {

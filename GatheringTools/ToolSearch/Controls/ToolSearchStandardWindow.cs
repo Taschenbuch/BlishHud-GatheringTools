@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules.Managers;
-using GatheringTools.Services;
+using GatheringTools.Settings;
 using GatheringTools.ToolSearch.Model;
 using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;

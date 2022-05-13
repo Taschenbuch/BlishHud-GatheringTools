@@ -11,7 +11,7 @@ using Blish_HUD.Modules.Managers;
 using Blish_HUD.Settings;
 using GatheringTools.LogoutControl;
 using GatheringTools.LogoutOverlay;
-using GatheringTools.Services;
+using GatheringTools.Settings;
 using GatheringTools.ToolSearch.Controls;
 using GatheringTools.ToolSearch.Model;
 using GatheringTools.ToolSearch.Services;
