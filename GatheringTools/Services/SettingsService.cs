@@ -136,7 +136,7 @@ namespace GatheringTools.Services
             LogoutButtonIsVisible = settings.DefineSetting(
                 "show logout button",
                 false,
-                () => "show logout button",
+                () => "show",
                 () => "Show a logout button which can be pressed to open the logout dialog");
 
             LogoutButtonDragWithMouseIsEnabledSetting = settings.DefineSetting(
@@ -144,6 +144,20 @@ namespace GatheringTools.Services
                 true,
                 () => "allow dragging with mouse",
                 () => "Allow dragging the button by moving the mouse while left mouse button is pressed.");
+
+            LogoutButtonIsVisibleOnWorldMap = settings.DefineSetting(
+                "logout button visible on world map",
+                false,
+                () => "show on world map",
+                () => "logout button visible when world map is open.\n" +
+                      "But only when 'show logout button' is enabled.");
+
+            LogoutButtonIsVisibleOnCutScenesAndCharacterSelect = settings.DefineSetting(
+                "logout button visible when not ingame",
+                false,
+                () => "show on character selection / cut scenes",
+                () => "logout button visible when on character selection and cut scenes.\n" +
+                      "But only when 'show logout button' is enabled.");
 
             LogoutButtonSizeSetting = settings.DefineSetting(
                 "logout button size",
@@ -167,6 +181,8 @@ namespace GatheringTools.Services
         public SettingEntry<bool> LogoutButtonDragWithMouseIsEnabledSetting { get; }
         public SettingEntry<int> LogoutButtonPositionYSetting { get; }
         public SettingEntry<int> LogoutButtonPositionXSetting { get; }
+        public SettingEntry<bool> LogoutButtonIsVisibleOnCutScenesAndCharacterSelect { get; }
+        public SettingEntry<bool> LogoutButtonIsVisibleOnWorldMap { get; }
         public SettingEntry<int> LogoutButtonSizeSetting { get; }
         public SettingEntry<bool> ReminderScreenNotificationIsEnabledSetting { get; }
         public SettingEntry<int> ReminderWindowSizeSetting { get; }

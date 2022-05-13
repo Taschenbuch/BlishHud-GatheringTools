@@ -33,9 +33,15 @@ namespace GatheringTools
 
             var logoutButtonFlowPanel = CreateSettingsGroupFlowPanel("Logout Button", _rootFlowPanel);
             CreateSettingViewContainer(_settingService.LogoutButtonIsVisible, logoutButtonFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.LogoutButtonDragWithMouseIsEnabledSetting, logoutButtonFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.LogoutButtonSizeSetting, logoutButtonFlowPanel, buildPanel.Width);
-            CreateResetLogoutPositionButton(logoutButtonFlowPanel);
+            _logoutSetting2 = CreateSettingViewContainer(_settingService.LogoutButtonIsVisibleOnCutScenesAndCharacterSelect, logoutButtonFlowPanel, buildPanel.Width);
+            _logoutSetting3 = CreateSettingViewContainer(_settingService.LogoutButtonIsVisibleOnWorldMap, logoutButtonFlowPanel, buildPanel.Width);
+            _logoutSetting4 = CreateSettingViewContainer(_settingService.LogoutButtonDragWithMouseIsEnabledSetting, logoutButtonFlowPanel, buildPanel.Width);
+            _logoutSetting5 = CreateSettingViewContainer(_settingService.LogoutButtonSizeSetting, logoutButtonFlowPanel, buildPanel.Width);
+            _logoutSetting6 = CreateResetLogoutPositionButton(logoutButtonFlowPanel);
+
+            ShowOrHideLogoutButtonSettings(_settingService.LogoutButtonIsVisible.Value);
+            _settingService.LogoutButtonIsVisible.SettingChanged += (s, e) => ShowOrHideLogoutButtonSettings(e.NewValue);
+
 
             var reminderFlowPanel = CreateSettingsGroupFlowPanel("Logout Reminder", _rootFlowPanel);
             CreateSettingViewContainer(_settingService.LogoutKeyBindingSetting, reminderFlowPanel, buildPanel.Width);
@@ -59,7 +65,16 @@ namespace GatheringTools
             CreateSettingViewContainer(_settingService.ReminderIsVisibleForSetupSetting, reminderFlowPanel, buildPanel.Width);
         }
 
-        private void CreateResetLogoutPositionButton(Container parent)
+        private void ShowOrHideLogoutButtonSettings(bool isVisible)
+        {
+            _logoutSetting2.Visible = isVisible;
+            _logoutSetting3.Visible = isVisible;
+            _logoutSetting4.Visible = isVisible;
+            _logoutSetting5.Visible = isVisible;
+            _logoutSetting6.Visible = isVisible;
+        }
+
+        private StandardButton CreateResetLogoutPositionButton(Container parent)
         {
             var button = new StandardButton
             {
@@ -74,6 +89,8 @@ namespace GatheringTools
                 _settingService.LogoutButtonPositionXSetting.Value = 0;
                 _settingService.LogoutButtonPositionYSetting.Value = SettingService.DEFAULT_LOGOUT_BUTTON_POSITION_Y;
             };
+
+            return button;
         }
 
         private void CreateResetIconPositionButton(Container parent)
@@ -124,13 +141,19 @@ namespace GatheringTools
             };
         }
 
-        private static void CreateSettingViewContainer(SettingEntry settingEntry, Container parent, int width)
+        private static ViewContainer CreateSettingViewContainer(SettingEntry settingEntry, Container parent, int width)
         {
             var view = new ViewContainer { Parent = parent };
             view.Show(SettingView.FromType(settingEntry, width));
+            return view;
         }
 
         private readonly SettingService _settingService;
         private FlowPanel _rootFlowPanel;
+        private StandardButton _logoutSetting6;
+        private ViewContainer _logoutSetting5;
+        private ViewContainer _logoutSetting3;
+        private ViewContainer _logoutSetting4;
+        private ViewContainer _logoutSetting2;
     }
 }

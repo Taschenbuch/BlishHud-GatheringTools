@@ -96,6 +96,8 @@ namespace GatheringTools
 
         protected override void Update(GameTime gameTime)
         {
+            _logoutButton?.ShowOrHide();
+
             if (_settingService.ReminderIsVisibleForSetupSetting.Value)
                 return;
 
