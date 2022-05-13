@@ -4,7 +4,6 @@ using System.ComponentModel.Composition;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
-using Blish_HUD.Controls.Extern;
 using Blish_HUD.Graphics.UI;
 using Blish_HUD.Input;
 using Blish_HUD.Modules;
@@ -64,11 +63,6 @@ namespace GatheringTools
             };
 
             _logoutButton = new LogoutButton(_settingService, _textureService);
-            _logoutButton.Click += (s, o) =>
-            {
-                Blish_HUD.Controls.Intern.Keyboard.Stroke(VirtualKeyShort.F12);
-                OnLogoutKeyBindingActivated(null, EventArgs.Empty);
-            };
 
             _escKeyBinding           =  new KeyBinding(Keys.Escape);
             _escKeyBinding.Activated += OnEscKeyBindingActivated;

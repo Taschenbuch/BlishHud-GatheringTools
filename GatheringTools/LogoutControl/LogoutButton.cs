@@ -1,5 +1,6 @@
 ﻿using Blish_HUD;
 using Blish_HUD.Controls;
+using Blish_HUD.Controls.Extern;
 using Blish_HUD.Input;
 using GatheringTools.Services;
 using GatheringTools.ToolSearch.Services;
@@ -26,6 +27,8 @@ namespace GatheringTools.LogoutControl
             settingService.LogoutButtonPositionYSetting.SettingChanged += (s, e) => Location = new Point(Location.X, e.NewValue);
 
             GameService.Input.Mouse.LeftMouseButtonReleased += OnLeftMouseButtonReleased;
+
+            Click += (s, o) => Blish_HUD.Controls.Intern.Keyboard.Stroke(VirtualKeyShort.F12);
         }
 
         protected override void DisposeControl()
