@@ -26,7 +26,7 @@ namespace GatheringTools.LogoutControl
             settingService.LogoutButtonPositionXSetting.SettingChanged += (s, e) => Location = new Point(e.NewValue, Location.Y);
             settingService.LogoutButtonPositionYSetting.SettingChanged += (s, e) => Location = new Point(Location.X, e.NewValue);
 
-            Click += (s, o) => Blish_HUD.Controls.Intern.Keyboard.Stroke(VirtualKeyShort.F12);
+            Click += (s, o) => Blish_HUD.Controls.Intern.Keyboard.Stroke((VirtualKeyShort) _settingService.LogoutKeyBindingSetting.Value.PrimaryKey);
 
             GameService.Input.Mouse.LeftMouseButtonReleased += OnLeftMouseButtonReleased;
         }

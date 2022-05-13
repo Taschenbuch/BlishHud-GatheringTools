@@ -13,7 +13,9 @@ namespace GatheringTools.Settings
                 "Logout key binding",
                 new KeyBinding(Keys.F12),
                 () => "Logout (must match ingame key)",
-                () => "Double-click to change it. Logout key has to match the ingame logout key (default F12).");
+                () => "Double-click to change it. Logout key has to match the ingame logout key (default F12).\n" +
+                      "Is used for the custom logout button and for the reminder.\n" +
+                      "The custom logout button does not support modifier keys (CTRL, ALT, ...).");
 
             ToolSearchKeyBindingSetting = settings.DefineSetting(
                 "tool search key binding",
@@ -147,14 +149,14 @@ namespace GatheringTools.Settings
 
             LogoutButtonIsVisibleOnWorldMap = settings.DefineSetting(
                 "logout button visible on world map",
-                false,
+                true,
                 () => "show on world map",
                 () => "logout button visible when world map is open.\n" +
                       "But only when 'show logout button' is enabled.");
 
             LogoutButtonIsVisibleOnCutScenesAndCharacterSelect = settings.DefineSetting(
                 "logout button visible when not ingame",
-                false,
+                true,
                 () => "show on character selection / cut scenes",
                 () => "logout button visible when on character selection and cut scenes.\n" +
                       "But only when 'show logout button' is enabled.");
