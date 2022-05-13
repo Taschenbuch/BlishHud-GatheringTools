@@ -39,7 +39,7 @@ namespace GatheringTools.LogoutControl
 
         public override void DoUpdate(GameTime gameTime)
         {
-            if (_settingService.LogoutButtonDragWithMouseIsEnabledSetting.Value && _isDraggedByMouse)
+            if (_isDraggedByMouse && _settingService.LogoutButtonDragWithMouseIsEnabledSetting.Value)
             {
                 // done via settings instead of directly updating location
                 // because otherwise the reset position button would stop working.
