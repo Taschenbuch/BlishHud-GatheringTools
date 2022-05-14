@@ -1,6 +1,5 @@
 ﻿using Blish_HUD;
 using Blish_HUD.Controls;
-using Blish_HUD.Controls.Extern;
 using Blish_HUD.Input;
 using GatheringTools.Settings;
 using GatheringTools.ToolSearch.Services;
@@ -25,9 +24,7 @@ namespace GatheringTools.LogoutControl
             settingService.LogoutButtonSizeSetting.SettingChanged      += (s, e) => Size     = CreateImageSize(e.NewValue);
             settingService.LogoutButtonPositionXSetting.SettingChanged += (s, e) => Location = new Point(e.NewValue, Location.Y);
             settingService.LogoutButtonPositionYSetting.SettingChanged += (s, e) => Location = new Point(Location.X, e.NewValue);
-
-            Click += (s, o) => Blish_HUD.Controls.Intern.Keyboard.Stroke((VirtualKeyShort) _settingService.LogoutKeyBindingSetting.Value.PrimaryKey);
-
+            
             GameService.Input.Mouse.LeftMouseButtonReleased += OnLeftMouseButtonReleased;
         }
 
@@ -45,9 +42,7 @@ namespace GatheringTools.LogoutControl
             else if (Visible && shouldBeVisible == false)
                 Hide();
         }
-
         
-
         protected override void DisposeControl()
         {
             GameService.Input.Mouse.LeftMouseButtonReleased -= OnLeftMouseButtonReleased;

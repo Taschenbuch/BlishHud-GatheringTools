@@ -4,6 +4,7 @@ using System.ComponentModel.Composition;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
+using Blish_HUD.Controls.Extern;
 using Blish_HUD.Graphics.UI;
 using Blish_HUD.Input;
 using Blish_HUD.Modules;
@@ -63,6 +64,7 @@ namespace GatheringTools
             };
 
             _logoutButton = new LogoutButton(_settingService, _textureService);
+            _logoutButton.Click += OnLogoutButtonClicked;
 
             _escKeyBinding           =  new KeyBinding(Keys.Escape);
             _escKeyBinding.Activated += OnEscKeyBindingActivated;
@@ -93,16 +95,18 @@ namespace GatheringTools
 
             _cornerIconService = new CornerIconService(_settingService.ShowToolSearchCornerIconSetting, _toolSearchStandardWindow, _textureService);
         }
-
+        
         protected override void Unload()
         {
             _escKeyBinding.Activated                                -= OnEscKeyBindingActivated;
             _settingService.LogoutKeyBindingSetting.Value.Activated -= OnLogoutKeyBindingActivated;
 
+            _logoutButton.Click -= OnLogoutButtonClicked;
+            _logoutButton?.Dispose();
+
             _textureService?.Dispose();
             _toolSearchStandardWindow?.Dispose();
             _reminderContainer?.Dispose();
-            _logoutButton?.Dispose();
             _cornerIconService?.RemoveCornerIcon();
         }
 
@@ -124,6 +128,12 @@ namespace GatheringTools
                 if (_runningTime > 1000 * (int)_settingService.ReminderDisplayDurationInSecondsSetting.Value)
                     HideReminderAndResetRunningTime();
             }
+        }
+
+        private void OnLogoutButtonClicked(object sender, MouseEventArgs e)
+        {
+            Blish_HUD.Controls.Intern.Keyboard.Stroke((VirtualKeyShort)_settingService.LogoutKeyBindingSetting.Value.PrimaryKey);
+            OnLogoutKeyBindingActivated(null, EventArgs.Empty);
         }
 
         private void OnEscKeyBindingActivated(object sender, EventArgs e)
