@@ -174,6 +174,7 @@ namespace GatheringTools.Settings
             ShowSharedInventoryToolsSetting = internalSettingSubCollection.DefineSetting("show shared inventory tools", true);
             LogoutButtonPositionXSetting    = internalSettingSubCollection.DefineSetting("logout button x position", 0);
             LogoutButtonPositionYSetting    = internalSettingSubCollection.DefineSetting("logout button y position", DEFAULT_LOGOUT_BUTTON_POSITION_Y);
+            internalSettingSubCollection.DefineSetting("settings version for setting migration", 1);
 
             LogoutButtonPositionXSetting.SetRange(0, 4000);
             LogoutButtonPositionYSetting.SetRange(0, 4000);
