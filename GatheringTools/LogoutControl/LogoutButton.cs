@@ -33,7 +33,12 @@ namespace GatheringTools.LogoutControl
 
         public void ShowOrHide()
         {
-            var shouldBeVisible = ShouldBeVisible();
+            var shouldBeVisible = VisibilityService.ShouldBeVisible(
+                _settingService.LogoutButtonIsVisible.Value,
+                _settingService.LogoutButtonIsVisibleOnWorldMap.Value,
+                _settingService.LogoutButtonIsVisibleOnCutScenesAndCharacterSelect.Value,
+                GameService.GameIntegration.Gw2Instance.IsInGame,
+                GameService.Gw2Mumble.UI.IsMapOpen == false);
 
             if (Visible == false && shouldBeVisible)
                 Show();
@@ -41,31 +46,7 @@ namespace GatheringTools.LogoutControl
                 Hide();
         }
 
-        private bool ShouldBeVisible()
-        {
-            var hideEverywhere              = _settingService.LogoutButtonIsVisible.Value == false;
-            var showOnMap                   = _settingService.LogoutButtonIsVisibleOnWorldMap.Value;
-            var showOnCharSelectAndCutScene = _settingService.LogoutButtonIsVisibleOnCutScenesAndCharacterSelect.Value;
-            var isInGame                    = GameService.GameIntegration.Gw2Instance.IsInGame;
-            var mapIsClosed                 = GameService.Gw2Mumble.UI.IsMapOpen == false;
-
-            if (hideEverywhere)
-                return false;
-
-            if (showOnMap && showOnCharSelectAndCutScene)
-                return true;
-
-            if (showOnCharSelectAndCutScene && showOnMap == false && mapIsClosed)
-                return true;
-
-            if (showOnCharSelectAndCutScene == false && showOnMap && isInGame)
-                return true;
-
-            if (showOnCharSelectAndCutScene == false && showOnMap == false && isInGame && mapIsClosed)
-                return true;
-
-            return false;
-        }
+        
 
         protected override void DisposeControl()
         {

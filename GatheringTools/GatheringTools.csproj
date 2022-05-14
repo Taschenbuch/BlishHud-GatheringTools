@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogoutControl\LogoutButton.cs" />
+    <Compile Include="LogoutControl\VisibilityService.cs" />
     <Compile Include="Settings\Outline.cs" />
     <Compile Include="Settings\SettingsService.cs" />
     <Compile Include="Settings\ModuleSettingsView.cs" />
