@@ -94,22 +94,6 @@ namespace GatheringTools
             _cornerIconService = new CornerIconService(_settingService.ShowToolSearchCornerIconSetting, _toolSearchStandardWindow, _textureService);
         }
 
-        protected override void Update(GameTime gameTime)
-        {
-            _logoutButton?.ShowOrHide();
-
-            if (_settingService.ReminderIsVisibleForSetupSetting.Value)
-                return;
-
-            if (_reminderContainer.Visible)
-            {
-                _runningTime += gameTime.ElapsedGameTime.TotalMilliseconds;
-
-                if (_runningTime > 1000 * (int)_settingService.ReminderDisplayDurationInSecondsSetting.Value)
-                    HideReminderAndResetRunningTime();
-            }
-        }
-
         protected override void Unload()
         {
             _escKeyBinding.Activated                                -= OnEscKeyBindingActivated;
@@ -120,6 +104,26 @@ namespace GatheringTools
             _reminderContainer?.Dispose();
             _logoutButton?.Dispose();
             _cornerIconService?.RemoveCornerIcon();
+        }
+
+        protected override void Update(GameTime gameTime)
+        {
+            _logoutButton?.ShowOrHide();
+            HideReminderWhenDurationEnds(gameTime);
+        }
+
+        private void HideReminderWhenDurationEnds(GameTime gameTime)
+        {
+            if (_settingService.ReminderIsVisibleForSetupSetting.Value)
+                return;
+
+            if (_reminderContainer.Visible)
+            {
+                _runningTime += gameTime.ElapsedGameTime.TotalMilliseconds;
+
+                if (_runningTime > 1000 * (int)_settingService.ReminderDisplayDurationInSecondsSetting.Value)
+                    HideReminderAndResetRunningTime();
+            }
         }
 
         private void OnEscKeyBindingActivated(object sender, EventArgs e)
