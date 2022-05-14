@@ -8,10 +8,9 @@
                                            bool isInGame,
                                            bool mapIsClosed)
         {
-            if (show == false)
-                return false;
-
-            return (isInGame || showOnCharSelectAndCutScene) && (mapIsClosed || showOnMap);
+            return show 
+                   && (isInGame || showOnCharSelectAndCutScene) 
+                   && (mapIsClosed || showOnMap);
         }
     }
 }
