@@ -4,6 +4,7 @@ using Blish_HUD;
 using Blish_HUD.Content;
 using Blish_HUD.Controls;
 using GatheringTools.ToolSearch.Model;
+using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -15,6 +16,7 @@ namespace GatheringTools.ToolSearch.Controls
                                         List<GatheringTool> gatheringTools,
                                         Texture2D headerTexture,
                                         Texture2D unknownToolTexture,
+                                        TextureService textureService,
                                         Logger logger)
         {
             FlowDirection = ControlFlowDirection.SingleLeftToRight;
@@ -35,15 +37,15 @@ namespace GatheringTools.ToolSearch.Controls
             };
 
             foreach (var gatheringTool in gatheringTools)
-                ShowGatheringToolImageOrFallbackControl(gatheringTool, unknownToolTexture, toolsFlowPanel, logger);
+                ShowGatheringToolImageOrFallbackControl(gatheringTool, textureService, toolsFlowPanel, logger);
         }
 
         private static void ShowGatheringToolImageOrFallbackControl(GatheringTool gatheringTool,
-                                                                    Texture2D unknownToolTexture,
+                                                                    TextureService textureService,
                                                                     FlowPanel toolsFlowPanel,
                                                                     Logger logger)
         {
-            var gatheringToolTexture = DetermineToolTexture(gatheringTool, unknownToolTexture, logger);
+            var gatheringToolTexture = DetermineToolTexture(gatheringTool, textureService, logger);
             var tooltipText          = DetermineTooltipText(gatheringTool);
 
             new Image(gatheringToolTexture)
@@ -71,19 +73,21 @@ namespace GatheringTools.ToolSearch.Controls
             }
         }
 
-        private static AsyncTexture2D DetermineToolTexture(GatheringTool gatheringTool, Texture2D unknownToolTexture, Logger logger)
+        private static AsyncTexture2D DetermineToolTexture(GatheringTool gatheringTool, TextureService textureService, Logger logger)
         {
             if (gatheringTool.ToolType != ToolType.Normal)
-                return unknownToolTexture;
+                return textureService.UnknownToolTexture;
 
             try
             {
-                return GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl);
+                var toolTexture = GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl);
+                textureService.ToolTextures.Add(toolTexture);
+                return toolTexture;
             }
             catch (Exception e)
             {
                 logger.Error(e, "Could not get gathering tool icon from API. Show placeholder icon instead.");
-                return unknownToolTexture;
+                return textureService.UnknownToolTexture;
             }
         }
 

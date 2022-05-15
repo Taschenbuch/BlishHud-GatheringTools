@@ -69,6 +69,7 @@ namespace GatheringTools.ToolSearch.Controls
 
             _loadingSpinnerContainer = new LoadingSpinnerContainer()
             {
+                Visible          = false,
                 WidthSizingMode  = SizingMode.AutoSize,
                 HeightSizingMode = SizingMode.AutoSize,
                 Parent           = rootFlowPanel
@@ -131,6 +132,7 @@ namespace GatheringTools.ToolSearch.Controls
         private async Task UpdateToolsInUiFromApi()
         {
             _toolLocationsFlowPanel.ClearChildren();
+            _textureService.DisposeToolTextures();
             _infoLabel.Text = "Getting API data...";
             _loadingSpinnerContainer.Show();
 
@@ -169,6 +171,7 @@ namespace GatheringTools.ToolSearch.Controls
                     account.BankGatheringTools,
                     textureService.BankTexture,
                     textureService.UnknownToolTexture,
+                    textureService,
                     logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
@@ -185,6 +188,7 @@ namespace GatheringTools.ToolSearch.Controls
                     account.SharedInventoryGatheringTools,
                     textureService.SharedInventoryTexture,
                     textureService.UnknownToolTexture,
+                    textureService,
                     logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
@@ -221,6 +225,7 @@ namespace GatheringTools.ToolSearch.Controls
                     character.EquippedGatheringTools,
                     textureService.EquipmentTexture,
                     textureService.UnknownToolTexture,
+                    textureService,
                     logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,
@@ -237,6 +242,7 @@ namespace GatheringTools.ToolSearch.Controls
                     character.InventoryGatheringTools,
                     textureService.CharacterInventoryTexture,
                     textureService.UnknownToolTexture,
+                    textureService,
                     logger)
                 {
                     WidthSizingMode  = SizingMode.AutoSize,

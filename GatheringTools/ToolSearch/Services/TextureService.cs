@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using Blish_HUD.Content;
 using Blish_HUD.Modules.Managers;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -42,6 +44,16 @@ namespace GatheringTools.ToolSearch.Services
             SharedInventoryTexture?.Dispose();
             EquipmentTexture?.Dispose();
             UnknownToolTexture?.Dispose();
+
+            DisposeToolTextures();
+        }
+
+        public void DisposeToolTextures()
+        {
+            foreach (var toolTexture in ToolTextures)
+                toolTexture?.Dispose();
+
+            ToolTextures.Clear();
         }
 
         public Texture2D LogoutButtonTexture { get; }
@@ -59,5 +71,6 @@ namespace GatheringTools.ToolSearch.Services
         public Texture2D SharedInventoryTexture { get; }
         public Texture2D EquipmentTexture { get; }
         public Texture2D UnknownToolTexture { get; }
+        public List<AsyncTexture2D> ToolTextures { get; } = new List<AsyncTexture2D>();
     }
 }
