@@ -19,13 +19,13 @@ namespace GatheringTools.ToolSearch.Services
             if (showToolSearchCornerIconSetting.Value)
                 CreateCornerIcon();
 
-            showToolSearchCornerIconSetting.SettingChanged += (s, e) =>
-            {
-                if (e.NewValue)
-                    CreateCornerIcon();
-                else
-                    RemoveCornerIcon();
-            };
+            //showToolSearchCornerIconSetting.SettingChanged += (s, e) =>
+            //{
+            //    if (e.NewValue)
+            //        CreateCornerIcon();
+            //    else
+            //        RemoveCornerIcon();
+            //};
         }
 
         public void RemoveCornerIcon()
@@ -44,7 +44,7 @@ namespace GatheringTools.ToolSearch.Services
                 Parent           = GameService.Graphics.SpriteScreen,
             };
 
-            _toolSearchCornerIcon.Click += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
+            //_toolSearchCornerIcon.Click += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
         }
 
         private readonly ToolSearchStandardWindow _toolSearchStandardWindow;

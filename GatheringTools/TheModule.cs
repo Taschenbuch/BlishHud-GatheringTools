@@ -48,34 +48,34 @@ namespace GatheringTools
         protected override async Task LoadAsync()
         {
             _textureService    = new TextureService(ContentsManager);
-            _reminderContainer = new ReminderContainer(_textureService, _settingService);
+            //_reminderContainer = new ReminderContainer(_textureService, _settingService);
 
-            if (_settingService.ReminderIsVisibleForSetupSetting.Value)
-                ShowReminderAndResetRunningTime();
-            else
-                HideReminderAndResetRunningTime();
+            //if (_settingService.ReminderIsVisibleForSetupSetting.Value)
+            //    ShowReminderAndResetRunningTime();
+            //else
+            //    HideReminderAndResetRunningTime();
 
-            _settingService.ReminderIsVisibleForSetupSetting.PropertyChanged += (s, e) =>
-            {
-                if (_settingService.ReminderIsVisibleForSetupSetting.Value)
-                    ShowReminderAndResetRunningTime();
-                else
-                    HideReminderAndResetRunningTime();
-            };
+            //_settingService.ReminderIsVisibleForSetupSetting.PropertyChanged += (s, e) =>
+            //{
+            //    if (_settingService.ReminderIsVisibleForSetupSetting.Value)
+            //        ShowReminderAndResetRunningTime();
+            //    else
+            //        HideReminderAndResetRunningTime();
+            //};
 
-            _logoutButton = new LogoutButton(_settingService, _textureService);
-            _logoutButton.Click += OnLogoutButtonClicked;
+            //_logoutButton = new LogoutButton(_settingService, _textureService);
+            //_logoutButton.Click += OnLogoutButtonClicked;
 
-            _escKeyBinding           =  new KeyBinding(Keys.Escape);
-            _escKeyBinding.Activated += OnEscKeyBindingActivated;
-            _escKeyBinding.Enabled   =  true;
+            //_escKeyBinding           =  new KeyBinding(Keys.Escape);
+            //_escKeyBinding.Activated += OnEscKeyBindingActivated;
+            //_escKeyBinding.Enabled   =  true;
 
-            _enterKeyBinding           =  new KeyBinding(Keys.Enter);
-            _enterKeyBinding.Activated += OnEnterKeyBindingActivated;
-            _enterKeyBinding.Enabled   =  true;
+            //_enterKeyBinding           =  new KeyBinding(Keys.Enter);
+            //_enterKeyBinding.Activated += OnEnterKeyBindingActivated;
+            //_enterKeyBinding.Enabled   =  true;
 
-            _settingService.LogoutKeyBindingSetting.Value.Activated += OnLogoutKeyBindingActivated;
-            _settingService.LogoutKeyBindingSetting.Value.Enabled   =  true;
+            //_settingService.LogoutKeyBindingSetting.Value.Activated += OnLogoutKeyBindingActivated;
+            //_settingService.LogoutKeyBindingSetting.Value.Enabled   =  true;
 
             var allGatheringTools = await FileService.GetAllGatheringToolsFromFiles(ContentsManager, Logger);
             _allGatheringTools.AddRange(allGatheringTools);
@@ -91,9 +91,9 @@ namespace GatheringTools
             };
 
             _settingService.ToolSearchKeyBindingSetting.Value.Activated += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
-            _settingService.ToolSearchKeyBindingSetting.Value.Enabled   =  true;
+            _settingService.ToolSearchKeyBindingSetting.Value.Enabled = true;
 
-            _cornerIconService = new CornerIconService(_settingService.ShowToolSearchCornerIconSetting, _toolSearchStandardWindow, _textureService);
+            //_cornerIconService = new CornerIconService(_settingService.ShowToolSearchCornerIconSetting, _toolSearchStandardWindow, _textureService);
         }
         
         protected override void Unload()
@@ -118,16 +118,16 @@ namespace GatheringTools
 
         private void HideReminderWhenDurationEnds(GameTime gameTime)
         {
-            if (_settingService.ReminderIsVisibleForSetupSetting.Value)
-                return;
+            //if (_settingService.ReminderIsVisibleForSetupSetting.Value)
+            //    return;
 
-            if (_reminderContainer.Visible)
-            {
-                _runningTime += gameTime.ElapsedGameTime.TotalMilliseconds;
+            //if (_reminderContainer.Visible)
+            //{
+            //    _runningTime += gameTime.ElapsedGameTime.TotalMilliseconds;
 
-                if (_runningTime > 1000 * (int)_settingService.ReminderDisplayDurationInSecondsSetting.Value)
-                    HideReminderAndResetRunningTime();
-            }
+            //    if (_runningTime > 1000 * (int)_settingService.ReminderDisplayDurationInSecondsSetting.Value)
+            //        HideReminderAndResetRunningTime();
+            //}
         }
 
         private void OnLogoutButtonClicked(object sender, MouseEventArgs e)

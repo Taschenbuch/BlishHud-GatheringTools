@@ -39,7 +39,7 @@ namespace GatheringTools.Settings
             _logoutSetting6 = CreateResetLogoutPositionButton(logoutButtonFlowPanel);
 
             ShowOrHideLogoutButtonSettings(_settingService.LogoutButtonIsVisible.Value);
-            _settingService.LogoutButtonIsVisible.SettingChanged += (s, e) => ShowOrHideLogoutButtonSettings(e.NewValue);
+            //_settingService.LogoutButtonIsVisible.SettingChanged += (s, e) => ShowOrHideLogoutButtonSettings(e.NewValue);
 
             var reminderFlowPanel = CreateSettingsGroupFlowPanel("Logout Reminder", _rootFlowPanel);
             CreateSettingViewContainer(_settingService.LogoutKeyBindingSetting, reminderFlowPanel, buildPanel.Width);
@@ -82,11 +82,11 @@ namespace GatheringTools.Settings
                 Parent           = parent,
             };
 
-            button.Click += (s, e) =>
-            {
-                _settingService.LogoutButtonPositionXSetting.Value = 0;
-                _settingService.LogoutButtonPositionYSetting.Value = SettingService.DEFAULT_LOGOUT_BUTTON_POSITION_Y;
-            };
+            //button.Click += (s, e) =>
+            //{
+            //    _settingService.LogoutButtonPositionXSetting.Value = 0;
+            //    _settingService.LogoutButtonPositionYSetting.Value = SettingService.DEFAULT_LOGOUT_BUTTON_POSITION_Y;
+            //};
 
             return button;
         }
@@ -101,11 +101,11 @@ namespace GatheringTools.Settings
                 Parent           = parent,
             };
 
-            button.Click += (s, e) =>
-            {
-                _settingService.ReminderImageOffsetXSetting.Value = 0;
-                _settingService.ReminderImageOffsetYSetting.Value = 0;
-            };
+            //button.Click += (s, e) =>
+            //{
+            //    _settingService.ReminderImageOffsetXSetting.Value = 0;
+            //    _settingService.ReminderImageOffsetYSetting.Value = 0;
+            //};
         }
 
         private void CreateResetReminderPositionButton(Container parent)
@@ -118,11 +118,11 @@ namespace GatheringTools.Settings
                 Parent           = parent,
             };
 
-            button.Click += (s, e) =>
-            {
-                _settingService.ReminderWindowOffsetXSetting.Value = 0;
-                _settingService.ReminderWindowOffsetYSetting.Value = 0;
-            };
+            //button.Click += (s, e) =>
+            //{
+            //    _settingService.ReminderWindowOffsetXSetting.Value = 0;
+            //    _settingService.ReminderWindowOffsetYSetting.Value = 0;
+            //};
         }
 
         private static FlowPanel CreateSettingsGroupFlowPanel(string title, Container parent)

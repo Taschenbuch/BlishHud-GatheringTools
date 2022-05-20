@@ -84,23 +84,23 @@ namespace GatheringTools.ToolSearch.Controls
                 Parent         = rootFlowPanel
             };
 
-            _showOnlyUnlimitedToolsCheckbox.CheckedChanged += async (s, e) =>
-            {
-                settingService.ShowOnlyUnlimitedToolsSetting.Value = e.Checked;
-                await ShowWindowAndUpdateToolsInUi();
-            };
+            //_showOnlyUnlimitedToolsCheckbox.CheckedChanged += async (s, e) =>
+            //{
+            //    settingService.ShowOnlyUnlimitedToolsSetting.Value = e.Checked;
+            //    await ShowWindowAndUpdateToolsInUi();
+            //};
 
-            _showBankCheckbox.CheckedChanged += async (s, e) =>
-            {
-                settingService.ShowBankToolsSetting.Value = e.Checked;
-                await ShowWindowAndUpdateToolsInUi();
-            };
+            //_showBankCheckbox.CheckedChanged += async (s, e) =>
+            //{
+            //    settingService.ShowBankToolsSetting.Value = e.Checked;
+            //    await ShowWindowAndUpdateToolsInUi();
+            //};
 
-            _showSharedInventoryCheckbox.CheckedChanged += async (s, e) =>
-            {
-                settingService.ShowSharedInventoryToolsSetting.Value = e.Checked;
-                await ShowWindowAndUpdateToolsInUi();
-            };
+            //_showSharedInventoryCheckbox.CheckedChanged += async (s, e) =>
+            //{
+            //    settingService.ShowSharedInventoryToolsSetting.Value = e.Checked;
+            //    await ShowWindowAndUpdateToolsInUi();
+            //};
         }
 
         public async Task ToggleVisibility()
