@@ -27,40 +27,40 @@ namespace GatheringTools.Settings
             };
 
             var toolSearchFlowPanel = CreateSettingsGroupFlowPanel("Tool Search", _rootFlowPanel);
-            CreateSettingViewContainer(_settingService.ToolSearchKeyBindingSetting, toolSearchFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ShowToolSearchCornerIconSetting, toolSearchFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ToolSearchKeyBindingSetting, toolSearchFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ShowToolSearchCornerIconSetting, toolSearchFlowPanel, buildPanel.Width);
 
             var logoutButtonFlowPanel = CreateSettingsGroupFlowPanel("Logout Button", _rootFlowPanel);
-            CreateSettingViewContainer(_settingService.LogoutButtonIsVisible, logoutButtonFlowPanel, buildPanel.Width);
-            _logoutSetting2 = CreateSettingViewContainer(_settingService.LogoutButtonIsVisibleOnCutScenesAndCharacterSelect, logoutButtonFlowPanel, buildPanel.Width);
-            _logoutSetting3 = CreateSettingViewContainer(_settingService.LogoutButtonIsVisibleOnWorldMap, logoutButtonFlowPanel, buildPanel.Width);
-            _logoutSetting4 = CreateSettingViewContainer(_settingService.LogoutButtonDragWithMouseIsEnabledSetting, logoutButtonFlowPanel, buildPanel.Width);
-            _logoutSetting5 = CreateSettingViewContainer(_settingService.LogoutButtonSizeSetting, logoutButtonFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.LogoutButtonIsVisible, logoutButtonFlowPanel, buildPanel.Width);
+            _logoutSetting2 = ShowSettingWithViewContainer(_settingService.LogoutButtonIsVisibleOnCutScenesAndCharacterSelect, logoutButtonFlowPanel, buildPanel.Width);
+            _logoutSetting3 = ShowSettingWithViewContainer(_settingService.LogoutButtonIsVisibleOnWorldMap, logoutButtonFlowPanel, buildPanel.Width);
+            _logoutSetting4 = ShowSettingWithViewContainer(_settingService.LogoutButtonDragWithMouseIsEnabledSetting, logoutButtonFlowPanel, buildPanel.Width);
+            _logoutSetting5 = ShowSettingWithViewContainer(_settingService.LogoutButtonSizeSetting, logoutButtonFlowPanel, buildPanel.Width);
             _logoutSetting6 = CreateResetLogoutPositionButton(logoutButtonFlowPanel);
 
             ShowOrHideLogoutButtonSettings(_settingService.LogoutButtonIsVisible.Value);
             _settingService.LogoutButtonIsVisible.SettingChanged += (s, e) => ShowOrHideLogoutButtonSettings(e.NewValue);
 
             var reminderFlowPanel = CreateSettingsGroupFlowPanel("Logout Reminder", _rootFlowPanel);
-            CreateSettingViewContainer(_settingService.LogoutKeyBindingSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderIsVisibleForSetupSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderDisplayDurationInSecondsSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderTextSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderTextFontSizeIndexSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderBackgroundIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderWindowSizeSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderWindowOffsetXSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderWindowOffsetYSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.LogoutKeyBindingSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderIsVisibleForSetupSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderDisplayDurationInSecondsSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderTextSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderTextFontSizeIndexSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderBackgroundIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderWindowSizeSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderWindowOffsetXSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderWindowOffsetYSetting, reminderFlowPanel, buildPanel.Width);
             CreateResetReminderPositionButton(reminderFlowPanel);
-            CreateSettingViewContainer(_settingService.ReminderImageIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderImageOutlineSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderImageSizeSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderImageOffsetXSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.ReminderImageOffsetYSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderImageIsVisibleSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderImageOutlineSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderImageSizeSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderImageOffsetXSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderImageOffsetYSetting, reminderFlowPanel, buildPanel.Width);
             CreateResetIconPositionButton(reminderFlowPanel);
-            CreateSettingViewContainer(_settingService.ReminderScreenNotificationIsEnabledSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.EscIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);
-            CreateSettingViewContainer(_settingService.EnterIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.ReminderScreenNotificationIsEnabledSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.EscIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);
+            ShowSettingWithViewContainer(_settingService.EnterIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);
         }
 
         private void ShowOrHideLogoutButtonSettings(bool isVisible)
@@ -139,11 +139,11 @@ namespace GatheringTools.Settings
             };
         }
 
-        private static ViewContainer CreateSettingViewContainer(SettingEntry settingEntry, Container parent, int width)
+        private static ViewContainer ShowSettingWithViewContainer(SettingEntry settingEntry, Container parent, int width)
         {
-            var view = new ViewContainer { Parent = parent };
-            view.Show(SettingView.FromType(settingEntry, width));
-            return view;
+            var viewContainer = new ViewContainer { Parent = parent };
+            viewContainer.Show(SettingView.FromType(settingEntry, width));
+            return viewContainer;
         }
 
         private readonly SettingService _settingService;
