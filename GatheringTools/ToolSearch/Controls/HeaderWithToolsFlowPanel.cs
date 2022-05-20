@@ -45,12 +45,12 @@ namespace GatheringTools.ToolSearch.Controls
                                                                     FlowPanel toolsFlowPanel,
                                                                     Logger logger)
         {
-            var gatheringToolTexture = DetermineToolTexture(gatheringTool, textureService, logger);
-            var tooltipText          = DetermineTooltipText(gatheringTool);
+            //var gatheringToolTexture = DetermineToolTexture(gatheringTool, textureService, logger);
+            //var tooltipText          = DetermineTooltipText(gatheringTool);
 
-            new Image(gatheringToolTexture)
+            new Image(textureService.UnknownToolTexture)
             {
-                BasicTooltipText = tooltipText,
+                BasicTooltipText = "bla",
                 Size             = new Point(ICON_WIDTH_HEIGHT, ICON_WIDTH_HEIGHT),
                 Parent           = toolsFlowPanel,
             };

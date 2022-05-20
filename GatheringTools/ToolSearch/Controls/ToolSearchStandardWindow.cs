@@ -133,25 +133,47 @@ namespace GatheringTools.ToolSearch.Controls
         {
             _toolLocationsFlowPanel.ClearChildren();
             _textureService.DisposeToolTextures();
-            _infoLabel.Text = "Getting API data...";
-            _loadingSpinnerContainer.Show();
+            //_infoLabel.Text = "Getting API data...";
+            //_loadingSpinnerContainer.Show();
 
-            var (account, apiAccessFailed) = await FindGatheringToolsService.GetToolsFromApi(_allGatheringTools, _gw2ApiManager, _logger);
+            //var (account, apiAccessFailed) = await FindGatheringToolsService.GetToolsFromApi(_allGatheringTools, _gw2ApiManager, _logger);
 
-            _infoLabel.Text = string.Empty;
-            _loadingSpinnerContainer.Hide();
+            var gatheringTools = new List<GatheringTool>();
 
-            if (apiAccessFailed)
+            for (int i = 1; i < 50; i++)
+                gatheringTools.Add(new GatheringTool() { Id = i, ToolType = ToolType.UnknownId });
+
+            var account = new Account()
             {
-                _infoLabel.Text = API_KEY_ERROR_MESSAGE;
-                return;
-            }
+                Characters =
+                {
+                    new Character("A", gatheringTools.ToList(), gatheringTools.ToList()),
+                    new Character("B", gatheringTools.ToList(), gatheringTools.ToList()),
+                    new Character("C", gatheringTools.ToList(), gatheringTools.ToList()),
+                    new Character("D", gatheringTools.ToList(), gatheringTools.ToList()),
+                    new Character("E", gatheringTools.ToList(), gatheringTools.ToList()),
+                    new Character("F", gatheringTools.ToList(), gatheringTools.ToList()),
+                    new Character("G", gatheringTools.ToList(), gatheringTools.ToList())
+                }
+            };
 
-            FilterGatheringToolsService.FilterTools(
-                account,
-                _showOnlyUnlimitedToolsCheckbox.Checked,
-                _showBankCheckbox.Checked,
-                _showSharedInventoryCheckbox.Checked);
+            account.BankGatheringTools.AddRange(gatheringTools.ToList());
+            account.SharedInventoryGatheringTools.AddRange(gatheringTools.ToList());
+
+            //_infoLabel.Text = string.Empty;
+            //_loadingSpinnerContainer.Hide();
+
+            //if (apiAccessFailed)
+            //{
+            //    _infoLabel.Text = API_KEY_ERROR_MESSAGE;
+            //    return;
+            //}
+
+            //FilterGatheringToolsService.FilterTools(
+            //    account,
+            //    _showOnlyUnlimitedToolsCheckbox.Checked,
+            //    _showBankCheckbox.Checked,
+            //    _showSharedInventoryCheckbox.Checked);
 
             if (account.HasTools())
                 ShowToolsInUi(account, _toolLocationsFlowPanel, _textureService, _logger);
