@@ -30,6 +30,7 @@ namespace GatheringTools.ToolSearch.Services
 
         public void RemoveCornerIcon()
         {
+            _toolSearchCornerIcon.Click -= OnToolSearchCornerIconClick;
             _toolSearchCornerIcon?.Dispose();
             _toolSearchCornerIcon = null;
         }
@@ -44,7 +45,12 @@ namespace GatheringTools.ToolSearch.Services
                 Parent           = GameService.Graphics.SpriteScreen,
             };
 
-            _toolSearchCornerIcon.Click += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
+            _toolSearchCornerIcon.Click += OnToolSearchCornerIconClick;
+        }
+
+        private async void OnToolSearchCornerIconClick(object sender, Blish_HUD.Input.MouseEventArgs e)
+        {
+            await _toolSearchStandardWindow.ToggleVisibility();
         }
 
         private readonly ToolSearchStandardWindow _toolSearchStandardWindow;
