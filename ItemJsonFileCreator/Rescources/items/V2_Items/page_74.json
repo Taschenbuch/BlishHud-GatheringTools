@@ -1,0 +1,5705 @@
+[
+  {
+    "name": "Profane Shoes",
+    "description": "Double-click to apply this look to any other light boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20288,
+    "chat_link": "[&AgFATwAA]",
+    "icon": "https://render.guildwars2.com/file/034B20760A77E7E8F8511F35F1E328F5F4966754/455874.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1105
+      ]
+    }
+  },
+  {
+    "name": "Profane Greatcoat",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1094,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20289,
+    "chat_link": "[&AgFBTwAA]",
+    "icon": "https://render.guildwars2.com/file/17B5CD2D16919E549D7869C7CF091D6D7AF95CE9/625781.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 32,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Profane Greatcoat",
+    "description": "Double-click to apply this look to any other light armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20290,
+    "chat_link": "[&AgFCTwAA]",
+    "icon": "https://render.guildwars2.com/file/A43EEC914FAB93705A2905965D0562315C020559/455875.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1094
+      ]
+    }
+  },
+  {
+    "name": "Profane Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1155,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20291,
+    "chat_link": "[&AgFDTwAA]",
+    "icon": "https://render.guildwars2.com/file/ACFFEFBE0E99601B42716AB5434DA11F12601657/625782.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 14,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Profane Gloves",
+    "description": "Double-click to apply this look to any other light gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20292,
+    "chat_link": "[&AgFETwAA]",
+    "icon": "https://render.guildwars2.com/file/ABD710AAFFD93DD96D25E122B92CDDBDAA9799F4/455876.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1155
+      ]
+    }
+  },
+  {
+    "name": "Profane Masque",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1199,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20293,
+    "chat_link": "[&AgFFTwAA]",
+    "icon": "https://render.guildwars2.com/file/D6E8B2DB77ED6C92AA0DD61F74DAB67E0951794D/625783.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 8,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Profane Masque",
+    "description": "Double-click to apply this look to any other light helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20294,
+    "chat_link": "[&AgFGTwAA]",
+    "icon": "https://render.guildwars2.com/file/B9D9A8F33C2F613705FFBE15CBD375F994CF72C2/455877.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1199
+      ]
+    }
+  },
+  {
+    "name": "Profane Pants",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1069,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20295,
+    "chat_link": "[&AgFHTwAA]",
+    "icon": "https://render.guildwars2.com/file/937619042A5043459497610FF6C81BB0664560FD/625784.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 20,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Profane Pants",
+    "description": "Double-click to apply this look to any other light leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20296,
+    "chat_link": "[&AgFITwAA]",
+    "icon": "https://render.guildwars2.com/file/BC2A48772FBBB63E9C151BA396C05746EEAB0ABE/455878.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1069
+      ]
+    }
+  },
+  {
+    "name": "Profane Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1099,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20297,
+    "chat_link": "[&AgFJTwAA]",
+    "icon": "https://render.guildwars2.com/file/07DA90EDBF3ABCAE000A3E0FA72A7CB131667E61/625785.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 8,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Profane Mantle",
+    "description": "Double-click to apply this look to any other light shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20298,
+    "chat_link": "[&AgFKTwAA]",
+    "icon": "https://render.guildwars2.com/file/5CCD007900EFC9E6A1240C08EBA5D7556061F7F0/455879.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1099
+      ]
+    }
+  },
+  {
+    "name": "Krytan Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1111,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20299,
+    "chat_link": "[&AgFLTwAA]",
+    "icon": "https://render.guildwars2.com/file/DC2E66A03E9394137C16344578937E6C1CA890A9/625786.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 16,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Krytan Boots",
+    "description": "Double-click to apply this look to any other medium boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20300,
+    "chat_link": "[&AgFMTwAA]",
+    "icon": "https://render.guildwars2.com/file/A645B4C0E3F0D1ACE349924A1D1F619762F31D6F/455880.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1111
+      ]
+    }
+  },
+  {
+    "name": "Krytan Jerkin",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1097,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20301,
+    "chat_link": "[&AgFNTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E5A605631BED3014EDFC225C042109841DE020A/625787.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 34,
+      "infusion_slots": [],
+      "attribute_adjustment": 16.038,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 6
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Krytan Jerkin",
+    "description": "Double-click to apply this look to any other medium armor.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20302,
+    "chat_link": "[&AgFOTwAA]",
+    "icon": "https://render.guildwars2.com/file/0B5066593FFDAD3139037A1304E76E0703E5C506/455881.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1097
+      ]
+    }
+  },
+  {
+    "name": "Krytan Armguards",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1156,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20303,
+    "chat_link": "[&AgFPTwAA]",
+    "icon": "https://render.guildwars2.com/file/5E94C26776F7009D0E0D6F282172EF15ED33620C/625788.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 16,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Krytan Armguards",
+    "description": "Double-click to apply this look to any other medium gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20304,
+    "chat_link": "[&AgFQTwAA]",
+    "icon": "https://render.guildwars2.com/file/D1E802513D9A39C2EC2BC22B03BCC212D4434E3B/455882.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1156
+      ]
+    }
+  },
+  {
+    "name": "Krytan Bandana",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1200,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20305,
+    "chat_link": "[&AgFRTwAA]",
+    "icon": "https://render.guildwars2.com/file/0DDDE00A757B4BAACB5ABA01272EEF6A0CAA7A49/625789.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 10,
+      "infusion_slots": [],
+      "attribute_adjustment": 7.128,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Krytan Bandana",
+    "description": "Double-click to apply this look to any other medium helmet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20306,
+    "chat_link": "[&AgFSTwAA]",
+    "icon": "https://render.guildwars2.com/file/5BDFDC1809F4D1237210D3292E356CB430907AE2/455883.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1200
+      ]
+    }
+  },
+  {
+    "name": "Krytan Leggings",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1071,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20307,
+    "chat_link": "[&AgFTTwAA]",
+    "icon": "https://render.guildwars2.com/file/F61D685663D35ABB215F013CDB370BFB5B777809/625790.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 22,
+      "infusion_slots": [],
+      "attribute_adjustment": 10.692,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Krytan Leggings",
+    "description": "Double-click to apply this look to any other medium leggings.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20308,
+    "chat_link": "[&AgFUTwAA]",
+    "icon": "https://render.guildwars2.com/file/093EE6D55B7C463709280CFC012A65AB6CED51CC/455884.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1071
+      ]
+    }
+  },
+  {
+    "name": "Krytan Shoulderpads",
+    "description": "",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "default_skin": 1103,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20309,
+    "chat_link": "[&AgFVTwAA]",
+    "icon": "https://render.guildwars2.com/file/72E8B6B0E9366B124AE6D107B8D205F6D4620991/625791.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 10,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.346,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Krytan Shoulderpads",
+    "description": "Double-click to apply this look to any other medium shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20310,
+    "chat_link": "[&AgFWTwAA]",
+    "icon": "https://render.guildwars2.com/file/A24AFDE3AFA4F6CAC9C170BF0B7E0E01EB71BCE3/455885.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        1103
+      ]
+    }
+  },
+  {
+    "name": "Celebration Hat",
+    "description": "Town clothes can no longer be equipped separately.\n\nSpeak to a Black Lion Armor Trader in any major city to exchange this for a helmet skin with the same look.",
+    "type": "Armor",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "default_skin": 1178,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20311,
+    "chat_link": "[&AgFXTwAA]",
+    "icon": "https://render.guildwars2.com/file/5FBA18F61F6F27CC3C041A1824CABD729646B801/455886.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Clothing",
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 5.184
+    }
+  },
+  {
+    "name": "How to Dance, Volume 1",
+    "description": "This volume teaches you how to perform the \"Dodge Step,\" \"Inventory Shuffle,\" and \"Gear Grind\" dance moves. You also gain the ability to invite others to follow along in a dance you control.\n\nDouble-click to receive these dance skills and the Dancing Spirit buff.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20312,
+    "chat_link": "[&AgFYTwAA]",
+    "icon": "https://render.guildwars2.com/file/0378716BA836504AF1C5AF550019689F4F99ED18/575158.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Black Lion Chest (Unlocked)",
+    "description": "Double-click to open.\n\n<c=@Reminder>This item has been updated. Open this container to receive a Black Lion Chest Key and Black Lion Chest that have been upgraded to the latest version.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20313,
+    "chat_link": "[&AgFZTwAA]",
+    "icon": "https://render.guildwars2.com/file/48E4CEEAEEF8F3419A63D4F6295AB77136B86656/711974.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mystery Tonic",
+    "description": "It smells like some sort of furniture polish. Use this item to transform in to... something. You'll never know what until you try.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20314,
+    "chat_link": "[&AgFaTwAA]",
+    "icon": "https://render.guildwars2.com/file/E850A6E39F5011B2FBEF45973AAD40A5309D5ABB/63059.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mystery Tonic",
+    "description": "It smells of the forest. Use this item to transform in to... something. You'll never know what until you try.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20315,
+    "chat_link": "[&AgFbTwAA]",
+    "icon": "https://render.guildwars2.com/file/935916F1E646EEF0CB03A9D1576FA25C17D8DBDB/63112.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Black Lion Chest",
+    "description": "Contains a guaranteed item, a redeemable Black Lion Statuette, and 2 common items. Each chest has a chance for an extra rare item, including exclusive skins not available anywhere else. You cannot receive duplicates of any exclusive skins. Preview available.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 20316,
+    "chat_link": "[&AgFcTwAA]",
+    "icon": "https://render.guildwars2.com/file/48E4CEEAEEF8F3419A63D4F6295AB77136B86656/711974.png",
+    "details": {
+      "type": "OpenUI"
+    }
+  },
+  {
+    "name": "Heavy Bag of Coins",
+    "description": "Double-click to open to discover the value of the coins inside.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 20317,
+    "chat_link": "[&AgFdTwAA]",
+    "icon": "https://render.guildwars2.com/file/09D4231BE641D6C7B3170DA615CA021E030A505B/526355.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mystery Tonic",
+    "description": "It smells like singed fur and feathers. Use this item to transform in to... something. You'll never know what until you try.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20318,
+    "chat_link": "[&AgFeTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Endless Mystery Tonic",
+    "description": "It smells like singed fur and feathers. Use this item to transform in to... something. You'll never know what until you try. The bottle seems to be self-replenishing.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20319,
+    "chat_link": "[&AgFfTwAA]",
+    "icon": "https://render.guildwars2.com/file/5F3D98C8CFF353535A10530E3F38C5E8E3BDF50B/66557.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Endless Mystery Tonic",
+    "description": "It smells like some sort of furniture polish. Use this item to transform in to... something. You'll never know what until you try. The bottle seems to be self-replenishing.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20320,
+    "chat_link": "[&AgFgTwAA]",
+    "icon": "https://render.guildwars2.com/file/FCFF0C9BA7F598FA96DCDC13B16C01E26407CDBF/66558.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Endless Mystery Tonic",
+    "description": "It smells of the forest. Use this item to transform in to... something. You'll never know what until you try. The bottle seems to be self-replenishing.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20321,
+    "chat_link": "[&AgFhTwAA]",
+    "icon": "https://render.guildwars2.com/file/1275404EE30C0FDCC1EE6AB3A70136FB020158D7/66150.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Snow Owl Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20322,
+    "chat_link": "[&AgFiTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Unidentified Dye",
+    "description": "Double-click to identify one random dye color, which can be unlocked for all of your characters or recycled at the Mystic Forge.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 20323,
+    "chat_link": "[&AgFjTwAA]",
+    "icon": "https://render.guildwars2.com/file/109A6B04C4E577D9266EEDA21CC30E6B800DD452/66587.png",
+    "details": {
+      "type": "GiftBox"
+    }
+  },
+  {
+    "name": "Eagle Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20327,
+    "chat_link": "[&AgFnTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Owl Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20328,
+    "chat_link": "[&AgFoTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Jackalope Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20330,
+    "chat_link": "[&AgFqTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Leopard Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20331,
+    "chat_link": "[&AgFrTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Minotaur Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20332,
+    "chat_link": "[&AgFsTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Blue Moa Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20333,
+    "chat_link": "[&AgFtTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Pink Moa Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20334,
+    "chat_link": "[&AgFuTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Pig Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20335,
+    "chat_link": "[&AgFvTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Plant Wolf Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20336,
+    "chat_link": "[&AgFwTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Wolf Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20337,
+    "chat_link": "[&AgFxTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Skritt Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20339,
+    "chat_link": "[&AgFzTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Imp Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20340,
+    "chat_link": "[&AgF0TwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Eagle Raptor Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20341,
+    "chat_link": "[&AgF1TwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Green Fireworks",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "default_skin": 3150,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20342,
+    "chat_link": "[&AgF2TwAA]",
+    "icon": "https://render.guildwars2.com/file/CB7DB5372D0227092417735829DD44CCA9280309/61897.png",
+    "details": {
+      "type": "SmallBundle",
+      "damage_type": "Choking",
+      "min_power": 141,
+      "max_power": 155,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 21.528
+    }
+  },
+  {
+    "name": "Krait Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20343,
+    "chat_link": "[&AgF3TwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Ram Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20344,
+    "chat_link": "[&AgF4TwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Stag Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20346,
+    "chat_link": "[&AgF6TwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Boar Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20347,
+    "chat_link": "[&AgF7TwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Devourer Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20348,
+    "chat_link": "[&AgF8TwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Upgrade Extractor",
+    "description": "This tool will remove the upgrades from any item, without destroying either the upgrade or the item.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20349,
+    "chat_link": "[&AgF9TwAA]",
+    "icon": "https://render.guildwars2.com/file/0E92A458B335144232EB357A3C96DB273B09AD3B/674829.png",
+    "details": {
+      "type": "UpgradeRemoval"
+    }
+  },
+  {
+    "name": "Ooze Tonic",
+    "description": "Double-click to drink, transforming you into an ooze for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20350,
+    "chat_link": "[&AgF+TwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Skale Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20351,
+    "chat_link": "[&AgF/TwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Spider Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20352,
+    "chat_link": "[&AgGATwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Floater Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20353,
+    "chat_link": "[&AgGBTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Steam Ogre Tonic",
+    "description": "Double-click to drink, transforming you into an animal for fifteen minutes. You will be unable to fight while transformed.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 20354,
+    "chat_link": "[&AgGCTwAA]",
+    "icon": "https://render.guildwars2.com/file/C6A3FFF06BB4D50050D3B1FE75E3AACBFA0F8009/63129.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Abyss Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20356,
+    "chat_link": "[&AgGETwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 473
+    }
+  },
+  {
+    "name": "Ash Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20357,
+    "chat_link": "[&AgGFTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 474
+    }
+  },
+  {
+    "name": "Black Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20358,
+    "chat_link": "[&AgGGTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 2
+    }
+  },
+  {
+    "name": "Celestial Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20359,
+    "chat_link": "[&AgGHTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 6
+    }
+  },
+  {
+    "name": "Chalk Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20360,
+    "chat_link": "[&AgGITwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 3
+    }
+  },
+  {
+    "name": "Graphite Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20361,
+    "chat_link": "[&AgGJTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 476
+    }
+  },
+  {
+    "name": "Dust Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20362,
+    "chat_link": "[&AgGKTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 475
+    }
+  },
+  {
+    "name": "Gray Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20363,
+    "chat_link": "[&AgGLTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 4
+    }
+  },
+  {
+    "name": "Icing Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20364,
+    "chat_link": "[&AgGMTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 477
+    }
+  },
+  {
+    "name": "Robin Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20365,
+    "chat_link": "[&AgGNTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 8
+    }
+  },
+  {
+    "name": "Pitch Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20366,
+    "chat_link": "[&AgGOTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 5
+    }
+  },
+  {
+    "name": "Blue Rose Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20367,
+    "chat_link": "[&AgGPTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 9
+    }
+  },
+  {
+    "name": "Ocean Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20368,
+    "chat_link": "[&AgGQTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 7
+    }
+  },
+  {
+    "name": "Starry Night Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20369,
+    "chat_link": "[&AgGRTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 11
+    }
+  },
+  {
+    "name": "Sky Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20370,
+    "chat_link": "[&AgGSTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 10
+    }
+  },
+  {
+    "name": "Celery Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20371,
+    "chat_link": "[&AgGTTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 359
+    }
+  },
+  {
+    "name": "Demure Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20372,
+    "chat_link": "[&AgGUTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 352
+    }
+  },
+  {
+    "name": "Night Air Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20373,
+    "chat_link": "[&AgGVTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 361
+    }
+  },
+  {
+    "name": "Flush Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20374,
+    "chat_link": "[&AgGWTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 343
+    }
+  },
+  {
+    "name": "Sand Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20375,
+    "chat_link": "[&AgGXTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 333
+    }
+  },
+  {
+    "name": "Lemon Zest Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20376,
+    "chat_link": "[&AgGYTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 345
+    }
+  },
+  {
+    "name": "Quickstalk Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20377,
+    "chat_link": "[&AgGZTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 346
+    }
+  },
+  {
+    "name": "Shy Peach Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20378,
+    "chat_link": "[&AgGaTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 332
+    }
+  },
+  {
+    "name": "Tang Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20379,
+    "chat_link": "[&AgGbTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 334
+    }
+  },
+  {
+    "name": "Dapple Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20380,
+    "chat_link": "[&AgGcTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 349
+    }
+  },
+  {
+    "name": "Dewdrop Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20381,
+    "chat_link": "[&AgGdTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 350
+    }
+  },
+  {
+    "name": "Hush Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20382,
+    "chat_link": "[&AgGeTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 363
+    }
+  },
+  {
+    "name": "Mist Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20383,
+    "chat_link": "[&AgGfTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 360
+    }
+  },
+  {
+    "name": "Orange Frost Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20384,
+    "chat_link": "[&AgGgTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 344
+    }
+  },
+  {
+    "name": "Scenic Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20385,
+    "chat_link": "[&AgGhTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 351
+    }
+  },
+  {
+    "name": "Spring Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20386,
+    "chat_link": "[&AgGiTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 347
+    }
+  },
+  {
+    "name": "Strawberry Cream Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20387,
+    "chat_link": "[&AgGjTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 102
+    }
+  },
+  {
+    "name": "Adobe Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20388,
+    "chat_link": "[&AgGkTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 12
+    }
+  },
+  {
+    "name": "Latte Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20389,
+    "chat_link": "[&AgGlTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 479
+    }
+  },
+  {
+    "name": "Cashmere Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20390,
+    "chat_link": "[&AgGmTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 452
+    }
+  },
+  {
+    "name": "Mohair Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20391,
+    "chat_link": "[&AgGnTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 383
+    }
+  },
+  {
+    "name": "Cocoa Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20392,
+    "chat_link": "[&AgGoTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 456
+    }
+  },
+  {
+    "name": "Wheat Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20393,
+    "chat_link": "[&AgGpTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 26
+    }
+  },
+  {
+    "name": "Shale Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20394,
+    "chat_link": "[&AgGqTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 465
+    }
+  },
+  {
+    "name": "Royal Blue Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20395,
+    "chat_link": "[&AgGrTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 30
+    }
+  },
+  {
+    "name": "Calfskin Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20397,
+    "chat_link": "[&AgGtTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 13
+    }
+  },
+  {
+    "name": "Chocolate Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20398,
+    "chat_link": "[&AgGuTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 16
+    }
+  },
+  {
+    "name": "Marine Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20400,
+    "chat_link": "[&AgGwTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 470
+    }
+  },
+  {
+    "name": "Terracotta Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20402,
+    "chat_link": "[&AgGyTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 24
+    }
+  },
+  {
+    "name": "Breeze Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20403,
+    "chat_link": "[&AgGzTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 28
+    }
+  },
+  {
+    "name": "Taro Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20404,
+    "chat_link": "[&AgG0TwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 364
+    }
+  },
+  {
+    "name": "Wintermint Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20405,
+    "chat_link": "[&AgG1TwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 348
+    }
+  },
+  {
+    "name": "Beige Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20406,
+    "chat_link": "[&AgG2TwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 478
+    }
+  },
+  {
+    "name": "Charcoal Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20408,
+    "chat_link": "[&AgG4TwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 15
+    }
+  },
+  {
+    "name": "Earthen Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20410,
+    "chat_link": "[&AgG6TwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 18
+    }
+  },
+  {
+    "name": "Ivory Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20411,
+    "chat_link": "[&AgG7TwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 20
+    }
+  },
+  {
+    "name": "Mahogany Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20412,
+    "chat_link": "[&AgG8TwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 21
+    }
+  },
+  {
+    "name": "Mocha Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20413,
+    "chat_link": "[&AgG9TwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 384
+    }
+  },
+  {
+    "name": "Natural Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20414,
+    "chat_link": "[&AgG+TwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 22
+    }
+  },
+  {
+    "name": "Rawhide Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20415,
+    "chat_link": "[&AgG/TwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 23
+    }
+  },
+  {
+    "name": "Taupe Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20416,
+    "chat_link": "[&AgHATwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 453
+    }
+  },
+  {
+    "name": "Walnut Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20417,
+    "chat_link": "[&AgHBTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 25
+    }
+  },
+  {
+    "name": "Blueberry Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20418,
+    "chat_link": "[&AgHCTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 27
+    }
+  },
+  {
+    "name": "Sapphire Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20419,
+    "chat_link": "[&AgHDTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 29
+    }
+  },
+  {
+    "name": "Autumn Sky Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20420,
+    "chat_link": "[&AgHETwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 37
+    }
+  },
+  {
+    "name": "Amber Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20421,
+    "chat_link": "[&AgHFTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 382
+    }
+  },
+  {
+    "name": "Grapesicle Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20422,
+    "chat_link": "[&AgHGTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 371
+    }
+  },
+  {
+    "name": "Emerald Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20423,
+    "chat_link": "[&AgHHTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 56
+    }
+  },
+  {
+    "name": "Fern Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20424,
+    "chat_link": "[&AgHITwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 367
+    }
+  },
+  {
+    "name": "Copper Pot Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20425,
+    "chat_link": "[&AgHJTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 468
+    }
+  },
+  {
+    "name": "Antique Bronze Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20426,
+    "chat_link": "[&AgHKTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 62
+    }
+  },
+  {
+    "name": "Oxblood Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20427,
+    "chat_link": "[&AgHLTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 71
+    }
+  },
+  {
+    "name": "Dusky Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20428,
+    "chat_link": "[&AgHMTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 34
+    }
+  },
+  {
+    "name": "Dusty Grape Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20429,
+    "chat_link": "[&AgHNTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 40
+    }
+  },
+  {
+    "name": "Shy Iris Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20430,
+    "chat_link": "[&AgHOTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 439
+    }
+  },
+  {
+    "name": "Pumpkin Pie Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20431,
+    "chat_link": "[&AgHPTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 437
+    }
+  },
+  {
+    "name": "Tangerine Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20432,
+    "chat_link": "[&AgHQTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 381
+    }
+  },
+  {
+    "name": "Leprechaun Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20433,
+    "chat_link": "[&AgHRTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 59
+    }
+  },
+  {
+    "name": "Bronze Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20434,
+    "chat_link": "[&AgHSTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 65
+    }
+  },
+  {
+    "name": "Mithril Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20435,
+    "chat_link": "[&AgHTTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 70
+    }
+  },
+  {
+    "name": "Blush Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20436,
+    "chat_link": "[&AgHUTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 32
+    }
+  },
+  {
+    "name": "Peach Sunset Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20437,
+    "chat_link": "[&AgHVTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 36
+    }
+  },
+  {
+    "name": "Country Blue Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20438,
+    "chat_link": "[&AgHWTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 38
+    }
+  },
+  {
+    "name": "Evening Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20439,
+    "chat_link": "[&AgHXTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 440
+    }
+  },
+  {
+    "name": "Old Jeans Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20440,
+    "chat_link": "[&AgHYTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 43
+    }
+  },
+  {
+    "name": "Crush Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20441,
+    "chat_link": "[&AgHZTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 365
+    }
+  },
+  {
+    "name": "Peanut Butter Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20442,
+    "chat_link": "[&AgHaTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 369
+    }
+  },
+  {
+    "name": "Squash Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20443,
+    "chat_link": "[&AgHbTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 366
+    }
+  },
+  {
+    "name": "Clove Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20444,
+    "chat_link": "[&AgHcTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 338
+    }
+  },
+  {
+    "name": "Ceylon Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20445,
+    "chat_link": "[&AgHdTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 53
+    }
+  },
+  {
+    "name": "Kelly Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20446,
+    "chat_link": "[&AgHeTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 57
+    }
+  },
+  {
+    "name": "Summer Grass Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20447,
+    "chat_link": "[&AgHfTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 61
+    }
+  },
+  {
+    "name": "Antique Olive Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20448,
+    "chat_link": "[&AgHgTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 63
+    }
+  },
+  {
+    "name": "Copper Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20449,
+    "chat_link": "[&AgHhTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 66
+    }
+  },
+  {
+    "name": "Gunmetal Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20450,
+    "chat_link": "[&AgHiTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 68
+    }
+  },
+  {
+    "name": "Oil Slick Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20451,
+    "chat_link": "[&AgHjTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 455
+    }
+  },
+  {
+    "name": "Summer Sky Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20452,
+    "chat_link": "[&AgHkTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 31
+    }
+  },
+  {
+    "name": "Bold Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20453,
+    "chat_link": "[&AgHlTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 33
+    }
+  },
+  {
+    "name": "Peach Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20454,
+    "chat_link": "[&AgHmTwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 35
+    }
+  },
+  {
+    "name": "Denim Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20455,
+    "chat_link": "[&AgHnTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 46
+    }
+  },
+  {
+    "name": "Brandywine Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20456,
+    "chat_link": "[&AgHoTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 441
+    }
+  },
+  {
+    "name": "Country Teal Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20457,
+    "chat_link": "[&AgHpTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 39
+    }
+  },
+  {
+    "name": "Eucalyptus Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20458,
+    "chat_link": "[&AgHqTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 41
+    }
+  },
+  {
+    "name": "Frosted Sea Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20459,
+    "chat_link": "[&AgHrTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 42
+    }
+  },
+  {
+    "name": "Night Iris Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20460,
+    "chat_link": "[&AgHsTwAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 372
+    }
+  },
+  {
+    "name": "Shy Blue Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20461,
+    "chat_link": "[&AgHtTwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 44
+    }
+  },
+  {
+    "name": "Moss Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20464,
+    "chat_link": "[&AgHwTwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 438
+    }
+  },
+  {
+    "name": "Pumpkin Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20465,
+    "chat_link": "[&AgHxTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 434
+    }
+  },
+  {
+    "name": "Remembrance Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20466,
+    "chat_link": "[&AgHyTwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 436
+    }
+  },
+  {
+    "name": "Warmth Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20467,
+    "chat_link": "[&AgHzTwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 368
+    }
+  },
+  {
+    "name": "Butter Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20468,
+    "chat_link": "[&AgH0TwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 379
+    }
+  },
+  {
+    "name": "Honey Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20469,
+    "chat_link": "[&AgH1TwAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 380
+    }
+  },
+  {
+    "name": "Green Apple Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20470,
+    "chat_link": "[&AgH2TwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 129
+    }
+  },
+  {
+    "name": "Crisp Mint Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20471,
+    "chat_link": "[&AgH3TwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 55
+    }
+  },
+  {
+    "name": "Grass Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20472,
+    "chat_link": "[&AgH4TwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1054
+    }
+  },
+  {
+    "name": "Key Lime Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20473,
+    "chat_link": "[&AgH5TwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 58
+    }
+  },
+  {
+    "name": "Spearmint Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20474,
+    "chat_link": "[&AgH6TwAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 60
+    }
+  },
+  {
+    "name": "Antique Gold Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 20476,
+    "chat_link": "[&AgH8TwAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 480
+    }
+  },
+  {
+    "name": "Brass Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20477,
+    "chat_link": "[&AgH9TwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 64
+    }
+  },
+  {
+    "name": "Burnished Steel Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20478,
+    "chat_link": "[&AgH+TwAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 385
+    }
+  },
+  {
+    "name": "Copper Penny Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20479,
+    "chat_link": "[&AgH/TwAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 481
+    }
+  },
+  {
+    "name": "Gold Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20480,
+    "chat_link": "[&AgEAUAAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 67
+    }
+  },
+  {
+    "name": "Iron Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20481,
+    "chat_link": "[&AgEBUAAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 69
+    }
+  },
+  {
+    "name": "Mudmetal Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20482,
+    "chat_link": "[&AgECUAAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 467
+    }
+  },
+  {
+    "name": "Old Penny Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20483,
+    "chat_link": "[&AgEDUAAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 466
+    }
+  },
+  {
+    "name": "Midnight Purple Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20484,
+    "chat_link": "[&AgEEUAAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 82
+    }
+  },
+  {
+    "name": "Silt Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20485,
+    "chat_link": "[&AgEFUAAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 99
+    }
+  },
+  {
+    "name": "Chalkboard Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20486,
+    "chat_link": "[&AgEGUAAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 89
+    }
+  },
+  {
+    "name": "Cinnamon Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20487,
+    "chat_link": "[&AgEHUAAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 110
+    }
+  },
+  {
+    "name": "Mushroom Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20488,
+    "chat_link": "[&AgEIUAAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 450
+    }
+  },
+  {
+    "name": "Wintergreen Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20489,
+    "chat_link": "[&AgEJUAAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 138
+    }
+  },
+  {
+    "name": "Lipstick Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20490,
+    "chat_link": "[&AgEKUAAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 127
+    }
+  },
+  {
+    "name": "White Gold Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20491,
+    "chat_link": "[&AgELUAAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 315
+    }
+  },
+  {
+    "name": "Avocado Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20492,
+    "chat_link": "[&AgEMUAAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 52
+    }
+  },
+  {
+    "name": "Green Shade Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20493,
+    "chat_link": "[&AgENUAAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 484
+    }
+  },
+  {
+    "name": "Pink Tint Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20494,
+    "chat_link": "[&AgEOUAAA]",
+    "icon": "https://render.guildwars2.com/file/A1D65312786041F6930BE442F661079A9FF6A7FE/66653.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 354
+    }
+  },
+  {
+    "name": "Wine Shade Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20495,
+    "chat_link": "[&AgEPUAAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 471
+    }
+  },
+  {
+    "name": "Burgundy Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20496,
+    "chat_link": "[&AgEQUAAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 119
+    }
+  },
+  {
+    "name": "Brick Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20497,
+    "chat_link": "[&AgERUAAA]",
+    "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 378
+    }
+  },
+  {
+    "name": "Grape Gum Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20498,
+    "chat_link": "[&AgESUAAA]",
+    "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 48
+    }
+  },
+  {
+    "name": "Steel Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20499,
+    "chat_link": "[&AgETUAAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 75
+    }
+  },
+  {
+    "name": "Midnight Gold Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20500,
+    "chat_link": "[&AgEUUAAA]",
+    "icon": "https://render.guildwars2.com/file/6E262204244D033C2C38DF3F026654B49BFE4EA4/66650.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 79
+    }
+  },
+  {
+    "name": "Midnight Sky Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20501,
+    "chat_link": "[&AgEVUAAA]",
+    "icon": "https://render.guildwars2.com/file/DFFC622FB06E0511A49C53961703331CE030E7BC/66649.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 77
+    }
+  },
+  {
+    "name": "Tarnish Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 20502,
+    "chat_link": "[&AgEWUAAA]",
+    "icon": "https://render.guildwars2.com/file/33DA50C5A7FD9D670F2D53C11C9254A3B7AB37DC/66651.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 342
+    }
+  }
+]

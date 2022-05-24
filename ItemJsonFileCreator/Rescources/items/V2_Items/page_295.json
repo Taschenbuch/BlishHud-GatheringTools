@@ -1,0 +1,6089 @@
+[
+  {
+    "name": "Royal Flame Sword",
+    "description": "<c=@flavor>The forges of the Mad Realm burn eternally over the year, awaiting the orders of their king.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 8980,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92192,
+    "chat_link": "[&AgEgaAEA]",
+    "icon": "https://render.guildwars2.com/file/7DFBEC429951407E0D0BBD1ED2F133443449D659/2212722.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1085,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 102
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 102
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Royal Flame Torch",
+    "description": "<c=@flavor>The forges of the Mad Realm burn eternally over the year, awaiting the orders of their king.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9002,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92194,
+    "chat_link": "[&AgEiaAEA]",
+    "icon": "https://render.guildwars2.com/file/7897760841606797F160C6690C689A3437234151/2212729.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1085,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 102
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 102
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Extra Life Karma Booster",
+    "description": "Double-click to gain an enhancement that increases karma gained by 50% for one hour. Does not affect karma gained from consumable items. <c=@Flavor>Proceeds donated to Extra Life!</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92195,
+    "chat_link": "[&AgEjaAEA]",
+    "icon": "https://render.guildwars2.com/file/5A075C99E0505A434A1F4DE455EB7ADA0E3E9DCC/2212774.png",
+    "details": {
+      "type": "Halloween"
+    }
+  },
+  {
+    "name": "Soul Cake",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 92196,
+    "chat_link": "[&AgEkaAEA]",
+    "icon": "https://render.guildwars2.com/file/48121F74932ECE6D75671E5C3C6641F03A92F903/2212631.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+100 Expertise\n+70 Vitality\n+15% Experience from Kills"
+    }
+  },
+  {
+    "name": "Soldier's Ghostly Racing Scarf",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 218,
+    "default_skin": 8995,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92197,
+    "chat_link": "[&AgElaAEA]",
+    "icon": "https://render.guildwars2.com/file/4C084CFAFB9903D0506308419411F8B9270D5106/2213257.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 107,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 28
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Soldier's Ghostly Racing Scarf",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 218,
+    "default_skin": 8984,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92198,
+    "chat_link": "[&AgEmaAEA]",
+    "icon": "https://render.guildwars2.com/file/4C084CFAFB9903D0506308419411F8B9270D5106/2213257.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 86,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 28
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 28
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Spirits Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92199,
+    "chat_link": "[&AgEnaAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1647
+    }
+  },
+  {
+    "name": "Primal Warden Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92200,
+    "chat_link": "[&AgEoaAEA]",
+    "icon": "https://render.guildwars2.com/file/4B79C078F690B5BB9655F2C3B7FE055EF23F6528/2215748.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Norn Dye Kit",
+    "description": "Contains one random armor dye from a pool of 25 colors that includes six exclusive colors.\n\nDyes can be unlocked for unlimited use to color armor on all characters. Dye bottles can also be recycled in the Mystic Forge.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92201,
+    "chat_link": "[&AgEpaAEA]",
+    "icon": "https://render.guildwars2.com/file/EF195AF2DDBC04D40E733C0D79982196395C54B7/2215749.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Legend Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92202,
+    "chat_link": "[&AgEqaAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1650
+    }
+  },
+  {
+    "name": "Equipment Template Expansion",
+    "description": "Add an extra Equipment Template tab to the character. Each character can unlock up to 6 additional Equipment Template tabs.\n\nEquipment Template tabs allow a character to swap to an additional set of equipment.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92203,
+    "chat_link": "[&AgEraAEA]",
+    "icon": "https://render.guildwars2.com/file/A615CE6395B4345715EEFA5BD242F54CE3E72EAA/2215701.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GearLoadoutTab"
+    }
+  },
+  {
+    "name": "Alemoot Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92204,
+    "chat_link": "[&AgEsaAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1648
+    }
+  },
+  {
+    "name": "Hunt Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92205,
+    "chat_link": "[&AgEtaAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1646
+    }
+  },
+  {
+    "name": "Build Storage Expansion",
+    "description": "Double-click to add 3 spaces to this account's Build Storage.\n\nBuild Storage is the library where already existing builds may be saved, referenced, and copied by all characters on the account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92206,
+    "chat_link": "[&AgEuaAEA]",
+    "icon": "https://render.guildwars2.com/file/A7C0D0FAA827F5FA014DEE499FA71676093E29C4/2215699.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "BuildLibrarySlot"
+    }
+  },
+  {
+    "name": "Great Lodge Chair",
+    "description": "Double-click to unlock this item in your wardrobe.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92207,
+    "chat_link": "[&AgEvaAEA]",
+    "icon": "https://render.guildwars2.com/file/404DD149544B1EC5FFCDBAE73E45D05604B82316/2215747.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Havroun Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92208,
+    "chat_link": "[&AgEwaAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1649
+    }
+  },
+  {
+    "name": "Build Template Expansion",
+    "description": "Add an extra Build Template tab to the character. Each character can unlock up to 5 additional Build Template tabs.\n\nBuild Template tabs allow a character to create and swap to an additional build.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92209,
+    "chat_link": "[&AgExaAEA]",
+    "icon": "https://render.guildwars2.com/file/DA2B54C2B7F9F1804DAEB0F4A8E44A4459A20B04/2215700.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "BuildLoadoutTab"
+    }
+  },
+  {
+    "name": "Exodus Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92210,
+    "chat_link": "[&AgEyaAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1645
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Axe",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92211,
+    "chat_link": "[&AgEzaAEA]",
+    "icon": "https://render.guildwars2.com/file/D1CC662DD44379089A64450B395C4B54BE2EE756/849298.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13289
+    }
+  },
+  {
+    "name": "Recipe: Hardened Boreal Barrel",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92212,
+    "chat_link": "[&AgE0aAEA]",
+    "icon": "https://render.guildwars2.com/file/E4E77178070B5004CDFEAE0DF86EB5F5AB484A0F/1301735.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13292
+    }
+  },
+  {
+    "name": "Ancient Boreal Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword. Unlocks the ability to purchase the Restored Boreal Greatsword Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92214,
+    "chat_link": "[&AgE2aAEA]",
+    "icon": "https://render.guildwars2.com/file/F60759096911DEB2CA09E437262FDD4330B45BAA/2220601.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9038
+      ]
+    }
+  },
+  {
+    "name": "Asgeir's Amulet",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 660,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92215,
+    "chat_link": "[&AgE3aAEA]",
+    "icon": "https://render.guildwars2.com/file/68A33EB8B3F3DD280F31FF0D5290101D02AE12F4/2220513.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Enrichment"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    }
+  },
+  {
+    "name": "Mastery Point",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 92216,
+    "chat_link": "[&AgE4aAEA]",
+    "icon": "https://render.guildwars2.com/file/22571411F5A86EE8B8279EEF62AEC4C1063EA94E/2220624.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Restored Boreal Torch",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9040,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92217,
+    "chat_link": "[&AgE5aAEA]",
+    "icon": "https://render.guildwars2.com/file/7E393F702EBD0C4B9B102DB1D83177CAF6D5F009/2220765.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Choking",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Restored Boreal Axe",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9039,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92218,
+    "chat_link": "[&AgE6aAEA]",
+    "icon": "https://render.guildwars2.com/file/38626F06FE57124C4AB64C0D52FEE1580CB09A68/2220523.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Choking",
+      "min_power": 857,
+      "max_power": 1048,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Rabbit Meat Chunk",
+    "description": "Tender and lean.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92220,
+    "chat_link": "[&AgE8aAEA]",
+    "icon": "https://render.guildwars2.com/file/6BEA5E4A5BDCB2C4D6B8630B65B2A91D0E13356F/66928.png"
+  },
+  {
+    "name": "Mini Boneskinner",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92221,
+    "chat_link": "[&AgE9aAEA]",
+    "icon": "https://render.guildwars2.com/file/1594CF1799F81CFA7E3B4943A54996BD92254141/2221487.png",
+    "details": {
+      "minipet_id": 788
+    }
+  },
+  {
+    "name": "Restored Boreal Pistol",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9041,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92222,
+    "chat_link": "[&AgE+aAEA]",
+    "icon": "https://render.guildwars2.com/file/47C82B65CB2D02FF55F90222C1EE5405BD02CBB2/2220676.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Choking",
+      "min_power": 876,
+      "max_power": 1029,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Alpine Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92224,
+    "chat_link": "[&AgFAaAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1652
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Mace",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92225,
+    "chat_link": "[&AgFBaAEA]",
+    "icon": "https://render.guildwars2.com/file/802E0895B53955AC0E23CAB89C01D42C6E3525AF/849289.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13277
+    }
+  },
+  {
+    "name": "Ancient Boreal Mace Skin",
+    "description": "Double-click to apply this look to any other mace. Unlocks the ability to purchase the Restored Boreal Mace Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92226,
+    "chat_link": "[&AgFCaAEA]",
+    "icon": "https://render.guildwars2.com/file/04CE06CD2774BAC4279404B375F47C343094D4BC/2220614.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9048
+      ]
+    }
+  },
+  {
+    "name": "Vista Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92227,
+    "chat_link": "[&AgFDaAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1651
+    }
+  },
+  {
+    "name": "Delivered Aberrant Warg Meat Chunk",
+    "description": "It smells...off. But Bright Shore hungers for it.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92228,
+    "chat_link": "[&AgFEaAEA]",
+    "icon": "https://render.guildwars2.com/file/B552F79D6B020EAECFC237B9DABD0DE275C30D08/66923.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Choice of the Dragonrender",
+    "description": "Open to choose a Helm of the Dragonrender.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92229,
+    "chat_link": "[&AgFFaAEA]",
+    "icon": "https://render.guildwars2.com/file/789811FE130F2198F546B3E9A1E1B930720CD80C/1465541.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Restored Boreal Hammer",
+    "description": "A pristine ancient norn weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9044,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92230,
+    "chat_link": "[&AgFGaAEA]",
+    "icon": "https://render.guildwars2.com/file/0F3D93F1599E2BFCCDE54FE909CEE7684E5862DF/2220613.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Choking",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 171
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Bear Flank",
+    "description": "Tough and wild.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92234,
+    "chat_link": "[&AgFKaAEA]",
+    "icon": "https://render.guildwars2.com/file/CE075EFD0A7DD2000FFCCF4F544DCCCC9EF5D6D2/223847.png"
+  },
+  {
+    "name": "Ancient Boreal Shield Skin",
+    "description": "Double-click to apply this look to any other shield. Unlocks the ability to purchase the Restored Boreal Shield Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92235,
+    "chat_link": "[&AgFLaAEA]",
+    "icon": "https://render.guildwars2.com/file/E8249CA3A89EDB645277363205D877D5EA757F56/2220734.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9023
+      ]
+    }
+  },
+  {
+    "name": "Strike Mission: Lost Small Chest of Vigilance",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92236,
+    "chat_link": "[&AgFMaAEA]",
+    "icon": "https://render.guildwars2.com/file/A7380A7F9B5DC80A1B2FCF271A09484965EFD2F4/602787.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Essence Manipulation Letter",
+    "description": "A message from Researcher Yarixx, who has developed a powerful new system that harnesses spirit essence, inspired by the Spirits of the Wild.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 160,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92237,
+    "chat_link": "[&AgFNaAEA]",
+    "icon": "https://render.guildwars2.com/file/F2E1C224261C70C4D95E3A4B94B662750CA5D360/65726.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Warhorn",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92240,
+    "chat_link": "[&AgFQaAEA]",
+    "icon": "https://render.guildwars2.com/file/93BB38D0F4094B077C740A9531923397BE65405F/849303.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13297
+    }
+  },
+  {
+    "name": "Ancient Boreal Weapon Skin Container",
+    "description": "Double-click to choose an Ancient Boreal weapon skin.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92241,
+    "chat_link": "[&AgFRaAEA]",
+    "icon": "https://render.guildwars2.com/file/0A53E8F78028AE93805DE056AEE878B9E6F64CB4/2220568.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Strike Mission: Lost Medium Chest of Vigilance",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92242,
+    "chat_link": "[&AgFSaAEA]",
+    "icon": "https://render.guildwars2.com/file/3FCAC7800E032AD2544939E16648CA668019361D/602788.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "A Burden",
+    "description": "Double-click to read.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92243,
+    "chat_link": "[&AgFTaAEA]",
+    "icon": "https://render.guildwars2.com/file/B31B049F19053232CDC736D70FE26828A5F22854/2038518.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Restored Boreal Scepter",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9043,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92244,
+    "chat_link": "[&AgFUaAEA]",
+    "icon": "https://render.guildwars2.com/file/1A1B173C2B78B449779B9B0754EBD365CD0D07A2/2220696.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Choking",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Boneskinner Flank",
+    "description": "It has an aura of death about it...",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92246,
+    "chat_link": "[&AgFWaAEA]",
+    "icon": "https://render.guildwars2.com/file/649712A5FABA00F51CA3C52E2BF255C2A307ABE5/66924.png"
+  },
+  {
+    "name": "Imported Blood Orange",
+    "description": "A juicy fruit from a faraway land.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92247,
+    "chat_link": "[&AgFXaAEA]",
+    "icon": "https://render.guildwars2.com/file/ADAB49FE33C2190245B3B331E59AADF21CAF591B/1205379.png"
+  },
+  {
+    "name": "Restored Boreal Rifle",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9035,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92248,
+    "chat_link": "[&AgFYaAEA]",
+    "icon": "https://render.guildwars2.com/file/2DDA6F4EEE19B53E08F1C218983392050A4AF6B1/2220686.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Choking",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 171
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Greatsword",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92250,
+    "chat_link": "[&AgFaaAEA]",
+    "icon": "https://render.guildwars2.com/file/F634A41B46C73C3AD3A70E02697C9370A2F9F34B/849291.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13308
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Longbow",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92252,
+    "chat_link": "[&AgFcaAEA]",
+    "icon": "https://render.guildwars2.com/file/3AB66FABE1F5A5FD90E49851D0D9D8DDB591135E/849285.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13307
+    }
+  },
+  {
+    "name": "Research Notes: Ancient Raven Lens",
+    "description": "Double-click to read.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92253,
+    "chat_link": "[&AgFdaAEA]",
+    "icon": "https://render.guildwars2.com/file/385D6C29DF5135D3C610ABC47E48D7067966BCEA/2038516.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Sword",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92254,
+    "chat_link": "[&AgFeaAEA]",
+    "icon": "https://render.guildwars2.com/file/F1AEEAB8041F78F2B90515E55306A5260FA640BC/849286.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13287
+    }
+  },
+  {
+    "name": "Prize of the Boneskinner Skin",
+    "description": "Double-click to imbue another back-slot item's stats into this appearance (one-time ability).",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92255,
+    "chat_link": "[&AgFfaAEA]",
+    "icon": "https://render.guildwars2.com/file/077EF022F40AE957FBFE1DC7B65094E4D99FCAAF/2220533.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9017
+      ]
+    }
+  },
+  {
+    "name": "Dragonrender Light Helm",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 9034,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92256,
+    "chat_link": "[&AgFgaAEA]",
+    "icon": "https://render.guildwars2.com/file/F0C6199BC17C0E66C7F9EB25D99B732E03C950F8/2220845.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Strike Mission: Lost Small Chest of Resilience",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92257,
+    "chat_link": "[&AgFhaAEA]",
+    "icon": "https://render.guildwars2.com/file/A7380A7F9B5DC80A1B2FCF271A09484965EFD2F4/602787.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ancient Boreal Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle. Unlocks the ability to purchase the Restored Boreal Rifle Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92260,
+    "chat_link": "[&AgFkaAEA]",
+    "icon": "https://render.guildwars2.com/file/D84CA499D90BDEA30F46A26F3E25F5442CA8226C/2220685.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9033
+      ]
+    }
+  },
+  {
+    "name": "Restored Boreal Shield",
+    "description": "A Restored Boreal shield, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9019,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92261,
+    "chat_link": "[&AgFlaAEA]",
+    "icon": "https://render.guildwars2.com/file/455AB2BF04C9C570289011E251FB1E0ED631907A/2220735.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Choking",
+      "min_power": 806,
+      "max_power": 909,
+      "defense": 61,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Hammer",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92262,
+    "chat_link": "[&AgFmaAEA]",
+    "icon": "https://render.guildwars2.com/file/0E6ECF2B7D5B300979A70325120A646195C213F0/849290.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13280
+    }
+  },
+  {
+    "name": "Delivered Bear Flank",
+    "description": "Surely this should satisfy Bright Shore's hunger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92263,
+    "chat_link": "[&AgFnaAEA]",
+    "icon": "https://render.guildwars2.com/file/CE075EFD0A7DD2000FFCCF4F544DCCCC9EF5D6D2/223847.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Shiverpeaks Hunter Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92264,
+    "chat_link": "[&AgFoaAEA]",
+    "icon": "https://render.guildwars2.com/file/2F660F52BDF57865E6A1375DD96009D4D17ACEF5/2220654.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Shield",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92265,
+    "chat_link": "[&AgFpaAEA]",
+    "icon": "https://render.guildwars2.com/file/D201924467E3C9DF60B5F79631689F90DCE89478/849288.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13305
+    }
+  },
+  {
+    "name": "Gift of the Ancestors",
+    "description": "Double-click to open. Contains a Helm of the Dragonrender box, a Sweet Campfire Treat, a 20-slot bag, and a 28-slot bag recipe.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92267,
+    "chat_link": "[&AgFraAEA]",
+    "icon": "https://render.guildwars2.com/file/7C4D9870713F03D1EBC24755C6E907024155C67E/2220566.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Delivered Rabbit Meat Chunk",
+    "description": "Tender and lean. Bright Shore will enjoy it.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92268,
+    "chat_link": "[&AgFsaAEA]",
+    "icon": "https://render.guildwars2.com/file/6BEA5E4A5BDCB2C4D6B8630B65B2A91D0E13356F/66928.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Sturdy Boreal Duffel",
+    "description": "24 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92270,
+    "chat_link": "[&AgFuaAEA]",
+    "icon": "https://render.guildwars2.com/file/AE24527D3E7CF22C24D708D79C39E11676D3E845/2220535.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 24
+    }
+  },
+  {
+    "name": "Dragonrender Heavy Helm",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 9016,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92271,
+    "chat_link": "[&AgFvaAEA]",
+    "icon": "https://render.guildwars2.com/file/B740BD5173AA2B3C1243C9EB0B3F9DCEF17020B8/2220844.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Eternal Ice Shard",
+    "description": "Can be traded with camp vendors in Bjora Marches.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92272,
+    "chat_link": "[&AgFwaAEA]",
+    "icon": "https://render.guildwars2.com/file/D40CAAE1BEE9C8B3606534F501A244E5E3149852/2220776.png"
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Rifle",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92273,
+    "chat_link": "[&AgFxaAEA]",
+    "icon": "https://render.guildwars2.com/file/B2185DEB0847396E0902B24A03A8CA36589F46A1/849300.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13288
+    }
+  },
+  {
+    "name": "Ancient Boreal Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger. Unlocks the ability to purchase the Restored Boreal Dagger Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92274,
+    "chat_link": "[&AgFyaAEA]",
+    "icon": "https://render.guildwars2.com/file/80C454121B27FB031AF7F8FFA8F4684F0765BAEC/2220580.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9026
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Scepter",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92275,
+    "chat_link": "[&AgFzaAEA]",
+    "icon": "https://render.guildwars2.com/file/4B0EB245A6ABB5A52C3A533E2D571920E8D9E509/849325.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13290
+    }
+  },
+  {
+    "name": "Kyanite Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92276,
+    "chat_link": "[&AgF0aAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1654
+    }
+  },
+  {
+    "name": "Recipe: Simple Boreal Canteen",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92279,
+    "chat_link": "[&AgF3aAEA]",
+    "icon": "https://render.guildwars2.com/file/CCE405BECFA8C04ABEBF0D3F1F105C580B4726AE/1947134.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13276
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Hammer",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92282,
+    "chat_link": "[&AgF6aAEA]",
+    "icon": "https://render.guildwars2.com/file/0E6ECF2B7D5B300979A70325120A646195C213F0/849290.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13300
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Warhorn",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92285,
+    "chat_link": "[&AgF9aAEA]",
+    "icon": "https://render.guildwars2.com/file/93BB38D0F4094B077C740A9531923397BE65405F/849303.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13298
+    }
+  },
+  {
+    "name": "Recipe: Sturdy Boreal Duffel",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92286,
+    "chat_link": "[&AgF+aAEA]",
+    "icon": "https://render.guildwars2.com/file/A7F25D2BBEF519FA51CC0BA3081214C43E28E140/1201548.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13311
+    }
+  },
+  {
+    "name": "Evidence of Massacre",
+    "description": "Return to Investigator Eleni.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92287,
+    "chat_link": "[&AgF/aAEA]",
+    "icon": "https://render.guildwars2.com/file/B4F60E1CF52B29AE802E1AA342C6DF3B29253AA3/2220775.png"
+  },
+  {
+    "name": "Scrap of Icebrood Saga Mastery",
+    "description": "Grants a small amount of Icebrood Saga Mastery experience.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92288,
+    "chat_link": "[&AgGAaAEA]",
+    "icon": "https://render.guildwars2.com/file/AF34CEEB237632AF0F555DDAB3912F010E901E1E/1201864.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Sword",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92289,
+    "chat_link": "[&AgGBaAEA]",
+    "icon": "https://render.guildwars2.com/file/F1AEEAB8041F78F2B90515E55306A5260FA640BC/849286.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13285
+    }
+  },
+  {
+    "name": "Restored Boreal Warhorn",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9015,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92290,
+    "chat_link": "[&AgGCaAEA]",
+    "icon": "https://render.guildwars2.com/file/CA95E009BDA91E457209F5ACB1640DA1E1A363C0/2220778.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Choking",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Bjora Marches Chest",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92291,
+    "chat_link": "[&AgGDaAEA]",
+    "icon": "https://render.guildwars2.com/file/3EC40F731C0CC30FB1F7040357E5FEE63743283D/699342.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Reinforced Boreal Trunk",
+    "description": "32 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92292,
+    "chat_link": "[&AgGEaAEA]",
+    "icon": "https://render.guildwars2.com/file/7B2E617446F514F27261FAFC083A18EF3D246ED2/2220534.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 32
+    }
+  },
+  {
+    "name": "Mini Icebrood Construct",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92293,
+    "chat_link": "[&AgGFaAEA]",
+    "icon": "https://render.guildwars2.com/file/C60210D24C06F59B43A05F225393355852D244C3/2221486.png",
+    "details": {
+      "minipet_id": 789
+    }
+  },
+  {
+    "name": "Delivered Deer Meat Hunk",
+    "description": "This juicy deer meat is perfect for Bright Shore.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92294,
+    "chat_link": "[&AgGGaAEA]",
+    "icon": "https://render.guildwars2.com/file/5334A677B308D69D0CED6B97C8154ABC7BBD12B9/66899.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Aberrant Warg Meat Chunk",
+    "description": "Bright Shore has an unusual craving.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92295,
+    "chat_link": "[&AgGHaAEA]",
+    "icon": "https://render.guildwars2.com/file/B552F79D6B020EAECFC237B9DABD0DE275C30D08/66923.png"
+  },
+  {
+    "name": "Restored Boreal Short Bow",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9022,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92298,
+    "chat_link": "[&AgGKaAEA]",
+    "icon": "https://render.guildwars2.com/file/F24A6B2DD8DEF59B4140FEE6BFD0D66E09D7A8F6/2220549.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Choking",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 171
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "((928904))",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 10,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92300,
+    "chat_link": "[&AgGMaAEA]",
+    "icon": "https://render.guildwars2.com/file/CB05A3BAE659640995CA934C62726D39CC980DA4/63235.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Ancient Boreal Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow. Unlocks the ability to purchase the Restored Boreal Longbow Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92301,
+    "chat_link": "[&AgGNaAEA]",
+    "icon": "https://render.guildwars2.com/file/5441A8703871D7A0476D69E12AD223B25BD3D37A/2220546.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9029
+      ]
+    }
+  },
+  {
+    "name": "Boneskinner Tonic",
+    "description": "Double-click to transform into a boneskinner.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 92302,
+    "chat_link": "[&AgGOaAEA]",
+    "icon": "https://render.guildwars2.com/file/B132CB749768664CA30190270A08B7902F380CE6/2220561.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Focus",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92303,
+    "chat_link": "[&AgGPaAEA]",
+    "icon": "https://render.guildwars2.com/file/0C12706107D16B1A782A19C9E3A052003438B95C/849339.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13279
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Rifle",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92304,
+    "chat_link": "[&AgGQaAEA]",
+    "icon": "https://render.guildwars2.com/file/B2185DEB0847396E0902B24A03A8CA36589F46A1/849300.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13283
+    }
+  },
+  {
+    "name": "Hardened Boreal Barrel",
+    "description": "28 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92307,
+    "chat_link": "[&AgGTaAEA]",
+    "icon": "https://render.guildwars2.com/file/C8359BF86DB604E031067D6D029F063575373EBB/2220537.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 28
+    }
+  },
+  {
+    "name": "Delivered Boneskinner Flank",
+    "description": "This doesn't seem quite right...",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92310,
+    "chat_link": "[&AgGWaAEA]",
+    "icon": "https://render.guildwars2.com/file/649712A5FABA00F51CA3C52E2BF255C2A307ABE5/66924.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Season 4 Currency Box",
+    "description": "Open to choose a Season 4 currency.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92311,
+    "chat_link": "[&AgGXaAEA]",
+    "icon": "https://render.guildwars2.com/file/659505A2263EF7533899E496BA69215F2E1B1F08/2220564.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Fine Black Lion Dye Canister—Blue",
+    "description": "Use to unlock exclusive Black Lion Chest blue dyes, or use to combine several canisters and upgrade their rarity.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92312,
+    "chat_link": "[&AgGYaAEA]",
+    "icon": "https://render.guildwars2.com/file/F106560F2EBBF4C375B43FF0E13AE2945C3370D8/2220656.png",
+    "details": {
+      "type": "Default",
+      "vendor_ids": [
+        1802
+      ]
+    }
+  },
+  {
+    "name": "Masterwork Black Lion Dye Canister—Blue",
+    "description": "Use to unlock exclusive Black Lion Chest blue dyes, or use to combine several canisters and upgrade their rarity.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92313,
+    "chat_link": "[&AgGZaAEA]",
+    "icon": "https://render.guildwars2.com/file/004F6909BC2C5A9FD834792606B79CD9B39648BD/2220657.png",
+    "details": {
+      "type": "Default",
+      "vendor_ids": [
+        1802
+      ]
+    }
+  },
+  {
+    "name": "Story Unlock: \"Whisper in the Dark\"",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92314,
+    "chat_link": "[&AgGaaAEA]",
+    "icon": "https://render.guildwars2.com/file/42E3A60E361EA8FD6D6ECD3FE4F70DCCD628BC50/222826.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Strike Mission: Lost Small Chest of Valor",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92316,
+    "chat_link": "[&AgGcaAEA]",
+    "icon": "https://render.guildwars2.com/file/A7380A7F9B5DC80A1B2FCF271A09484965EFD2F4/602787.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Eitrite Ingot",
+    "description": "Used for crafting Restored Boreal weapons.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 64,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92317,
+    "chat_link": "[&AgGdaAEA]",
+    "icon": "https://render.guildwars2.com/file/C6C44ED5740BBEBA332DBC5A3558930A6A765611/2220625.png"
+  },
+  {
+    "name": "Mini Almorra Soulkeeper",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92321,
+    "chat_link": "[&AgGhaAEA]",
+    "icon": "https://render.guildwars2.com/file/DA38B6BED9F1A75D98256F2FCC2D7080649F380E/2221485.png",
+    "details": {
+      "minipet_id": 790
+    }
+  },
+  {
+    "name": "Ancient Boreal Sword Skin",
+    "description": "Double-click to apply this look to any other sword. Unlocks the ability to purchase the Restored Boreal Sword Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92322,
+    "chat_link": "[&AgGiaAEA]",
+    "icon": "https://render.guildwars2.com/file/1A900426F6360E16087C9E7856109528C09A71CB/2220754.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9020
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Scepter",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92324,
+    "chat_link": "[&AgGkaAEA]",
+    "icon": "https://render.guildwars2.com/file/4B0EB245A6ABB5A52C3A533E2D571920E8D9E509/849325.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13282
+    }
+  },
+  {
+    "name": "Endless Boneskinner Tonic",
+    "description": "Double-click to transform into a boneskinner or return to normal.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 92327,
+    "chat_link": "[&AgGnaAEA]",
+    "icon": "https://render.guildwars2.com/file/3BB14598AB45D3E6992F1B66B1CA2FDD7EE3993D/2220560.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Strike Mission: Lost Medium Chest of Valor",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92330,
+    "chat_link": "[&AgGqaAEA]",
+    "icon": "https://render.guildwars2.com/file/3FCAC7800E032AD2544939E16648CA668019361D/602788.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Restored Boreal Dagger",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9011,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92331,
+    "chat_link": "[&AgGraAEA]",
+    "icon": "https://render.guildwars2.com/file/FAE16FCB34BC18567CD5904140FF936DD5ADA20F/2220581.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Choking",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Eitrite Ingot",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92333,
+    "chat_link": "[&AgGtaAEA]",
+    "icon": "https://render.guildwars2.com/file/9E676FEA12E7780C35A223FA12E10F542A0F7818/1201549.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13296
+    }
+  },
+  {
+    "name": "Chest of the Raven's Hero",
+    "description": "Double-click to open. Contains 1 Sip of Liquid Karma, 2 Eternal Ice Shards, and 1 Scrap of Icebrood Saga Mastery (Autoconsume).",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92338,
+    "chat_link": "[&AgGyaAEA]",
+    "icon": "https://render.guildwars2.com/file/BFD2CB5A0604A4425DF9CD22DF0F40C4E0AE9AAA/602790.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Message from Researcher Yarixx",
+    "description": "Open",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92340,
+    "chat_link": "[&AgG0aAEA]",
+    "icon": "https://render.guildwars2.com/file/F2E1C224261C70C4D95E3A4B94B662750CA5D360/65726.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Ancient Boreal Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer. Unlocks the ability to purchase the Restored Boreal Hammer Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92341,
+    "chat_link": "[&AgG1aAEA]",
+    "icon": "https://render.guildwars2.com/file/350D0468B50D0FFD7F18F00139E11F013BC16E29/2220612.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9010
+      ]
+    }
+  },
+  {
+    "name": "Jora's Weapons Cache",
+    "description": "Double-click to gain two choices of Ancient Boreal weapon skins, plus Dragonite Ore, Empyreal Fragments, Obsidian Shards, Mystic Clovers, and Eitrite Ingots.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92342,
+    "chat_link": "[&AgG2aAEA]",
+    "icon": "https://render.guildwars2.com/file/5B4960DE2DCCB9C83E1C79D2AF80F52311D680D2/2220570.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Restored Boreal Staff",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9046,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92343,
+    "chat_link": "[&AgG3aAEA]",
+    "icon": "https://render.guildwars2.com/file/38681F6DB901A84625713471A11B152F1BCAFBB4/2220745.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Choking",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 171
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Raven Statue",
+    "description": "Double-click to consume and earn a decoration.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92344,
+    "chat_link": "[&AgG4aAEA]",
+    "icon": "https://render.guildwars2.com/file/18026A68AFE3AD5F16130D4B62DBBACE75CDC144/2220603.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1075
+    }
+  },
+  {
+    "name": "Recipe: Reinforced Boreal Trunk",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92346,
+    "chat_link": "[&AgG6aAEA]",
+    "icon": "https://render.guildwars2.com/file/E8E2046ACDC0412A076D90580DB5320A6E24D2E7/1947133.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13293
+    }
+  },
+  {
+    "name": "Rare Black Lion Dye Canister—Blue",
+    "description": "Use to unlock exclusive Black Lion Chest blue dyes, or use to combine several canisters and upgrade their rarity.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92347,
+    "chat_link": "[&AgG7aAEA]",
+    "icon": "https://render.guildwars2.com/file/A8C0DA49272069274C7ABAF457E176ACB836F710/2220658.png",
+    "details": {
+      "type": "Default",
+      "vendor_ids": [
+        1802
+      ]
+    }
+  },
+  {
+    "name": "Dragonrender Medium Helm",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 9037,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92348,
+    "chat_link": "[&AgG8aAEA]",
+    "icon": "https://render.guildwars2.com/file/212A0DE4BCF9669760CF10DE70BA20242258A7C3/2220846.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Torch",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92349,
+    "chat_link": "[&AgG9aAEA]",
+    "icon": "https://render.guildwars2.com/file/2AA251A1001C64AFAEFFBC2443B4D8BFE0373B52/849302.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13302
+    }
+  },
+  {
+    "name": "Deer Meat Chunk",
+    "description": "This juicy deer meat is perfect for Bright Shore.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 500,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92350,
+    "chat_link": "[&AgG+aAEA]",
+    "icon": "https://render.guildwars2.com/file/5334A677B308D69D0CED6B97C8154ABC7BBD12B9/66899.png"
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Focus",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92351,
+    "chat_link": "[&AgG/aAEA]",
+    "icon": "https://render.guildwars2.com/file/0C12706107D16B1A782A19C9E3A052003438B95C/849339.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13278
+    }
+  },
+  {
+    "name": "Ancient Boreal Staff Skin",
+    "description": "Double-click to apply this look to any other staff. Unlocks the ability to purchase the Restored Boreal Staff Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92352,
+    "chat_link": "[&AgHAaAEA]",
+    "icon": "https://render.guildwars2.com/file/5309E60508800E08F67302EC0131E278A0C8B07C/2220744.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9028
+      ]
+    }
+  },
+  {
+    "name": "Restored Boreal Longbow",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9008,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92354,
+    "chat_link": "[&AgHCaAEA]",
+    "icon": "https://render.guildwars2.com/file/0DF40558FC22D047A27EE3624C02AD4E6B7EFDAE/2220547.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Choking",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 171
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "\"Recovered\" Norn Weapons",
+    "description": "Contains a weapon from the Shiverpeaks.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92355,
+    "chat_link": "[&AgHDaAEA]",
+    "icon": "https://render.guildwars2.com/file/A1BBB8AA60DC53CB3511B795C10C532B609F78A3/2220569.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Scrap of Icebrood Saga Mastery",
+    "description": "Grants a small amount of Icebrood Saga Mastery experience.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92356,
+    "chat_link": "[&AgHEaAEA]",
+    "icon": "https://render.guildwars2.com/file/AF34CEEB237632AF0F555DDAB3912F010E901E1E/1201864.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Torch",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92357,
+    "chat_link": "[&AgHFaAEA]",
+    "icon": "https://render.guildwars2.com/file/2AA251A1001C64AFAEFFBC2443B4D8BFE0373B52/849302.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13286
+    }
+  },
+  {
+    "name": "Ancient Boreal Focus Skin",
+    "description": "Double-click to apply this look to any other focus. Unlocks the ability to purchase the Restored Boreal Focus Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92358,
+    "chat_link": "[&AgHGaAEA]",
+    "icon": "https://render.guildwars2.com/file/7D0A9473A45BBCC2DA183A447292C910BE513933/2220590.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9032
+      ]
+    }
+  },
+  {
+    "name": "Restored Boreal Sword",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9045,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92359,
+    "chat_link": "[&AgHHaAEA]",
+    "icon": "https://render.guildwars2.com/file/5EC3B53EBFC539BE091F974901CFA0CC32D71D80/2220755.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Choking",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ancient Boreal Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow. Unlocks the ability to purchase the Restored Boreal Short Bow Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92360,
+    "chat_link": "[&AgHIaAEA]",
+    "icon": "https://render.guildwars2.com/file/B4D2CB9FDA467603D1D9414298285FC51B025B04/2220548.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9013
+      ]
+    }
+  },
+  {
+    "name": "Eternal Ice Shard Home Instance Node",
+    "description": "Activates an Eternal Ice Shard node in your home instance.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92361,
+    "chat_link": "[&AgHJaAEA]",
+    "icon": "https://render.guildwars2.com/file/546B295E22D36BD5FB9B4DDF12055B0DB1CCB295/2220563.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Greatsword",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92362,
+    "chat_link": "[&AgHKaAEA]",
+    "icon": "https://render.guildwars2.com/file/F634A41B46C73C3AD3A70E02697C9370A2F9F34B/849291.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13281
+    }
+  },
+  {
+    "name": "Restored Boreal Greatsword",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 9030,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92363,
+    "chat_link": "[&AgHLaAEA]",
+    "icon": "https://render.guildwars2.com/file/6E4C5DDD38E6032CC510A511D20C29B44D637734/2220602.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Choking",
+      "min_power": 995,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 171
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Staff",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92365,
+    "chat_link": "[&AgHNaAEA]",
+    "icon": "https://render.guildwars2.com/file/B00E062899E80C806A7BB83DDCCDE213E19151B9/849329.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13291
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Dagger",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92366,
+    "chat_link": "[&AgHOaAEA]",
+    "icon": "https://render.guildwars2.com/file/A4334E5830B017094A03FBF208A79B4BBF392917/849292.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13310
+    }
+  },
+  {
+    "name": "Restored Boreal Focus",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9009,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92367,
+    "chat_link": "[&AgHPaAEA]",
+    "icon": "https://render.guildwars2.com/file/477DF79EB6E09505D062D9D0D9BF6CBC18597B09/2220591.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Choking",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Raven's Eye",
+    "description": "A scepter made from glass infused with Raven's essence.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 9000,
+    "default_skin": 9014,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92368,
+    "chat_link": "[&AgHQaAEA]",
+    "icon": "https://render.guildwars2.com/file/0CDFB7050FB004062B482D3DA875ACB6F4746ABF/2220733.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 120
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "suffix_item_id": 24651
+    }
+  },
+  {
+    "name": "Strike Mission: Lost Medium Chest of Resilience",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92369,
+    "chat_link": "[&AgHRaAEA]",
+    "icon": "https://render.guildwars2.com/file/3FCAC7800E032AD2544939E16648CA668019361D/602788.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ancient Boreal Axe Skin",
+    "description": "Double-click to apply this look to any other axe. Unlocks the ability to purchase the Restored Boreal Axe Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92370,
+    "chat_link": "[&AgHSaAEA]",
+    "icon": "https://render.guildwars2.com/file/3E27B85B210D0876FD97E0DD7C579F3C040BDCCF/2220522.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9036
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Axe",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92371,
+    "chat_link": "[&AgHTaAEA]",
+    "icon": "https://render.guildwars2.com/file/D1CC662DD44379089A64450B395C4B54BE2EE756/849298.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13312
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Short Bow",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92372,
+    "chat_link": "[&AgHUaAEA]",
+    "icon": "https://render.guildwars2.com/file/1314795BA50A14086164EB3D290502C79D0F4E43/849301.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13295
+    }
+  },
+  {
+    "name": "Sons of Svanir Battle Plans",
+    "description": "Picked up inside the Svanir barracks in Bjora Marches. Without these plans, the Svanir will be destabilized.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Junk",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Pve"
+    ],
+    "flags": [
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92373,
+    "chat_link": "[&AgHVaAEA]",
+    "icon": "https://render.guildwars2.com/file/21FF236A656E0BAA217C6E2E5AEBD2D1A6E3B7BC/66426.png"
+  },
+  {
+    "name": "Raven's Gift",
+    "description": "Double-click to gain a choice of Ancient Boreal weapon skins, plus Dragonite Ore, Empyreal Fragments, Obsidian Shards, Mystic Clovers, and Eternal Ice Shards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92376,
+    "chat_link": "[&AgHYaAEA]",
+    "icon": "https://render.guildwars2.com/file/0A53E8F78028AE93805DE056AEE878B9E6F64CB4/2220568.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Dagger",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92377,
+    "chat_link": "[&AgHZaAEA]",
+    "icon": "https://render.guildwars2.com/file/A4334E5830B017094A03FBF208A79B4BBF392917/849292.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13303
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Staff",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92378,
+    "chat_link": "[&AgHaaAEA]",
+    "icon": "https://render.guildwars2.com/file/B00E062899E80C806A7BB83DDCCDE213E19151B9/849329.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13284
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Pistol",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92379,
+    "chat_link": "[&AgHbaAEA]",
+    "icon": "https://render.guildwars2.com/file/0FE244BAD2EF262F95F17948AA23076A2AB407EF/849299.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13301
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Short Bow",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92380,
+    "chat_link": "[&AgHcaAEA]",
+    "icon": "https://render.guildwars2.com/file/1314795BA50A14086164EB3D290502C79D0F4E43/849301.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13309
+    }
+  },
+  {
+    "name": "Ancient Boreal Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn. Unlocks the ability to purchase the Restored Boreal Warhorn Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92382,
+    "chat_link": "[&AgHeaAEA]",
+    "icon": "https://render.guildwars2.com/file/D7C2310F1055CFB1690572D3B05CB1DA2272CD93/2220777.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9031
+      ]
+    }
+  },
+  {
+    "name": "What's Happening?",
+    "description": "Double-click to read.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92383,
+    "chat_link": "[&AgHfaAEA]",
+    "icon": "https://render.guildwars2.com/file/2329182A1FD25E072F800161104DA4ACE9E1EDFC/2038511.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Longbow",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92386,
+    "chat_link": "[&AgHiaAEA]",
+    "icon": "https://render.guildwars2.com/file/3AB66FABE1F5A5FD90E49851D0D9D8DDB591135E/849285.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13306
+    }
+  },
+  {
+    "name": "Gift of the Ancestors",
+    "description": "Double-click to open. Contains the Raven's Eye Scepter weapon, a Boneskinner Tonic, and a 20-slot bag recipe.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92387,
+    "chat_link": "[&AgHjaAEA]",
+    "icon": "https://render.guildwars2.com/file/F07E297D1304E904FAF80F11057CEA12E8021E70/2220565.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Exotic Black Lion Dye Canister—Blue",
+    "description": "Use to gain the Black Lion Chest exclusive dye Blue Lion.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92388,
+    "chat_link": "[&AgHkaAEA]",
+    "icon": "https://render.guildwars2.com/file/3798F470EFD9D87C249E4A2868781D62F3017122/2220655.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Urgent Vigil Letter",
+    "description": "A letter from Anette Eymundrdottir located at in Jora's Keep. She wants your help crafting Ancient Boreal weapons.\n\nDouble-click to locate.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92389,
+    "chat_link": "[&AgHlaAEA]",
+    "icon": "https://render.guildwars2.com/file/9BE7D4D59F02C573E6D41AA0CF4FABC10A48A4AA/2150030.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Raven Spirit Shadow",
+    "description": "Double-click to summon a Raven Spirit for 2 minutes. This can only be used once every 30 minutes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 100,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92393,
+    "chat_link": "[&AgHpaAEA]",
+    "icon": "https://render.guildwars2.com/file/4820B8070531F833EED091FB1CFB3407E13401E7/2220562.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Sweet Campfire Treat",
+    "description": "Double-click to construct a Sweet Campfire Treat for you and anyone in the area. The Sweet Campfire Treat stays active for 5 minutes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "Unique",
+      "NoUnderwater",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92394,
+    "chat_link": "[&AgHqaAEA]",
+    "icon": "https://render.guildwars2.com/file/26970195585DFC17A3CA390407DD20C9DECC64B5/2220592.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Restored Boreal Mace",
+    "description": "A Restored Boreal weapon, crafted using materials found in Bjora Marches.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 9025,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92395,
+    "chat_link": "[&AgHraAEA]",
+    "icon": "https://render.guildwars2.com/file/22312D42021CD91506140A447BB7197B04ECEBDC/2220615.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Choking",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Infernal Horror Springer Skin",
+    "description": "Double-click to unlock this springer mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92396,
+    "chat_link": "[&AgHsaAEA]",
+    "icon": "https://render.guildwars2.com/file/34F73CECCD03C13FC0C67A0B163BB636DFDD506B/2220626.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Mace",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92397,
+    "chat_link": "[&AgHtaAEA]",
+    "icon": "https://render.guildwars2.com/file/802E0895B53955AC0E23CAB89C01D42C6E3525AF/849289.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13304
+    }
+  },
+  {
+    "name": "Shiverpeaks Hunter Backpack",
+    "description": "This will replace the appearance of any back item and unlock the skin in your account wardrobe. \n\nThis backpack skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92398,
+    "chat_link": "[&AgHuaAEA]",
+    "icon": "https://render.guildwars2.com/file/E56F5741937DE7D642E65946B9315079CD9822F6/2220653.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9021
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Illuminated Boreal Pistol",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92399,
+    "chat_link": "[&AgHvaAEA]",
+    "icon": "https://render.guildwars2.com/file/0FE244BAD2EF262F95F17948AA23076A2AB407EF/849299.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13294
+    }
+  },
+  {
+    "name": "Ancient Boreal Torch Skin",
+    "description": "Double-click to apply this look to any other torch. Unlocks the ability to purchase the Restored Boreal Torch Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92400,
+    "chat_link": "[&AgHwaAEA]",
+    "icon": "https://render.guildwars2.com/file/5326C35EF6B95154F3B51872D670F1BE320406B2/2220764.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9012
+      ]
+    }
+  },
+  {
+    "name": "Celestial Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92401,
+    "chat_link": "[&AgHxaAEA]",
+    "icon": "https://render.guildwars2.com/file/C0C8AA2F0A069056437E7DB90C51C2A21E57070C/2220674.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9027
+      ]
+    }
+  },
+  {
+    "name": "Gift of the Ancestors",
+    "description": "Double-click to open. Contains a Raven Spirit Shadow that can be summoned, a Raven Statue decoration, a 24-slot bag, and a 32-slot bag recipe.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92402,
+    "chat_link": "[&AgHyaAEA]",
+    "icon": "https://render.guildwars2.com/file/3DC76BE733BDE5B9B8515CB29C39B6063AB55AED/2220567.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Restored Boreal Shield",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92404,
+    "chat_link": "[&AgH0aAEA]",
+    "icon": "https://render.guildwars2.com/file/D201924467E3C9DF60B5F79631689F90DCE89478/849288.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 13299
+    }
+  },
+  {
+    "name": "Ancient Boreal Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol. Unlocks the ability to purchase the Restored Boreal Pistol Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92406,
+    "chat_link": "[&AgH2aAEA]",
+    "icon": "https://render.guildwars2.com/file/E278EA1C9EEAB0D8A847FE1B2E1EB8EB49479D9C/2220675.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9047
+      ]
+    }
+  },
+  {
+    "name": "Delivered Imported Blood Orange",
+    "description": "A gift from Anette Eymundrdottir. Bright Shore will be pleased.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92407,
+    "chat_link": "[&AgH3aAEA]",
+    "icon": "https://render.guildwars2.com/file/ADAB49FE33C2190245B3B331E59AADF21CAF591B/1205379.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Blue Lion Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 92408,
+    "chat_link": "[&AgH4aAEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1653
+    }
+  },
+  {
+    "name": "Ancient Boreal Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter. Unlocks the ability to purchase the Restored Boreal Scepter Recipe.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92410,
+    "chat_link": "[&AgH6aAEA]",
+    "icon": "https://render.guildwars2.com/file/48CB9DFF6CF0A4E55BE6F05C0F141E4E173A2A77/2220695.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9024
+      ]
+    }
+  },
+  {
+    "name": "Bjora Marches Portal Scroll",
+    "description": "Double-click to teleport to Bjora Marches. <c=@Warning>This item cannot be used while in combat.</c>",
+    "type": "Gizmo",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92411,
+    "chat_link": "[&AgH7aAEA]",
+    "icon": "https://render.guildwars2.com/file/456116B2CCB0341DAA64CE9121B24C9DF6F3ADC2/2220571.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Simple Boreal Canteen",
+    "description": "20 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92413,
+    "chat_link": "[&AgH9aAEA]",
+    "icon": "https://render.guildwars2.com/file/471E02A5260C5B5B524BE7F85F1152D2211BE300/2220536.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 20
+    }
+  },
+  {
+    "name": "Surplus Delivery Box",
+    "description": "Contains surplus resources collected by your Black Lion industry team. Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92415,
+    "chat_link": "[&AgH/aAEA]",
+    "icon": "https://render.guildwars2.com/file/43171A0061AFFFB7BDD62E452C67694A362D4CAB/1716533.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Basic Guild Cape",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92416,
+    "chat_link": "[&AgEAaQEA]",
+    "icon": "https://render.guildwars2.com/file/47CF6DAAB41F974ABC37DFCC23972EA7D70111D3/2229241.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9051
+      ]
+    }
+  },
+  {
+    "name": "Salsa Eggs Benedict",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92418,
+    "chat_link": "[&AgECaQEA]",
+    "icon": "https://render.guildwars2.com/file/0C1654600B0E40F9EEC909B8950CD6140FE17FCD/2191055.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1100
+    }
+  },
+  {
+    "name": "Plate of Beef Carpaccio with Mint Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92422,
+    "chat_link": "[&AgEGaQEA]",
+    "icon": "https://render.guildwars2.com/file/62E3DF4A52B1DE6CF992C8E77A6368D411BC08A1/2191025.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1118
+    }
+  },
+  {
+    "name": "Spherified Peppercorn-Spiced Oyster Soup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92424,
+    "chat_link": "[&AgEIaQEA]",
+    "icon": "https://render.guildwars2.com/file/683451055925A4C9503B0D52C608086A54D13750/2191077.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1133
+    }
+  },
+  {
+    "name": "Plate of Sesame Poultry Aspic",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92425,
+    "chat_link": "[&AgEJaQEA]",
+    "icon": "https://render.guildwars2.com/file/3FA8255214079ED4C83048ED72D437FEECB936A8/2191067.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1081
+    }
+  },
+  {
+    "name": "Black Lion Industry Contract",
+    "description": "This adds a Black Lion Industry Board to your home instance. The board can be used to collect basic crafting materials of your choice. Each delivery has a small chance of containing surplus goods.\nResource types include the following:\n• Cloth Scraps\n• Leather Sections\n• Metal Ore\n• Wood Logs\n• Jewels",
+    "type": "Consumable",
+    "level": 15,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92427,
+    "chat_link": "[&AgELaQEA]",
+    "icon": "https://render.guildwars2.com/file/3F79F840C7FCD050E96EF2751A7E6CB26E1159BC/1716534.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Clove-Spiced Eggs Benedict",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92428,
+    "chat_link": "[&AgEMaQEA]",
+    "icon": "https://render.guildwars2.com/file/0968E3FA2BD2E6114A6D7E5D564424D51A4798EF/2191052.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1096
+    }
+  },
+  {
+    "name": "Sesame-Asparagus and Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92431,
+    "chat_link": "[&AgEPaQEA]",
+    "icon": "https://render.guildwars2.com/file/70FC0F07541C377D3601D44E9939D2EE0A740509/2191046.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1103
+    }
+  },
+  {
+    "name": "Sesame Creme Brulee",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92432,
+    "chat_link": "[&AgEQaQEA]",
+    "icon": "https://render.guildwars2.com/file/685B53760D01FB0734BF726FBAFB9CCBDC973A44/2191042.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1090
+    }
+  },
+  {
+    "name": "Sesame Veggie Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92433,
+    "chat_link": "[&AgERaQEA]",
+    "icon": "https://render.guildwars2.com/file/3DB8FFA23132A05C549AC5A8EA2D7D07C16D4BEA/2191030.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1105
+    }
+  },
+  {
+    "name": "Plate of Peppercorn-Spiced Coq Au Vin",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92435,
+    "chat_link": "[&AgETaQEA]",
+    "icon": "https://render.guildwars2.com/file/E63551700BC25C1F484BDBD422A4960B3269BACC/2191038.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1104
+    }
+  },
+  {
+    "name": "Bowl of Fruit Salad with Orange-Clove Syrup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92436,
+    "chat_link": "[&AgEUaQEA]",
+    "icon": "https://render.guildwars2.com/file/A970FC093D572E5E03E1920AC07F7ED108F31427/2191060.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1113
+    }
+  },
+  {
+    "name": "Spherified Clove-Spiced Oyster Soup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92437,
+    "chat_link": "[&AgEVaQEA]",
+    "icon": "https://render.guildwars2.com/file/EC5633F8390F1B3D44EFFB03669ECCB62498DCC4/2191075.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1135
+    }
+  },
+  {
+    "name": "Clove and Veggie Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92439,
+    "chat_link": "[&AgEXaQEA]",
+    "icon": "https://render.guildwars2.com/file/07CB5E0E4058BCC85C677149C2D1C8CF0B521F9D/2191026.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1095
+    }
+  },
+  {
+    "name": "Bowl of Fruit Salad with Mint Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92440,
+    "chat_link": "[&AgEYaQEA]",
+    "icon": "https://render.guildwars2.com/file/1D44545301F3BB1C046898EA08D5906EB369DD0A/2191059.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1078
+    }
+  },
+  {
+    "name": "Plate of Poultry Aspic with Mint Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92442,
+    "chat_link": "[&AgEaaQEA]",
+    "icon": "https://render.guildwars2.com/file/48E5D0084720ED05DBB5641AFF2D7A371F30A3E0/2191064.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1110
+    }
+  },
+  {
+    "name": "Bowl of Spiced Fruit Salad",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92443,
+    "chat_link": "[&AgEbaQEA]",
+    "icon": "https://render.guildwars2.com/file/7CEC58DD0758464F3F66EFCF4C9E1152FE1D14E9/2191057.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1122
+    }
+  },
+  {
+    "name": "Strawberry Cilantro Cheesecake",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92445,
+    "chat_link": "[&AgEdaQEA]",
+    "icon": "https://render.guildwars2.com/file/E03521A65C171B4A35E5414DED9630DABA321C1F/2191035.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1091
+    }
+  },
+  {
+    "name": "Plate of Peppercorn-Spiced Beef Carpaccio",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92448,
+    "chat_link": "[&AgEgaQEA]",
+    "icon": "https://render.guildwars2.com/file/780C4F9AC90093E3A3E2A97C5F7D5A2F0C04F4E4/2191022.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1114
+    }
+  },
+  {
+    "name": "Mushroom Clove Sous-Vide Steak",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92451,
+    "chat_link": "[&AgEjaQEA]",
+    "icon": "https://render.guildwars2.com/file/B5B94CB366A5BE800FA0290054E312A9F498E752/2191073.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1123
+    }
+  },
+  {
+    "name": "Plate of Beef Carpaccio with Salsa Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92452,
+    "chat_link": "[&AgEkaQEA]",
+    "icon": "https://render.guildwars2.com/file/012F16A0E3F01C78387747FD7373269D08A2413F/2191023.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1111
+    }
+  },
+  {
+    "name": "Cilantro and Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92456,
+    "chat_link": "[&AgEoaQEA]",
+    "icon": "https://render.guildwars2.com/file/13906DE02D374DBB6A013C5EF76F26FBAFD5A39A/2191050.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1089
+    }
+  },
+  {
+    "name": "Plate of Peppered Clear Truffle Ravioli",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92457,
+    "chat_link": "[&AgEpaQEA]",
+    "icon": "https://render.guildwars2.com/file/256211DC4BB3D55792027F604A4AD90871D7B596/2191082.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1088
+    }
+  },
+  {
+    "name": "Mint Strawberry Cheesecake",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92462,
+    "chat_link": "[&AgEuaQEA]",
+    "icon": "https://render.guildwars2.com/file/BAC0EB915B25A2D94917240E0EB1533A1FA59F04/2191031.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1131
+    }
+  },
+  {
+    "name": "Clove-Spiced Pear and Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92467,
+    "chat_link": "[&AgEzaQEA]",
+    "icon": "https://render.guildwars2.com/file/CE437DB26797C84F9127C9D190720311EB614512/2191047.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1117
+    }
+  },
+  {
+    "name": "Plate of Sesame-Ginger Beef Carpaccio",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92468,
+    "chat_link": "[&AgE0aQEA]",
+    "icon": "https://render.guildwars2.com/file/DBDCBA174AFB1E07570F20BAA6201A35A8FB29C7/2191024.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1125
+    }
+  },
+  {
+    "name": "Mint-Pear Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92469,
+    "chat_link": "[&AgE1aQEA]",
+    "icon": "https://render.guildwars2.com/file/F56EAF0DD0CFF41CE402282E37F20F4D22501358/2191048.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1085
+    }
+  },
+  {
+    "name": "Spherified Sesame Oyster Soup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92471,
+    "chat_link": "[&AgE3aQEA]",
+    "icon": "https://render.guildwars2.com/file/FD0F3DD40B4E7CD8030FEDE79E51EBF55D2AA722/2191078.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1128
+    }
+  },
+  {
+    "name": "Dreamwalker Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.\nThis will also unlock this skin for your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92472,
+    "chat_link": "[&AgE4aQEA]",
+    "icon": "https://render.guildwars2.com/file/76B5E92EC8710BB2F8567854077ED4FCA32D45D0/2229273.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        9049
+      ]
+    }
+  },
+  {
+    "name": "Plate of Coq Au Vin with Mint Garnish",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92476,
+    "chat_link": "[&AgE8aQEA]",
+    "icon": "https://render.guildwars2.com/file/43E17EC338C6BC4FA838C21ABB53656BCF9A9609/2191037.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1080
+    }
+  },
+  {
+    "name": "Salsa-Topped Veggie Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92478,
+    "chat_link": "[&AgE+aQEA]",
+    "icon": "https://render.guildwars2.com/file/161BD739DCBE0BA737081A079017D6F660BE5642/2191029.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1092
+    }
+  },
+  {
+    "name": "Peppercorn-Crusted Sous-Vide Steak",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92479,
+    "chat_link": "[&AgE/aQEA]",
+    "icon": "https://render.guildwars2.com/file/EBFB0A55087C48E905D4ED9E6BE549DA6D9560F4/2191071.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1094
+    }
+  },
+  {
+    "name": "Mint Creme Brulee",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92483,
+    "chat_link": "[&AgFDaQEA]",
+    "icon": "https://render.guildwars2.com/file/D9C2BEC72B7D5D9BDD80EF070ABB41970A667307/2191045.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1098
+    }
+  },
+  {
+    "name": "Plate of Clove-Spiced Clear Truffle Ravioli",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92486,
+    "chat_link": "[&AgFGaQEA]",
+    "icon": "https://render.guildwars2.com/file/CDE1220B990FB6C1EE0534317A33F66D3478C9EA/2191080.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1086
+    }
+  },
+  {
+    "name": "Spherified Cilantro Oyster Soup",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92487,
+    "chat_link": "[&AgFHaQEA]",
+    "icon": "https://render.guildwars2.com/file/9B0D0173051264281BBA4F4B10D7514DF54105E2/2191074.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1112
+    }
+  },
+  {
+    "name": "Peppered Cured Meat Flatbread",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 92488,
+    "chat_link": "[&AgFIaQEA]",
+    "icon": "https://render.guildwars2.com/file/4E3BD999CA176E1AE6DD04CC17FB0A732A0E6A52/2191049.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 1106
+    }
+  }
+]

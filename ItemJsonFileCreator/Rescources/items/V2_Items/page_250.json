@@ -1,0 +1,7531 @@
+[
+  {
+    "name": "Flaxseed Harvesting Node",
+    "description": "This activates a flaxseed harvesting node within your home instance for daily gathering.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79063,
+    "chat_link": "[&AgHXNAEA]",
+    "icon": "https://render.guildwars2.com/file/0EDAF1F8D1147D2E7F4CEE0B75D4FA193062F906/1465616.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Blood Ruby Band (Infused)",
+    "description": "<c=@flavor>Quivering with unstable magical energy.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 79071,
+    "chat_link": "[&AgHfNAEA]",
+    "icon": "https://render.guildwars2.com/file/D81DE7028031D512B93A1D69CDF89FAD714E9A9D/1465567.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 79134
+      }
+    ],
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79124
+      }
+    ]
+  },
+  {
+    "name": "Attuned Circle of Light (Infused)",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 79072,
+    "chat_link": "[&AgHgNAEA]",
+    "icon": "https://render.guildwars2.com/file/2022E87E78C511102A3D0506241B02F4AD1BBE4D/522591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79095
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 49397
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 37095
+      }
+    ]
+  },
+  {
+    "name": "Bloodstone Fen Portal Scroll",
+    "description": "Double-click to teleport to the Pride of the Pact in Bloodstone Fen. <c=@Warning>This item cannot be used while in combat.</c>",
+    "type": "Gizmo",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79073,
+    "chat_link": "[&AgHhNAEA]",
+    "icon": "https://render.guildwars2.com/file/A8435D60DC9E2945E4582FAEAE2B775FD2D62F94/1201962.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Embellished Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79074,
+    "chat_link": "[&AgHiNAEA]",
+    "icon": "https://render.guildwars2.com/file/B162B1B50F4863A60CB9BF1F9643613510C5D575/1465702.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6871
+      ]
+    }
+  },
+  {
+    "name": "Alpine Lily",
+    "description": "A beautiful tribute for Eir.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79078,
+    "chat_link": "[&AgHmNAEA]",
+    "icon": "https://render.guildwars2.com/file/C00C3C50FE174C47D20F0126E616F6BE435F3558/66910.png"
+  },
+  {
+    "name": "Unstable Metal Chunk",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 79079,
+    "chat_link": "[&AgHnNAEA]",
+    "icon": "https://render.guildwars2.com/file/55C4B631AAE390289807A64BC6022E635EC06CEF/1465582.png"
+  },
+  {
+    "name": "Elaborate Fur Pouch",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79082,
+    "chat_link": "[&AgHqNAEA]",
+    "icon": "https://render.guildwars2.com/file/562C7C56E0DAFC5767D02A1E7C5D4022E273D34C/619523.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Shining Blade Glider",
+    "description": "This will unlock the glider skin in your account wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79084,
+    "chat_link": "[&AgHsNAEA]",
+    "icon": "https://render.guildwars2.com/file/B7D86F23F7BEE26B0A34EBA906A504A0A64B3735/1465615.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "GliderSkin"
+    }
+  },
+  {
+    "name": "Hard Wood Logging Node",
+    "description": "This activates a hard wood logging node within your home instance for daily gathering.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79085,
+    "chat_link": "[&AgHtNAEA]",
+    "icon": "https://render.guildwars2.com/file/4FF414CDA454586B499E04AE0F3908BCBEB5A46B/1465617.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Attuned Yakkington's Ring (Infused)",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 79087,
+    "chat_link": "[&AgHvNAEA]",
+    "icon": "https://render.guildwars2.com/file/57CC444123E8D75AF9AE19FC0DA961911E0A04B2/511824.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 37112
+      },
+      {
+        "upgrade": "Infusion",
+        "item_id": 79168
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 49410
+      }
+    ]
+  },
+  {
+    "name": "Lord Caudecus's Sword Skin",
+    "description": "Double-click to apply this look to any other sword. This will also unlock this skin for your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79089,
+    "chat_link": "[&AgHxNAEA]",
+    "icon": "https://render.guildwars2.com/file/F420A697B3C1ABF63569BFA5377E27F6BF6F7E34/1465779.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6884
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Empowerment",
+    "description": "Permanently gain 10% bonus experience in Bloodstone Fen. Stacks up to 3 times.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 79092,
+    "chat_link": "[&AgH0NAEA]",
+    "icon": "https://render.guildwars2.com/file/0B38D6CC150C35AB156D3ECCC641C00DC7DC9209/1465581.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Attuned Circle of Light",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned"
+    ],
+    "restrictions": [],
+    "id": 79095,
+    "chat_link": "[&AgH3NAEA]",
+    "icon": "https://render.guildwars2.com/file/2022E87E78C511102A3D0506241B02F4AD1BBE4D/522591.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79072
+      }
+    ],
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 37084
+      }
+    ]
+  },
+  {
+    "name": "Embellished Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79101,
+    "chat_link": "[&AgH9NAEA]",
+    "icon": "https://render.guildwars2.com/file/13C72F6102640E2DB3E3907B9DAADF631AC0D522/1465748.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6873
+      ]
+    }
+  },
+  {
+    "name": "Ascended Salvage Kit",
+    "description": "Double-click to salvage crafting materials from an ascended item in your inventory. Stabilizing Matrices can be salvaged from rings. Dark Energy and other items can be salvaged from weapons, armor, and other trinkets.",
+    "type": "Tool",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79105,
+    "chat_link": "[&AgEBNQEA]",
+    "icon": "https://render.guildwars2.com/file/5FB7425275E579789F5CC243F6D70AD5A997DAEA/1465513.png",
+    "details": {
+      "type": "Salvage",
+      "charges": 5
+    }
+  },
+  {
+    "name": "Attuned Marriner's Compass",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned"
+    ],
+    "restrictions": [],
+    "id": 79106,
+    "chat_link": "[&AgECNQEA]",
+    "icon": "https://render.guildwars2.com/file/225D50B7193C17213C092F6439A72AE8CBAE7180/511822.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79135
+      }
+    ],
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 37081
+      }
+    ]
+  },
+  {
+    "name": "Embellished Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79107,
+    "chat_link": "[&AgEDNQEA]",
+    "icon": "https://render.guildwars2.com/file/373934C7D53F01C14B2E05C5F21F5F35B2DBD1F3/1465694.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6886
+      ]
+    }
+  },
+  {
+    "name": "Embellished Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79109,
+    "chat_link": "[&AgEFNQEA]",
+    "icon": "https://render.guildwars2.com/file/16C026EEC648EF4C37364E5FB1ED5016191BF4EA/1465660.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6848
+      ]
+    }
+  },
+  {
+    "name": "Basic Signpost",
+    "description": "Purchase to deposit this decoration into guild storage.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79110,
+    "chat_link": "[&AgEGNQEA]",
+    "icon": "https://render.guildwars2.com/file/64DC259F3307371260B975D60A2D69A609BA3D41/1466233.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 762
+    }
+  },
+  {
+    "name": "Magic-Warped Packet",
+    "description": "Contains basic crafting materials with a chance to get ascended materials.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79114,
+    "chat_link": "[&AgEKNQEA]",
+    "icon": "https://render.guildwars2.com/file/C399F9556A9478EF32A491345C4DA07605AD49D6/1465576.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Chest of the Bloodstone Fen Hero",
+    "description": "Double-click to open. Contains 1 Sip of Liquid Karma, 1 Blood Ruby, 25 Unbound Magic, and 1 Scrap of Maguuma Mastery (Autoconsume).",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79115,
+    "chat_link": "[&AgELNQEA]",
+    "icon": "https://render.guildwars2.com/file/BFD2CB5A0604A4425DF9CD22DF0F40C4E0AE9AAA/602790.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Beetle Loot Box",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79121,
+    "chat_link": "[&AgERNQEA]",
+    "icon": "https://render.guildwars2.com/file/900B6F07174AEFC96A664AC6115D2DABC90B06B8/66867.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Apprentice Kasandra's Diary",
+    "description": "Double-click to read.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79123,
+    "chat_link": "[&AgETNQEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Blood Ruby Band",
+    "description": "<c=@flavor>Quivering with unstable magical energy.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79124,
+    "chat_link": "[&AgEUNQEA]",
+    "icon": "https://render.guildwars2.com/file/D81DE7028031D512B93A1D69CDF89FAD714E9A9D/1465567.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 79155
+      },
+      {
+        "upgrade": "Infusion",
+        "item_id": 79071
+      }
+    ]
+  },
+  {
+    "name": "Embellished Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79125,
+    "chat_link": "[&AgEVNQEA]",
+    "icon": "https://render.guildwars2.com/file/FCF10BFDAB9A5DFB0B4C0DD7E3491758E2D9EA59/1465635.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6862
+      ]
+    }
+  },
+  {
+    "name": "Grand Savant Valis the Learned's Research Journal",
+    "description": "Double-click to read.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79130,
+    "chat_link": "[&AgEaNQEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Embellished Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79131,
+    "chat_link": "[&AgEbNQEA]",
+    "icon": "https://render.guildwars2.com/file/FD11F56702153B9D470D0A0CC36F04EF9A47331B/1465712.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6861
+      ]
+    }
+  },
+  {
+    "name": "Attuned Blood Ruby Band (Infused)",
+    "description": "<c=@flavor>Quivering with unstable magical energy.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Attuned",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 79134,
+    "chat_link": "[&AgEeNQEA]",
+    "icon": "https://render.guildwars2.com/file/D81DE7028031D512B93A1D69CDF89FAD714E9A9D/1465567.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 79071
+      },
+      {
+        "upgrade": "Infusion",
+        "item_id": 79155
+      }
+    ]
+  },
+  {
+    "name": "Attuned Marriner's Compass (Infused)",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 79135,
+    "chat_link": "[&AgEfNQEA]",
+    "icon": "https://render.guildwars2.com/file/225D50B7193C17213C092F6439A72AE8CBAE7180/511822.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79106
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 37108
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 49396
+      }
+    ]
+  },
+  {
+    "name": "Unstable Rag",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 79138,
+    "chat_link": "[&AgEiNQEA]",
+    "icon": "https://render.guildwars2.com/file/B40D9107FC7B08DD54745DD7E3C8CD9127E2BD48/1465583.png"
+  },
+  {
+    "name": "Mini Bloodstone Elemental",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79139,
+    "chat_link": "[&AgEjNQEA]",
+    "icon": "https://render.guildwars2.com/file/9AF556BA3BE8FB0DCB02F09DCC6BEF6E6EA6D0D9/1466342.png",
+    "details": {
+      "minipet_id": 408
+    }
+  },
+  {
+    "name": "Noble's Folly Pass",
+    "description": "Located in Verdant Brink.\n• Quick Travel to All Cities\n• Crafting Stations\n• Bank and Guild Bank Access\n• Mystic Forge\n• Merchants\n• And more! All within easy reach, for those who enjoy the ultimate convenience.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79140,
+    "chat_link": "[&AgEkNQEA]",
+    "icon": "https://render.guildwars2.com/file/08C9286D08511022A85E656F51D64BF917F5765E/1465620.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Unstable Strongbox",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79142,
+    "chat_link": "[&AgEmNQEA]",
+    "icon": "https://render.guildwars2.com/file/9E0BAFF636D296EF96FB9CF37F3CB425A92CC7F0/619517.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Pacified Magical Storm",
+    "description": "Unlocks the Pacified Magical Storm skill for use while gliding in Bloodstone Fen.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79143,
+    "chat_link": "[&AgEnNQEA]",
+    "icon": "https://render.guildwars2.com/file/E97BA745FF671D3AC1C3D5FA7CB12C002769185B/1466357.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Gilded Strongbox",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79144,
+    "chat_link": "[&AgEoNQEA]",
+    "icon": "https://render.guildwars2.com/file/9E0BAFF636D296EF96FB9CF37F3CB425A92CC7F0/619517.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ride the Ley Line",
+    "description": "Unlocks the Ride the Ley Line skill for use while gliding in Bloodstone Fen.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79149,
+    "chat_link": "[&AgEtNQEA]",
+    "icon": "https://render.guildwars2.com/file/E5D97463D3AA00245845F5E0E421EFC454BCC37C/1466358.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Pamphlet of Wisdom",
+    "description": "Grants a large amount of experience.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 126,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79151,
+    "chat_link": "[&AgEvNQEA]",
+    "icon": "https://render.guildwars2.com/file/69A2B60F6D180FCBAD16779E68047F2BFF0FE412/1465578.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Attuned Blood Ruby Band",
+    "description": "<c=@flavor>Quivering with unstable magical energy.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Attuned"
+    ],
+    "restrictions": [],
+    "id": 79155,
+    "chat_link": "[&AgEzNQEA]",
+    "icon": "https://render.guildwars2.com/file/D81DE7028031D512B93A1D69CDF89FAD714E9A9D/1465567.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79134
+      }
+    ],
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 79124
+      }
+    ]
+  },
+  {
+    "name": "Attuned Snaff's Gyre (Infused)",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 79156,
+    "chat_link": "[&AgE0NQEA]",
+    "icon": "https://render.guildwars2.com/file/2807D67190AF5ADC1618B9135678EF3F0CA6ED61/511833.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79249
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 37113
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 49411
+      }
+    ]
+  },
+  {
+    "name": "Blood Ruby Backpack",
+    "description": "<c=@flavor>You should be careful about carrying this around with you.</c>—Scholar Glenna",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 6875,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79157,
+    "chat_link": "[&AgE1NQEA]",
+    "icon": "https://render.guildwars2.com/file/089F1F60414454034EE503F907E11AEAACA705DA/1465566.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    }
+  },
+  {
+    "name": "Magic-Warped Packet",
+    "description": "Contains basic crafting materials with a chance to get ascended materials.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79158,
+    "chat_link": "[&AgE2NQEA]",
+    "icon": "https://render.guildwars2.com/file/C399F9556A9478EF32A491345C4DA07605AD49D6/1465576.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bloodstone Crown",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 6858,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79159,
+    "chat_link": "[&AgE3NQEA]",
+    "icon": "https://render.guildwars2.com/file/C435D752E8722AABE14B28C64A6D7738BFE797F8/1465573.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Gilded Strongbox",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79160,
+    "chat_link": "[&AgE4NQEA]",
+    "icon": "https://render.guildwars2.com/file/9E0BAFF636D296EF96FB9CF37F3CB425A92CC7F0/619517.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Blood Ruby Strongbox",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79161,
+    "chat_link": "[&AgE5NQEA]",
+    "icon": "https://render.guildwars2.com/file/A8A7AF7DF2087B676215F3157835CF7F9A419F32/1465577.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Embellished Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79162,
+    "chat_link": "[&AgE6NQEA]",
+    "icon": "https://render.guildwars2.com/file/C8309D439FA07BBD6D4516671221AFD430A643E7/1465634.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6865
+      ]
+    }
+  },
+  {
+    "name": "Unbound Magic",
+    "description": "Double-click to recover a small amount of unbound magic.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79163,
+    "chat_link": "[&AgE7NQEA]",
+    "icon": "https://render.guildwars2.com/file/55CBF5154BC749F0BE7B01F9C75C04F2CD4BC561/1465799.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Apprentice Kasandra's Diary (Incomplete)",
+    "description": "Some pages appear to be missing from this book.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79166,
+    "chat_link": "[&AgE+NQEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Attuned Yakkington's Ring",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned"
+    ],
+    "restrictions": [],
+    "id": 79168,
+    "chat_link": "[&AgFANQEA]",
+    "icon": "https://render.guildwars2.com/file/57CC444123E8D75AF9AE19FC0DA961911E0A04B2/511824.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79087
+      }
+    ],
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 37083
+      }
+    ]
+  },
+  {
+    "name": "Embellished Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79174,
+    "chat_link": "[&AgFGNQEA]",
+    "icon": "https://render.guildwars2.com/file/D0B7794F2DCA1E543311F2F1B85AB3704DB90BC0/1465633.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6874
+      ]
+    }
+  },
+  {
+    "name": "Lord Caudecus's Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol. This will also unlock this skin for your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79179,
+    "chat_link": "[&AgFLNQEA]",
+    "icon": "https://render.guildwars2.com/file/C9DB9DF7210E5128FA657F01E756D44EDA2C7447/1465771.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6863
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Capacitor",
+    "description": "Consume to emit a pulse of magic that resets one of each type of Blood Ruby gear in your inventory.\n<c=@Warning>This will destroy any infusions socketed in those items.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79184,
+    "chat_link": "[&AgFQNQEA]",
+    "icon": "https://render.guildwars2.com/file/A86A4AC85945AB0FB3990CA3A61CDB0522B4F994/1465569.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Magic-Warped Bundle",
+    "description": "Contains rare crafting materials.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79186,
+    "chat_link": "[&AgFSNQEA]",
+    "icon": "https://render.guildwars2.com/file/A8A7AF7DF2087B676215F3157835CF7F9A419F32/1465577.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Magic-Warped Bundle",
+    "description": "Contains rare crafting materials.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79187,
+    "chat_link": "[&AgFTNQEA]",
+    "icon": "https://render.guildwars2.com/file/A8A7AF7DF2087B676215F3157835CF7F9A419F32/1465577.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Embellished Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79192,
+    "chat_link": "[&AgFYNQEA]",
+    "icon": "https://render.guildwars2.com/file/AF08F97916746895CEEA71CB6F6CD4455D079F06/1465738.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6859
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Cache",
+    "description": "Double-click to gain Dragonite Ore, Empyreal Fragments, Obsidian Shards, Mystic Clovers, Unbound Magic, Testimonies of Heroics, and the choice of headgear or Blood Rubies.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79193,
+    "chat_link": "[&AgFZNQEA]",
+    "icon": "https://render.guildwars2.com/file/789811FE130F2198F546B3E9A1E1B930720CD80C/1465541.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Sentient Anomaly",
+    "description": "Double-click to feed 25 Piles of Bloodstone Dust and 25 Dragonite Ore to the Sentient Anomaly. The anomaly can devour a limited amount of materials each day.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79197,
+    "chat_link": "[&AgFdNQEA]",
+    "icon": "https://render.guildwars2.com/file/4AB1B5A464BE317A08E106FC08D594E8550FB4E5/1465580.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Grand Savant Valis the Learned's Research Journal (Incomplete)",
+    "description": "Some pages appear to be missing from this book.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79206,
+    "chat_link": "[&AgFmNQEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Massively Discounted Anguished Tear of Alba",
+    "description": "Purchase Limit: 5\nPrice increases when purchase limit is reached.\nThis item grants an Anguished Tear of Alba, which can be consumed to grant 10 agony resistance for 1 hour.\nWith Fractal Attunement Mastery, grants an additional 5 agony resistance.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79207,
+    "chat_link": "[&AgFnNQEA]",
+    "icon": "https://render.guildwars2.com/file/095A764B2EBF021807A637AFCD287207B9E70563/1465540.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Embellished Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79209,
+    "chat_link": "[&AgFpNQEA]",
+    "icon": "https://render.guildwars2.com/file/7E4D391830E4D8689CDB95F32BF95AF5497B7F20/1465720.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6869
+      ]
+    }
+  },
+  {
+    "name": "Unstable Hide",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 79213,
+    "chat_link": "[&AgFtNQEA]",
+    "icon": "https://render.guildwars2.com/file/1D6975424B523894070D09E5D5135BC1147055C1/1465579.png"
+  },
+  {
+    "name": "Gilded Strongbox",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79215,
+    "chat_link": "[&AgFvNQEA]",
+    "icon": "https://render.guildwars2.com/file/9E0BAFF636D296EF96FB9CF37F3CB425A92CC7F0/619517.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bloodstone Crystal Node",
+    "description": "Activates a Bloodstone Crystal Node in your home instance.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79217,
+    "chat_link": "[&AgFxNQEA]",
+    "icon": "https://render.guildwars2.com/file/CF0AE6197F0806B0297E3E063104D9B798E1B50B/1465574.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Verdant Executor Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79220,
+    "chat_link": "[&AgF0NQEA]",
+    "icon": "https://render.guildwars2.com/file/0FB393B4D4AD2702AE57E4FE0901E3C2F660996D/1466042.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Dogfight or Flight",
+    "description": "Unlocks the Dogfight or Flight skill for use while gliding in Bloodstone Fen.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79221,
+    "chat_link": "[&AgF1NQEA]",
+    "icon": "https://render.guildwars2.com/file/2092D12CD544BCF09161E72AC6EEC394A7E6653C/1466355.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Unbound Magic",
+    "description": "Double-click to recover a small amount of unbound magic.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79222,
+    "chat_link": "[&AgF2NQEA]",
+    "icon": "https://render.guildwars2.com/file/55CBF5154BC749F0BE7B01F9C75C04F2CD4BC561/1465799.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Elaborate Fur Pouch",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79224,
+    "chat_link": "[&AgF4NQEA]",
+    "icon": "https://render.guildwars2.com/file/562C7C56E0DAFC5767D02A1E7C5D4022E273D34C/619523.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bloodstone Crown Box",
+    "description": "Open to choose a Bloodstone Crown.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79225,
+    "chat_link": "[&AgF5NQEA]",
+    "icon": "https://render.guildwars2.com/file/789811FE130F2198F546B3E9A1E1B930720CD80C/1465541.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Ghostly Justiciar Hablion",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79227,
+    "chat_link": "[&AgF7NQEA]",
+    "icon": "https://render.guildwars2.com/file/12CC06B4607CB2AEF1E5D1BFBD50712ED3E90245/1466344.png",
+    "details": {
+      "minipet_id": 406
+    }
+  },
+  {
+    "name": "Mini Jade Construct",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79229,
+    "chat_link": "[&AgF9NQEA]",
+    "icon": "https://render.guildwars2.com/file/650DB3E99B367EDE5F95CF3D21DA6DF14511E83B/1466343.png",
+    "details": {
+      "minipet_id": 407
+    }
+  },
+  {
+    "name": "Integrated Fractal Matrix",
+    "description": "Obtained from vendors in the Mistlock Observatory. Used to purchase rare items.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 1000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79230,
+    "chat_link": "[&AgF+NQEA]",
+    "icon": "https://render.guildwars2.com/file/EFB10E0748A8E82B176BD1AFFBF5E2B4C72D06CD/1465514.png"
+  },
+  {
+    "name": "Basic Grave Marker",
+    "description": "Purchase to deposit this decoration into guild storage.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79231,
+    "chat_link": "[&AgF/NQEA]",
+    "icon": "https://render.guildwars2.com/file/ED1C5CFF6597C24254802FFA40E066F6403E02D4/1466229.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 764
+    }
+  },
+  {
+    "name": "Basic Commemorative Statue",
+    "description": "Purchase to deposit this decoration into guild storage.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79233,
+    "chat_link": "[&AgGBNQEA]",
+    "icon": "https://render.guildwars2.com/file/0D17200C24050EAF9FAFBC44EAA45A3A5CED7102/1466237.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 763
+    }
+  },
+  {
+    "name": "Discounted Anguished Tear of Alba",
+    "description": "Purchase Limit: 15\nPrice increases when purchase limit is reached.\nThis item grants an Anguished Tear of Alba, which can be consumed to grant 10 agony resistance for 1 hour.\nWith Fractal Attunement Mastery, grants an additional 5 agony resistance.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1,
+    "game_types": [
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79234,
+    "chat_link": "[&AgGCNQEA]",
+    "icon": "https://render.guildwars2.com/file/095A764B2EBF021807A637AFCD287207B9E70563/1465540.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Bloodstone Crown",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 6856,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79240,
+    "chat_link": "[&AgGINQEA]",
+    "icon": "https://render.guildwars2.com/file/3560EDB5DC049FABA50EA580AE690EE5F1ADA648/1465571.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Embellished Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79246,
+    "chat_link": "[&AgGONQEA]",
+    "icon": "https://render.guildwars2.com/file/52AE9E7E11C6F8BCB70FA6129F7815BAD8DE9B18/1465652.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6877
+      ]
+    }
+  },
+  {
+    "name": "Attuned Snaff's Gyre",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned"
+    ],
+    "restrictions": [],
+    "id": 79249,
+    "chat_link": "[&AgGRNQEA]",
+    "icon": "https://render.guildwars2.com/file/2807D67190AF5ADC1618B9135678EF3F0CA6ED61/511833.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79156
+      }
+    ],
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 37093
+      }
+    ]
+  },
+  {
+    "name": "Unbound Magic",
+    "description": "Double-click to recover a large amount of unbound magic.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79255,
+    "chat_link": "[&AgGXNQEA]",
+    "icon": "https://render.guildwars2.com/file/55CBF5154BC749F0BE7B01F9C75C04F2CD4BC561/1465799.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Iron Ore Mining Node",
+    "description": "This activates an iron ore mining node within your home instance for daily gathering.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79260,
+    "chat_link": "[&AgGcNQEA]",
+    "icon": "https://render.guildwars2.com/file/69D4485D439BAD34B737AD0FB00EE7CED3E717C5/1465618.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Embellished Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79261,
+    "chat_link": "[&AgGdNQEA]",
+    "icon": "https://render.guildwars2.com/file/E9A50231D0E97F03A1A7A5D3A4943EC6D5A83654/1465668.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6882
+      ]
+    }
+  },
+  {
+    "name": "Fluctuating Mass",
+    "description": "Double-click to examine the contents.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79264,
+    "chat_link": "[&AgGgNQEA]",
+    "icon": "https://render.guildwars2.com/file/FFAD3867BA0FFD9DB2C54CFF37C2CE6F3DB375DD/1465575.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Blood Ruby Pendant",
+    "description": "<c=@flavor>Strangely warm to the touch.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 660,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79269,
+    "chat_link": "[&AgGlNQEA]",
+    "icon": "https://render.guildwars2.com/file/0A5FE727E9EB2F689749353A57953D340EE2E5DE/1465568.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Enrichment"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    }
+  },
+  {
+    "name": "Noble's Folly Pass (2 weeks)",
+    "description": "Located in Verdant Brink.\n• Quick Travel to All Cities\n• Crafting Stations\n• Bank and Guild Bank Access\n• Mystic Forge\n• Merchants\n• And more! All within easy reach, for those who enjoy the ultimate convenience.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79270,
+    "chat_link": "[&AgGmNQEA]",
+    "icon": "https://render.guildwars2.com/file/E2D5685F14283E53FAC007636C0D0F97DAC36F73/1465619.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Gilded Strongbox",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79272,
+    "chat_link": "[&AgGoNQEA]",
+    "icon": "https://render.guildwars2.com/file/9E0BAFF636D296EF96FB9CF37F3CB425A92CC7F0/619517.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Noble's Folly Pass (2 weeks)",
+    "description": "Located in Verdant Brink.\n• Quick Travel to All Cities\n• Crafting Stations\n• Bank and Guild Bank Access\n• Mystic Forge\n• Merchants\n• And more! All within easy reach, for those who enjoy the ultimate convenience.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79274,
+    "chat_link": "[&AgGqNQEA]",
+    "icon": "https://render.guildwars2.com/file/E2D5685F14283E53FAC007636C0D0F97DAC36F73/1465619.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Embellished Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79277,
+    "chat_link": "[&AgGtNQEA]",
+    "icon": "https://render.guildwars2.com/file/51B046CD46BCFE95489BE35F68590C046B26F4D6/1465676.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6868
+      ]
+    }
+  },
+  {
+    "name": "Justiciar Bauer's Memoirs",
+    "description": "Double-click to read.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79279,
+    "chat_link": "[&AgGvNQEA]",
+    "icon": "https://render.guildwars2.com/file/AC51A891D812FB67DF72B851280E6B96A2A2B940/220887.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Blood Ruby",
+    "description": "Can be consumed for unbound magic or traded with Scholar Rakka.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79280,
+    "chat_link": "[&AgGwNQEA]",
+    "icon": "https://render.guildwars2.com/file/0DA92F9059C30EF00DBC6CB0D233F235E17F12DD/1465570.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Shining Blade Backpack",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79288,
+    "chat_link": "[&AgG4NQEA]",
+    "icon": "https://render.guildwars2.com/file/B7D86F23F7BEE26B0A34EBA906A504A0A64B3735/1465615.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6854
+      ]
+    }
+  },
+  {
+    "name": "Unstable Magic Volley",
+    "description": "Unlocks the Unstable Magic Volley skill for use while gliding in Bloodstone Fen.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79292,
+    "chat_link": "[&AgG8NQEA]",
+    "icon": "https://render.guildwars2.com/file/5E023F3C05409ACA51BA2E0B4B55FBF5B606C99D/1466360.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Deeply Discounted Anguished Tear of Alba",
+    "description": "Purchase Limit: 10\nPrice increases when purchase limit is reached.\nThis item grants an Anguished Tear of Alba, which can be consumed to grant 10 agony resistance for 1 hour.\nWith Fractal Attunement Mastery, grants an additional 5 agony resistance.",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1,
+    "game_types": [
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79295,
+    "chat_link": "[&AgG/NQEA]",
+    "icon": "https://render.guildwars2.com/file/095A764B2EBF021807A637AFCD287207B9E70563/1465540.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Unbound Magic",
+    "description": "Double-click to recover a moderate amount of unbound magic.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79297,
+    "chat_link": "[&AgHBNQEA]",
+    "icon": "https://render.guildwars2.com/file/55CBF5154BC749F0BE7B01F9C75C04F2CD4BC561/1465799.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Justiciar Bauer's Memoirs (Incomplete)",
+    "description": "Some pages appear to be missing from this book.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79299,
+    "chat_link": "[&AgHDNQEA]",
+    "icon": "https://render.guildwars2.com/file/924E992B2217CFCAC6CA0F06663FA99C6629CDAB/220885.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Embellished Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79300,
+    "chat_link": "[&AgHENQEA]",
+    "icon": "https://render.guildwars2.com/file/B7FBE4D6D0DA1DD9EAF69C9D57B13A33C42C635B/1465686.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6866
+      ]
+    }
+  },
+  {
+    "name": "Maguuma Knapsack",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79301,
+    "chat_link": "[&AgHFNQEA]",
+    "icon": "https://render.guildwars2.com/file/562C7C56E0DAFC5767D02A1E7C5D4022E273D34C/619523.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Embellished Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79307,
+    "chat_link": "[&AgHLNQEA]",
+    "icon": "https://render.guildwars2.com/file/FB0D09E93D5F63B6913118D8B2C140E8F332CB33/1465756.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6876
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Indigo",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79309,
+    "chat_link": "[&AgHNNQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1458
+    }
+  },
+  {
+    "name": "Storm Bow",
+    "description": "Double-click to apply this look to any other longbow. This will also unlock this skin for your wardrobe.\n<c=@flavor>There are stories of those who traversed the depths of the Underworld for this lightning-imbued bow hundreds of years ago.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79310,
+    "chat_link": "[&AgHONQEA]",
+    "icon": "https://render.guildwars2.com/file/E50EC10FCAB8DFD309B60EB46B30A0A3CFD2185D/1478795.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6894
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Visage Skin",
+    "description": "Double-click to apply this look to any headgear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79311,
+    "chat_link": "[&AgHPNQEA]",
+    "icon": "https://render.guildwars2.com/file/764233DA47F5FD5C0F51E679C17E22640AB4FDB6/1478771.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6891,
+        6893,
+        6896
+      ]
+    }
+  },
+  {
+    "name": "Levvi's Device",
+    "description": "Double-click to scan for life-forms with high concentrations of bloodstone energy.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79312,
+    "chat_link": "[&AgHQNQEA]",
+    "icon": "https://render.guildwars2.com/file/96C04AC352CCC70A7D6ADDCFCB5F0F1F57A1696D/1302224.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Emissary's Staff",
+    "description": "Double-click to apply this look to any other staff. This will also unlock this skin for your wardrobe.\n<c=@flavor>It is said that this staff was carried by Heleyne, one of the Envoys that served as shepherds of souls into the Mists.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79315,
+    "chat_link": "[&AgHTNQEA]",
+    "icon": "https://render.guildwars2.com/file/F218B724270938AC0E4ACC1F22E147D62A0FD1EF/1478776.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6901
+      ]
+    }
+  },
+  {
+    "name": "Shattered Bloodstone Circlet",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79316,
+    "chat_link": "[&AgHUNQEA]",
+    "icon": "https://render.guildwars2.com/file/73D41C0A9B7F3201A50C730077C3D3C31EBE770C/1485043.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6888,
+        6899,
+        6900
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Coral",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79317,
+    "chat_link": "[&AgHVNQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1453
+    }
+  },
+  {
+    "name": "Winter Chimes Dye Kit",
+    "description": "Double-click to choose an account-bound, exclusive dye from this pack.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79321,
+    "chat_link": "[&AgHZNQEA]",
+    "icon": "https://render.guildwars2.com/file/C6B91C29A5D30474AC7508AB2FFE3BFEC558CDC8/1313228.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Grove Hydria",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79327,
+    "chat_link": "[&AgHfNQEA]",
+    "icon": "https://render.guildwars2.com/file/21CC09D8FC2B13190EB8AE46CAC514A156CE9216/1478761.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6902
+      ]
+    }
+  },
+  {
+    "name": "Divinity's Reach Rucksack",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79328,
+    "chat_link": "[&AgHgNQEA]",
+    "icon": "https://render.guildwars2.com/file/21629EFADA297F0B5B3D570D5D3018FA3F2D7DAF/1478749.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6898
+      ]
+    }
+  },
+  {
+    "name": "Blue Shift Dye Kit",
+    "description": "Double-click to choose an account-bound, exclusive dye from this pack.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79329,
+    "chat_link": "[&AgHhNQEA]",
+    "icon": "https://render.guildwars2.com/file/6C3E51A9FC71DDEE2F223A2507765BB0FF010355/1431714.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Anniversary Backpack and Mail Carrier Pack",
+    "description": "Double-click to choose an exclusive city-themed backpack and receive an anniversary mail carrier.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79334,
+    "chat_link": "[&AgHmNQEA]",
+    "icon": "https://render.guildwars2.com/file/B3EDC66C69031E33E66D99A5574779229D971EDC/1478765.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Hoelbrak Mountain Pack",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79336,
+    "chat_link": "[&AgHoNQEA]",
+    "icon": "https://render.guildwars2.com/file/686D4E0919E12B96BA16F495BA51931DED700161/1478755.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6892
+      ]
+    }
+  },
+  {
+    "name": "Rata Sum Apparatus",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79337,
+    "chat_link": "[&AgHpNQEA]",
+    "icon": "https://render.guildwars2.com/file/06CD5EABDF09AD54B96208C8F5962154AEDCDFBA/1478733.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6890
+      ]
+    }
+  },
+  {
+    "name": "Black Citadel Engine",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79338,
+    "chat_link": "[&AgHqNQEA]",
+    "icon": "https://render.guildwars2.com/file/2C21926B121AFF7B66B2DD2CC2F9AD62E2E22A9B/1478735.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6895
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Dark Indigo",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79340,
+    "chat_link": "[&AgHsNQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1454
+    }
+  },
+  {
+    "name": "Anniversary Mail Carrier",
+    "description": "Unlocks the ability for characters on your account to customize the way they send mail to other players and receive game mail.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79341,
+    "chat_link": "[&AgHtNQEA]",
+    "icon": "https://render.guildwars2.com/file/B204ED019F2019C5F40B032C0ED9087CE41F1E30/1478774.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Bloodstone Dark Violet",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79344,
+    "chat_link": "[&AgHwNQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1455
+    }
+  },
+  {
+    "name": "Mad King Dye Kit",
+    "description": "Double-click to choose an account-bound, exclusive dye from this pack.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79345,
+    "chat_link": "[&AgHxNQEA]",
+    "icon": "https://render.guildwars2.com/file/68B1C9C4E228064C0E7E0316202B97D2E8303A14/1114056.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bloodstone Dark Coral",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79346,
+    "chat_link": "[&AgHyNQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1456
+    }
+  },
+  {
+    "name": "Jubilant Dye Pack",
+    "description": "Double-click to choose from a large selection of account-bound dyes.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79351,
+    "chat_link": "[&AgH3NQEA]",
+    "icon": "https://render.guildwars2.com/file/536615603D3EA2990259056759C269034CE11664/1478767.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Shadow Dye Kit",
+    "description": "Double-click to choose an account-bound, exclusive dye from this pack.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79353,
+    "chat_link": "[&AgH5NQEA]",
+    "icon": "https://render.guildwars2.com/file/E70224319F4D2B047B16FD29456DEF6963B1D7D7/960281.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bloodstone Dye Kit",
+    "description": "Double-click to gain one random color. Includes six exclusive Bloodstone colors.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79354,
+    "chat_link": "[&AgH6NQEA]",
+    "icon": "https://render.guildwars2.com/file/1F5C5D6EF47408BC1FDFD02DC7271AD00A16E630/1478775.png",
+    "details": {
+      "type": "GiftBox"
+    }
+  },
+  {
+    "name": "Bloodstone Dye Pack",
+    "description": "Double-click to choose an account-bound, exclusive dye from this pack.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79356,
+    "chat_link": "[&AgH8NQEA]",
+    "icon": "https://render.guildwars2.com/file/1F5C5D6EF47408BC1FDFD02DC7271AD00A16E630/1478775.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bloodstone Violet",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79358,
+    "chat_link": "[&AgH+NQEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1457
+    }
+  },
+  {
+    "name": "Amethyst Aegis",
+    "description": "Double-click to apply this look to any other shield.\nThis will also unlock this skin for your wardrobe.\n<c=@flavor>Flawlessly cut amethyst capped with a smooth golden trim, this shield was the ultimate prize for soldiers of the past.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79360,
+    "chat_link": "[&AgEANgEA]",
+    "icon": "https://render.guildwars2.com/file/71D1705F7CB1763624AC3919043EEFAFA07B1B66/1484962.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6935
+      ]
+    }
+  },
+  {
+    "name": "Mini Jungle Lord Faren",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79361,
+    "chat_link": "[&AgEBNgEA]",
+    "icon": "https://render.guildwars2.com/file/CD3DAD250928CF939C5DC30B4864B447433B10B8/1484728.png",
+    "details": {
+      "minipet_id": 409
+    }
+  },
+  {
+    "name": "Bloodstone Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79362,
+    "chat_link": "[&AgECNgEA]",
+    "icon": "https://render.guildwars2.com/file/2C706D25F8CED12BB24B099A583DB1782614A89A/1484926.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6932
+      ]
+    }
+  },
+  {
+    "name": "Great Destroyer's Talon",
+    "description": "<c=@flavor>Still burning with an inner fire.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "default_skin": 4987,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79364,
+    "chat_link": "[&AgEENgEA]",
+    "icon": "https://render.guildwars2.com/file/027879B2F528E7CB340F425F77E39704B2DE0FF4/780656.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Peacock Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.\nThis will also unlock this skin for your wardrobe.\n<c=@flavor>This elegant scepter was the most desired weapon amongst mesmers of the past.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79365,
+    "chat_link": "[&AgEFNgEA]",
+    "icon": "https://render.guildwars2.com/file/6099FB319B3C370C3B56B09A4857C5BDFC17C57B/1484991.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6940
+      ]
+    }
+  },
+  {
+    "name": "Elemental Sword",
+    "description": "Double-click to apply this look to any other sword. This will also unlock this skin for your wardrobe.\n<c=@flavor>Dismissed by many as a mere myth, this rare blade was long pursued by the heroes of ages past.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79366,
+    "chat_link": "[&AgEGNgEA]",
+    "icon": "https://render.guildwars2.com/file/BAA2C4D877267109FCE7E1DA350A3D6A52500A23/1664025.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6937
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79369,
+    "chat_link": "[&AgEJNgEA]",
+    "icon": "https://render.guildwars2.com/file/EAED5C0290139D1AA66B0502B819F503E2B6C453/1484892.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6930
+      ]
+    }
+  },
+  {
+    "name": "Kurzick Dual Axe Skin",
+    "description": "Double-click to apply this look to any other axe.\nThis will also unlock this skin for your wardrobe.\n<c=@flavor>Threatening yet elegant, this Canthan axe was the weapon of choice for Kurzick warriors.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79372,
+    "chat_link": "[&AgEMNgEA]",
+    "icon": "https://render.guildwars2.com/file/2FC00C25A59F2223215149F85B0F65E8115672C4/1484985.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6942
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79373,
+    "chat_link": "[&AgENNgEA]",
+    "icon": "https://render.guildwars2.com/file/F5DDE6E043926B267317A9B66B1F2418A0E6CD5D/1484882.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6926
+      ]
+    }
+  },
+  {
+    "name": "Pirate Corsair Hat Skin",
+    "description": "Double-click to apply this appearance to your current helm. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79374,
+    "chat_link": "[&AgEONgEA]",
+    "icon": "https://render.guildwars2.com/file/0C961EF808677E02B94F1EB22C750AEC0B1C0169/1493905.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6914,
+        6915,
+        6931
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79375,
+    "chat_link": "[&AgEPNgEA]",
+    "icon": "https://render.guildwars2.com/file/5430BA2EE27E43993A33C0310FDF0DE5EF0A2B18/1484910.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6920
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79377,
+    "chat_link": "[&AgERNgEA]",
+    "icon": "https://render.guildwars2.com/file/A6FE37AB050A1928F3762CD6A52D5E5109671AA3/1484872.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6908
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79379,
+    "chat_link": "[&AgETNgEA]",
+    "icon": "https://render.guildwars2.com/file/47E4C2D2800CB0BBA347969ADD20065932D75CA3/1484832.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6928
+      ]
+    }
+  },
+  {
+    "name": "Taimi's Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79380,
+    "chat_link": "[&AgEUNgEA]",
+    "icon": "https://render.guildwars2.com/file/94E33212D565D103794AAC49B3CDD620597C527A/1493923.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Bloodstone Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79382,
+    "chat_link": "[&AgEWNgEA]",
+    "icon": "https://render.guildwars2.com/file/952D316BFAFC0996C11B75D30B780C20D2A4B6E6/1484856.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6934
+      ]
+    }
+  },
+  {
+    "name": "Green Commander's Compendium",
+    "description": "Double-click to use. Unlocks the account-wide ability to become a commander and the green commander icon.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79383,
+    "chat_link": "[&AgEXNgEA]",
+    "icon": "https://render.guildwars2.com/file/455C97E66518802E74A2DABEF392909E16CA031C/1484818.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Bloodstone Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79385,
+    "chat_link": "[&AgEZNgEA]",
+    "icon": "https://render.guildwars2.com/file/04C90613E8064F64BED7983B696F34560B5C97B9/1484934.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6911
+      ]
+    }
+  },
+  {
+    "name": "Dragon Kama Skin",
+    "description": "Double-click to apply this look to any other dagger.\nThis will also unlock this skin for your wardrobe.\n<c=@flavor>This was said to be one of the most sought-after weapons in the Echovald Forest.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79386,
+    "chat_link": "[&AgEaNgEA]",
+    "icon": "https://render.guildwars2.com/file/970C032564613FE6BD48C80DCF1CD2E0050ADC1E/1484975.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6906
+      ]
+    }
+  },
+  {
+    "name": "Peg-Leg Boots Skin",
+    "description": "Double-click to apply this appearance to your current boots. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79387,
+    "chat_link": "[&AgEbNgEA]",
+    "icon": "https://render.guildwars2.com/file/FC55A43210577F11E7EB3ED3AA9132CE237E0B02/1485044.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6905,
+        6909,
+        6916
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79389,
+    "chat_link": "[&AgEdNgEA]",
+    "icon": "https://render.guildwars2.com/file/A2B3669572E13001107BEAD205D201405751E6EA/1484864.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6950
+      ]
+    }
+  },
+  {
+    "name": "Pirate Hook Skin",
+    "description": "Double-click to apply this appearance to your current gloves. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79391,
+    "chat_link": "[&AgEfNgEA]",
+    "icon": "https://render.guildwars2.com/file/0928191E0BDED4FCFDC1E1BF0C3AD66454B81D90/1485045.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6903,
+        6910,
+        6943
+      ]
+    }
+  },
+  {
+    "name": "Orange Commander's Compendium",
+    "description": "Double-click to use. Unlocks the account-wide ability to become a commander and the orange commander icon.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79392,
+    "chat_link": "[&AgEgNgEA]",
+    "icon": "https://render.guildwars2.com/file/AA6C660E6D9F03D85A04C4E47C4DDD4352FB9134/1484819.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Bloodstone Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79393,
+    "chat_link": "[&AgEhNgEA]",
+    "icon": "https://render.guildwars2.com/file/80451B4902CE59EB2CC9C54F62D507ECDA0A4871/1484942.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6936
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79395,
+    "chat_link": "[&AgEjNgEA]",
+    "icon": "https://render.guildwars2.com/file/D248186AC0ED4BEFE750E201E46C04F5ACF99B29/1484835.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6947
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79399,
+    "chat_link": "[&AgEnNgEA]",
+    "icon": "https://render.guildwars2.com/file/4FC700BEDADB96AEF0A3FFC3FBB54AD2D1042DC9/1484952.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6933
+      ]
+    }
+  },
+  {
+    "name": "Destroyer Weapon Crate",
+    "description": "Double-click to open. Contains a choice of one account-bound Primordus weapon. Unlocks the Primordus Weapons collection.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79401,
+    "chat_link": "[&AgEpNgEA]",
+    "icon": "https://render.guildwars2.com/file/C25B09A216C63F4A7109CF94E66277E80F3DB79E/780319.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bloodstone Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79403,
+    "chat_link": "[&AgErNgEA]",
+    "icon": "https://render.guildwars2.com/file/2B090B024D71061E295649FDD0AF3F37BFDF02F3/1484918.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6912
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79404,
+    "chat_link": "[&AgEsNgEA]",
+    "icon": "https://render.guildwars2.com/file/54A8A170B0627158929B7A02E173AF093C2892A0/1484848.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6907
+      ]
+    }
+  },
+  {
+    "name": "Pulsating Destroyer Heart",
+    "description": "Obtained by aiding in Destroyer research in Ember Bay. Used only as part of the Primordus Weapon collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79406,
+    "chat_link": "[&AgEuNgEA]",
+    "icon": "https://render.guildwars2.com/file/49650F9C90C82D04A32E6F24ABBBEA06BF3EE8B6/1493439.png"
+  },
+  {
+    "name": "Bloodstone Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79407,
+    "chat_link": "[&AgEvNgEA]",
+    "icon": "https://render.guildwars2.com/file/22BEDB4B47B8BD7D659ECC7C3104D907ED310309/1484902.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6921
+      ]
+    }
+  },
+  {
+    "name": "Bloodstone Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79409,
+    "chat_link": "[&AgExNgEA]",
+    "icon": "https://render.guildwars2.com/file/4F9B04ECE275DB911AB92A3953FD805434FACDB1/1484834.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6925
+      ]
+    }
+  },
+  {
+    "name": "Mystic Curio",
+    "description": "Used to craft legendary weapon shards.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 83,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 79410,
+    "chat_link": "[&AgEyNgEA]",
+    "icon": "https://render.guildwars2.com/file/A9C0E631560D98A6045E5D2B93E4DEEFA521A40B/1493222.png"
+  },
+  {
+    "name": "Mini Rolling Devil",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79411,
+    "chat_link": "[&AgEzNgEA]",
+    "icon": "https://render.guildwars2.com/file/E4D8687FBA5B6BD42C34255625EA651278CED15D/1494379.png",
+    "details": {
+      "minipet_id": 410
+    }
+  },
+  {
+    "name": "Carnival Longbow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 6922,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79416,
+    "chat_link": "[&AgE4NgEA]",
+    "icon": "https://render.guildwars2.com/file/06605906C0BFB709F2206B6E3ED8331B9512F5DD/1493301.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Mystic Runestone",
+    "description": "Used in the Mystic Forge to create legendary weapons.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 660,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79418,
+    "chat_link": "[&AgE6NgEA]",
+    "icon": "https://render.guildwars2.com/file/04296A0273A1DB6866E5180B73F5A3E59E2A0C95/1493223.png"
+  },
+  {
+    "name": "Gift of Eureka",
+    "description": "Used to forge the legendary mace Eureka.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 79419,
+    "chat_link": "[&AgE7NgEA]",
+    "icon": "https://render.guildwars2.com/file/251BB8EBB564FE90FA68B1C4461011989CFF0AF1/1493242.png"
+  },
+  {
+    "name": "Reclaimed Wood Chunk",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 79423,
+    "chat_link": "[&AgE/NgEA]",
+    "icon": "https://render.guildwars2.com/file/365903EF113AAD5FF6E5F77F1E46CE1072046A3D/63126.png"
+  },
+  {
+    "name": "Pocket Jade Armor",
+    "description": "Double-click to summon a pet Jade Armor for 5 minutes. This can only be used once every 30 minutes.\n<c=flavor>I'm still working on the size issue.\n—Explorer Rakk</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 13,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79424,
+    "chat_link": "[&AgFANgEA]",
+    "icon": "https://render.guildwars2.com/file/650DB3E99B367EDE5F95CF3D21DA6DF14511E83B/1466343.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Soot-Covered Ring",
+    "description": "This soot-covered ring appears to be humming with magic.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 79428,
+    "chat_link": "[&AgFENgEA]",
+    "icon": "https://render.guildwars2.com/file/1B43A0BEDE7211780C192CBFD9AA0F9C4F0E9103/1493424.png"
+  },
+  {
+    "name": "Draconic Headdress Box",
+    "description": "Open to choose a Draconic Headdress.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79429,
+    "chat_link": "[&AgFFNgEA]",
+    "icon": "https://render.guildwars2.com/file/789811FE130F2198F546B3E9A1E1B930720CD80C/1465541.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Chunk of the Solid Ocean",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 79430,
+    "chat_link": "[&AgFGNgEA]",
+    "icon": "https://render.guildwars2.com/file/227724E753602D2435F968304F54EB4E6DA919F8/1494139.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 776
+    }
+  },
+  {
+    "name": "Chest of Legendary Shards",
+    "description": "Contains a choice of legendary weapon shards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79431,
+    "chat_link": "[&AgFHNgEA]",
+    "icon": "https://render.guildwars2.com/file/02BEB919E40F2A4E61AF3AD8AA3701A7D99A62EA/1493226.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Salvaged Debris",
+    "description": "Shinies gathered from shipwreck debris by a skritt worker.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79432,
+    "chat_link": "[&AgFINgEA]",
+    "icon": "https://render.guildwars2.com/file/0A96CEEBAB545128C2B3B95DBDAB57AAD1794B55/1493425.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Mini Pirate Captain Huuhes",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79433,
+    "chat_link": "[&AgFJNgEA]",
+    "icon": "https://render.guildwars2.com/file/5CAFABE114D64A3F2733B1CC4DBEB5339F50B099/1494380.png",
+    "details": {
+      "minipet_id": 413
+    }
+  },
+  {
+    "name": "Petrified Karka Egg",
+    "description": "<c=@flavor>Even with the effects of the fluctuating magical energies on this island, this egg must date from sometime around the rising of Orr.\n—Scientist Vratt</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 248,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79438,
+    "chat_link": "[&AgFONgEA]",
+    "icon": "https://render.guildwars2.com/file/55B8A01199139F5CCE350D95A0FCDAE20405183B/1493240.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 188.64,
+      "infix_upgrade": {
+        "id": 700,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 66
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 47
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mini Vine-Touched Destroyer Crab",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79439,
+    "chat_link": "[&AgFPNgEA]",
+    "icon": "https://render.guildwars2.com/file/409443536135F351A35BF2A95971FF57C6AF1CE1/1494376.png",
+    "details": {
+      "minipet_id": 415
+    }
+  },
+  {
+    "name": "Chest of Fractal Relics",
+    "description": "Contains 100 Fractal Relics.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 25,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79441,
+    "chat_link": "[&AgFRNgEA]",
+    "icon": "https://render.guildwars2.com/file/E1F79D59B1D74B2B0960A8C4906F48345F161B35/1493239.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Sparking Petrified Wood",
+    "description": "<c=@flavor>Constantly sparking with unbound magic.</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 413,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79444,
+    "chat_link": "[&AgFUNgEA]",
+    "icon": "https://render.guildwars2.com/file/480552F8311AE0A3C9B34E919905280B3B1F25A4/1493177.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 224.07,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    }
+  },
+  {
+    "name": "Shard of Endeavor",
+    "description": "Used to craft the legendary mace precursor Endeavor.\nCombine in the Mystic Forge with Mystic Runestones, a Gift of Metal, and a Gift of the Mists to create the Gift of Eureka.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 83,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79445,
+    "chat_link": "[&AgFVNgEA]",
+    "icon": "https://render.guildwars2.com/file/506368762F7DE438C2BA07A04E7F94AA4FA7C866/1493224.png"
+  },
+  {
+    "name": "Rurik's Engagement Ring",
+    "description": "<c=@flavor>A token of my eternal love.\n—Althea Barradin</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79446,
+    "chat_link": "[&AgFWNgEA]",
+    "icon": "https://render.guildwars2.com/file/E5D2C2CBF2ADF36C318018ED37B259CA920BD44F/1493423.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79587
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 79477
+      }
+    ]
+  },
+  {
+    "name": "Tribute to Endeavor",
+    "description": "Use weaponsmithing to refine into Shards of Endeavor, used to craft the legendary mace precursor Endeavor.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79453,
+    "chat_link": "[&AgFdNgEA]",
+    "icon": "https://render.guildwars2.com/file/DD32657178EF96B0ED5E456420DAF67136F057F4/1493225.png"
+  },
+  {
+    "name": "Light Dragonscale Epaulets",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 6970,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79455,
+    "chat_link": "[&AgFfNgEA]",
+    "icon": "https://render.guildwars2.com/file/2E0803E00A5C6229D0C697FFAAA609B2D03FE4C2/1493904.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Ember Bay Portal Scroll",
+    "description": "Double-click to teleport to the Asuran Beachhead in Ember Bay. <c=@Warning>This item cannot be used while in combat.</c>",
+    "type": "Gizmo",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79456,
+    "chat_link": "[&AgFgNgEA]",
+    "icon": "https://render.guildwars2.com/file/A8E4080AF82E7D6D02F950EDB4B03D4CB01616AD/1493235.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Light Dragonscale Headdress",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 6955,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79457,
+    "chat_link": "[&AgFhNgEA]",
+    "icon": "https://render.guildwars2.com/file/A8FB7F93030061325F3A6C30967843BC2296BF9A/1493903.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Rurik's Engagement Ring",
+    "description": "<c=@flavor>A token of my eternal love.\n—Althea Barradin</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Attuned",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 79460,
+    "chat_link": "[&AgFkNgEA]",
+    "icon": "https://render.guildwars2.com/file/E5D2C2CBF2ADF36C318018ED37B259CA920BD44F/1493423.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79477
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 79587
+      }
+    ]
+  },
+  {
+    "name": "Carnival Scepter",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 6945,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79461,
+    "chat_link": "[&AgFlNgEA]",
+    "icon": "https://render.guildwars2.com/file/7DD0EA62D00D9166D3BE451574CB00A7026794D6/1493372.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Bundle of Petrified Wood",
+    "description": "Can be consumed for unbound magic or traded with Scholar Surra.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79462,
+    "chat_link": "[&AgFmNgEA]",
+    "icon": "https://render.guildwars2.com/file/EC4BA02B3BFEE603551B53BBF5305679AE700776/1493259.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Lava Skull Backpack",
+    "type": "Back",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 330,
+    "default_skin": 6956,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79463,
+    "chat_link": "[&AgFnNgEA]",
+    "icon": "https://render.guildwars2.com/file/0907E713010D76C80339792A907F7113EAA50A78/1493194.png",
+    "details": {
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 89.628,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    }
+  },
+  {
+    "name": "Unbound Logging Axe",
+    "description": "Used to chop down all saplings.\n\nRewards unbound magic on each swing in addition to logging results.",
+    "type": "Gathering",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79465,
+    "chat_link": "[&AgFpNgEA]",
+    "icon": "https://render.guildwars2.com/file/910C37EC56CC9E09CA02E341321806114ED6B024/1493422.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Heavy Dragonscale Epaulets",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 6951,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79468,
+    "chat_link": "[&AgFsNgEA]",
+    "icon": "https://render.guildwars2.com/file/2E0803E00A5C6229D0C697FFAAA609B2D03FE4C2/1493904.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Petrified Wood",
+    "description": "Can be consumed for unbound magic or traded with Scholar Surra.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79469,
+    "chat_link": "[&AgFtNgEA]",
+    "icon": "https://render.guildwars2.com/file/EC4BA02B3BFEE603551B53BBF5305679AE700776/1493259.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Medium Dragonscale Headdress",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 6969,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79471,
+    "chat_link": "[&AgFvNgEA]",
+    "icon": "https://render.guildwars2.com/file/A8FB7F93030061325F3A6C30967843BC2296BF9A/1493903.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Cosmic Logging Tool",
+    "description": "Perfect for use on all types of trees. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79472,
+    "chat_link": "[&AgFwNgEA]",
+    "icon": "https://render.guildwars2.com/file/09D72038D9BAF1BE2F4FCE0527F427D4F76B6F0C/1493270.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Carnival Dagger",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 6948,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79474,
+    "chat_link": "[&AgFyNgEA]",
+    "icon": "https://render.guildwars2.com/file/3C7B369CA9FF05241EF9C078062C58A296CBB51C/1493316.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Circus Voucher",
+    "description": "A discount voucher earned by aiding Ivy's Circus Spectacular.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79476,
+    "chat_link": "[&AgF0NgEA]",
+    "icon": "https://render.guildwars2.com/file/42F1E949FFE024DD0F5AF461150A053BBA5D0AD2/1493442.png"
+  },
+  {
+    "name": "Rurik's Engagement Ring",
+    "description": "<c=@flavor>A token of my eternal love.\n—Althea Barradin</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "NotUpgradeable",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Attuned"
+    ],
+    "restrictions": [],
+    "id": 79477,
+    "chat_link": "[&AgF1NgEA]",
+    "icon": "https://render.guildwars2.com/file/E5D2C2CBF2ADF36C318018ED37B259CA920BD44F/1493423.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        584,
+        656,
+        658,
+        1119,
+        657,
+        1038,
+        1097,
+        659,
+        690,
+        583,
+        585,
+        1037,
+        586,
+        1035,
+        588,
+        1114,
+        1128,
+        1163,
+        1066,
+        1064,
+        660,
+        1430,
+        1436,
+        591,
+        581,
+        592,
+        1263,
+        1271,
+        1265,
+        1270,
+        1262,
+        1268,
+        1264,
+        1267,
+        1269,
+        1366,
+        1367,
+        1374,
+        1549,
+        1566
+      ]
+    },
+    "upgrades_into": [
+      {
+        "upgrade": "Infusion",
+        "item_id": 79460
+      }
+    ],
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 79446
+      }
+    ]
+  },
+  {
+    "name": "Sack of Petrified Wood",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79479,
+    "chat_link": "[&AgF3NgEA]",
+    "icon": "https://render.guildwars2.com/file/A8A7AF7DF2087B676215F3157835CF7F9A419F32/1465577.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Carnival Greatsword",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 6918,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79480,
+    "chat_link": "[&AgF4NgEA]",
+    "icon": "https://render.guildwars2.com/file/90C6EFDB0CF5F591AD4DDFCD3D91243614172F0F/1493332.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 995,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Medium Dragonscale Epaulets",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 6964,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79481,
+    "chat_link": "[&AgF5NgEA]",
+    "icon": "https://render.guildwars2.com/file/2E0803E00A5C6229D0C697FFAAA609B2D03FE4C2/1493904.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carnival Warhorn",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 6944,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79482,
+    "chat_link": "[&AgF6NgEA]",
+    "icon": "https://render.guildwars2.com/file/E7B7C7F409B551A3047E2BB236D0101C71AC0306/1493413.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Dragonscale Epaulettes Box",
+    "description": "Open to choose Dragonscale Epaulettes.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79484,
+    "chat_link": "[&AgF8NgEA]",
+    "icon": "https://render.guildwars2.com/file/789811FE130F2198F546B3E9A1E1B930720CD80C/1465541.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Carnival Torch",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 6913,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79487,
+    "chat_link": "[&AgF/NgEA]",
+    "icon": "https://render.guildwars2.com/file/F4077DF25349610C21619272B7540105B52F8031/1493404.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Plate of Sweet Curried Mussels",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 79488,
+    "chat_link": "[&AgGANgEA]",
+    "icon": "https://render.guildwars2.com/file/C8A14139004038F522D7362E76344790C55E7360/1493237.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "100% Chance to Gain Fury on Kill\n+70 Ferocity\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Fragments of the Solid Ocean",
+    "description": "Purchase to deposit this decoration into guild storage.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "NoUnderwater",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79489,
+    "chat_link": "[&AgGBNgEA]",
+    "icon": "https://render.guildwars2.com/file/C32A555A08C5DBAA095520A6FA4ECD6C3645DE9B/1494140.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 769
+    }
+  },
+  {
+    "name": "Mini Captain Grumby",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79490,
+    "chat_link": "[&AgGCNgEA]",
+    "icon": "https://render.guildwars2.com/file/01797577C12176A8EABDEC0A76F3DDAB45560F7B/1494375.png",
+    "details": {
+      "minipet_id": 411
+    }
+  },
+  {
+    "name": "Spire of the Solid Ocean",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 79491,
+    "chat_link": "[&AgGDNgEA]",
+    "icon": "https://render.guildwars2.com/file/BB03D1BD17DEC657BF60B7771D00182C1215B926/1494141.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 777
+    }
+  },
+  {
+    "name": "Mini Lava Elemental",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79493,
+    "chat_link": "[&AgGFNgEA]",
+    "icon": "https://render.guildwars2.com/file/22EF2FC807AD030F11380A100BEED929B73C2024/1494378.png",
+    "details": {
+      "minipet_id": 414
+    }
+  },
+  {
+    "name": "Infinite Mist Mobility Potion",
+    "description": "Increases movement speed in the Fractals of the Mists. Grants five stacks of the standard potion.\nWith Fractal Attunement Mastery, converts a portion of your agony resistance to concentration.\nTurn in unwanted potions to Dessa's Alchemist for Fractal Relics.",
+    "type": "Gizmo",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79494,
+    "chat_link": "[&AgGGNgEA]",
+    "icon": "https://render.guildwars2.com/file/C1C9640A5331230FCD3BA4E4B3572DB0A7E7CF0E/1201538.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Aqueous Amulet",
+    "description": "<c=@flavor>This amulet appears to have a minor dampening effect on the Destroyers, and it is always strangely cool to the touch.\n—Researcher Twilli</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 79495,
+    "chat_link": "[&AgGHNgEA]",
+    "icon": "https://render.guildwars2.com/file/C70E60E30C997CF0777E6B49383E5128B5C15817/222392.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 700,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 106
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 75
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      }
+    }
+  }
+]

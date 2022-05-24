@@ -1,0 +1,6715 @@
+[
+  {
+    "name": "Bronze Chisel",
+    "description": "Used to refine decorations.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70420,
+    "chat_link": "[&AgEUEwEA]",
+    "icon": "https://render.guildwars2.com/file/508095BC6143024703060F5EADC9079C7D0254E9/1201975.png"
+  },
+  {
+    "name": "Recipe: Wupwup Cloth Breather",
+    "description": "A recipe to make an ascended light breather with Celestial (+All) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 45,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70421,
+    "chat_link": "[&AgEVEwEA]",
+    "icon": "https://render.guildwars2.com/file/2043A27DAB06EC19E17C0C66722A957F2E41D2D5/1201545.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10226
+    }
+  },
+  {
+    "name": "Illusory Rival",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70422,
+    "chat_link": "[&AgEWEwEA]",
+    "icon": "https://render.guildwars2.com/file/3FA42263CDDC1479E3B92D39A1B868FB496AD80B/1205310.png"
+  },
+  {
+    "name": "Recipe: Pahua's Warhammer",
+    "description": "A recipe to make an ascended hammer with Trailblazer's (+Toughness, +Condition Damage, +Expertise, and +Vitality) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70423,
+    "chat_link": "[&AgEXEwEA]",
+    "icon": "https://render.guildwars2.com/file/3520E022E7E669026648DC6A280B3CDD7DBE1302/849327.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11018
+    }
+  },
+  {
+    "name": "Wanderer's Intricate Gossamer Insignia",
+    "description": "Used in the crafting of armor with +Power, +Vitality, +Concentration, and +Toughness.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 64,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70424,
+    "chat_link": "[&AgEYEwEA]",
+    "icon": "https://render.guildwars2.com/file/15CAEE3ACF1D39477228C01FF7E61D7D9ADE401D/1478772.png"
+  },
+  {
+    "name": "Shackles of Madness Skin",
+    "description": "Double-click to imbue another glove item's stats with this appearance (one-time ability).",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 250,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70425,
+    "chat_link": "[&AgEZEwEA]",
+    "icon": "https://render.guildwars2.com/file/552933BC0B7925F54903FAB115504AD76A5A68D3/1223683.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6273,
+        6414,
+        6487
+      ]
+    }
+  },
+  {
+    "name": "Pouch of Black Pigment",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70426,
+    "chat_link": "[&AgEaEwEA]",
+    "icon": "https://render.guildwars2.com/file/E6AE5A6D2B0E3AF3AA18F6DD5A706B19C66C1E41/1200708.png"
+  },
+  {
+    "name": "Giant Shark Tooth",
+    "description": "<c=@flavor>Razor sharp.</c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70427,
+    "chat_link": "[&AgEbEwEA]",
+    "icon": "https://render.guildwars2.com/file/F5970C72FAADD3FB142ED24908E5C30EC301D3C9/1205399.png"
+  },
+  {
+    "name": "Itzel Funerary Customs",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70429,
+    "chat_link": "[&AgEdEwEA]",
+    "icon": "https://render.guildwars2.com/file/09D5CC42680FED30CE9A5AC2EB7EFCA93F522B06/66843.png"
+  },
+  {
+    "name": "Scalawag's Lucky Coin",
+    "description": "Carried by pirates all over Central Tyria.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70430,
+    "chat_link": "[&AgEeEwEA]",
+    "icon": "https://render.guildwars2.com/file/4A1710690160563572BA3E7046DDB7B2A7C7B116/222382.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 53
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Crusader Orichalcum Imbued Inscription",
+    "description": "Used in the crafting of weapons with +Power, +Toughness, +Ferocity, and +Healing.",
+    "type": "CraftingMaterial",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70434,
+    "chat_link": "[&AgEiEwEA]",
+    "icon": "https://render.guildwars2.com/file/BEA0A8F95A27416DEF034567CC592EB4DB7D4A56/904678.png"
+  },
+  {
+    "name": "Solution: Finite Result",
+    "description": "Used to craft the backpack Finite Result. Extras can be purchased from the Aetherblade Quartermaster in the Captain Mai Trin Boss fractal for Balls of Dark Energy.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70435,
+    "chat_link": "[&AgEjEwEA]",
+    "icon": "https://render.guildwars2.com/file/DCA678B606AD70016D511892565421EC0EDB3C9C/223857.png"
+  },
+  {
+    "name": "Bugs in the Branches: Silver",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70436,
+    "chat_link": "[&AgEkEwEA]",
+    "icon": "https://render.guildwars2.com/file/EB06E07FD75BEBF77506A278402AC5B843315F4E/1201556.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Soft Wood Pulp",
+    "description": "Refined from planks.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70437,
+    "chat_link": "[&AgElEwEA]",
+    "icon": "https://render.guildwars2.com/file/5CEBD23612D63519A8FE02BF0B0DD1B1697507FD/1201949.png"
+  },
+  {
+    "name": "Fractal Encryption Key",
+    "description": "This key will unlock one Fractal Encryption containing bonus items from the fractals!\n\nFractal Encryptions can be found in the final reward chest of any fractal inside the Fractals of the Mist.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 250,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70438,
+    "chat_link": "[&AgEmEwEA]",
+    "icon": "https://render.guildwars2.com/file/44D851C8A8C0803AF0D0D9DF6D0CF4CD6F78059B/1200198.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Essence of Bounty Hunting",
+    "description": "Use this essence to craft a completed precursor.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70439,
+    "chat_link": "[&AgEnEwEA]",
+    "icon": "https://render.guildwars2.com/file/3F0178DE157BB3AE3CFBB40E3F0D5E66C51804D8/1205272.png"
+  },
+  {
+    "name": "Guild Crafting Boost",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 70440,
+    "chat_link": "[&AgEoEwEA]",
+    "icon": "https://render.guildwars2.com/file/AAD09854FC72046ECF3B01250DE40C360F356579/222800.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 0,
+      "apply_count": 1,
+      "name": "Guild Crafting Boost",
+      "icon": "https://render.guildwars2.com/file/1336F6B56A3B1A0D730F325A7336C57E04A46945/102891.png",
+      "description": "Increase crafting critical chance by 14%."
+    }
+  },
+  {
+    "name": "Minstrel's Pearl Brazier",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 3975,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70441,
+    "chat_link": "[&AgEpEwEA]",
+    "icon": "https://render.guildwars2.com/file/98B15511979E1AFE4360EF45935C261C4A77C55C/67814.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1123,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 102
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 102
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Svaard's Harpoon Gun",
+    "description": "<c=@flavor>Crafted in the style of the famous mercenary, Grymm Svaard.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70442,
+    "chat_link": "[&AgEqEwEA]",
+    "icon": "https://render.guildwars2.com/file/58D835FA92D8BAC4C3D034550BB0CF1C2CF80E1A/632023.png",
+    "details": {
+      "type": "Speargun",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1111,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 215
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 215
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 118
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Salvaged Compass",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70443,
+    "chat_link": "[&AgErEwEA]",
+    "icon": "https://render.guildwars2.com/file/5257256257D44E7C4D2EE99A0BC13B0BC7E7211F/1301995.png"
+  },
+  {
+    "name": "Magnification Lens",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70444,
+    "chat_link": "[&AgEsEwEA]",
+    "icon": "https://render.guildwars2.com/file/9780DE1109631427A309535CF39A06010BF2EE53/1302140.png"
+  },
+  {
+    "name": "Star Chart: Siege Devourer",
+    "description": "Double-click to combine the four charr star charts into the Charr Constellation Chapter.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70445,
+    "chat_link": "[&AgEtEwEA]",
+    "icon": "https://render.guildwars2.com/file/2C22464A22C1C3DE21485015FEC0581F5A029F09/1301994.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Marauder Pearl Needler",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 3952,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70446,
+    "chat_link": "[&AgEuEwEA]",
+    "icon": "https://render.guildwars2.com/file/655E24F31AFA03C0699AAAD6BCA7FF317D2B2849/67754.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1111,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 205
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 113
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Frog's Breath",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70447,
+    "chat_link": "[&AgEvEwEA]",
+    "icon": "https://render.guildwars2.com/file/1B70A369B7F39CBB3D17C143CEC29AB2C22543F1/1302230.png"
+  },
+  {
+    "name": "Chest of Concoctions",
+    "description": "Contains the Essence of Concoctions and a Recipe: Research.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70448,
+    "chat_link": "[&AgEwEwEA]",
+    "icon": "https://render.guildwars2.com/file/543B60B11203D72F022C2A7E98A81790320D6F3F/1204758.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Superior Rune of the Druid",
+    "description": "<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece of armor.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 65,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70450,
+    "chat_link": "[&AgEyEwEA]",
+    "icon": "https://render.guildwars2.com/file/0FBCEEC6A67AE360C81EE314801948A5FA31E2D5/1201521.png",
+    "details": {
+      "type": "Rune",
+      "flags": [
+        "HeavyArmor",
+        "LightArmor",
+        "MediumArmor"
+      ],
+      "infusion_upgrade_flags": [],
+      "bonuses": [
+        "+25 Healing",
+        "+35 Vitality",
+        "+50 Healing",
+        "+65 Vitality",
+        "+100 Healing",
+        "Gain +500 healing power for 3 seconds after casting a glyph."
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "suffix": "of the Druid"
+    }
+  },
+  {
+    "name": "Priory Equipment Guide",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70451,
+    "chat_link": "[&AgEzEwEA]",
+    "icon": "https://render.guildwars2.com/file/924E992B2217CFCAC6CA0F06663FA99C6629CDAB/220885.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Tiny Bag of Airship Parts",
+    "description": "Contains 2 airship parts.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70452,
+    "chat_link": "[&AgE0EwEA]",
+    "icon": "https://render.guildwars2.com/file/119940E27E1344030199BC26350DE1587311A09E/1029823.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Vigil Equipment Guide",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70453,
+    "chat_link": "[&AgE1EwEA]",
+    "icon": "https://render.guildwars2.com/file/924E992B2217CFCAC6CA0F06663FA99C6629CDAB/220885.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Basic Finishing Kit",
+    "description": "Used to craft decorations.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70454,
+    "chat_link": "[&AgE2EwEA]",
+    "icon": "https://render.guildwars2.com/file/94B6FE57295F24943B4D38C1FA0F04FD010F40B1/1201942.png"
+  },
+  {
+    "name": "Leftpaw's Leather Breather",
+    "description": "<c=@flavor>Crafted in the style of the renowned charr engineer, Tybalt Leftpaw.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 856,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70456,
+    "chat_link": "[&AgE4EwEA]",
+    "icon": "https://render.guildwars2.com/file/FA1D042B0845BED8DA3CFA0FAA0837D5EB0207A6/61297.png",
+    "details": {
+      "type": "HelmAquatic",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 700,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Potted Mature Night Thistle",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70459,
+    "chat_link": "[&AgE7EwEA]",
+    "icon": "https://render.guildwars2.com/file/725D49B7AC3D9E211E1A02BAFF306DDFABA9212A/1225781.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 265
+    }
+  },
+  {
+    "name": "Recipe: Viper's Exalted Mantle",
+    "description": "A recipe to make a Viper's Exalted Mantle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70460,
+    "chat_link": "[&AgE8EwEA]",
+    "icon": "https://render.guildwars2.com/file/B81DF7D6D1222E0165B36C92450298583BAE7070/849282.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10477
+    }
+  },
+  {
+    "name": "Gold Fractal Weapon Crate",
+    "description": "Contains a random gold fractal weapon.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70464,
+    "chat_link": "[&AgFAEwEA]",
+    "icon": "https://render.guildwars2.com/file/6204473F5133BC10C90503F6E835CE089A6D9D93/888384.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Visage of Balthazar",
+    "description": "Used in statue crafting. Earned at the Temple of Balthazar in Orr.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70465,
+    "chat_link": "[&AgFBEwEA]",
+    "icon": "https://render.guildwars2.com/file/12E84A2F5974B3D10816C0574644A4ADF7A1C853/1201969.png"
+  },
+  {
+    "name": "Experimental Spear Head",
+    "description": "",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70466,
+    "chat_link": "[&AgFCEwEA]",
+    "icon": "https://render.guildwars2.com/file/F1FAFE1217440948B861C04566232706D5F278E1/1205763.png"
+  },
+  {
+    "name": "Jormag Minion Loot Box",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70467,
+    "chat_link": "[&AgFDEwEA]",
+    "icon": "https://render.guildwars2.com/file/AE7F580152DA1D964CD4D42B3477E2D6BBE85527/1201760.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Alpha Wolf Spirit",
+    "description": "Taken from a Champion Alpha Wolf.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70468,
+    "chat_link": "[&AgFEEwEA]",
+    "icon": "https://render.guildwars2.com/file/22C44AEC2C72A57749122E5EB20A066F561006DE/1204974.png"
+  },
+  {
+    "name": "Recipe: Vigilant Pearl Bludgeoner",
+    "description": "A recipe to make a Vigilant Pearl Bludgeoner.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70469,
+    "chat_link": "[&AgFFEwEA]",
+    "icon": "https://render.guildwars2.com/file/802E0895B53955AC0E23CAB89C01D42C6E3525AF/849289.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10448
+    }
+  },
+  {
+    "name": "Ruka's Striders",
+    "description": "<c=@flavor>Crafted in the style of the Exalted wanderer, Ruka.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 117,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70470,
+    "chat_link": "[&AgFGEwEA]",
+    "icon": "https://render.guildwars2.com/file/33BC7FAC99DD9F5E68DFEAED70AC3145DBA707B0/699207.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1140,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 22
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 40
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 22
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Tizlak's Visage",
+    "description": "<c=@flavor>Crafted in the style of the great Nuhoch commander, Tizlak.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 124,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70471,
+    "chat_link": "[&AgFHEwEA]",
+    "icon": "https://render.guildwars2.com/file/0EBB9F33579CC54CC39F685868FFD79D7A0FEEDC/699204.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 54
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 54
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 30
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 30
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Black Wolf Loot Box",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70472,
+    "chat_link": "[&AgFIEwEA]",
+    "icon": "https://render.guildwars2.com/file/CC0880A32AD5DD0408537C70E2EF0F09B229DED3/1201765.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Minstrel's Draconic Legs",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70473,
+    "chat_link": "[&AgFJEwEA]",
+    "icon": "https://render.guildwars2.com/file/5B4F503619F5F5C659E961E76E290BAB6F234816/61566.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 242,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 1123,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 77
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 42
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 77
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 42
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Quiche of Darkness",
+    "description": "Double-click to learn this recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70474,
+    "chat_link": "[&AgFKEwEA]",
+    "icon": "https://render.guildwars2.com/file/5507C6DF4DCCB41ACF0D3A366F0AF2EC9BBE41A9/849266.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11396,
+      "extra_recipe_ids": [
+        11673
+      ]
+    }
+  },
+  {
+    "name": "Steam Cogs",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70475,
+    "chat_link": "[&AgFLEwEA]",
+    "icon": "https://render.guildwars2.com/file/98BED3BDD9E0A29A2DA09850F62213F132E8C1A6/1302000.png"
+  },
+  {
+    "name": "Tamed Spirit",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70476,
+    "chat_link": "[&AgFMEwEA]",
+    "icon": "https://render.guildwars2.com/file/6199466F63193156CC3621062E0858DD0A339B47/1302100.png"
+  },
+  {
+    "name": "Berserker's Lightward's Battlestaff",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 6307,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70477,
+    "chat_link": "[&AgFNEwEA]",
+    "icon": "https://render.guildwars2.com/file/47B4FE05F122576CB63D2D016E509EEB6914980C/1206455.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Choking",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 171
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ogre Scimitar",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 4100,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70478,
+    "chat_link": "[&AgFOEwEA]",
+    "icon": "https://render.guildwars2.com/file/C0335CD6B9D0C13A6AB3201442E0D8C45B6BCF6F/68726.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 802,
+      "max_power": 886,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Necromancer's Cache",
+    "description": "Rewarded for map completion on a Heart of Maguuma map with a necromancer.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70479,
+    "chat_link": "[&AgFPEwEA]",
+    "icon": "https://render.guildwars2.com/file/E57102652D0C49F24928FEC25E073B0C37EDF908/534204.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Svaard's Revolver",
+    "description": "<c=@flavor>Crafted in the style of the famous mercenary, Grymm Svaard.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4171,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70482,
+    "chat_link": "[&AgFSEwEA]",
+    "icon": "https://render.guildwars2.com/file/30CE6EC06B1F9C1F084E61101EFE0170504D0824/631983.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1111,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 108
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 108
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 59
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Marauder Emblazoned Boots",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 198,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70484,
+    "chat_link": "[&AgFUEwEA]",
+    "icon": "https://render.guildwars2.com/file/E8E3621EE10F44A6ED1CC4295161E7D5C0F17F36/61610.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 157,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1111,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 38
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 38
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 21
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 21
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "The Anthem of Homecoming",
+    "description": "Guild anthem to play during victories or achievements",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70485,
+    "chat_link": "[&AgFVEwEA]",
+    "icon": "https://render.guildwars2.com/file/C44105C345E25E334F30B29B694FA32E53A2465B/1465552.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Meteorite Ingot",
+    "description": "A recipe to make Meteorite Ingots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70486,
+    "chat_link": "[&AgFWEwEA]",
+    "icon": "https://render.guildwars2.com/file/9E676FEA12E7780C35A223FA12E10F542A0F7818/1201549.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11710
+    }
+  },
+  {
+    "name": "Attuned Rurik's Royal Signet Ring",
+    "description": "This item crackles with the infused energy of the Fractals of the Mists and is attuned to have a bonus agony infusion slot.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned"
+    ],
+    "restrictions": [],
+    "id": 70487,
+    "chat_link": "[&AgFXEwEA]",
+    "icon": "https://render.guildwars2.com/file/5D37E17ED2A3A058166D02A170650D0F03A81CA3/511830.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 583,
+        "buff": {
+          "skill_id": 15743,
+          "description": "+32 Toughness\n+18 Power\n+18 Ferocity"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 126
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 37090
+      }
+    ]
+  },
+  {
+    "name": "Master's Finishing Kit",
+    "description": "Used to craft decorations.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70489,
+    "chat_link": "[&AgFZEwEA]",
+    "icon": "https://render.guildwars2.com/file/44CE134D733E220A94351B9FF67BABB923E9A0E8/1201945.png"
+  },
+  {
+    "name": "Berserker's Auric Axe",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 6153,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70490,
+    "chat_link": "[&AgFaEwEA]",
+    "icon": "https://render.guildwars2.com/file/2BE2A4F5C602D83BA60B5278090F272919FEF59F/1200260.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Choking",
+      "min_power": 857,
+      "max_power": 1048,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Trailblazer's Chak Sword",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 6207,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70492,
+    "chat_link": "[&AgFcEwEA]",
+    "icon": "https://render.guildwars2.com/file/3975C4EA9FF632E6159E0C46A1A2A12FDA011F4B/1206743.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Choking",
+      "min_power": 802,
+      "max_power": 886,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 1085,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 91
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 50
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 91
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 50
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Essence of Prey",
+    "description": "Use this essence to craft a first-tier precursor.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70493,
+    "chat_link": "[&AgFdEwEA]",
+    "icon": "https://render.guildwars2.com/file/3356AED31CEAED9BDE06225CDAB71A3B6956F813/1205265.png"
+  },
+  {
+    "name": "Dwarven Runestones Vol. 2",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70494,
+    "chat_link": "[&AgFeEwEA]",
+    "icon": "https://render.guildwars2.com/file/417DF1CA6863EA78270A61192C64EF4BEFE63B32/1301963.png"
+  },
+  {
+    "name": "Aetherium Production Boost (100,000 Influence)",
+    "description": "Boosts aetherium production by 5% for 16 hours and 40 minutes in exchange for 100000 influence.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70495,
+    "chat_link": "[&AgFfEwEA]",
+    "icon": "https://render.guildwars2.com/file/37A5D8F1E53EF725042874B2D2D6450D3DCECB7C/219368.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Karka Cake",
+    "description": "<c=@flavor>A delicacy fit for a queen.<c>",
+    "type": "Consumable",
+    "level": 20,
+    "rarity": "Exotic",
+    "vendor_value": 54,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70496,
+    "chat_link": "[&AgFgEwEA]",
+    "icon": "https://render.guildwars2.com/file/6A16FC0B62E2C3BF052C1E63FCDD0768D2184DB5/1205410.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 900000,
+      "apply_count": 1,
+      "name": "Nourishment",
+      "icon": "https://render.guildwars2.com/file/779D3F0ABE5B46C09CFC57374DA8CC3A495F291C/436367.png",
+      "description": "+200 Condition Damage for 30 Seconds on Kill\n+70 Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": " Mastery Point",
+    "description": "Earn a Mastery point the first time you reach this tier.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70497,
+    "chat_link": "[&AgFhEwEA]",
+    "icon": "https://render.guildwars2.com/file/7849C9932FEA7D9BE30BE8EFEF7C512DCC261FA7/1203235.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Ancient Planetarium Slide",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70499,
+    "chat_link": "[&AgFjEwEA]",
+    "icon": "https://render.guildwars2.com/file/2A35D21D403F6D3768027C65C1F57BFE95AE9928/1302115.png"
+  },
+  {
+    "name": "Inquest Servo",
+    "description": "Dropped by the Mark II Inquest golem in Mount Maelstrom.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70501,
+    "chat_link": "[&AgFlEwEA]",
+    "icon": "https://render.guildwars2.com/file/D60A01937DD044620C680B7EE5E0C02909FAD018/1201514.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 154,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 53
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mistward Legging Lining",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 1000,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70502,
+    "chat_link": "[&AgFmEwEA]",
+    "icon": "https://render.guildwars2.com/file/9D9F11C255F6D7AC0941C73566CB0E91376EA3CD/1201813.png"
+  },
+  {
+    "name": "Cleric's Auric Hammer",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 6156,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70503,
+    "chat_link": "[&AgFnEwEA]",
+    "icon": "https://render.guildwars2.com/file/73041A7627B2D547406DA6043406D7560CAC36BB/1202731.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Choking",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 155,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 171
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 239
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Yassith's Greatbow",
+    "description": "<c=@flavor>Crafted in the style of the Forgotten, Sariss Yassith.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4202,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70504,
+    "chat_link": "[&AgFoEwEA]",
+    "icon": "https://render.guildwars2.com/file/E80A036DDBDE45EA0874AC76FC1BBAA3F939F04A/631969.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 966,
+      "max_power": 1134,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1153,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 215
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 118
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 215
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Minstrel's Draconic Boots",
+    "description": "A recipe to make Minstrel's Draconic Boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70505,
+    "chat_link": "[&AgFpEwEA]",
+    "icon": "https://render.guildwars2.com/file/4FB13A730DD207E3344E02B87F4CB1ACD675FA15/849305.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10762
+    }
+  },
+  {
+    "name": "Attuned Lunaria, Circle of the Moon",
+    "description": "This item crackles with the infused energy of the Fractals of the Mists and is attuned to have a bonus agony infusion slot.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned"
+    ],
+    "restrictions": [],
+    "id": 70507,
+    "chat_link": "[&AgFrEwEA]",
+    "icon": "https://render.guildwars2.com/file/EFF8434DFE2B67026FA202091FD1F6ED2653E4A9/511819.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 588,
+        "buff": {
+          "skill_id": 15750,
+          "description": "+13 Condition Damage\n+13 Precision\n+13 Toughness\n+13 Power\n+13 Vitality\n+13 Healing Power\n+13 Ferocity\n+13 Concentration\n+13 Expertise"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 57
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 57
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 57
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 57
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 57
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 57
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 57
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 57
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 57
+          }
+        ]
+      }
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 37078
+      }
+    ]
+  },
+  {
+    "name": "Ruka's Visor",
+    "description": "<c=@flavor>Crafted in the style of the Exalted wanderer, Ruka.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 122,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70508,
+    "chat_link": "[&AgFsEwEA]",
+    "icon": "https://render.guildwars2.com/file/D4FC06FD1B58AF62E771D7747C66F0E8FAAB8054/699216.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 1140,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 54
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 30
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 54
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 30
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Commander's Pearl Trident",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 3939,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70509,
+    "chat_link": "[&AgFtEwEA]",
+    "icon": "https://render.guildwars2.com/file/EDF623A3384647AAE654AABA7C2A626403B40C7B/220087.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 205
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 113
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Trailblazer's Orichalcum Imbued Inscription",
+    "description": "A recipe to make a Trailblazer's Orichalcum Imbued Inscription.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70510,
+    "chat_link": "[&AgFuEwEA]",
+    "icon": "https://render.guildwars2.com/file/54269235C84EC75ABAA8CA03CEA810BD6DFEFA73/849308.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10948
+    }
+  },
+  {
+    "name": "Recipe: Commander's Exalted Gloves",
+    "description": "A recipe to make Commander's Exalted Gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70514,
+    "chat_link": "[&AgFyEwEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11595
+    }
+  },
+  {
+    "name": "Twoloop Friendship Bracelet",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70520,
+    "chat_link": "[&AgF4EwEA]",
+    "icon": "https://render.guildwars2.com/file/5970483D549C70311403BEF5B973E80C4A653CCA/1204909.png"
+  },
+  {
+    "name": "Delicate Passion Flower",
+    "description": "<c=@flavor>Its delicate tendrils are mesmerizing.<c>",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70521,
+    "chat_link": "[&AgF5EwEA]",
+    "icon": "https://render.guildwars2.com/file/71AA1EC5B3FDBA5706FE039A0F44FC950535B6BA/1205240.png"
+  },
+  {
+    "name": "Oiled Orichalcum Shield Boss",
+    "description": "Used to craft Shields.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70522,
+    "chat_link": "[&AgF6EwEA]",
+    "icon": "https://render.guildwars2.com/file/59905C80D92E0357446EA2EC00C1EA0DCBD7590C/1202003.png"
+  },
+  {
+    "name": "Jade Kraken Timed Mote",
+    "description": "Complete the Jade Maw timed challenge (scale 20)! Beat the Jade Maw in less than five minutes!",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1000,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70523,
+    "chat_link": "[&AgF7EwEA]",
+    "icon": "https://render.guildwars2.com/file/06BC03520B49DD5FEAF8AC1EEFA8D819029824BF/1202350.png"
+  },
+  {
+    "name": "Recipe: Yassith's Spire",
+    "description": "A recipe to make an ascended staff with Viper's (+Condition Damage, +Power, +Expertise, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70525,
+    "chat_link": "[&AgF9EwEA]",
+    "icon": "https://render.guildwars2.com/file/6233E7A2A3C9BE1E3DB8B2735819C3A13F1A7912/849322.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10130
+    }
+  },
+  {
+    "name": "Green Tree",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70526,
+    "chat_link": "[&AgF+EwEA]",
+    "icon": "https://render.guildwars2.com/file/67D5E0280709A2F7DB23D89F5DF66EB97AC8244A/1228207.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 371
+    }
+  },
+  {
+    "name": "Vigilant Pearl Broadsword",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 4099,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70527,
+    "chat_link": "[&AgF/EwEA]",
+    "icon": "https://render.guildwars2.com/file/BFA69F67BF067CBA6742C4FAEB9353066906BE17/67764.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 995,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1118,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 205
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Gift of Glory",
+    "description": "Combine with the Gift of War, Gift of Battle, and a Cube of Stabilized Dark Energy in the Mystic Forge to create the Gift of the Mists.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70528,
+    "chat_link": "[&AgGAEwEA]",
+    "icon": "https://render.guildwars2.com/file/6D09364B7B3D423AA15375AE60723993B0C56C75/1302183.png"
+  },
+  {
+    "name": "Guild Flame Ram Blueprint",
+    "description": "Use to construct a guild flame ram build site. This ram is more powerful than the standard flame ram and displays your guild emblem. Range 360. Requires 40 supply to complete.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70532,
+    "chat_link": "[&AgGEEwEA]",
+    "icon": "https://render.guildwars2.com/file/FB12804948060D72BA046980374EEC375624B660/1228587.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Ruka's Warfists",
+    "description": "A recipe to make ascended heavy gloves with Wanderer's (+Power, +Vitality, +Concentration, and +Toughness) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70533,
+    "chat_link": "[&AgGFEwEA]",
+    "icon": "https://render.guildwars2.com/file/EEC8F3F85DA3B3920C4ADAD9D81DBCA62711FFE5/849280.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10612
+    }
+  },
+  {
+    "name": "Champion Kralkatorrik the Crystal Dragon Loot Box",
+    "description": "This champion container has champion bags, dragonite ore, and empyreal fragments.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70534,
+    "chat_link": "[&AgGGEwEA]",
+    "icon": "https://render.guildwars2.com/file/A5E6353AA1160433DA7477FC60B9B9E5E20E5216/1201751.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bladed Leggings Box",
+    "description": "Double-click to choose a piece of light, medium, or heavy armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70535,
+    "chat_link": "[&AgGHEwEA]",
+    "icon": "https://render.guildwars2.com/file/21E0CCFD196D174B0132CCE10909EFE560221DFC/771003.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bauxite Ore",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70537,
+    "chat_link": "[&AgGJEwEA]",
+    "icon": "https://render.guildwars2.com/file/AD071E68625C5294062E6141B8063C12565C2B78/1205036.png"
+  },
+  {
+    "name": "Saphir's Metal Breather",
+    "description": "<c=@flavor>Crafted in the style of the ancient Shining Blade armorer, Saphir.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 854,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70538,
+    "chat_link": "[&AgGKEwEA]",
+    "icon": "https://render.guildwars2.com/file/FA1D042B0845BED8DA3CFA0FAA0837D5EB0207A6/61297.png",
+    "details": {
+      "type": "HelmAquatic",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 753,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 45
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 63
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Chicken Pelt",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70539,
+    "chat_link": "[&AgGLEwEA]",
+    "icon": "https://render.guildwars2.com/file/7F020ABE611EE9A4E6CAF37B69CFF3DCC12DCC75/1204980.png"
+  },
+  {
+    "name": "Berserker's Auric Mace",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 6508,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70541,
+    "chat_link": "[&AgGNEwEA]",
+    "icon": "https://render.guildwars2.com/file/9F009A0AF3074ED1EBFEF99922D0FD935F143D0C/1203136.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Choking",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Vigilant Pearl Shell",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 4098,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70542,
+    "chat_link": "[&AgGOEwEA]",
+    "icon": "https://render.guildwars2.com/file/BD5B06100B0AC1441FBBFA96FE47CB0A02C64F0D/67796.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 806,
+      "max_power": 909,
+      "defense": 61,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1118,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 102
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Experimental Scepter Core",
+    "description": "",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70545,
+    "chat_link": "[&AgGREwEA]",
+    "icon": "https://render.guildwars2.com/file/180FBA61A305CEC40AC668D39F783168C4A5AD40/1205756.png"
+  },
+  {
+    "name": "Recipe: Birdhouse",
+    "description": "Double-click to learn this recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70547,
+    "chat_link": "[&AgGTEwEA]",
+    "icon": "https://render.guildwars2.com/file/3D423F6758A5265FF1195303529B32E239C6B0BF/849385.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10198
+    }
+  },
+  {
+    "name": "Deldrimor Steel Breather Casing",
+    "description": "Used to craft Deldrimor Steel Breathers.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70548,
+    "chat_link": "[&AgGUEwEA]",
+    "icon": "https://render.guildwars2.com/file/10760F5ADB6FAFF2C8CE0271BE1A96569BDA04BD/699266.png"
+  },
+  {
+    "name": "Divinity Lamp",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70549,
+    "chat_link": "[&AgGVEwEA]",
+    "icon": "https://render.guildwars2.com/file/25131F995DC87CF744ED7509E23002E896919621/1227546.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 626
+    }
+  },
+  {
+    "name": "Auric Axe Shielding",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 100,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 70550,
+    "chat_link": "[&AgGWEwEA]",
+    "icon": "https://render.guildwars2.com/file/CE03DDB7A10DE1AAC01606580171BB70040480BD/1202989.png"
+  },
+  {
+    "name": "Love of Revolution",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70551,
+    "chat_link": "[&AgGXEwEA]",
+    "icon": "https://render.guildwars2.com/file/EC2B280EBDF7EFCB706F71975365B61A2071054C/1204831.png"
+  },
+  {
+    "name": "Dragonvine Whispers Strap",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70552,
+    "chat_link": "[&AgGYEwEA]",
+    "icon": "https://render.guildwars2.com/file/1F44F1E0DBF50416C73E6D07301420FE0A48792E/1207138.png"
+  },
+  {
+    "name": "Recipe: Chiaroscuro Staffs",
+    "description": "Unlocks the following recipes:\n• Shimmering Staff\n• Tenebrous Staff",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70553,
+    "chat_link": "[&AgGZEwEA]",
+    "icon": "https://render.guildwars2.com/file/B00E062899E80C806A7BB83DDCCDE213E19151B9/849329.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9973,
+      "extra_recipe_ids": [
+        11549
+      ]
+    }
+  },
+  {
+    "name": "Attuned Khilbron's Phylactery (Infused)",
+    "description": "This item crackles with the infused energy of the Fractals of the Mists and is attuned to have a bonus agony infusion slot.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 495,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse",
+      "Attuned",
+      "Infused"
+    ],
+    "restrictions": [],
+    "id": 70554,
+    "chat_link": "[&AgGaEwEA]",
+    "icon": "https://render.guildwars2.com/file/55A6A999A52591BB7607421A13996D5DA6530780/511815.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 594,
+        "buff": {
+          "skill_id": 15752,
+          "description": "+32 Condition Damage\n+18 Precision\n+18 Toughness\n+5 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 126
+          }
+        ]
+      }
+    },
+    "upgrades_from": [
+      {
+        "upgrade": "Attunement",
+        "item_id": 37094
+      },
+      {
+        "upgrade": "Infusion",
+        "item_id": 38024
+      },
+      {
+        "upgrade": "Attunement",
+        "item_id": 49401
+      }
+    ]
+  },
+  {
+    "name": "Tizlak's Epaulets",
+    "description": "<c=@flavor>Crafted in the style of the great Nuhoch commander, Tizlak.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 119,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70555,
+    "chat_link": "[&AgGbEwEA]",
+    "icon": "https://render.guildwars2.com/file/0C4E1FEED2C75BC8F6F1D3D11C18303EEF573EED/699208.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 22
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 22
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Guild Magic Find",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage"
+    ],
+    "restrictions": [],
+    "id": 70556,
+    "chat_link": "[&AgGcEwEA]",
+    "icon": "https://render.guildwars2.com/file/11BF2D14C1396C06C7992FF8A80B322DA9CD7BA2/222754.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 0,
+      "apply_count": 1,
+      "name": "Guild Item Research",
+      "icon": "https://render.guildwars2.com/file/1336F6B56A3B1A0D730F325A7336C57E04A46945/102891.png",
+      "description": "Magic Find Increased by 5%"
+    }
+  },
+  {
+    "name": "Recipe: Commander's Emblazoned Gloves",
+    "description": "A recipe to make Commander's Emblazoned Gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70558,
+    "chat_link": "[&AgGeEwEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10139
+    }
+  },
+  {
+    "name": "There with Yakkington: A Travelers Tale Prologue",
+    "description": "This item only has value as part of a collection.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70559,
+    "chat_link": "[&AgGfEwEA]",
+    "icon": "https://render.guildwars2.com/file/19040822CC12FB7BDA5C4A01555ECDF7902343B6/220889.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Balanced Focus Casing",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70560,
+    "chat_link": "[&AgGgEwEA]",
+    "icon": "https://render.guildwars2.com/file/686B0B14F3F507B2C85A4814C8C52541AEF6F804/1205713.png"
+  },
+  {
+    "name": "Recipe: Ossa's Greatbow",
+    "description": "A recipe to make an ascended longbow with Crusader (+Power, +Toughness, +Ferocity, and +Healing) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70561,
+    "chat_link": "[&AgGhEwEA]",
+    "icon": "https://render.guildwars2.com/file/1A060693BEC1773D0F07514442E81F60CF270D07/849330.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10157
+    }
+  },
+  {
+    "name": "Recipe: Laranthir's Flanged Mace",
+    "description": "A recipe to make an ascended mace with Vigilant (+Power, +Toughness, +Concentration, and +Expertise) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70562,
+    "chat_link": "[&AgGiEwEA]",
+    "icon": "https://render.guildwars2.com/file/BB7898A431A3B9190EEEF3B408226B9E20CED208/849316.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10715
+    }
+  },
+  {
+    "name": "Bottle of Elemental Energy",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70563,
+    "chat_link": "[&AgGjEwEA]",
+    "icon": "https://render.guildwars2.com/file/D92AA0FCC1EBA2B46B3D0A21B8D7BA956E999FDE/1205796.png"
+  },
+  {
+    "name": "Rodgort's Flame Experiment",
+    "description": "Salvage this weapon to receive its spirit, needed to craft the next tier of this legendary precursor.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 6432,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70566,
+    "chat_link": "[&AgGmEwEA]",
+    "icon": "https://render.guildwars2.com/file/34050519A3651533DA95EDEB31D1BCE5A84ED44A/1206942.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "suffix_item_id": 24561
+    }
+  },
+  {
+    "name": "Keg of Instant World Experience",
+    "description": "Grants 25,000 world experience.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70567,
+    "chat_link": "[&AgGnEwEA]",
+    "icon": "https://render.guildwars2.com/file/92770E03039F75A2F6BA66CCDAA9D52D02173372/632445.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Viper's Pearl Impaler",
+    "description": "A recipe to make a Viper's Pearl Impaler.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70568,
+    "chat_link": "[&AgGoEwEA]",
+    "icon": "https://render.guildwars2.com/file/043DA2FD01D8DD0B03C369B9B2020CC81138FFCF/849287.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10568
+    }
+  },
+  {
+    "name": "Crusader Pearl Bludgeoner",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 4075,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70569,
+    "chat_link": "[&AgGpEwEA]",
+    "icon": "https://render.guildwars2.com/file/4C3C6AA7923B3B4CF2BBF37505D71A146A21FA4A/67776.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1109,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 102
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Ornate Guild Breastplate",
+    "description": "Double-click to learn this heavy coat recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70570,
+    "chat_link": "[&AgGqEwEA]",
+    "icon": "https://render.guildwars2.com/file/28B4037C69C2A00A0603FBBE0864441B9948B8E5/849297.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10440
+    }
+  },
+  {
+    "name": "Glyphic Handblade",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 5234,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70571,
+    "chat_link": "[&AgGrEwEA]",
+    "icon": "https://render.guildwars2.com/file/EED3DD9C78A29772084A56DFD91AA95A0CBB49CA/62843.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 819,
+      "max_power": 869,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Wanderer's Draconic Pauldrons",
+    "description": "A recipe to make Wanderer's Draconic Pauldrons.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70573,
+    "chat_link": "[&AgGtEwEA]",
+    "icon": "https://render.guildwars2.com/file/B81DF7D6D1222E0165B36C92450298583BAE7070/849282.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10604
+    }
+  },
+  {
+    "name": "Keeper's Metal Breather",
+    "description": "<c=@flavor>Crafted in the style of the Forgotten Keeper of Armor.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 854,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70574,
+    "chat_link": "[&AgGuEwEA]",
+    "icon": "https://render.guildwars2.com/file/FA1D042B0845BED8DA3CFA0FAA0837D5EB0207A6/61297.png",
+    "details": {
+      "type": "HelmAquatic",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 63
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 45
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Marauder Emblazoned Gloves",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 204,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70575,
+    "chat_link": "[&AgGvEwEA]",
+    "icon": "https://render.guildwars2.com/file/597D35D5FD36DC7F7CB90AE704BB5F27FD29D122/61612.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 157,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1111,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 38
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 38
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 21
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 21
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Bowl of Passion Fruit Tapioca Pudding",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70576,
+    "chat_link": "[&AgGwEwEA]",
+    "icon": "https://render.guildwars2.com/file/BBF80F4920FE7C970CA1C9007CAB0043AD7EE762/1201551.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11583
+    }
+  },
+  {
+    "name": "Swamp Gas",
+    "description": "Use the pressure found in the depths of the Aquatic Ruins Fractal to combine 10 Piles of Bloodstone Dust with Swamp Gas to form Explosive Fumes.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70577,
+    "chat_link": "[&AgGxEwEA]",
+    "icon": "https://render.guildwars2.com/file/7059094C4AAB454D284E4A45ACB89327E3FAF1A7/1205069.png"
+  },
+  {
+    "name": "Zucchini Seeds",
+    "description": "Plant these seeds in your hidden garden in Mount Maelstrom.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70579,
+    "chat_link": "[&AgGzEwEA]",
+    "icon": "https://render.guildwars2.com/file/24C2CB661E01AC09360273441234AD963CF6330C/1205246.png"
+  },
+  {
+    "name": "Defender of Ascalon",
+    "description": "Purchased with Pristine Fractal Relics from BUY-2046 PFR in Mistlock Observatory.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1500,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 70580,
+    "chat_link": "[&AgG0EwEA]",
+    "icon": "https://render.guildwars2.com/file/696028F3F54127B001EA51643B9025132EE030F8/1202338.png"
+  },
+  {
+    "name": "Viper's Pearl Needler",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 3952,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70581,
+    "chat_link": "[&AgG1EwEA]",
+    "icon": "https://render.guildwars2.com/file/655E24F31AFA03C0699AAAD6BCA7FF317D2B2849/67754.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1153,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 205
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Valkyrie Auric Short Bow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 6366,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70583,
+    "chat_link": "[&AgG3EwEA]",
+    "icon": "https://render.guildwars2.com/file/0F7F4BDF3EACEA21C6781C2923E4C04F0D57271A/1200808.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Choking",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 157,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 171
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 171
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Shimmering Hammer",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 6498,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70584,
+    "chat_link": "[&AgG4EwEA]",
+    "icon": "https://render.guildwars2.com/file/EC0B2FB3DF4C9106A3ECB90EF2EAA2FAE9B9674B/1202781.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Choking",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Bladed Glove Box",
+    "description": "Double-click to choose a piece of light, medium, or heavy armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70585,
+    "chat_link": "[&AgG5EwEA]",
+    "icon": "https://render.guildwars2.com/file/21E0CCFD196D174B0132CCE10909EFE560221DFC/771003.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Dredge Lesson on Metalcraft",
+    "description": "Sold by Rebel Isaak in Frostgorge Sound.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70587,
+    "chat_link": "[&AgG7EwEA]",
+    "icon": "https://render.guildwars2.com/file/DBF694D7189D1005B29106DD453326DB69222A18/65636.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 75
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 53
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 53
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Improvised Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 70589,
+    "chat_link": "[&AgG9EwEA]",
+    "icon": "https://render.guildwars2.com/file/ACD3B6A37BC8F0A07F4BD008C7DF7704CE614718/1203547.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        6393
+      ]
+    }
+  },
+  {
+    "name": "Damaged Airship Compass",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70590,
+    "chat_link": "[&AgG+EwEA]",
+    "icon": "https://render.guildwars2.com/file/FE184C2BE91F99D018DB1FC8AEACE7D0E2F5920B/1301958.png"
+  },
+  {
+    "name": "Griffon Fountain",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70591,
+    "chat_link": "[&AgG/EwEA]",
+    "icon": "https://render.guildwars2.com/file/12701EE529080D754E0535BCB0CAAAE611DA6CAA/1227626.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 374
+    }
+  },
+  {
+    "name": "Oiled Orichalcum Trident Head",
+    "description": "Used to craft Tridents.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70592,
+    "chat_link": "[&AgHAEwEA]",
+    "icon": "https://render.guildwars2.com/file/53A05B9B34DC55BA56D86B151C2F612F527F50D1/1202008.png"
+  },
+  {
+    "name": "Svaard's Greaves",
+    "description": "<c=@flavor>Crafted in the style of the famous mercenary, Grymm Svaard.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 114,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70593,
+    "chat_link": "[&AgHBEwEA]",
+    "icon": "https://render.guildwars2.com/file/DBEE7E93AF2FF0FAEC1CE996F52B949EC872D69C/699219.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1111,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 40
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 22
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 22
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Minstrel's Exalted Masque",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 185,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70594,
+    "chat_link": "[&AgHCEwEA]",
+    "icon": "https://render.guildwars2.com/file/0F2101315C12A3E75263224DEA3B946FFD0801E0/61523.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 1123,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 51
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 28
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 51
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 28
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Anguished Tear of Alba",
+    "description": "Grants 10 agony resistance. \n<c=@reminder>With Fractal Attunement Mastery, this item grants an additional 5 agony resistance.</c>",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1,
+    "game_types": [
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70596,
+    "chat_link": "[&AgHEEwEA]",
+    "icon": "https://render.guildwars2.com/file/095A764B2EBF021807A637AFCD287207B9E70563/1465540.png",
+    "details": {
+      "type": "Generic",
+      "duration_ms": 3600000,
+      "apply_count": 1,
+      "name": "Anguished Tear of Alba",
+      "icon": "https://render.guildwars2.com/file/7AFB5A34DB4521B6B692B01409D5E1F7E9FB2A49/587139.png",
+      "description": "Grants 10 agony resistance."
+    }
+  },
+  {
+    "name": "Bladed Helmet",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "default_skin": 6338,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70597,
+    "chat_link": "[&AgHFEwEA]",
+    "icon": "https://render.guildwars2.com/file/D1AE0B075902C458BB01052CC8B3C6F9F031809D/1223612.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Mistward Legguards",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 370,
+    "default_skin": 6511,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "DeleteWarning",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70598,
+    "chat_link": "[&AgHGEwEA]",
+    "icon": "https://render.guildwars2.com/file/DCB2AFBB96310B289C4BD824132AB14EDC6D4DBD/960115.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 242,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "stat_choices": [
+        161,
+        154,
+        158
+      ]
+    }
+  },
+  {
+    "name": "Superior Rune of Leadership",
+    "description": "<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece of armor.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70600,
+    "chat_link": "[&AgHIEwEA]",
+    "icon": "https://render.guildwars2.com/file/0CD614069C9917057D1BEC5B060E689E18E8EE51/1201517.png",
+    "details": {
+      "type": "Rune",
+      "flags": [
+        "HeavyArmor",
+        "LightArmor",
+        "MediumArmor"
+      ],
+      "infusion_upgrade_flags": [],
+      "bonuses": [
+        "+8 to All Stats",
+        "+5% Boon Duration",
+        "+12 to All Stats",
+        "+10% Boon Duration",
+        "+16 to All Stats",
+        "+10% Boon Duration; convert up to 3 conditions into boons for nearby allies after using an elite skill. <c=@reminder>(Cooldown: 45 Seconds)</c>"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "suffix": "of Leadership"
+    }
+  },
+  {
+    "name": "Recipe: Pahua's Claymore",
+    "description": "A recipe to make an ascended greatsword with Trailblazer's (+Toughness, +Condition Damage, +Expertise, +Vitality) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70602,
+    "chat_link": "[&AgHKEwEA]",
+    "icon": "https://render.guildwars2.com/file/04ADE6C44959217F7B2A05720DBFB25B55AA42E4/849318.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10082
+    }
+  },
+  {
+    "name": "Recipe: Maklain's Visage",
+    "description": "A recipe to make an ascended medium helm with Minstrel's (+Toughness, +Healing, +Concentration, and +Vitality) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70604,
+    "chat_link": "[&AgHMEwEA]",
+    "icon": "https://render.guildwars2.com/file/AC1C3075784E0C4235BD9E22E1752D6B49D66F0F/849281.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11045
+    }
+  },
+  {
+    "name": "Guild Trebuchet Blueprints",
+    "description": "Use to construct a guild trebuchet build site. It is more powerful than a standard trebuchet and displays your guild emblem. Range 10,000. Requires 100 supplies to complete.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70605,
+    "chat_link": "[&AgHNEwEA]",
+    "icon": "https://render.guildwars2.com/file/F06D7EB9F1581430A2FB60E2B3DB4609A6FF32F5/1228590.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Crusader Pearl Carver",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 4097,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70608,
+    "chat_link": "[&AgHQEwEA]",
+    "icon": "https://render.guildwars2.com/file/3EB97D4B966B1848CF6A2B4A1C1D736BF4C3E3B1/67756.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1109,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 102
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mordrem Bear Finisher",
+    "description": "Summon the Mordrem bear to finish off your foes!",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70609,
+    "chat_link": "[&AgHREwEA]",
+    "icon": "https://render.guildwars2.com/file/0CD29D32D59D296595C4FD032C0B39195C467730/1228726.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "The Energizer Experiment",
+    "description": "Salvage this weapon to receive its spirit, needed to craft the next tier of this legendary precursor.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 6314,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70610,
+    "chat_link": "[&AgHSEwEA]",
+    "icon": "https://render.guildwars2.com/file/9C4157B2D9316F5DA4B203DA129153DD9FFAB45D/1203209.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      },
+      "suffix_item_id": 24561
+    }
+  },
+  {
+    "name": "Oiled Orichalcum Boot Lining",
+    "description": "Used to craft Orichalcum Boots.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 8,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70612,
+    "chat_link": "[&AgHUEwEA]",
+    "icon": "https://render.guildwars2.com/file/56979FD66C09782D9D177752F07E40DDD29F22AF/1201805.png"
+  },
+  {
+    "name": "Recipe: Ornate Guild Vambraces",
+    "description": "Double-click to learn this medium gloves recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70613,
+    "chat_link": "[&AgHVEwEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10408
+    }
+  },
+  {
+    "name": "West Tarir Commendation",
+    "description": "Defend this sector of Tarir from the octovine.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70615,
+    "chat_link": "[&AgHXEwEA]",
+    "icon": "https://render.guildwars2.com/file/0E775B98F2B7491192DC0D930F973F6A92A143EB/1200185.png"
+  },
+  {
+    "name": "Crystallized Tadpole",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 1000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70616,
+    "chat_link": "[&AgHYEwEA]",
+    "icon": "https://render.guildwars2.com/file/56A1564D2F09C3C43E76316ED105494B66282D73/1202683.png"
+  },
+  {
+    "name": "Recipe: Bowl of Sawgill Mushroom Risotto",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 52,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70617,
+    "chat_link": "[&AgHZEwEA]",
+    "icon": "https://render.guildwars2.com/file/BBF80F4920FE7C970CA1C9007CAB0043AD7EE762/1201551.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11002
+    }
+  },
+  {
+    "name": "Recipe: Vigilant Pearl Quarterstaff",
+    "description": "A recipe to make a Vigilant Pearl Quarterstaff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70618,
+    "chat_link": "[&AgHaEwEA]",
+    "icon": "https://render.guildwars2.com/file/B00E062899E80C806A7BB83DDCCDE213E19151B9/849329.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10564
+    }
+  },
+  {
+    "name": "Endless Exalted Bastion Tonic",
+    "description": "Double-click to transform for 15 minutes. You will be unable to fight while transformed.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 70619,
+    "chat_link": "[&AgHbEwEA]",
+    "icon": "https://render.guildwars2.com/file/3105E913525ABECA980322B96B07A53225A10F43/1201542.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bottle of Aetherblade Energy",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70620,
+    "chat_link": "[&AgHcEwEA]",
+    "icon": "https://render.guildwars2.com/file/60B0BAF4D6B0473C6C6E9BA841DA52F22162C10C/1205794.png"
+  },
+  {
+    "name": "Trailblazer's Chak Warhorn",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 6201,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70622,
+    "chat_link": "[&AgHeEwEA]",
+    "icon": "https://render.guildwars2.com/file/372F52FFE1C100B5ED92F2EBF95AC49579BEB409/1207237.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Choking",
+      "min_power": 722,
+      "max_power": 797,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 1085,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 91
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 50
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 91
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 50
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Gobrech's Leather Breather",
+    "description": "A recipe to make an ascended medium breather with Valkyrie (+Power, +Ferocity, and +Vitality) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 45,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70624,
+    "chat_link": "[&AgHgEwEA]",
+    "icon": "https://render.guildwars2.com/file/2043A27DAB06EC19E17C0C66722A957F2E41D2D5/1201545.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11080
+    }
+  },
+  {
+    "name": "Spark's Energy",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70626,
+    "chat_link": "[&AgHiEwEA]",
+    "icon": "https://render.guildwars2.com/file/D2F165BC675C6EE5D847154914AD041B6E30A616/1205322.png"
+  },
+  {
+    "name": "Square Planter",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70627,
+    "chat_link": "[&AgHjEwEA]",
+    "icon": "https://render.guildwars2.com/file/DFC546D52DB00676D10455A809A42E53B99DBC5A/1224074.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 312
+    }
+  },
+  {
+    "name": "Pile of Golden Sand",
+    "description": "<c=@flavor>Coarse Sand turned to gold in the Pyrite Peninsula.<c>",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70628,
+    "chat_link": "[&AgHkEwEA]",
+    "icon": "https://render.guildwars2.com/file/3501C2BBADF95BE5F14E31484850E851EFCA33CB/434536.png",
+    "details": {
+      "type": "Food"
+    }
+  },
+  {
+    "name": "Uzolan's Notes",
+    "description": "Used to make the scribe's sketchbook for Uzolan's Mechanical Orchestra.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70629,
+    "chat_link": "[&AgHlEwEA]",
+    "icon": "https://render.guildwars2.com/file/9E676FEA12E7780C35A223FA12E10F542A0F7818/1201549.png"
+  },
+  {
+    "name": "Pahua's Pauldrons",
+    "description": "<c=@flavor>Crafted in the style of the Teku Nuhoch Kaana, Pahua.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 113,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70630,
+    "chat_link": "[&AgHmEwEA]",
+    "icon": "https://render.guildwars2.com/file/BCF8FD08CF3F4A263704370659D69FEE2EDD0C45/699214.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1085,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 40
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 22
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 40
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 22
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "The Juggernaut Vol. 3",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70631,
+    "chat_link": "[&AgHnEwEA]",
+    "icon": "https://render.guildwars2.com/file/06AC0F06219427B9AD95EAAA314B64AE075E021E/1204685.png"
+  },
+  {
+    "name": "Ruka's Wanderer's Inscription",
+    "description": "Used in the crafting of weapons with +Power, +Vitality, +Concentration, and +Toughness.",
+    "type": "CraftingMaterial",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 30,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70632,
+    "chat_link": "[&AgHoEwEA]",
+    "icon": "https://render.guildwars2.com/file/0353F166FC47F4750633BE001E020C3AAD68C538/904677.png"
+  },
+  {
+    "name": "Recipe: Minstrel's Pearl Crusher",
+    "description": "A recipe to make a Minstrel's Pearl Crusher.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70633,
+    "chat_link": "[&AgHpEwEA]",
+    "icon": "https://render.guildwars2.com/file/0E6ECF2B7D5B300979A70325120A646195C213F0/849290.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10110
+    }
+  },
+  {
+    "name": "Recipe: Maklain's Wand",
+    "description": "A recipe to make an ascended scepter with Minstrel's (+Toughness, +Healing, +Concentration, and +Vitality) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70634,
+    "chat_link": "[&AgHqEwEA]",
+    "icon": "https://render.guildwars2.com/file/45FBC1B93A0E9C24E10269ADBD082905A0BB1A37/849321.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10321
+    }
+  },
+  {
+    "name": "Invisible Reaper's Mushroom Spore",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70636,
+    "chat_link": "[&AgHsEwEA]",
+    "icon": "https://render.guildwars2.com/file/02C8490298FE3913CDF15B30126275DBC8FD94F9/66919.png"
+  },
+  {
+    "name": "Recipe: Wanderer's Draconic Gauntlets",
+    "description": "A recipe to make Wanderer's Draconic Gauntlets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70637,
+    "chat_link": "[&AgHtEwEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10816
+    }
+  },
+  {
+    "name": "Gold Fractal Warhorn",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 4500,
+    "default_skin": 6369,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70638,
+    "chat_link": "[&AgHuEwEA]",
+    "icon": "https://render.guildwars2.com/file/2E91C2B7CE5BB3615DC948A90E7D3028E3426FC0/1207249.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Blue Cushion",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70640,
+    "chat_link": "[&AgHwEwEA]",
+    "icon": "https://render.guildwars2.com/file/B1B9295BC7BB5D65479C0A01DD07A721025B7576/1227620.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 179
+    }
+  },
+  {
+    "name": "Yassith's Leggings",
+    "description": "<c=@flavor>Crafted in the style of the Forgotten, Sariss Yassith.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 112,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70641,
+    "chat_link": "[&AgHxEwEA]",
+    "icon": "https://render.guildwars2.com/file/0D284759AF7E3E9454210A3E7DECF0000B7E5D7F/699203.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 229,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 1153,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 81
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 44
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 81
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 44
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Spirit of the Upper Bound",
+    "description": "Obtained by salvaging the backpack Upper Bound.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70642,
+    "chat_link": "[&AgHyEwEA]",
+    "icon": "https://render.guildwars2.com/file/1DE649F0431C45987C2CF93F9E9C02562C50586C/1203031.png"
+  },
+  {
+    "name": "Recipe: Yassith's Brazier",
+    "description": "A recipe to make an ascended torch with Viper's (+Condition Damage, +Power, +Expertise, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70645,
+    "chat_link": "[&AgH1EwEA]",
+    "icon": "https://render.guildwars2.com/file/96A924E9F149E20BF5341E6478D00DA3EA49ACEE/849336.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11055
+    }
+  },
+  {
+    "name": "Recipe: Gift of Dust",
+    "description": "",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 12500,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70646,
+    "chat_link": "[&AgH2EwEA]",
+    "icon": "https://render.guildwars2.com/file/3D423F6758A5265FF1195303529B32E239C6B0BF/849385.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11741
+    }
+  },
+  {
+    "name": "Crystalline Bottle",
+    "description": "Used to make ink sets. Purchased from master scribes.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70647,
+    "chat_link": "[&AgH3EwEA]",
+    "icon": "https://render.guildwars2.com/file/660E0F806B5377E90843276A02B71CFBFB3FB464/1201862.png"
+  },
+  {
+    "name": "Waterproof Vigil Padding",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70649,
+    "chat_link": "[&AgH5EwEA]",
+    "icon": "https://render.guildwars2.com/file/09EFE24607D41F0CB0A7DB7A6ACC57CF0BADCD78/433692.png"
+  },
+  {
+    "name": "Berserker's Auric Warhorn",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 6502,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70650,
+    "chat_link": "[&AgH6EwEA]",
+    "icon": "https://render.guildwars2.com/file/03F896C04C0DC1A21DFD22C9B57F0CD4E6032402/1207185.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Choking",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Rune of the Revenant",
+    "description": "Double-click to apply to a piece of armor.",
+    "type": "UpgradeComponent",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70651,
+    "chat_link": "[&AgH7EwEA]",
+    "icon": "https://render.guildwars2.com/file/3C07D12B7B55004FA51C5D4DC20794329BE023B5/1201526.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "HeavyArmor",
+        "LightArmor",
+        "MediumArmor"
+      ],
+      "infusion_upgrade_flags": [],
+      "bonuses": [
+        "+8 to All Stats",
+        "+10 to All Stats",
+        "+12 to All Stats",
+        "+14 to All Stats",
+        "+16 to All Stats",
+        "+18 to All Stats; gain 2 seconds of resistance after using a healing skill. <c=@reminder>(Cooldown: 10 Seconds)</c>"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "suffix": "of the Revenant"
+    }
+  },
+  {
+    "name": "Machined Mace Handle",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 100,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70653,
+    "chat_link": "[&AgH9EwEA]",
+    "icon": "https://render.guildwars2.com/file/0FB463A7026255AA0C2FB9D1BBFE6FB31236DD3C/1203012.png"
+  },
+  {
+    "name": "Reclaimed Pistol",
+    "description": "",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 198,
+    "default_skin": 5908,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70655,
+    "chat_link": "[&AgH/EwEA]",
+    "icon": "https://render.guildwars2.com/file/3F124E57FDF1E23E3C20C0141B14CE7008D7AA19/961568.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 776,
+      "max_power": 911,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Bag of Bloodstone Dust",
+    "description": "Contains 50 Piles of Bloodstone Dust.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70657,
+    "chat_link": "[&AgEBFAEA]",
+    "icon": "https://render.guildwars2.com/file/11FA4C98106AE33D7DC2C9FA79D20F1BFD20A756/882231.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Essence of Natural Protection",
+    "description": "",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70658,
+    "chat_link": "[&AgECFAEA]",
+    "icon": "https://render.guildwars2.com/file/0D4E0B260B9224217F211EB469F5A756D71B0F2B/1205266.png"
+  },
+  {
+    "name": "Runed Sphere Casing",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70659,
+    "chat_link": "[&AgEDFAEA]",
+    "icon": "https://render.guildwars2.com/file/DE68430E72584FA507AA6299A3F0E9A8B69B0DC3/1301990.png"
+  },
+  {
+    "name": "Potted Cypress",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70660,
+    "chat_link": "[&AgEEFAEA]",
+    "icon": "https://render.guildwars2.com/file/029A4028A5ECD8D4BD99AF7CCD5BA8FFE80C34E4/1225847.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 426
+    }
+  },
+  {
+    "name": "Recipe: Ossa's Bastion",
+    "description": "A recipe to make an ascended shield with Crusader (+Power, +Toughness, +Ferocity, and +Healing) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70661,
+    "chat_link": "[&AgEFFAEA]",
+    "icon": "https://render.guildwars2.com/file/583E335F780D3FD5AA2E149DBC9F28CEF6224F09/849315.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10001
+    }
+  },
+  {
+    "name": "Box of Recipes: Carcharias",
+    "description": "Unlocks all recipes needed to craft Carcharias.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70662,
+    "chat_link": "[&AgEGFAEA]",
+    "icon": "https://render.guildwars2.com/file/043DA2FD01D8DD0B03C369B9B2020CC81138FFCF/849287.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10425,
+      "extra_recipe_ids": [
+        10250,
+        10005
+      ]
+    }
+  },
+  {
+    "name": "Energetic Chak Goop",
+    "description": "Dropped by chak throughout the Heart of Maguuma.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70663,
+    "chat_link": "[&AgEHFAEA]",
+    "icon": "https://render.guildwars2.com/file/B60BE97A3899A1D36CE81CB3C896CACACCA79237/1203046.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 53
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Recipe: Saphir's Metal Breather",
+    "description": "A recipe to make an ascended heavy breather with Assassin (+Precision, +Power, and +Ferocity) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 45,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70664,
+    "chat_link": "[&AgEIFAEA]",
+    "icon": "https://render.guildwars2.com/file/2043A27DAB06EC19E17C0C66722A957F2E41D2D5/1201545.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11465
+    }
+  },
+  {
+    "name": "Theory of the Upper Bound",
+    "description": "Unlocks the collection Ad Infinitum II: Upper Bound.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 99,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70665,
+    "chat_link": "[&AgEJFAEA]",
+    "icon": "https://render.guildwars2.com/file/DBF694D7189D1005B29106DD453326DB69222A18/65636.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Iron Craftsman's Hammer",
+    "description": "Used to refine or distress decorations.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70666,
+    "chat_link": "[&AgEKFAEA]",
+    "icon": "https://render.guildwars2.com/file/E87F3695F0DF7C58B14E29BBC131DE0FD24AB6F8/1201893.png"
+  },
+  {
+    "name": "Solar Overcharged Quartz",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70667,
+    "chat_link": "[&AgELFAEA]",
+    "icon": "https://render.guildwars2.com/file/18EFFF08B543DB0AAE0151A2E3CEB93002C8DB05/1205826.png"
+  },
+  {
+    "name": "Recipe: Vigilant Emblazoned Pants",
+    "description": "A recipe to make Vigilant Emblazoned Pants.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 70668,
+    "chat_link": "[&AgEMFAEA]",
+    "icon": "https://render.guildwars2.com/file/2D1AE5B60CDBBC50075CA20EE6191EC4707DBF44/849310.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9999
+    }
+  },
+  {
+    "name": "Dream of the Ascalonians",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70669,
+    "chat_link": "[&AgENFAEA]",
+    "icon": "https://render.guildwars2.com/file/95E89D49CE1C195DE07E6308F7194909AAF9531A/1204813.png"
+  },
+  {
+    "name": "Soft Wood Pen",
+    "description": "Crafted from dowels and nibs.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70670,
+    "chat_link": "[&AgEOFAEA]",
+    "icon": "https://render.guildwars2.com/file/E7210668273A9C27AD48E0CAF79FBEDDF2203E02/1201953.png"
+  },
+  {
+    "name": "Sun, Moon, and Stars",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 660,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70671,
+    "chat_link": "[&AgEPFAEA]",
+    "icon": "https://render.guildwars2.com/file/541C48535B97654CD816F553B67770F7BCB595B5/534269.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Enrichment"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1145,
+        "buff": {
+          "skill_id": 31930
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 133
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 133
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 71
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 71
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Fine Book",
+    "description": "Used to make theses and sketchbooks.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70673,
+    "chat_link": "[&AgERFAEA]",
+    "icon": "https://render.guildwars2.com/file/C8360431521B772ABA224DF7071B01A89DAF4DB0/1201873.png"
+  },
+  {
+    "name": "Auric Focus Shielding",
+    "description": "This item only has value as part of a collection.",
+    "type": "Trophy",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 100,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 70674,
+    "chat_link": "[&AgESFAEA]",
+    "icon": "https://render.guildwars2.com/file/CE03DDB7A10DE1AAC01606580171BB70040480BD/1202989.png"
+  },
+  {
+    "name": "Exalted Torch Core",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 64,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70675,
+    "chat_link": "[&AgETFAEA]",
+    "icon": "https://render.guildwars2.com/file/FA5D0641292C042D906F2D965915C56B059E3FF5/1203027.png"
+  },
+  {
+    "name": "Recipe: Finite Result",
+    "description": "Contains all recipes required to craft the ascended backpack Finite Result:\n•Finite Result\n•Pristine Mist Essence\n•First Order Mist Frame\n•Finite Wings",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 70676,
+    "chat_link": "[&AgEUFAEA]",
+    "icon": "https://render.guildwars2.com/file/3F14127FC641215E51E157BD4C32790351D8E0DD/849271.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10117,
+      "extra_recipe_ids": [
+        10584,
+        10866,
+        10947
+      ]
+    }
+  },
+  {
+    "name": "Trailblazer's Draconic Boots",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 140,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70677,
+    "chat_link": "[&AgEVFAEA]",
+    "icon": "https://render.guildwars2.com/file/ABA5149ABEFE50D5F460E5CF6D50A81D09435091/61562.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 182,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1085,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 38
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 21
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 38
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 21
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Veteran Banjo the Brown Bear Loot Box",
+    "description": "Veteran containers contain obsidian shards and a champion bag.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70678,
+    "chat_link": "[&AgEWFAEA]",
+    "icon": "https://render.guildwars2.com/file/DAF038C00404A97BE0DD1F1D7C73A9A87FD0690D/1201766.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Box of Recipes: Tooth of Frostfang (Second Tier)",
+    "description": "Unlocks all recipes needed to craft Tooth of Frostfang (Second Tier).",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70679,
+    "chat_link": "[&AgEXFAEA]",
+    "icon": "https://render.guildwars2.com/file/D1CC662DD44379089A64450B395C4B54BE2EE756/849298.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 11273,
+      "extra_recipe_ids": [
+        10296,
+        11559
+      ]
+    }
+  },
+  {
+    "name": "Commander's Emblazoned Coat",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 188,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70680,
+    "chat_link": "[&AgEYFAEA]",
+    "icon": "https://render.guildwars2.com/file/6CC34DCB24B953F6DB78619CD4FF3D7D5EB8721B/61611.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 338,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 115
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 115
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 63
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Iron Chisel",
+    "description": "Used to refine decorations.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 4,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 70681,
+    "chat_link": "[&AgEZFAEA]",
+    "icon": "https://render.guildwars2.com/file/0760F4C609AA0E959404A5199C47F9DDA5EEF6C0/1201977.png"
+  },
+  {
+    "name": "Oiled Hardened Glove Panel",
+    "description": "Used to craft Hardened Leather Gloves.",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 70682,
+    "chat_link": "[&AgEaFAEA]",
+    "icon": "https://render.guildwars2.com/file/57B03A1F01C2A20A603EC00506E9E804081E3D71/1201791.png"
+  },
+  {
+    "name": "Recipe: Unbound",
+    "description": "Contains all recipes required to craft the ascended backpack Unbound:\n• Unbound\n• Third Order Mist Frame\n• Unbound Wings",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 70683,
+    "chat_link": "[&AgEbFAEA]",
+    "icon": "https://render.guildwars2.com/file/3F14127FC641215E51E157BD4C32790351D8E0DD/849271.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 10853,
+      "extra_recipe_ids": [
+        10672,
+        10733
+      ]
+    }
+  }
+]

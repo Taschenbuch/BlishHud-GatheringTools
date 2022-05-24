@@ -1,0 +1,7514 @@
+[
+  {
+    "name": "Faolain's Blossom",
+    "description": "<c=@flavor>\"Here at last, dearheart. Are you prepared to join me?\" - Grand Duchess Faolain</c>",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 413,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NotUpgradeable",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67307,
+    "chat_link": "[&AgHrBgEA]",
+    "icon": "https://render.guildwars2.com/file/67322CA645222CD060440DAE203A7498000C14D7/866839.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 224.07,
+      "infix_upgrade": {
+        "id": 1037,
+        "buff": {
+          "skill_id": 25442,
+          "description": "+32 Healing Power\n+18 Precision\n+18 Vitality"
+        },
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 74
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 74
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 110
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Glorious Victor's Armor Box",
+    "description": "Contains a choice of any Glorious Hero's armor.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67323,
+    "chat_link": "[&AgH7BgEA]",
+    "icon": "https://render.guildwars2.com/file/B75903D0CF2650674519F47AB71DA648915D201F/1710848.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Glorious Armor Box",
+    "description": "This armor box contains unique armor skins, dragonite ore, empyreal fragments, obsidian shards, and mystic clovers.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67324,
+    "chat_link": "[&AgH8BgEA]",
+    "icon": "https://render.guildwars2.com/file/0E02699DEBB3C6306A163DE8D3E7D4B41FEAE501/866841.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Commander's Compendium",
+    "description": "Double-click to use. Unlock the ability to become a Commander.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67335,
+    "chat_link": "[&AgEHBwEA]",
+    "icon": "https://render.guildwars2.com/file/32B37C97EAD9FC5E105FCB9C34935DDE9AED7153/1200718.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Red Commander's Compendium",
+    "description": "Double-click to use. Unlocks the account-wide ability to become a commander and the red commander icon.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67336,
+    "chat_link": "[&AgEIBwEA]",
+    "icon": "https://render.guildwars2.com/file/97CEAABC1C0D3A0D5DF8492163B2110B6BACDF4D/1200720.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Purple Commander's Compendium",
+    "description": "Double-click to use. Unlocks the account-wide ability to become a commander and the purple commander icon.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67337,
+    "chat_link": "[&AgEJBwEA]",
+    "icon": "https://render.guildwars2.com/file/E1C474A0C00F65587233932E667AACCAA827D73B/1200719.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Yellow Commander's Compendium",
+    "description": "Double-click to use. Unlocks the account-wide ability to become a commander and the yellow commander icon.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67338,
+    "chat_link": "[&AgEKBwEA]",
+    "icon": "https://render.guildwars2.com/file/FB159C2D18DFD5F09251BD93B933C3756F31BC46/1200721.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Superior Rune of the Trapper",
+    "description": "<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece of armor.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67339,
+    "chat_link": "[&AgELBwEA]",
+    "icon": "https://render.guildwars2.com/file/4A322301EDD61898193B9B94A0A6A1F1DC06BF24/866844.png",
+    "details": {
+      "type": "Rune",
+      "flags": [
+        "HeavyArmor",
+        "LightArmor",
+        "MediumArmor"
+      ],
+      "infusion_upgrade_flags": [],
+      "bonuses": [
+        "+25 Condition Damage",
+        "+5% Condition Duration",
+        "+50 Condition Damage",
+        "+10% Condition Duration",
+        "+100 Condition Damage",
+        "Gain 3 seconds of stealth and superspeed after using a trap skill."
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "suffix": "of the Trapper"
+    }
+  },
+  {
+    "name": "Superior Sigil of Cleansing",
+    "description": "<c=@abilitytype>Element: </c>Control<br>Double-click to apply to a weapon.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67340,
+    "chat_link": "[&AgEMBwEA]",
+    "icon": "https://render.guildwars2.com/file/011CEE62DABFE502E839CA19ECEAA5C523089407/866845.png",
+    "details": {
+      "type": "Sigil",
+      "flags": [
+        "ShortBow",
+        "Dagger",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1055,
+        "buff": {
+          "skill_id": 25519,
+          "description": "Remove 3 conditions when swapping to this weapon in combat. <c=@reminder>(Cooldown: 9 Seconds)</c>"
+        },
+        "attributes": []
+      },
+      "suffix": "of Cleansing"
+    }
+  },
+  {
+    "name": "Superior Sigil of Cruelty",
+    "description": "<c=@abilitytype>Element: </c>Enhancement<br>Double-click to apply to a weapon.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67341,
+    "chat_link": "[&AgENBwEA]",
+    "icon": "https://render.guildwars2.com/file/057D6F9E40020AF09E420B09EBDB4FCD9DE37951/866846.png",
+    "details": {
+      "type": "Sigil",
+      "flags": [
+        "ShortBow",
+        "Dagger",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1056,
+        "buff": {
+          "skill_id": 25522,
+          "description": "Gain a charge of +10 ferocity each time you kill a foe, five charges if you kill an enemy player. <c=@reminder>(Max 25 stacks; ends on down.)</c> <br><c=@reminder>(Only one attribute-stacking sigil can be active at a time.)</c>"
+        },
+        "attributes": []
+      },
+      "suffix": "of Cruelty"
+    }
+  },
+  {
+    "name": "Superior Rune of Radiance",
+    "description": "<c=@abilitytype>Element: </c>Potence<br>Double-click to apply to a piece of armor.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67342,
+    "chat_link": "[&AgEOBwEA]",
+    "icon": "https://render.guildwars2.com/file/BAB7FAD330A0EC183426D646C2440BCB7F74324D/866847.png",
+    "details": {
+      "type": "Rune",
+      "flags": [
+        "HeavyArmor",
+        "LightArmor",
+        "MediumArmor"
+      ],
+      "infusion_upgrade_flags": [],
+      "bonuses": [
+        "+25 Vitality",
+        "+5% Boon Duration",
+        "+50 Vitality",
+        "+10% Boon Duration",
+        "+100 Vitality",
+        "+10% Boon Duration; increase the duration of auras you grant by +33%."
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "suffix": "of Radiance"
+    }
+  },
+  {
+    "name": "Superior Sigil of Incapacitation",
+    "description": "<c=@abilitytype>Element: </c>Control<br>Double-click to apply to a weapon.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67343,
+    "chat_link": "[&AgEPBwEA]",
+    "icon": "https://render.guildwars2.com/file/F79A51E6B82FEA027FD1BC606441A02309DB9EE1/866848.png",
+    "details": {
+      "type": "Sigil",
+      "flags": [
+        "ShortBow",
+        "Dagger",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1057,
+        "buff": {
+          "skill_id": 25520,
+          "description": "Cripple a foe for 2 seconds after striking from its flank. <c=@reminder>(Cooldown: 5 Seconds)</c>"
+        },
+        "attributes": []
+      },
+      "suffix": "of Incapacitation"
+    }
+  },
+  {
+    "name": "Superior Rune of Evasion",
+    "description": "<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece of armor.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67344,
+    "chat_link": "[&AgEQBwEA]",
+    "icon": "https://render.guildwars2.com/file/32C4042A0F1D53041C4190760B7BCA1FDADA90E1/866849.png",
+    "details": {
+      "type": "Rune",
+      "flags": [
+        "HeavyArmor",
+        "LightArmor",
+        "MediumArmor"
+      ],
+      "infusion_upgrade_flags": [],
+      "bonuses": [
+        "+25 Ferocity",
+        "+10% Swiftness Duration",
+        "+50 Ferocity",
+        "+20% Swiftness Duration",
+        "+100 Ferocity",
+        "+125 ferocity; gain swiftness for 6 seconds after evading an attack. <c=@reminder> Cooldown: 1 second.</c>"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "suffix": "of Evasion"
+    }
+  },
+  {
+    "name": "Siege Disabler",
+    "description": "Unpack a siege disabler. This trick disables the use of enemy siege equipment for 35 seconds and piloted golems for 20 seconds. Costs 10 supply to deploy. Can be blocked.\nDeployment Range: 1200\nEffect Radius: 300",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 22,
+    "game_types": [
+      "Wvw"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67348,
+    "chat_link": "[&AgEUBwEA]",
+    "icon": "https://render.guildwars2.com/file/06596B6675D4045C77B40D8004E6D8B0C41CFFE3/866851.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Foil-Wrapped Candy",
+    "description": "<c=@flavor>The sugar in this candy will go straight to your head.</c>\nConsuming this item leaves a shiny foil candy wrapper, which is highly prized by skritt.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67352,
+    "chat_link": "[&AgEYBwEA]",
+    "icon": "https://render.guildwars2.com/file/FAACF848A03A6AEA7FE4F50321B57C3347EC0EAA/888390.png",
+    "details": {
+      "type": "Food",
+      "duration_ms": 600000,
+      "apply_count": 1,
+      "name": "",
+      "icon": "https://render.guildwars2.com/file/1EEF9BEF72F9662224E16A947C1852475DF5F104/888391.png",
+      "description": "Grants a random boost that stacks duration if the same boost is awarded more than once."
+    }
+  },
+  {
+    "name": "Shiny Foil Candy Wrapper",
+    "description": "<c=@flavor>\"Shiny pieces of foil! Make something nice, maybe. You be friend, find for me?\"<br>—Collector Terksli in Lion's Arch</c>",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67353,
+    "chat_link": "[&AgEZBwEA]",
+    "icon": "https://render.guildwars2.com/file/179C61E1080C1F0620C60797B39723BF264CB46D/888392.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ghostly Mail Courier",
+    "description": "Unlocks the ability for characters on your account to customize the way they send mail to other players and receive game mail.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67355,
+    "chat_link": "[&AgEbBwEA]",
+    "icon": "https://render.guildwars2.com/file/ADA62A66C990014A98273DC4BE7A489EEB185BA8/919387.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Magic Carpet",
+    "description": "<c=@abilitytype>Travel.</c> Double-click to equip a bundle that changes how you move around the world.<br><br>Using this item automatically equips it while running outside of combat. The effect can be removed by using the Stop Riding skill or by double-clicking this item again.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67356,
+    "chat_link": "[&AgEcBwEA]",
+    "icon": "https://render.guildwars2.com/file/17F5AB31DBFF1E0E71917BB8F4FD5D74DD0B43AA/882243.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Oontz's Necklace of the Pumpkin",
+    "description": "This necklace shimmers with strange, spectral luminescence.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67361,
+    "chat_link": "[&AgEhBwEA]",
+    "icon": "https://render.guildwars2.com/file/7A124134FFAC5F032F1E1501F530E326F506BABD/888367.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 56
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      },
+      "suffix_item_id": 67372
+    }
+  },
+  {
+    "name": "Endless Bottle of Batwing Brew",
+    "description": "Double-click to transform into a swarm of bats.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 67362,
+    "chat_link": "[&AgEiBwEA]",
+    "icon": "https://render.guildwars2.com/file/C4DBF3E24B3C9A1D2CABC55BF500F36C74F81E97/888368.png",
+    "details": {
+      "type": "UnlimitedConsumable"
+    }
+  },
+  {
+    "name": "Bloody Prince's Toy Chest",
+    "description": "Double-click to unlock the Bloody Prince's Toybox collection.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67363,
+    "chat_link": "[&AgEjBwEA]",
+    "icon": "https://render.guildwars2.com/file/AA65765D7BE5BC9AC3FC4938D3903806BEAEECEB/888369.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Mini Gwynefyrdd",
+    "description": "This peaceful spirit seeks to protect children and innocents from harm. Also, she likes snuggling.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67364,
+    "chat_link": "[&AgEkBwEA]",
+    "icon": "https://render.guildwars2.com/file/93180A1D3C93750C5BF20DA16F6E030891E9DAB9/888370.png",
+    "details": {
+      "minipet_id": 302
+    }
+  },
+  {
+    "name": "Mini Zuzu, Cat of Darkness",
+    "description": "A feline familiar frequently found following the footpaths of fallen foes.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 67365,
+    "chat_link": "[&AgElBwEA]",
+    "icon": "https://render.guildwars2.com/file/266B5D67A4E3D754297F9C64B562C5426FFCDCD9/888371.png",
+    "details": {
+      "minipet_id": 300
+    }
+  },
+  {
+    "name": "Recipe: Pumpkin Oil",
+    "description": "Double-click to unlock this consumable recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67366,
+    "chat_link": "[&AgEmBwEA]",
+    "icon": "https://render.guildwars2.com/file/E19734B71C949924A1353106E513DE62729A5313/849374.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9806
+    }
+  },
+  {
+    "name": "Lump of Crystallized Nougat",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 67367,
+    "chat_link": "[&AgEnBwEA]",
+    "icon": "https://render.guildwars2.com/file/C70B5CFE950BDE719E1AE50C2DBAA29303231C58/888372.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Ghoul's Blessing",
+      "icon": "https://render.guildwars2.com/file/9C4EE920C654C1F638195E053D050E25FCED5C99/888568.png",
+      "description": "Reviving an ally grants Ghoul's Grasp to both you and your revived ally.\nGhoul's Grasp increases condition damage, precision, and toughness.\n+10% Experience from Kills\n+30% Magic Find"
+    }
+  },
+  {
+    "name": "Sharpening Skull",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 67368,
+    "chat_link": "[&AgEoBwEA]",
+    "icon": "https://render.guildwars2.com/file/67AC10A0900167D431ECAEA9B8A67B01D4F0B1FD/888373.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Feline Blessing",
+      "icon": "https://render.guildwars2.com/file/EA08926971CF0FB797BA4CEF250A540D05D5F457/888567.png",
+      "description": "Reviving an ally grants Feline Fury to both you and your revived ally.\nFeline Fury increases all attributes by a small amount.\n+10% Experience from Kills\n+30% Magic Find"
+    }
+  },
+  {
+    "name": "Recipe: Crystallized Nougat",
+    "description": "Double-click to unlock this consumable recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67369,
+    "chat_link": "[&AgEpBwEA]",
+    "icon": "https://render.guildwars2.com/file/E19734B71C949924A1353106E513DE62729A5313/849374.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9805
+    }
+  },
+  {
+    "name": "Polyluminescent Undulating Refractor (Green)",
+    "description": "Double-click to apply this to a trinket.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 67370,
+    "chat_link": "[&AgEqBwEA]",
+    "icon": "https://render.guildwars2.com/file/97EDAF65FCECF802544DD54B36DC3A09323B254A/888374.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "Trinket"
+      ],
+      "infusion_upgrade_flags": [],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1058,
+        "buff": {
+          "skill_id": 25642,
+          "description": "+12 Condition Damage\n+12 Precision\n+12 Toughness\n+12 Power\n+12 Vitality\n+12 Healing Power\n+12 Ferocity"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 12
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 12
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 12
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 12
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 12
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 12
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 12
+          }
+        ]
+      },
+      "suffix": "of the Ghoul"
+    }
+  },
+  {
+    "name": "Flask of Pumpkin Oil",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 67371,
+    "chat_link": "[&AgErBwEA]",
+    "icon": "https://render.guildwars2.com/file/E55A03C70E26E2540C32926596F252B1D5B3FEF7/888375.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Pumpkin's Blessing",
+      "icon": "https://render.guildwars2.com/file/D51E2ACB624866E6D701E2C1224EE40E9ADC2AEE/888569.png",
+      "description": "Reviving an ally grants Pumpkin Prowess to both you and your revived ally.\nPumpkin Prowess increases power, toughness, and vitality.\n+10% Experience from Kills\n+30% Magic Find"
+    }
+  },
+  {
+    "name": "Polyluminescent Undulating Refractor (Orange)",
+    "description": "Double-click to apply this to a trinket.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 67372,
+    "chat_link": "[&AgEsBwEA]",
+    "icon": "https://render.guildwars2.com/file/04050CC5764DC198D8126812E66305C676954F0C/888376.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "Trinket"
+      ],
+      "infusion_upgrade_flags": [],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1059,
+        "buff": {
+          "skill_id": 25638,
+          "description": "+12 Condition Damage\n+12 Precision\n+12 Toughness\n+12 Power\n+12 Vitality\n+12 Healing Power\n+12 Ferocity"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 12
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 12
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 12
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 12
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 12
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 12
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 12
+          }
+        ]
+      },
+      "suffix": "of the Pumpkin"
+    }
+  },
+  {
+    "name": "Oontz's Necklace of the Cat",
+    "description": "This necklace shimmers with strange, spectral luminescence.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67373,
+    "chat_link": "[&AgEtBwEA]",
+    "icon": "https://render.guildwars2.com/file/7A124134FFAC5F032F1E1501F530E326F506BABD/888367.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 56
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      },
+      "suffix_item_id": 67375
+    }
+  },
+  {
+    "name": "Hexed Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67374,
+    "chat_link": "[&AgEuBwEA]",
+    "icon": "https://render.guildwars2.com/file/05E44B7E1251C30A49640FB26C03F6E6F2D1CB7A/888377.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Polyluminescent Undulating Refractor (Black)",
+    "description": "Double-click to apply this to a trinket.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 67375,
+    "chat_link": "[&AgEvBwEA]",
+    "icon": "https://render.guildwars2.com/file/B4C6490CAE379BBD90EF68C00A2604477321B468/888378.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "Trinket"
+      ],
+      "infusion_upgrade_flags": [],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1060,
+        "buff": {
+          "skill_id": 25641,
+          "description": "+12 Condition Damage\n+12 Precision\n+12 Toughness\n+12 Power\n+12 Vitality\n+12 Healing Power\n+12 Ferocity"
+        },
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 12
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 12
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 12
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 12
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 12
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 12
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 12
+          }
+        ]
+      },
+      "suffix": "of the Cat"
+    }
+  },
+  {
+    "name": "Oontz's Necklace of the Ghoul",
+    "description": "This necklace shimmers with strange, spectral luminescence.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67376,
+    "chat_link": "[&AgEwBwEA]",
+    "icon": "https://render.guildwars2.com/file/7A124134FFAC5F032F1E1501F530E326F506BABD/888367.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 56
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      },
+      "suffix_item_id": 67370
+    }
+  },
+  {
+    "name": "Vial of Maize Balm",
+    "description": "Throw a bottle of balm to transform ambient creatures into candy corn elementals.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "NoUnderwater"
+    ],
+    "restrictions": [],
+    "id": 67377,
+    "chat_link": "[&AgExBwEA]",
+    "icon": "https://render.guildwars2.com/file/91E73BE5C84D5BE15B01B86C026F203A4801C039/888379.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Bottle of Batwing Brew",
+    "description": "Double-click to transform into a swarm of bats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 96,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "NoUnderwater",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 67379,
+    "chat_link": "[&AgEzBwEA]",
+    "icon": "https://render.guildwars2.com/file/C4DBF3E24B3C9A1D2CABC55BF500F36C74F81E97/888368.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Recipe: Batwing Brew",
+    "description": "Double-click to unlock this transform tonic recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 96,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67380,
+    "chat_link": "[&AgE0BwEA]",
+    "icon": "https://render.guildwars2.com/file/090AC47AE5AD3BEBC27D23C5C8ED329C09912B63/888380.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9804
+    }
+  },
+  {
+    "name": "Recipe: Maize Balm",
+    "description": "Double-click to learn this recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67381,
+    "chat_link": "[&AgE1BwEA]",
+    "icon": "https://render.guildwars2.com/file/4194E1F5AE2147E901C31AC21BED0C0DE6A3E34C/849270.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9808
+    }
+  },
+  {
+    "name": "Recipe: Sharpening Skull",
+    "description": "Double-click to unlock this consumable recipe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 64,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67382,
+    "chat_link": "[&AgE2BwEA]",
+    "icon": "https://render.guildwars2.com/file/E19734B71C949924A1353106E513DE62729A5313/849374.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9807
+    }
+  },
+  {
+    "name": "Old Pillowcase",
+    "description": "Double-click to unlock the Tricks and Treats collection.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67383,
+    "chat_link": "[&AgE3BwEA]",
+    "icon": "https://render.guildwars2.com/file/07956D965436E23CEEC69293096CEA9034A56AA3/888381.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Mini Candy Corn Ghoulemental",
+    "description": "Left exposed to spectral emanations, normal-seeming candy corn takes on unusual properties.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67384,
+    "chat_link": "[&AgE4BwEA]",
+    "icon": "https://render.guildwars2.com/file/F802E135B5CDAA09927FD00EFC59CD3C59BB339C/888382.png",
+    "details": {
+      "minipet_id": 301
+    }
+  },
+  {
+    "name": "Unopened Endless Bottle of Batwing Brew",
+    "description": "Double-click to transform into a swarm of bats.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 67386,
+    "chat_link": "[&AgE6BwEA]",
+    "icon": "https://render.guildwars2.com/file/C4DBF3E24B3C9A1D2CABC55BF500F36C74F81E97/888368.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Child's Trick-or-Treat Bag",
+    "description": "Double-click to open.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "BulkConsume",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67389,
+    "chat_link": "[&AgE9BwEA]",
+    "icon": "https://render.guildwars2.com/file/92CB04BCBE3299DBAD62E62E170CEE0194EB7903/888383.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Haunted Gramophone",
+    "description": "Click to equip and use this Halloween themed Haunted Gramophone.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSell",
+      "NotUpgradeable",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse",
+      "Tonic"
+    ],
+    "restrictions": [],
+    "id": 67391,
+    "chat_link": "[&AgE/BwEA]",
+    "icon": "https://render.guildwars2.com/file/0706600765442A452029B5A01896502B97493BEA/888386.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Candy Corn Gobbler",
+    "description": "Use this and 3 of your candy corn for a festive Halloween transform or a random boost.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67393,
+    "chat_link": "[&AgFBBwEA]",
+    "icon": "https://render.guildwars2.com/file/28D1A092B51F78CD17301E08D6915957475D06D0/888387.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Log-r-Tron",
+    "description": "Perfect for use on all types of trees. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67394,
+    "chat_link": "[&AgFCBwEA]",
+    "icon": "https://render.guildwars2.com/file/6462A139065B20E25D3626413D080EAC4046B4EE/904683.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Reap-r-Tron",
+    "description": "Used to harvest all plants. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67395,
+    "chat_link": "[&AgFDBwEA]",
+    "icon": "https://render.guildwars2.com/file/AB92677C955A7ED5A5D25662C6F21C68F26245A1/904684.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Mine-r-Tron",
+    "description": "Used to mine all metals. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67396,
+    "chat_link": "[&AgFEBwEA]",
+    "icon": "https://render.guildwars2.com/file/64060B1871FBB9472A181BB1F296B9C4D831B728/904685.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Noble Count Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67398,
+    "chat_link": "[&AgFGBwEA]",
+    "icon": "https://render.guildwars2.com/file/6A09CBC6C5AD6634CDEF1BFBC85A51262BCFA073/888388.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Replica Job-o-Tron Backpack",
+    "description": "This backpack cover comes with a simple back strap for ease of wearing if you don't have another back-slot item.\nDouble-click to unpack.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67405,
+    "chat_link": "[&AgFNBwEA]",
+    "icon": "https://render.guildwars2.com/file/E4BFAA7756FBADCB5341E6C5D9B70BE9257C9030/888393.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Candy Corn Gobbler Pack",
+    "description": "Click on this item to receive 15 candy corn and the Candy Corn Gobbler.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSell",
+      "NotUpgradeable",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67406,
+    "chat_link": "[&AgFOBwEA]",
+    "icon": "https://render.guildwars2.com/file/28D1A092B51F78CD17301E08D6915957475D06D0/888387.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Replica Job-o-Tron Backpack",
+    "description": "Double-click to imbue another back-slot item's stats into this appearance (one-time ability).",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 250,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67421,
+    "chat_link": "[&AgFdBwEA]",
+    "icon": "https://render.guildwars2.com/file/E4BFAA7756FBADCB5341E6C5D9B70BE9257C9030/888393.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        5708
+      ]
+    }
+  },
+  {
+    "name": "Verata's Masque",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 123,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67442,
+    "chat_link": "[&AgFyBwEA]",
+    "icon": "https://render.guildwars2.com/file/AD7849A39265D6AA1C712ACD476E912E1EC30839/699210.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 45
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 63
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Shoulderguard",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 121,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67443,
+    "chat_link": "[&AgFzBwEA]",
+    "icon": "https://render.guildwars2.com/file/D52D7C621150ADD5AC264256194D9A58B85E447B/699202.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 34
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Leggings",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 112,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67444,
+    "chat_link": "[&AgF0BwEA]",
+    "icon": "https://render.guildwars2.com/file/0D284759AF7E3E9454210A3E7DECF0000B7E5D7F/699203.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 229,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 67
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 67
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 94
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Visage",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 124,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67445,
+    "chat_link": "[&AgF1BwEA]",
+    "icon": "https://render.guildwars2.com/file/0EBB9F33579CC54CC39F685868FFD79D7A0FEEDC/699204.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 45
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 63
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Grips",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 120,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67446,
+    "chat_link": "[&AgF2BwEA]",
+    "icon": "https://render.guildwars2.com/file/E3BCBC4053466DEBC50B0B0894996353DE03C749/699205.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 34
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Guise",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 111,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67447,
+    "chat_link": "[&AgF3BwEA]",
+    "icon": "https://render.guildwars2.com/file/957B01535AB96230450BA110704557C9C607054F/699206.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 355,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 101
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 141
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Striders",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 117,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67448,
+    "chat_link": "[&AgF4BwEA]",
+    "icon": "https://render.guildwars2.com/file/33BC7FAC99DD9F5E68DFEAED70AC3145DBA707B0/699207.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 34
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Epaulets",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 119,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67449,
+    "chat_link": "[&AgF5BwEA]",
+    "icon": "https://render.guildwars2.com/file/0C4E1FEED2C75BC8F6F1D3D11C18303EEF573EED/699208.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 34
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Breeches",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 110,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67450,
+    "chat_link": "[&AgF6BwEA]",
+    "icon": "https://render.guildwars2.com/file/58F7090A0E429EA35DF1C9F36DBD281552CA12F9/699209.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 203,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 67
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 67
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 94
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Greaves",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 114,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67451,
+    "chat_link": "[&AgF7BwEA]",
+    "icon": "https://render.guildwars2.com/file/DBEE7E93AF2FF0FAEC1CE996F52B949EC872D69C/699219.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 34
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Wristguards",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 118,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67452,
+    "chat_link": "[&AgF8BwEA]",
+    "icon": "https://render.guildwars2.com/file/5859B5CF97C0D394CF5CB5B3042775C6E6C1A1EB/699211.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 34
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Doublet",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 109,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67453,
+    "chat_link": "[&AgF9BwEA]",
+    "icon": "https://render.guildwars2.com/file/6E0C12721BAA5E343813DE9F2C7EFE064AECCE0A/699212.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 330,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 101
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 141
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Footwear",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 115,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67454,
+    "chat_link": "[&AgF+BwEA]",
+    "icon": "https://render.guildwars2.com/file/5C63AF3E5541CBBF54C8656DD8F5E274590BEA52/699213.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 34
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Pauldrons",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 113,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67455,
+    "chat_link": "[&AgF/BwEA]",
+    "icon": "https://render.guildwars2.com/file/BCF8FD08CF3F4A263704370659D69FEE2EDD0C45/699214.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 34
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Tassets",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 108,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67456,
+    "chat_link": "[&AgGABwEA]",
+    "icon": "https://render.guildwars2.com/file/089C3C370428039590EF055CA33AED03E99E7951/699215.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 254,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 67
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 67
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 94
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Visor",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 122,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67457,
+    "chat_link": "[&AgGBBwEA]",
+    "icon": "https://render.guildwars2.com/file/D4FC06FD1B58AF62E771D7747C66F0E8FAAB8054/699216.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 45
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 45
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 63
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Warfists",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 116,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67458,
+    "chat_link": "[&AgGCBwEA]",
+    "icon": "https://render.guildwars2.com/file/BD20599D290345BE7D98BD270FBE502CF5212654/699217.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 34
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 34
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 47
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Verata's Breastplate",
+    "description": "<c=@flavor>Crafted in the style of the famous necromancer, Verata.</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 107,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67459,
+    "chat_link": "[&AgGDBwEA]",
+    "icon": "https://render.guildwars2.com/file/64725E0CEBDA22C75C16B70B0CDE58E4E6E7400A/699218.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 381,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 101
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 101
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 141
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carapace Vestments",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 2350,
+    "default_skin": 5743,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67460,
+    "chat_link": "[&AgGEBwEA]",
+    "icon": "https://render.guildwars2.com/file/343C35236F78EF6A63906B2BAC4D3D012EF2441B/904634.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 278,
+      "infusion_slots": [],
+      "attribute_adjustment": 339.552,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Mask",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1900,
+    "default_skin": 5714,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67461,
+    "chat_link": "[&AgGFBwEA]",
+    "icon": "https://render.guildwars2.com/file/391C01CED5AD34A602167179C42278E20C6E76D4/904635.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 86,
+      "infusion_slots": [],
+      "attribute_adjustment": 150.912,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Vambraces",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1400,
+    "default_skin": 5711,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67462,
+    "chat_link": "[&AgGGBwEA]",
+    "icon": "https://render.guildwars2.com/file/D69BC4B431E33D463A686503C43C060CB132AA70/904636.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 139,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Jerkin",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 2350,
+    "default_skin": 5710,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67463,
+    "chat_link": "[&AgGHBwEA]",
+    "icon": "https://render.guildwars2.com/file/63B77092B580DBB92AEEB6385F243F954E12C4FD/904637.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 299,
+      "infusion_slots": [],
+      "attribute_adjustment": 339.552,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Boots",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1550,
+    "default_skin": 5712,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67464,
+    "chat_link": "[&AgGIBwEA]",
+    "icon": "https://render.guildwars2.com/file/446AABEB9C4EAD0251A3B52368C0390305309B9F/904638.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 139,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Pauldrons",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1700,
+    "default_skin": 5744,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67465,
+    "chat_link": "[&AgGJBwEA]",
+    "icon": "https://render.guildwars2.com/file/46B0F27465DDA0572AA567962FADD69F6140184E/904639.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 107,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Tassets",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 2200,
+    "default_skin": 5734,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67466,
+    "chat_link": "[&AgGKBwEA]",
+    "icon": "https://render.guildwars2.com/file/33A91E0EDB72455253E3CD91BF0F0447AEED9408/904640.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 214,
+      "infusion_slots": [],
+      "attribute_adjustment": 226.368,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Mantle",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1700,
+    "default_skin": 5745,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67467,
+    "chat_link": "[&AgGLBwEA]",
+    "icon": "https://render.guildwars2.com/file/FAA227EB022DD23972212FED04510ABA1AFD0907/904641.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 65,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Helmet",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1900,
+    "default_skin": 5735,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67468,
+    "chat_link": "[&AgGMBwEA]",
+    "icon": "https://render.guildwars2.com/file/D6DD51DC573E5FF1CFD5FE62693628EFB20A2723/904642.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 107,
+      "infusion_slots": [],
+      "attribute_adjustment": 150.912,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Pants",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 2200,
+    "default_skin": 5726,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67469,
+    "chat_link": "[&AgGNBwEA]",
+    "icon": "https://render.guildwars2.com/file/337DDD75B1079BA5DC5C00FA9503AB3A064E14D2/904643.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 171,
+      "infusion_slots": [],
+      "attribute_adjustment": 226.368,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Gauntlets",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1400,
+    "default_skin": 5736,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67470,
+    "chat_link": "[&AgGOBwEA]",
+    "icon": "https://render.guildwars2.com/file/5E7074D9DB562E4A06C40701757E7049EB036E29/904644.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 161,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Shoulderpads",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1700,
+    "default_skin": 5716,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67472,
+    "chat_link": "[&AgGQBwEA]",
+    "icon": "https://render.guildwars2.com/file/702E982ED3C355C7F34F7AF34873133EEA5735C1/904645.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 86,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Greaves",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1550,
+    "default_skin": 5741,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67474,
+    "chat_link": "[&AgGSBwEA]",
+    "icon": "https://render.guildwars2.com/file/F2A40407A792730E56B6C554034BFFA4089292E4/904646.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 161,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Magi's Luminescent Vestments",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 2350,
+    "default_skin": 5719,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67476,
+    "chat_link": "[&AgGUBwEA]",
+    "icon": "https://render.guildwars2.com/file/AC22419AE55E152EF080DF051F207790E15AB53F/904992.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 278,
+      "infusion_slots": [],
+      "attribute_adjustment": 339.552,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 119
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Magi's Luminescent Jerkin",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 2350,
+    "default_skin": 5730,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67481,
+    "chat_link": "[&AgGZBwEA]",
+    "icon": "https://render.guildwars2.com/file/23C5E5364CA50038C8A8A0C2EA9DD57EA14F5130/904998.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 299,
+      "infusion_slots": [],
+      "attribute_adjustment": 339.552,
+      "infix_upgrade": {
+        "id": 156,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 119
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carapace Gloves",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1400,
+    "default_skin": 5742,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67482,
+    "chat_link": "[&AgGaBwEA]",
+    "icon": "https://render.guildwars2.com/file/214D900EB04F5436DAE17C06186F2D3F5528E160/904647.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 118,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Cowl",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1900,
+    "default_skin": 5724,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67485,
+    "chat_link": "[&AgGdBwEA]",
+    "icon": "https://render.guildwars2.com/file/A8487CC89EE1BAC7035EF2C55D23B1BF3F0DDDD4/904648.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 65,
+      "infusion_slots": [],
+      "attribute_adjustment": 150.912,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Shoes",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 1550,
+    "default_skin": 5733,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67486,
+    "chat_link": "[&AgGeBwEA]",
+    "icon": "https://render.guildwars2.com/file/C377544B0D0A5A3634F10309BE5779A625BB91A2/904649.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 118,
+      "infusion_slots": [],
+      "attribute_adjustment": 113.184,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Breastplate",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 2350,
+    "default_skin": 5737,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67491,
+    "chat_link": "[&AgGjBwEA]",
+    "icon": "https://render.guildwars2.com/file/13964BDB18E8F51C40FD086BA2700943920DF003/904650.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 321,
+      "infusion_slots": [],
+      "attribute_adjustment": 339.552,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Carapace Leggings",
+    "description": "",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 2200,
+    "default_skin": 5715,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67493,
+    "chat_link": "[&AgGlBwEA]",
+    "icon": "https://render.guildwars2.com/file/4195F729A072180655416B49B7545BBFCA07D2CD/904651.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 193,
+      "infusion_slots": [],
+      "attribute_adjustment": 226.368,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Bag of Gear",
+    "description": "Contains fine and masterwork gear.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67516,
+    "chat_link": "[&AgG8BwEA]",
+    "icon": "https://render.guildwars2.com/file/BD205CF4664443B64823667BCA9E10E5F1A04E70/882234.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Bandit Coin Purse",
+    "description": "20 Slots",
+    "type": "Bag",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 66,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67518,
+    "chat_link": "[&AgG+BwEA]",
+    "icon": "https://render.guildwars2.com/file/A36607CECB172039B022307E0E34BAB2EFDE51C6/619513.png",
+    "details": {
+      "no_sell_or_sort": false,
+      "size": 20
+    }
+  },
+  {
+    "name": "Bountiful Tuning Crystal",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 67522,
+    "chat_link": "[&AgHCBwEA]",
+    "icon": "https://render.guildwars2.com/file/071410D26DC8480BA014C84A05EC7BE4DA0FDA5A/219373.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "Gain Condition Damage Equal to 6% of Your Healing Power\nGain Condition Damage Equal to 8% of Your Concentration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Furious Tuning Crystal",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 67524,
+    "chat_link": "[&AgHEBwEA]",
+    "icon": "https://render.guildwars2.com/file/071410D26DC8480BA014C84A05EC7BE4DA0FDA5A/219373.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "Gain Condition Damage Equal to 3% of Your Precision\nGain Expertise Equal to 3% of Your Precision\n+10% Experience from kills"
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Speargun",
+    "description": "A recipe to make a Sinister Pearl Speargun",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67525,
+    "chat_link": "[&AgHFBwEA]",
+    "icon": "https://render.guildwars2.com/file/4DC06DB73F095613CB6CB2D5E007C3AF1634990F/849284.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9874
+    }
+  },
+  {
+    "name": "Recipe: Exquisite Charged Ambrite Jewel",
+    "description": "A recipe to make an Exquisite Charged Ambrite Jewel. Charged Ambrite Jewelery recipes can be found in buried chests in the Silverwastes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67526,
+    "chat_link": "[&AgHGBwEA]",
+    "icon": "https://render.guildwars2.com/file/BA9078DAA120530BC8ECA39ACC7FD5B8971FCC49/849309.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9854
+    }
+  },
+  {
+    "name": "Recipe: Sinister Orichalcum Imbued Inscription",
+    "description": "A recipe to make a Sinister Orichalcum Imbued Inscription.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67527,
+    "chat_link": "[&AgHHBwEA]",
+    "icon": "https://render.guildwars2.com/file/54269235C84EC75ABAA8CA03CEA810BD6DFEFA73/849308.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9811
+    }
+  },
+  {
+    "name": "Bountiful Maintenance Oil",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 67528,
+    "chat_link": "[&AgHIBwEA]",
+    "icon": "https://render.guildwars2.com/file/BA57FF7A052FFE37669F97A815BD28089FCFF0AD/219367.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "Gain 0.6% Increased Healing to Other Allies for Every 100 Healing Power\nGain 0.8% Increased Healing to Other Allies for Every 100 Concentration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Furious Maintenance Oil",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 67529,
+    "chat_link": "[&AgHJBwEA]",
+    "icon": "https://render.guildwars2.com/file/BA57FF7A052FFE37669F97A815BD28089FCFF0AD/219367.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "Gain Concentration Equal to 3% of Your Precision\nGain Healing Power Equal to 3% of Your Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Furious Sharpening Stone",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 67530,
+    "chat_link": "[&AgHKBwEA]",
+    "icon": "https://render.guildwars2.com/file/91AC9F70D30C5E3E22635DF4F30CAFA1F6F803A0/219361.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "Gain Power Equal to 3% of Your Precision\nGain Ferocity Equal to 3% of Your Precision\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Bountiful Sharpening Stone",
+    "type": "Consumable",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 67531,
+    "chat_link": "[&AgHLBwEA]",
+    "icon": "https://render.guildwars2.com/file/91AC9F70D30C5E3E22635DF4F30CAFA1F6F803A0/219361.png",
+    "details": {
+      "type": "Utility",
+      "duration_ms": 1800000,
+      "apply_count": 1,
+      "name": "Enhancement",
+      "icon": "https://render.guildwars2.com/file/64976F59BF060718C9109D36C27AD0F40F06BB32/436368.png",
+      "description": "Gain Power Equal to 6% of Your Healing Power\nGain Power Equal to 8% of Your Concentration\n+10% Experience from Kills"
+    }
+  },
+  {
+    "name": "Recipe: Verata's Artifact",
+    "description": "A recipe to make an ascended focus with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67532,
+    "chat_link": "[&AgHMBwEA]",
+    "icon": "https://render.guildwars2.com/file/077B91E457CFA9ABE67DAFF923570A4BDB974D47/849320.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9861
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Handcannon",
+    "description": "A recipe to make a Sinister Pearl Handcannon.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67533,
+    "chat_link": "[&AgHNBwEA]",
+    "icon": "https://render.guildwars2.com/file/0FE244BAD2EF262F95F17948AA23076A2AB407EF/849299.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9878
+    }
+  },
+  {
+    "name": "Recipe: Sinister Intricate Gossamer Insignia",
+    "description": "A recipe to make a Sinister Intricate Gossamer Insignia.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67534,
+    "chat_link": "[&AgHOBwEA]",
+    "icon": "https://render.guildwars2.com/file/1C7952A1B378639DFC0C0A36A13B0D80279218E8/849307.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9813
+    }
+  },
+  {
+    "name": "Recipe: Verata's Harpoon Gun",
+    "description": "A recipe to make an ascended harpoon gun with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67535,
+    "chat_link": "[&AgHPBwEA]",
+    "icon": "https://render.guildwars2.com/file/0B34A40EC8F5585EABD807015FFAB1084D1E6B01/849312.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9870
+    }
+  },
+  {
+    "name": "Recipe: Verata's Herald",
+    "description": "A recipe to make an ascended warhorn with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67536,
+    "chat_link": "[&AgHQBwEA]",
+    "icon": "https://render.guildwars2.com/file/98B83AED2BFA9B24D46797DC95E0A0112D6C3D64/849338.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9866
+    }
+  },
+  {
+    "name": "Recipe: Verata's Razor",
+    "description": "A recipe to make an ascended dagger with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67537,
+    "chat_link": "[&AgHRBwEA]",
+    "icon": "https://render.guildwars2.com/file/D7ABB45DB032945542623BABC6291639C0B4C7B2/849317.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9889
+    }
+  },
+  {
+    "name": "Recipe: Verata's Claymore",
+    "description": "A recipe to make an ascended greatsword with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67538,
+    "chat_link": "[&AgHSBwEA]",
+    "icon": "https://render.guildwars2.com/file/04ADE6C44959217F7B2A05720DBFB25B55AA42E4/849318.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9895
+    }
+  },
+  {
+    "name": "Recipe: Verata's Warhammer",
+    "description": "A recipe to make an ascended hammer with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67539,
+    "chat_link": "[&AgHTBwEA]",
+    "icon": "https://render.guildwars2.com/file/3520E022E7E669026648DC6A280B3CDD7DBE1302/849327.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9894
+    }
+  },
+  {
+    "name": "Recipe: Verata's Impaler",
+    "description": "A recipe to make an ascended spear with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67540,
+    "chat_link": "[&AgHUBwEA]",
+    "icon": "https://render.guildwars2.com/file/915013AA311A6EBD77FBE4786F674275D4219DA8/849326.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9882
+    }
+  },
+  {
+    "name": "Recipe: Verata's Flanged Mace",
+    "description": "A recipe to make an ascended mace with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67541,
+    "chat_link": "[&AgHVBwEA]",
+    "icon": "https://render.guildwars2.com/file/BB7898A431A3B9190EEEF3B408226B9E20CED208/849316.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9892
+    }
+  },
+  {
+    "name": "Recipe: Sinister Emblazoned Shoulders",
+    "description": "A recipe to make Sinister Emblazoned Shoulders.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67542,
+    "chat_link": "[&AgHWBwEA]",
+    "icon": "https://render.guildwars2.com/file/B81DF7D6D1222E0165B36C92450298583BAE7070/849282.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9839
+    }
+  },
+  {
+    "name": "Recipe: Sinister Emblazoned Pants",
+    "description": "A recipe to make Sinister Emblazoned Pants.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67543,
+    "chat_link": "[&AgHXBwEA]",
+    "icon": "https://render.guildwars2.com/file/2D1AE5B60CDBBC50075CA20EE6191EC4707DBF44/849310.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9832
+    }
+  },
+  {
+    "name": "Recipe: Sinister Emblazoned Helm",
+    "description": "A recipe to make a Sinister Emblazoned Helm.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67544,
+    "chat_link": "[&AgHYBwEA]",
+    "icon": "https://render.guildwars2.com/file/0235F4DFF0183339CEB32FAD37522770D6AA55D0/849311.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9831
+    }
+  },
+  {
+    "name": "Recipe: Sinister Emblazoned Gloves",
+    "description": "A recipe to make Sinister Emblazoned Gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67545,
+    "chat_link": "[&AgHZBwEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9834
+    }
+  },
+  {
+    "name": "Recipe: Sinister Emblazoned Coat",
+    "description": "A recipe to make a Sinister Emblazoned Coat.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67546,
+    "chat_link": "[&AgHaBwEA]",
+    "icon": "https://render.guildwars2.com/file/28B4037C69C2A00A0603FBBE0864441B9948B8E5/849297.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9835
+    }
+  },
+  {
+    "name": "Recipe: Sinister Emblazoned Boots",
+    "description": "A recipe to make Sinister Emblazoned Boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67547,
+    "chat_link": "[&AgHbBwEA]",
+    "icon": "https://render.guildwars2.com/file/4FB13A730DD207E3344E02B87F4CB1ACD675FA15/849305.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9840
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Reaver",
+    "description": "A recipe to make a Sinister Pearl Reaver.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67549,
+    "chat_link": "[&AgHdBwEA]",
+    "icon": "https://render.guildwars2.com/file/D1CC662DD44379089A64450B395C4B54BE2EE756/849298.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9888
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Carver",
+    "description": "A recipe to make a Sinister Pearl Carver.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67550,
+    "chat_link": "[&AgHeBwEA]",
+    "icon": "https://render.guildwars2.com/file/A4334E5830B017094A03FBF208A79B4BBF392917/849292.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9890
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Broadsword",
+    "description": "A recipe to make a Sinister Pearl Broadsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67551,
+    "chat_link": "[&AgHfBwEA]",
+    "icon": "https://render.guildwars2.com/file/F634A41B46C73C3AD3A70E02697C9370A2F9F34B/849291.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9886
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Crusher",
+    "description": "A recipe to make a Sinister Pearl Crusher.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67552,
+    "chat_link": "[&AgHgBwEA]",
+    "icon": "https://render.guildwars2.com/file/0E6ECF2B7D5B300979A70325120A646195C213F0/849290.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9887
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Bludgeoner",
+    "description": "A recipe to make a Sinister Pearl Bludgeoner.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67553,
+    "chat_link": "[&AgHhBwEA]",
+    "icon": "https://render.guildwars2.com/file/802E0895B53955AC0E23CAB89C01D42C6E3525AF/849289.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9884
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Shell",
+    "description": "A recipe to make a Sinister Pearl Shell.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67554,
+    "chat_link": "[&AgHiBwEA]",
+    "icon": "https://render.guildwars2.com/file/D201924467E3C9DF60B5F79631689F90DCE89478/849288.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9891
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Impaler",
+    "description": "A recipe to make a Sinister Pearl Impaler.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67555,
+    "chat_link": "[&AgHjBwEA]",
+    "icon": "https://render.guildwars2.com/file/043DA2FD01D8DD0B03C369B9B2020CC81138FFCF/849287.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9881
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Sabre",
+    "description": "A recipe to make a Sinister Pearl Sabre.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67556,
+    "chat_link": "[&AgHkBwEA]",
+    "icon": "https://render.guildwars2.com/file/F1AEEAB8041F78F2B90515E55306A5260FA640BC/849286.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9883
+    }
+  },
+  {
+    "name": "Recipe: Verata's Shoulderguard",
+    "description": "A recipe to make ascended medium shoulders with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67557,
+    "chat_link": "[&AgHlBwEA]",
+    "icon": "https://render.guildwars2.com/file/90E9F7590C17DA7933339AE7C52FD83432B33E01/849296.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9830
+    }
+  },
+  {
+    "name": "Recipe: Verata's Leggings",
+    "description": "A recipe to make ascended medium leggings with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67558,
+    "chat_link": "[&AgHmBwEA]",
+    "icon": "https://render.guildwars2.com/file/0813027CDADB9135602EB1B1AFD90A3FE335410B/849283.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9836
+    }
+  },
+  {
+    "name": "Recipe: Verata's Visage",
+    "description": "A recipe to make an ascended medium helm with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67559,
+    "chat_link": "[&AgHnBwEA]",
+    "icon": "https://render.guildwars2.com/file/AC1C3075784E0C4235BD9E22E1752D6B49D66F0F/849281.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9828
+    }
+  },
+  {
+    "name": "Recipe: Verata's Grips",
+    "description": "A recipe to make ascended medium gloves with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67560,
+    "chat_link": "[&AgHoBwEA]",
+    "icon": "https://render.guildwars2.com/file/EEC8F3F85DA3B3920C4ADAD9D81DBCA62711FFE5/849280.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9833
+    }
+  },
+  {
+    "name": "Recipe: Verata's Guise",
+    "description": "A recipe to make an ascended medium coat with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67561,
+    "chat_link": "[&AgHpBwEA]",
+    "icon": "https://render.guildwars2.com/file/0F26173B2EDE1CCE9C06AFDFE3EB3E0F17C2ACEC/849294.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9837
+    }
+  },
+  {
+    "name": "Recipe: Verata's Striders",
+    "description": "A recipe to make ascended medium boots with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67562,
+    "chat_link": "[&AgHqBwEA]",
+    "icon": "https://render.guildwars2.com/file/3153B6543A4502614239094397322C4EEA0FAA48/849295.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9838
+    }
+  },
+  {
+    "name": "Recipe: Verata's Epaulets",
+    "description": "A recipe to make ascended light shoulders with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67563,
+    "chat_link": "[&AgHrBwEA]",
+    "icon": "https://render.guildwars2.com/file/90E9F7590C17DA7933339AE7C52FD83432B33E01/849296.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9841
+    }
+  },
+  {
+    "name": "Recipe: Verata's Breeches",
+    "description": "A recipe to make ascended light leggings with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67564,
+    "chat_link": "[&AgHsBwEA]",
+    "icon": "https://render.guildwars2.com/file/0813027CDADB9135602EB1B1AFD90A3FE335410B/849283.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9846
+    }
+  },
+  {
+    "name": "Recipe: Verata's Masque",
+    "description": "A recipe to make an ascended light helm with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67565,
+    "chat_link": "[&AgHtBwEA]",
+    "icon": "https://render.guildwars2.com/file/AC1C3075784E0C4235BD9E22E1752D6B49D66F0F/849281.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9844
+    }
+  },
+  {
+    "name": "Recipe: Verata's Wristguards",
+    "description": "A recipe to make ascended light gloves with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67566,
+    "chat_link": "[&AgHuBwEA]",
+    "icon": "https://render.guildwars2.com/file/EEC8F3F85DA3B3920C4ADAD9D81DBCA62711FFE5/849280.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9852
+    }
+  },
+  {
+    "name": "Recipe: Verata's Doublet",
+    "description": "A recipe to make an ascended light coat with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67567,
+    "chat_link": "[&AgHvBwEA]",
+    "icon": "https://render.guildwars2.com/file/0F26173B2EDE1CCE9C06AFDFE3EB3E0F17C2ACEC/849294.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9845
+    }
+  },
+  {
+    "name": "Recipe: Verata's Footwear",
+    "description": "A recipe to make ascended light boots with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67568,
+    "chat_link": "[&AgHwBwEA]",
+    "icon": "https://render.guildwars2.com/file/3153B6543A4502614239094397322C4EEA0FAA48/849295.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9850
+    }
+  },
+  {
+    "name": "Recipe: Verata's Pauldrons",
+    "description": "A recipe to make ascended heavy shoulders with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67569,
+    "chat_link": "[&AgHxBwEA]",
+    "icon": "https://render.guildwars2.com/file/90E9F7590C17DA7933339AE7C52FD83432B33E01/849296.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9823
+    }
+  },
+  {
+    "name": "Recipe: Verata's Tassets",
+    "description": "A recipe to make ascended heavy leggings with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67570,
+    "chat_link": "[&AgHyBwEA]",
+    "icon": "https://render.guildwars2.com/file/0813027CDADB9135602EB1B1AFD90A3FE335410B/849283.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9824
+    }
+  },
+  {
+    "name": "Recipe: Verata's Visor",
+    "description": "A recipe to make an ascended heavy helm with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67571,
+    "chat_link": "[&AgHzBwEA]",
+    "icon": "https://render.guildwars2.com/file/AC1C3075784E0C4235BD9E22E1752D6B49D66F0F/849281.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9818
+    }
+  },
+  {
+    "name": "Recipe: Verata's Warfists",
+    "description": "A recipe to make ascended heavy gloves with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67572,
+    "chat_link": "[&AgH0BwEA]",
+    "icon": "https://render.guildwars2.com/file/EEC8F3F85DA3B3920C4ADAD9D81DBCA62711FFE5/849280.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9817
+    }
+  },
+  {
+    "name": "Recipe: Verata's Breastplate",
+    "description": "A recipe to make an ascended heavy coat with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67573,
+    "chat_link": "[&AgH1BwEA]",
+    "icon": "https://render.guildwars2.com/file/0F26173B2EDE1CCE9C06AFDFE3EB3E0F17C2ACEC/849294.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9822
+    }
+  },
+  {
+    "name": "Recipe: Verata's Greaves",
+    "description": "A recipe to make ascended heavy boots with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67574,
+    "chat_link": "[&AgH2BwEA]",
+    "icon": "https://render.guildwars2.com/file/3153B6543A4502614239094397322C4EEA0FAA48/849295.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9821
+    }
+  },
+  {
+    "name": "Recipe: Sinister Exalted Pants",
+    "description": "A recipe to make Sinister Exalted Pants.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67575,
+    "chat_link": "[&AgH3BwEA]",
+    "icon": "https://render.guildwars2.com/file/2D1AE5B60CDBBC50075CA20EE6191EC4707DBF44/849310.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9853
+    }
+  },
+  {
+    "name": "Recipe: Verata's Greatbow",
+    "description": "A recipe to make an ascended longbow with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67576,
+    "chat_link": "[&AgH4BwEA]",
+    "icon": "https://render.guildwars2.com/file/1A060693BEC1773D0F07514442E81F60CF270D07/849330.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9875
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Stinger",
+    "description": "A recipe to make a Sinister Pearl Stinger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67577,
+    "chat_link": "[&AgH5BwEA]",
+    "icon": "https://render.guildwars2.com/file/3AB66FABE1F5A5FD90E49851D0D9D8DDB591135E/849285.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9872
+    }
+  },
+  {
+    "name": "Recipe: Sinister Exalted Gloves",
+    "description": "A recipe to make Sinister Exalted Gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67578,
+    "chat_link": "[&AgH6BwEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9851
+    }
+  },
+  {
+    "name": "Recipe: Sinister Exalted Coat",
+    "description": "A recipe to make a Sinister Exalted Coat.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67579,
+    "chat_link": "[&AgH7BwEA]",
+    "icon": "https://render.guildwars2.com/file/28B4037C69C2A00A0603FBBE0864441B9948B8E5/849297.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9848
+    }
+  },
+  {
+    "name": "Recipe: Verata's Brazier",
+    "description": "A recipe to make an ascended torch with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67580,
+    "chat_link": "[&AgH8BwEA]",
+    "icon": "https://render.guildwars2.com/file/96A924E9F149E20BF5341E6478D00DA3EA49ACEE/849336.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9871
+    }
+  },
+  {
+    "name": "Recipe: Verata's Wand",
+    "description": "A recipe to make an ascended scepter with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67581,
+    "chat_link": "[&AgH9BwEA]",
+    "icon": "https://render.guildwars2.com/file/45FBC1B93A0E9C24E10269ADBD082905A0BB1A37/849321.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9860
+    }
+  },
+  {
+    "name": "Recipe: Verata's Spire",
+    "description": "A recipe to make an ascended staff with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67582,
+    "chat_link": "[&AgH+BwEA]",
+    "icon": "https://render.guildwars2.com/file/6233E7A2A3C9BE1E3DB8B2735819C3A13F1A7912/849322.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9862
+    }
+  },
+  {
+    "name": "Recipe: Sinister Draconic Pauldrons",
+    "description": "A recipe to make Sinister Draconic Pauldrons.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67583,
+    "chat_link": "[&AgH/BwEA]",
+    "icon": "https://render.guildwars2.com/file/B81DF7D6D1222E0165B36C92450298583BAE7070/849282.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9826
+    }
+  },
+  {
+    "name": "Recipe: Verata's Revolver",
+    "description": "A recipe to make an ascended pistol with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67584,
+    "chat_link": "[&AgEACAEA]",
+    "icon": "https://render.guildwars2.com/file/01C770B1294490176DB874720555FCAD9E9A5514/849334.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9873
+    }
+  },
+  {
+    "name": "Recipe: Verata's Musket",
+    "description": "A recipe to make an ascended rifle with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67585,
+    "chat_link": "[&AgEBCAEA]",
+    "icon": "https://render.guildwars2.com/file/7178B149E19C65A5FEF44FFB71EBFA0968946B99/849335.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9877
+    }
+  },
+  {
+    "name": "Recipe: Verata's Short Bow",
+    "description": "A recipe to make an ascended short bow with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67586,
+    "chat_link": "[&AgECCAEA]",
+    "icon": "https://render.guildwars2.com/file/253A14641FBC6456C8F1FD2DB2DAAC045DDFEF6C/849319.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9867
+    }
+  },
+  {
+    "name": "Recipe: Verata's Reaver",
+    "description": "A recipe to make an ascended axe with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67587,
+    "chat_link": "[&AgEDCAEA]",
+    "icon": "https://render.guildwars2.com/file/07D213ECABAE4201A04809374424ACCB7FC6989B/849313.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9893
+    }
+  },
+  {
+    "name": "Recipe: Verata's Trident",
+    "description": "A recipe to make an ascended trident with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67588,
+    "chat_link": "[&AgEECAEA]",
+    "icon": "https://render.guildwars2.com/file/01330C982F9439EA15BF43627DB50AB798746340/849323.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9859
+    }
+  },
+  {
+    "name": "Recipe: Sinister Draconic Boots",
+    "description": "A recipe to make Sinister Draconic Boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67589,
+    "chat_link": "[&AgEFCAEA]",
+    "icon": "https://render.guildwars2.com/file/4FB13A730DD207E3344E02B87F4CB1ACD675FA15/849305.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9819
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Blunderbuss",
+    "description": "A recipe to make a Sinister Pearl Blunderbuss.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67590,
+    "chat_link": "[&AgEGCAEA]",
+    "icon": "https://render.guildwars2.com/file/B2185DEB0847396E0902B24A03A8CA36589F46A1/849300.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9876
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Needler",
+    "description": "A recipe to make a Sinister Pearl Needler.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67591,
+    "chat_link": "[&AgEHCAEA]",
+    "icon": "https://render.guildwars2.com/file/1314795BA50A14086164EB3D290502C79D0F4E43/849301.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9869
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Brazier",
+    "description": "A recipe to make a Sinister Pearl Brazier.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67592,
+    "chat_link": "[&AgEICAEA]",
+    "icon": "https://render.guildwars2.com/file/2AA251A1001C64AFAEFFBC2443B4D8BFE0373B52/849302.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9879
+    }
+  },
+  {
+    "name": "Recipe: Sinister Exalted Boots",
+    "description": "A recipe to make Sinister Exalted Boots.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67593,
+    "chat_link": "[&AgEJCAEA]",
+    "icon": "https://render.guildwars2.com/file/4FB13A730DD207E3344E02B87F4CB1ACD675FA15/849305.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9843
+    }
+  },
+  {
+    "name": "Recipe: Sinister Exalted Mantle",
+    "description": "A recipe to make a Sinister Exalted Mantle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67594,
+    "chat_link": "[&AgEKCAEA]",
+    "icon": "https://render.guildwars2.com/file/B81DF7D6D1222E0165B36C92450298583BAE7070/849282.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9849
+    }
+  },
+  {
+    "name": "Recipe: Verata's Sinister Inscription",
+    "description": "A recipe to make an ascended inscription for crafting weapons with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67595,
+    "chat_link": "[&AgELCAEA]",
+    "icon": "https://render.guildwars2.com/file/EE1D049599C275DE570FF9FF55051639DFFF7339/849337.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9810
+    }
+  },
+  {
+    "name": "Recipe: Sinister Exalted Masque",
+    "description": "A recipe to make a Sinister Exalted Masque.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67596,
+    "chat_link": "[&AgEMCAEA]",
+    "icon": "https://render.guildwars2.com/file/0235F4DFF0183339CEB32FAD37522770D6AA55D0/849311.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9847
+    }
+  },
+  {
+    "name": "Recipe: Verata's Sinister Insignia",
+    "description": "A recipe to make an ascended insignia for crafting armor with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67598,
+    "chat_link": "[&AgEOCAEA]",
+    "icon": "https://render.guildwars2.com/file/31A92DEB4BA191A809ACD83D3D007DCE010E68DA/849324.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9812
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Siren",
+    "description": "A recipe to make a Sinister Pearl Siren.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67599,
+    "chat_link": "[&AgEPCAEA]",
+    "icon": "https://render.guildwars2.com/file/93BB38D0F4094B077C740A9531923397BE65405F/849303.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9868
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Quarterstaff",
+    "description": "A recipe to make a Sinister Pearl Quarterstaff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67600,
+    "chat_link": "[&AgEQCAEA]",
+    "icon": "https://render.guildwars2.com/file/B00E062899E80C806A7BB83DDCCDE213E19151B9/849329.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9865
+    }
+  },
+  {
+    "name": "Recipe: Sinister Draconic Legs",
+    "description": "A recipe to make Sinister Draconic Legs.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67601,
+    "chat_link": "[&AgERCAEA]",
+    "icon": "https://render.guildwars2.com/file/2D1AE5B60CDBBC50075CA20EE6191EC4707DBF44/849310.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9820
+    }
+  },
+  {
+    "name": "Recipe: Sinister Draconic Helm",
+    "description": "A recipe to make a Sinister Draconic Helm.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67602,
+    "chat_link": "[&AgESCAEA]",
+    "icon": "https://render.guildwars2.com/file/0235F4DFF0183339CEB32FAD37522770D6AA55D0/849311.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9825
+    }
+  },
+  {
+    "name": "Recipe: Sinister Draconic Gauntlets",
+    "description": "A recipe to make Sinister Draconic Gauntlets.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67603,
+    "chat_link": "[&AgETCAEA]",
+    "icon": "https://render.guildwars2.com/file/2165062CDCFBAAA0173AB39DF7EB10A2120816D0/849293.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9827
+    }
+  },
+  {
+    "name": "Recipe: Sinister Draconic Coat",
+    "description": "A recipe to make a Sinister Draconic Coat.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67604,
+    "chat_link": "[&AgEUCAEA]",
+    "icon": "https://render.guildwars2.com/file/28B4037C69C2A00A0603FBBE0864441B9948B8E5/849297.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9816
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Rod",
+    "description": "A recipe to make a Sinister Pearl Rod.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67605,
+    "chat_link": "[&AgEVCAEA]",
+    "icon": "https://render.guildwars2.com/file/4B0EB245A6ABB5A52C3A533E2D571920E8D9E509/849325.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9858
+    }
+  },
+  {
+    "name": "Recipe: Verata's Blade",
+    "description": "A recipe to make an ascended sword with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67606,
+    "chat_link": "[&AgEWCAEA]",
+    "icon": "https://render.guildwars2.com/file/6D0D731F0DB34D90B72CD1FC79340CC00C91C1D2/849314.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9885
+    }
+  },
+  {
+    "name": "Recipe: Verata's Bastion",
+    "description": "A recipe to make an ascended shield with Sinister (+Condition Damage, +Power, and +Precision) stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67607,
+    "chat_link": "[&AgEXCAEA]",
+    "icon": "https://render.guildwars2.com/file/583E335F780D3FD5AA2E149DBC9F28CEF6224F09/849315.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9880
+    }
+  },
+  {
+    "name": "Recipe: Charged Ambrite Orichalcum Amulet",
+    "description": "A recipe to make a Charged Ambrite Orichalcum Amulet.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67608,
+    "chat_link": "[&AgEYCAEA]",
+    "icon": "https://render.guildwars2.com/file/01CC2C735674EF3E77AA48FE5EBADED5F109B873/849332.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9855
+    }
+  },
+  {
+    "name": "Recipe: Charged Ambrite Orichalcum Earring",
+    "description": "A recipe to make a Charged Ambrite Orichalcum Earring.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67609,
+    "chat_link": "[&AgEZCAEA]",
+    "icon": "https://render.guildwars2.com/file/1862804D61ED5E0BE301E40E2E2027125907BC72/849331.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9857
+    }
+  },
+  {
+    "name": "Recipe: Charged Ambrite Orichalcum Ring",
+    "description": "A recipe to make a Charged Ambrite Orichalcum Ring.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67610,
+    "chat_link": "[&AgEaCAEA]",
+    "icon": "https://render.guildwars2.com/file/7B1A44A9170BC3F8903327B79AE79DC6BCCA06E2/849333.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9856
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Trident",
+    "description": "A recipe to make a Sinister Pearl Trident.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67611,
+    "chat_link": "[&AgEbCAEA]",
+    "icon": "https://render.guildwars2.com/file/593C1FA6EC60BC403AEFE64DAE09BA096BDE981A/849328.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9864
+    }
+  },
+  {
+    "name": "Recipe: Sinister Pearl Conch",
+    "description": "A recipe to make a Sinister Pearl Conch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 132,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 67612,
+    "chat_link": "[&AgEcCAEA]",
+    "icon": "https://render.guildwars2.com/file/0C12706107D16B1A782A19C9E3A052003438B95C/849339.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 9863
+    }
+  },
+  {
+    "name": "Sinister Draconic Helm",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 152,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67613,
+    "chat_link": "[&AgEdCAEA]",
+    "icon": "https://render.guildwars2.com/file/0CDB4F0534D023449B6202B3566E23F4B8C10CE6/61565.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 43
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 60
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Draconic Boots",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 140,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67614,
+    "chat_link": "[&AgEeCAEA]",
+    "icon": "https://render.guildwars2.com/file/ABA5149ABEFE50D5F460E5CF6D50A81D09435091/61562.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 182,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 32
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 32
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Draconic Coat",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 131,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67615,
+    "chat_link": "[&AgEfCAEA]",
+    "icon": "https://render.guildwars2.com/file/E7FC2F5D02DBA0EE089BC615A5D2F1DFCFE6185F/61563.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 363,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 96
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 96
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 134
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Draconic Legs",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67616,
+    "chat_link": "[&AgEgCAEA]",
+    "icon": "https://render.guildwars2.com/file/5B4F503619F5F5C659E961E76E290BAB6F234816/61566.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 242,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 64
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 90
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Draconic Pauldrons",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 138,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67617,
+    "chat_link": "[&AgEhCAEA]",
+    "icon": "https://render.guildwars2.com/file/9A1A03AA6818EACB1E63B43F06150925484B200D/61567.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 32
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 32
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Draconic Gauntlets",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 246,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67618,
+    "chat_link": "[&AgEiCAEA]",
+    "icon": "https://render.guildwars2.com/file/0AAAED031F08DDAF665339E8DC060D2BFDE60C7B/61564.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 182,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 32
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 32
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Exalted Pants",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 162,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67619,
+    "chat_link": "[&AgEjCAEA]",
+    "icon": "https://render.guildwars2.com/file/A74E3461167960693591EF5E4AE1A81C0CBD03B2/61524.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 194,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 64
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 90
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Exalted Gloves",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 178,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67620,
+    "chat_link": "[&AgEkCAEA]",
+    "icon": "https://render.guildwars2.com/file/77EC710506D20A724036E55D12054903D2F42763/61522.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 32
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 32
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Exalted Mantle",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 169,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67621,
+    "chat_link": "[&AgElCAEA]",
+    "icon": "https://render.guildwars2.com/file/CB1168666B9D67CBF119DF365333327B72226E06/61525.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 32
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 32
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Exalted Coat",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 161,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67622,
+    "chat_link": "[&AgEmCAEA]",
+    "icon": "https://render.guildwars2.com/file/072F6E4D010C68014D725D9066AEE7EECB2CC1CA/61521.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 314,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 96
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 96
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 134
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Exalted Boots",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 172,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67623,
+    "chat_link": "[&AgEnCAEA]",
+    "icon": "https://render.guildwars2.com/file/AE26D521B64460E45F69FBD7784313D4BAF070CA/61520.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 133,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 32
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 32
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Exalted Masque",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 185,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67624,
+    "chat_link": "[&AgEoCAEA]",
+    "icon": "https://render.guildwars2.com/file/0F2101315C12A3E75263224DEA3B946FFD0801E0/61523.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 73,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 43
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 60
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Emblazoned Helm",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 214,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67625,
+    "chat_link": "[&AgEpCAEA]",
+    "icon": "https://render.guildwars2.com/file/00F20B809913F95FAB60AE057D98BB760C984AF8/61613.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 43
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 43
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 60
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Emblazoned Gloves",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 204,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67626,
+    "chat_link": "[&AgEqCAEA]",
+    "icon": "https://render.guildwars2.com/file/597D35D5FD36DC7F7CB90AE704BB5F27FD29D122/61612.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 157,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 32
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 32
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Emblazoned Shoulders",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 195,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67627,
+    "chat_link": "[&AgErCAEA]",
+    "icon": "https://render.guildwars2.com/file/133E6EFBE67F7D962398BA000416F9C6C54063C0/61615.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 97,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 32
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 32
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Emblazoned Pants",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 187,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67628,
+    "chat_link": "[&AgEsCAEA]",
+    "icon": "https://render.guildwars2.com/file/A9202FB70500E8A74AB070D32E3A4E1033023476/61614.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 218,
+      "infusion_slots": [],
+      "attribute_adjustment": 256.08,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 64
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 90
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Emblazoned Boots",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 198,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67629,
+    "chat_link": "[&AgEtCAEA]",
+    "icon": "https://render.guildwars2.com/file/E8E3621EE10F44A6ED1CC4295161E7D5C0F17F36/61610.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 157,
+      "infusion_slots": [],
+      "attribute_adjustment": 128.04,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 32
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 32
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 45
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sinister Emblazoned Coat",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 240,
+    "default_skin": 188,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67630,
+    "chat_link": "[&AgEuCAEA]",
+    "icon": "https://render.guildwars2.com/file/6CC34DCB24B953F6DB78619CD4FF3D7D5EB8721B/61611.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 338,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 96
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 96
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 134
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Charged Ambrite Orichalcum Earring",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 330,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67631,
+    "chat_link": "[&AgEvCAEA]",
+    "icon": "https://render.guildwars2.com/file/2AB132B4F770CCD19A07C09D55749EA34A555171/904653.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 213.4,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 53
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 53
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      },
+      "suffix_item_id": 67914
+    }
+  },
+  {
+    "name": "Charged Ambrite Orichalcum Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 67632,
+    "chat_link": "[&AgEwCAEA]",
+    "icon": "https://render.guildwars2.com/file/FBB23E5C3D2222D36B9BE6115F17DD42BED86290/904654.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1067,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 85
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 120
+          }
+        ]
+      },
+      "suffix_item_id": 67914
+    }
+  }
+]

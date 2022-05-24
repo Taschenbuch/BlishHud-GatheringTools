@@ -1,0 +1,6018 @@
+[
+  {
+    "name": "Superior Trebuchet Blueprints",
+    "description": "Use to construct a superior trebuchet build site. It is more powerful than a standard trebuchet. Range 10,000. Requires 120 supply to complete.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 21264,
+    "chat_link": "[&AgEQUwAA]",
+    "icon": "https://render.guildwars2.com/file/2DCDCCFB450E0316DF624E391C5E5A10532D4420/455540.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Glory Booster",
+    "description": "Double-click to gain 50% more glory for 1 hour.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 21268,
+    "chat_link": "[&AgEUUwAA]",
+    "icon": "https://render.guildwars2.com/file/067BBC3742AC32B39429C63C21C8C258C809B77D/434464.png",
+    "details": {
+      "type": "Utility"
+    }
+  },
+  {
+    "name": "Copper Tournament Reward Chest",
+    "description": "Double-click to receive your PvP rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 21269,
+    "chat_link": "[&AgEVUwAA]",
+    "icon": "https://render.guildwars2.com/file/900B6F07174AEFC96A664AC6115D2DABC90B06B8/66867.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Unidentified Dye",
+    "description": "Double-click to identify one random dye color that can be unlocked for one of your characters or recycled at the Mystic Forge.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 21299,
+    "chat_link": "[&AgEzUwAA]",
+    "icon": "https://render.guildwars2.com/file/109A6B04C4E577D9266EEDA21CC30E6B800DD452/66587.png",
+    "details": {
+      "type": "GiftBox"
+    }
+  },
+  {
+    "name": "Copper Free Tournament Reward Chest",
+    "description": "Double-click to receive your PvP rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 21309,
+    "chat_link": "[&AgE9UwAA]",
+    "icon": "https://render.guildwars2.com/file/900B6F07174AEFC96A664AC6115D2DABC90B06B8/66867.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Gold Free Tournament Reward Chest",
+    "description": "Double-click to receive your PvP rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 21310,
+    "chat_link": "[&AgE+UwAA]",
+    "icon": "https://render.guildwars2.com/file/666209104CCB024D53359C0EA0A299076E610771/65704.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Silver Free Tournament Reward Chest",
+    "description": "Double-click to receive your PvP rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 21311,
+    "chat_link": "[&AgE/UwAA]",
+    "icon": "https://render.guildwars2.com/file/730A99AC6A69DD0F5352DAD56A91FC09D76F0D39/62860.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Rabbit Reward Chest",
+    "description": "Double-click to receive your PvP rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 21318,
+    "chat_link": "[&AgFGUwAA]",
+    "icon": "https://render.guildwars2.com/file/73090436997D49C05FAFD4462757971CADC2E6B4/63155.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Deer Reward Chest",
+    "description": "Double-click to receive your PvP rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 21319,
+    "chat_link": "[&AgFHUwAA]",
+    "icon": "https://render.guildwars2.com/file/666209104CCB024D53359C0EA0A299076E610771/65704.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Dolyak Reward Chest",
+    "description": "Double-click to receive your PvP rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 21320,
+    "chat_link": "[&AgFIUwAA]",
+    "icon": "https://render.guildwars2.com/file/666209104CCB024D53359C0EA0A299076E610771/65704.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Wolf Reward Chest",
+    "description": "Double-click to receive your PvP rewards.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 21321,
+    "chat_link": "[&AgFJUwAA]",
+    "icon": "https://render.guildwars2.com/file/666209104CCB024D53359C0EA0A299076E610771/65704.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Griffon Claw",
+    "description": "A claw from a large griffon. This will make a worthy trophy.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 21374,
+    "chat_link": "[&AgF+UwAA]",
+    "icon": "https://render.guildwars2.com/file/CC5D3AC6029BEC702869A8BCB2730A77EB976F28/66435.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Boar Tusk",
+    "description": "A massive tusk from a powerful boar. This will make a worthy trophy.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 21375,
+    "chat_link": "[&AgF/UwAA]",
+    "icon": "https://render.guildwars2.com/file/A1B34EE0F99DF12B533EC52740DA0CBE55D9F39B/66436.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Minotaur Horn",
+    "description": "The horn of a mighty minotaur. This will make a worthy trophy.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 21376,
+    "chat_link": "[&AgGAUwAA]",
+    "icon": "https://render.guildwars2.com/file/D9F5326A2B1C6371B3B45AEB13EF557AD80B3404/66437.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Tattered Pelt",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21653,
+    "chat_link": "[&AgGVVAAA]",
+    "icon": "https://render.guildwars2.com/file/0B10F83192919E5CF4C3A5B291BC057607C8C097/66500.png"
+  },
+  {
+    "name": "Ripped Pelt",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21654,
+    "chat_link": "[&AgGWVAAA]",
+    "icon": "https://render.guildwars2.com/file/91C2601D32F94932E2C2681328634C110475D773/223809.png"
+  },
+  {
+    "name": "Torn Pelt",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21655,
+    "chat_link": "[&AgGXVAAA]",
+    "icon": "https://render.guildwars2.com/file/63E475033A69F1966537C09E5610F971CBE6CD02/223811.png"
+  },
+  {
+    "name": "Frayed Pelt",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21656,
+    "chat_link": "[&AgGYVAAA]",
+    "icon": "https://render.guildwars2.com/file/B4D493BB75261B40DAB7E4F04DD2ED4657965B1B/66516.png"
+  },
+  {
+    "name": "Filthy Pelt",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 21,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21657,
+    "chat_link": "[&AgGZVAAA]",
+    "icon": "https://render.guildwars2.com/file/43790C1E80641FC93BE57E9179066364C2036AD1/66498.png"
+  },
+  {
+    "name": "Salvageable Pelt",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21658,
+    "chat_link": "[&AgGaVAAA]",
+    "icon": "https://render.guildwars2.com/file/04B431EB4569A490F749DA2FEE000E0AB2B1E13D/223821.png"
+  },
+  {
+    "name": "Shredded Rag",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21659,
+    "chat_link": "[&AgGbVAAA]",
+    "icon": "https://render.guildwars2.com/file/0607B248FDB12D44DF5BDD08649876AFC2F80556/66499.png"
+  },
+  {
+    "name": "Worn Rag",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21660,
+    "chat_link": "[&AgGcVAAA]",
+    "icon": "https://render.guildwars2.com/file/57A5B274FD2CE09F42C89B5C7C9ACBA22456ED30/223597.png"
+  },
+  {
+    "name": "Tattered Hide",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21661,
+    "chat_link": "[&AgGdVAAA]",
+    "icon": "https://render.guildwars2.com/file/0B669B05965171E167A5092B0894200BFC0F0AEA/66504.png"
+  },
+  {
+    "name": "Soiled Rag",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21662,
+    "chat_link": "[&AgGeVAAA]",
+    "icon": "https://render.guildwars2.com/file/5DC21A7B36B74BE252FDC108F7536A0E38212653/223599.png"
+  },
+  {
+    "name": "Frayed Rag",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21663,
+    "chat_link": "[&AgGfVAAA]",
+    "icon": "https://render.guildwars2.com/file/B4D152120B0FD90CEAB3CC4169E4D19FBE191425/223613.png"
+  },
+  {
+    "name": "Ripped Hide",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21664,
+    "chat_link": "[&AgGgVAAA]",
+    "icon": "https://render.guildwars2.com/file/30460ABED2580CEAB578CA7327263C6671601A11/66510.png"
+  },
+  {
+    "name": "Torn Rag",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 21,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21665,
+    "chat_link": "[&AgGhVAAA]",
+    "icon": "https://render.guildwars2.com/file/61CC3C7773B1E5480E3506B2982B304FD0AFC117/223637.png"
+  },
+  {
+    "name": "Rag",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21666,
+    "chat_link": "[&AgGiVAAA]",
+    "icon": "https://render.guildwars2.com/file/62262B281E2150259DA632944F28EFC608BBD731/223635.png"
+  },
+  {
+    "name": "Torn Hide",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21667,
+    "chat_link": "[&AgGjVAAA]",
+    "icon": "https://render.guildwars2.com/file/D8F1504E9FDA39152C7E9CEBDF300D4BC947E60E/66515.png"
+  },
+  {
+    "name": "Frayed Hide",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21668,
+    "chat_link": "[&AgGkVAAA]",
+    "icon": "https://render.guildwars2.com/file/3A2A0AEE1C1BB0B0D10637E59425AEB04FF10529/66508.png"
+  },
+  {
+    "name": "Shredded Garment",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21669,
+    "chat_link": "[&AgGlVAAA]",
+    "icon": "https://render.guildwars2.com/file/F7671068669C954C4636BA62061534AF4625974B/223681.png"
+  },
+  {
+    "name": "Filthy Hide",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 21,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21670,
+    "chat_link": "[&AgGmVAAA]",
+    "icon": "https://render.guildwars2.com/file/1E2A6E06A4F651A097BDF2352EC514DE56250E6D/66509.png"
+  },
+  {
+    "name": "Worn Garment",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21671,
+    "chat_link": "[&AgGnVAAA]",
+    "icon": "https://render.guildwars2.com/file/7038A497941372A1FA3F0C9667AE58D1E368CCCE/223699.png"
+  },
+  {
+    "name": "Ragged Garment",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21672,
+    "chat_link": "[&AgGoVAAA]",
+    "icon": "https://render.guildwars2.com/file/44D1DCE2E113A4C7383EFBDE6A469BCC0C4D5A08/66501.png"
+  },
+  {
+    "name": "Frayed Garment",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21673,
+    "chat_link": "[&AgGpVAAA]",
+    "icon": "https://render.guildwars2.com/file/76063254FF6022ED7F4A759601F84BE9F702D05F/66825.png"
+  },
+  {
+    "name": "Torn Garment",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 21,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21674,
+    "chat_link": "[&AgGqVAAA]",
+    "icon": "https://render.guildwars2.com/file/D1900DBA621E03B250EBD0E41C94BD58275C60E3/66918.png"
+  },
+  {
+    "name": "Discarded Garment",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21675,
+    "chat_link": "[&AgGrVAAA]",
+    "icon": "https://render.guildwars2.com/file/F9C13811EF41BE0C2BBBD01D9595CC3D10DB3CC0/223675.png"
+  },
+  {
+    "name": "Garment",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 28,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21676,
+    "chat_link": "[&AgGsVAAA]",
+    "icon": "https://render.guildwars2.com/file/44D1DCE2E113A4C7383EFBDE6A469BCC0C4D5A08/66501.png"
+  },
+  {
+    "name": "Garment",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 32,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21677,
+    "chat_link": "[&AgGtVAAA]",
+    "icon": "https://render.guildwars2.com/file/44D1DCE2E113A4C7383EFBDE6A469BCC0C4D5A08/66501.png"
+  },
+  {
+    "name": "Bit of Metal Scrap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21678,
+    "chat_link": "[&AgGuVAAA]",
+    "icon": "https://render.guildwars2.com/file/CB32E614CDBFE6BCAA18FBAB4D2D3F3FA5634FF9/66851.png"
+  },
+  {
+    "name": "Pile of Metal Scrap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21679,
+    "chat_link": "[&AgGvVAAA]",
+    "icon": "https://render.guildwars2.com/file/D9C8AAED4B80010B809E465D90E81634D62EEF16/63137.png"
+  },
+  {
+    "name": "Jagged Metal Scrap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21680,
+    "chat_link": "[&AgGwVAAA]",
+    "icon": "https://render.guildwars2.com/file/44AD4BA2AC1B1C5B4E78D6B7540E0B150BAB40F3/66831.png"
+  },
+  {
+    "name": "Metal Scrap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21681,
+    "chat_link": "[&AgGxVAAA]",
+    "icon": "https://render.guildwars2.com/file/B0C3CB68AFD818CCEE71023A6744FFDF4A2953B7/63141.png"
+  },
+  {
+    "name": "Salvageable Metal Scrap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 21,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21682,
+    "chat_link": "[&AgGyVAAA]",
+    "icon": "https://render.guildwars2.com/file/2CAE10E25864EB0BFC040F3209AF04C639EFDD74/66906.png"
+  },
+  {
+    "name": "Valuable Metal Scrap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21683,
+    "chat_link": "[&AgGzVAAA]",
+    "icon": "https://render.guildwars2.com/file/1458BD44DB131FB0DC0309EDA4470F2A32364C94/62325.png"
+  },
+  {
+    "name": "Rawhide Leather Strap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21684,
+    "chat_link": "[&AgG0VAAA]",
+    "icon": "https://render.guildwars2.com/file/093809B04B1CA8973FA8DD3E9C290EB5E306BD00/66502.png"
+  },
+  {
+    "name": "Thin Leather Strap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21685,
+    "chat_link": "[&AgG1VAAA]",
+    "icon": "https://render.guildwars2.com/file/0003964BB648BBC5F2F80CFE2359AC63BAB17D01/66518.png"
+  },
+  {
+    "name": "Coarse Leather Strap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21686,
+    "chat_link": "[&AgG2VAAA]",
+    "icon": "https://render.guildwars2.com/file/D3D26AFB27921824303CDE24197016CD5391991B/65680.png"
+  },
+  {
+    "name": "Thick Leather Strap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21687,
+    "chat_link": "[&AgG3VAAA]",
+    "icon": "https://render.guildwars2.com/file/E8073C31C7F10C66E407F37B316878D0BDB779AB/223665.png"
+  },
+  {
+    "name": "Rugged Leather Strap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 21,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21688,
+    "chat_link": "[&AgG4VAAA]",
+    "icon": "https://render.guildwars2.com/file/BCFCC11836DF3B694C30BE4959C074A7FD6F9EC5/223663.png"
+  },
+  {
+    "name": "Hard Leather Strap",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21689,
+    "chat_link": "[&AgG5VAAA]",
+    "icon": "https://render.guildwars2.com/file/FC4F514FD17F46CFC0B199CD6341A11F409F29FB/223661.png"
+  },
+  {
+    "name": "Brittle Clump of Ore",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21690,
+    "chat_link": "[&AgG6VAAA]",
+    "icon": "https://render.guildwars2.com/file/C15F220F0B4DAAE4FEC6673B4B9E3037F9E0114A/63125.png"
+  },
+  {
+    "name": "Weak Clump of Ore",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21691,
+    "chat_link": "[&AgG7VAAA]",
+    "icon": "https://render.guildwars2.com/file/0759C04469062C150B34010A15534E21A49A2C55/61968.png"
+  },
+  {
+    "name": "Clump of Ore",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21692,
+    "chat_link": "[&AgG8VAAA]",
+    "icon": "https://render.guildwars2.com/file/CB32E614CDBFE6BCAA18FBAB4D2D3F3FA5634FF9/66851.png"
+  },
+  {
+    "name": "Laden Clump of Ore",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21693,
+    "chat_link": "[&AgG9VAAA]",
+    "icon": "https://render.guildwars2.com/file/FB3FCBE45BCA64961A47E82C3F59F0FE433174F2/66503.png"
+  },
+  {
+    "name": "Loaded Clump of Ore",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 21,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21694,
+    "chat_link": "[&AgG+VAAA]",
+    "icon": "https://render.guildwars2.com/file/5503A95724C8171E4E2980BFA7A7790A69243E57/223601.png"
+  },
+  {
+    "name": "Rich Clump of Ore",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21695,
+    "chat_link": "[&AgG/VAAA]",
+    "icon": "https://render.guildwars2.com/file/2DC13D5674BC1833DB03D102CAC1BF322AE01296/66826.png"
+  },
+  {
+    "name": "Wolf Pelt",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 21941,
+    "chat_link": "[&AgG1VQAA]",
+    "icon": "https://render.guildwars2.com/file/A11DA913BBDF3751691D0C621545F6D363AD5F0C/66517.png"
+  },
+  {
+    "name": "Half-Eaten Mass",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 6,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 22325,
+    "chat_link": "[&AgE1VwAA]",
+    "icon": "https://render.guildwars2.com/file/ABFD7B0F9C370D0CE9F62135066202E649CD2096/223679.png"
+  },
+  {
+    "name": "Decaying Mass",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 10,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 22326,
+    "chat_link": "[&AgE2VwAA]",
+    "icon": "https://render.guildwars2.com/file/273A73F21615545861687CCDF514C12490AB08A4/223685.png"
+  },
+  {
+    "name": "Fetid Mass",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 14,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 22327,
+    "chat_link": "[&AgE3VwAA]",
+    "icon": "https://render.guildwars2.com/file/2324F76F1C27B24A260669DEB8749E3339343ACC/66929.png"
+  },
+  {
+    "name": "Malodorous Mass",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 18,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 22328,
+    "chat_link": "[&AgE4VwAA]",
+    "icon": "https://render.guildwars2.com/file/7A5F07EEE54727CA935654C9AA54335045B73D01/223689.png"
+  },
+  {
+    "name": "Half-Digested Mass",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 21,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 22329,
+    "chat_link": "[&AgE5VwAA]",
+    "icon": "https://render.guildwars2.com/file/8096979FE3DAD7B2FA726AB2BACAE15C7017F5DB/66859.png"
+  },
+  {
+    "name": "Regurgitated Mass",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 22330,
+    "chat_link": "[&AgE6VwAA]",
+    "icon": "https://render.guildwars2.com/file/B22E9DD0C5B56F7A40B354644CFF3AD54DE5B321/223691.png"
+  },
+  {
+    "name": "Salvageable Hide",
+    "description": "Salvage Item",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 25,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 22331,
+    "chat_link": "[&AgE7VwAA]",
+    "icon": "https://render.guildwars2.com/file/05D7A5EF6308F380D5F54DE502357059AF096C00/66511.png"
+  },
+  {
+    "name": "Adept's Training Manual",
+    "description": "Double-click to use. This item will unlock the ability to spend up to 10 points in all trait lines, and will refund your currently spent trait points. This item can only be used once.",
+    "type": "Gizmo",
+    "level": 11,
+    "rarity": "Fine",
+    "vendor_value": 125,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 22332,
+    "chat_link": "[&AgE8VwAA]",
+    "icon": "https://render.guildwars2.com/file/C5787913CC53E94FE477D106B1AD30A926F5D716/66752.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Master's Training Manual",
+    "description": "Double-click to use. This item will unlock the ability to spend up to 20 points in all trait lines, and will refund your currently spent trait points. This item can only be used once.",
+    "type": "Gizmo",
+    "level": 40,
+    "rarity": "Masterwork",
+    "vendor_value": 1250,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 22333,
+    "chat_link": "[&AgE9VwAA]",
+    "icon": "https://render.guildwars2.com/file/1F64A2799FC8666FFC66FE56DAA75C02E7E9BA6F/66753.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Grandmaster's Training Manual",
+    "description": "Double-click to use. This item will unlock the ability to spend up to 30 points in all trait lines, and will refund your currently spent trait points. This item can only be used once.",
+    "type": "Gizmo",
+    "level": 60,
+    "rarity": "Rare",
+    "vendor_value": 2500,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 22334,
+    "chat_link": "[&AgE+VwAA]",
+    "icon": "https://render.guildwars2.com/file/600F7957154DD173F5F6EF25807835CAFCEF239C/64964.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Commander's Compendium",
+    "description": "Double-click to use. Unlock the ability to become a Commander.",
+    "type": "Gizmo",
+    "level": 11,
+    "rarity": "Fine",
+    "vendor_value": 125000,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22335,
+    "chat_link": "[&AgE/VwAA]",
+    "icon": "https://render.guildwars2.com/file/1F64A2799FC8666FFC66FE56DAA75C02E7E9BA6F/66753.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Ert's Unguent",
+    "description": "Double-click to gain a hero point.<br>The stench of this is almost unbearable. One gulp and you'll understand why Ert is so green and angry all the time.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22375,
+    "chat_link": "[&AgFnVwAA]",
+    "icon": "https://render.guildwars2.com/file/1C0AF9FCE9CCF6C844E3280DDD23AE36060A0AD8/63068.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cuatl Tonic",
+    "description": "Double-click to gain a hero point.<br>There's a faint whiff of flies and swamp water. Drink enough of this and you'll turn red, too.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22380,
+    "chat_link": "[&AgFsVwAA]",
+    "icon": "https://render.guildwars2.com/file/1C0AF9FCE9CCF6C844E3280DDD23AE36060A0AD8/63068.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Cold Filtered Wurm Tincture",
+    "description": "Double-click to gain a hero point.<br>Made high in the Shiverpeak Mountains using a secret wurm-bladder filtration process...it's not for everyone.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22429,
+    "chat_link": "[&AgGdVwAA]",
+    "icon": "https://render.guildwars2.com/file/98F9BE40CA7E1006DB98756EAE94199E3315EB09/66528.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Raven Tonic",
+    "description": "Double-click to gain a hero point.<br>A spiced, smoky concoction. Raven shamans make this, but nobody knows where or how.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22431,
+    "chat_link": "[&AgGfVwAA]",
+    "icon": "https://render.guildwars2.com/file/AD9247A55E4E6A295151F6732E5C1A77901E14AA/62768.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Morgan's Orchid",
+    "description": "Double-click to gain a hero point.<br>Morganas orchidae. This rare blossom is as beautiful as it is hardy. No one knows what gives it such resilience.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22434,
+    "chat_link": "[&AgGiVwAA]",
+    "icon": "https://render.guildwars2.com/file/0BAE2308BCFF130946D96CECB70793156BBFB456/66529.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Toxal Bog Stew",
+    "description": "Double-click to gain a hero point.<br>Brewed from mystery ingredients found in the Toxal Bog—equal parts hearty meal and bug repellent.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22435,
+    "chat_link": "[&AgGjVwAA]",
+    "icon": "https://render.guildwars2.com/file/DA340AE396FCCACF5EDE9FB762A178B90A013845/63119.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Tasty Meat",
+    "description": "Double-click to gain a hero point.<br>The finest cut of meat at Meatoberfest. The smell of its flame-roasted goodness makes it impossible to resist.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22437,
+    "chat_link": "[&AgGlVwAA]",
+    "icon": "https://render.guildwars2.com/file/7B181DE6B8406B2E5707F2A3AE80371B25FFD3AB/63145.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Draithor's Lab's Powerfully Weird Meat",
+    "description": "Double-click to gain a hero point.<br>This...food has an unfamiliar but tempting aroma. Probably best to eat it first and not ask questions.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22438,
+    "chat_link": "[&AgGmVwAA]",
+    "icon": "https://render.guildwars2.com/file/90090A009BB039DB27C80605A47EE94D262FBF9B/66530.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Prototype Ooze Concentrate Tincture",
+    "description": "Double-click to gain a hero point.<br>There's a faint whiff of something strange and powerfully concentrated. Drink this at your own risk.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22441,
+    "chat_link": "[&AgGpVwAA]",
+    "icon": "https://render.guildwars2.com/file/007169B13E3F7D9ED9FE7DC7DB78060977026492/63124.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Unidentified Beverage",
+    "description": "Double-click to gain a hero point.<br>A bottle of liquid found near a fallen explorer in Orr. The origin of the beverage is unknown.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22447,
+    "chat_link": "[&AgGvVwAA]",
+    "icon": "https://render.guildwars2.com/file/116B302CC6143B753304B771760EB9735918B4FB/63102.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Sunken Rations",
+    "description": "Double-click to gain a hero point.<br>These drowned rations are sodden with seawater.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22450,
+    "chat_link": "[&AgGyVwAA]",
+    "icon": "https://render.guildwars2.com/file/26BF0A1AB04716EAF3B70F4AFF450FA595E2A2A3/219476.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Grawl Paint",
+    "description": "Double-click to gain a hero point.<br>This clay is obviously magical. No wonder the grawl spread it all over the place. You should be able to imbue yourself with its essence.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22468,
+    "chat_link": "[&AgHEVwAA]",
+    "icon": "https://render.guildwars2.com/file/1C0AF9FCE9CCF6C844E3280DDD23AE36060A0AD8/63068.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Choya Stew",
+    "description": "Double-click to gain a hero point.<br>It's unclear what's in this concoction, but just smelling it makes your nose twitch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22470,
+    "chat_link": "[&AgHGVwAA]",
+    "icon": "https://render.guildwars2.com/file/BCB5AD905BC4C60A707C6699621CEBF8B42829AD/219354.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Spider Egg",
+    "description": "Double-click to gain a hero point.<br>The spiders here grow very large. It stands to reason that their eggs must make you stronger...",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22471,
+    "chat_link": "[&AgHHVwAA]",
+    "icon": "https://render.guildwars2.com/file/FDDB0642FA913D995D09904258DF4CB1E0949B6F/67052.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Centaur Feed",
+    "description": "Double-click to gain a hero point.<br>This is the feed from the local centaur tribe. It's mostly berries and grass, but you can smell some mystery ingredient... Must be good.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22472,
+    "chat_link": "[&AgHIVwAA]",
+    "icon": "https://render.guildwars2.com/file/135535073FE49205B57801F3A94F35F7270274EF/63257.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Bottle of Skrittsburgh Special",
+    "description": "Double-click to gain a hero point.<br>A thick, hearty beverage favored in Skrittsburgh. It seems to contain some kind of grain along with trace tufts of fur.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22474,
+    "chat_link": "[&AgHKVwAA]",
+    "icon": "https://render.guildwars2.com/file/C9F9A9490707A563234B78CC3CB7346AD1993518/339959.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Mysterious Meat",
+    "description": "Double-click to gain a hero point.<br>This strange fermented meat smells exotic. Maybe it's best not to think about where it came from.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 1,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22475,
+    "chat_link": "[&AgHLVwAA]",
+    "icon": "https://render.guildwars2.com/file/BF7014629DA8B4C7BCBBAF26B2B10EB86C4BC90F/63105.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Steady Hammer",
+    "type": "Weapon",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "default_skin": 5024,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22860,
+    "chat_link": "[&AgFMWQAA]",
+    "icon": "https://render.guildwars2.com/file/D804F663EC0D3E4B95485443106656EA9304E536/67681.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 284,
+      "max_power": 284,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 15.6,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      }
+    }
+  },
+  {
+    "name": "Mini-moa Egg",
+    "description": "Double-click to use. Hatch out a Mini-moa to dance for you.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 27,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22935,
+    "chat_link": "[&AgGXWQAA]",
+    "icon": "https://render.guildwars2.com/file/5FC1B2D9C0BC0365CB6E5C943D2E7E1F58520241/63158.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Iron Harvesting Sickle",
+    "description": "Used to gather Taproots, Spinach, Strawberries, Herb Sprouts, and all other lesser edible plants. Can also crack open Clams.",
+    "type": "Gathering",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22992,
+    "chat_link": "[&AgHQWQAA]",
+    "icon": "https://render.guildwars2.com/file/AA1BD042F1EAB6A0F5D614DC6113E356C4B836C1/66591.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Iron Logging Axe",
+    "description": "Used to chop down Gummo Saplings, Mimosa Saplings, Snow Cherry Saplings, and all other lesser saplings.",
+    "type": "Gathering",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22994,
+    "chat_link": "[&AgHSWQAA]",
+    "icon": "https://render.guildwars2.com/file/201CC6E60448CB4BA8AD919C74904EE1F9AEC54F/66597.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Iron Mining Pick",
+    "description": "Used to mine Iron Ore, Silver Ore, and all other lesser metals.",
+    "type": "Gathering",
+    "level": 10,
+    "rarity": "Basic",
+    "vendor_value": 7,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22995,
+    "chat_link": "[&AgHTWQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Orichalcum Harvesting Sickle",
+    "description": "Used to gather all plants.",
+    "type": "Gathering",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 22997,
+    "chat_link": "[&AgHVWQAA]",
+    "icon": "https://render.guildwars2.com/file/AA1BD042F1EAB6A0F5D614DC6113E356C4B836C1/66591.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Orichalcum Logging Axe",
+    "description": "Used to chop down all saplings.",
+    "type": "Gathering",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23000,
+    "chat_link": "[&AgHYWQAA]",
+    "icon": "https://render.guildwars2.com/file/201CC6E60448CB4BA8AD919C74904EE1F9AEC54F/66597.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Orichalcum Mining Pick",
+    "description": "Used to mine all metals.",
+    "type": "Gathering",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23001,
+    "chat_link": "[&AgHZWQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Steel Logging Axe",
+    "description": "Used to chop down Tukawa Saplings, Fir Saplings and all other lesser saplings.",
+    "type": "Gathering",
+    "level": 20,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23002,
+    "chat_link": "[&AgHaWQAA]",
+    "icon": "https://render.guildwars2.com/file/201CC6E60448CB4BA8AD919C74904EE1F9AEC54F/66597.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Steel Mining Pick",
+    "description": "Used to mine Gold Ore, and all other lesser metals.",
+    "type": "Gathering",
+    "level": 20,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23003,
+    "chat_link": "[&AgHbWQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Steel Harvesting Sickle",
+    "description": "Used to gather Zucchini, Kale, Root Vegetables, Varied Mushrooms, Young Herbs, Grapes, Cabbage, and all other lesser edible plants.",
+    "type": "Gathering",
+    "level": 20,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23004,
+    "chat_link": "[&AgHcWQAA]",
+    "icon": "https://render.guildwars2.com/file/AA1BD042F1EAB6A0F5D614DC6113E356C4B836C1/66591.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Darksteel Harvesting Sickle",
+    "description": "Used to gather Blackberries, Variegated Taproots, Scallions, Portobello Mushrooms, Mature Herbs, Sugar Pumpkins, Cauliflower, and all other lesser edible plants. Can also harvest Coral.",
+    "type": "Gathering",
+    "level": 30,
+    "rarity": "Basic",
+    "vendor_value": 15,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23005,
+    "chat_link": "[&AgHdWQAA]",
+    "icon": "https://render.guildwars2.com/file/AA1BD042F1EAB6A0F5D614DC6113E356C4B836C1/66591.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Darksteel Logging Axe",
+    "description": "Used to chop down Banyan Saplings, Pine Saplings, Inglewood Saplings, and all other lesser saplings.",
+    "type": "Gathering",
+    "level": 30,
+    "rarity": "Basic",
+    "vendor_value": 15,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23006,
+    "chat_link": "[&AgHeWQAA]",
+    "icon": "https://render.guildwars2.com/file/201CC6E60448CB4BA8AD919C74904EE1F9AEC54F/66597.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Darksteel Mining Pick",
+    "description": "Used to mine Platinum Ore, and all other lesser metals.",
+    "type": "Gathering",
+    "level": 30,
+    "rarity": "Basic",
+    "vendor_value": 15,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23007,
+    "chat_link": "[&AgHfWQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Mithril Harvesting Sickle",
+    "description": "Used to gather Asparagus, Cayenne Peppers, Leeks, Winter Root Vegetables, Verdant Herbs, Raspberries, Butternut Squash, Artichokes, and all other lesser edible plants.",
+    "type": "Gathering",
+    "level": 45,
+    "rarity": "Basic",
+    "vendor_value": 20,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23008,
+    "chat_link": "[&AgHgWQAA]",
+    "icon": "https://render.guildwars2.com/file/AA1BD042F1EAB6A0F5D614DC6113E356C4B836C1/66591.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Mithril Logging Axe",
+    "description": "Used to chop down Red Oak Saplings, Cypress Saplings, Baoba Saplings, and all other lesser saplings.",
+    "type": "Gathering",
+    "level": 45,
+    "rarity": "Basic",
+    "vendor_value": 20,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23009,
+    "chat_link": "[&AgHhWQAA]",
+    "icon": "https://render.guildwars2.com/file/201CC6E60448CB4BA8AD919C74904EE1F9AEC54F/66597.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Mithril Mining Pick",
+    "description": "Used to mine Mithril, and all other lesser metals.",
+    "type": "Gathering",
+    "level": 45,
+    "rarity": "Basic",
+    "vendor_value": 20,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23010,
+    "chat_link": "[&AgHiWQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Mithril Mining Pick",
+    "description": "Can harvest Mithril, Platinum and all lesser metals.",
+    "type": "Gathering",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 54,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23011,
+    "chat_link": "[&AgHjWQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Mithril Harvesting Sickle",
+    "description": "Capable of gathering produce in maps up to level 70",
+    "type": "Gathering",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 54,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23013,
+    "chat_link": "[&AgHlWQAA]",
+    "icon": "https://render.guildwars2.com/file/AA1BD042F1EAB6A0F5D614DC6113E356C4B836C1/66591.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Splitting Axe",
+    "description": "Extremely efficient at gathering resources and uncovering rare components.",
+    "type": "Gathering",
+    "level": 45,
+    "rarity": "Masterwork",
+    "vendor_value": 86,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23023,
+    "chat_link": "[&AgHvWQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Mining Pick",
+    "description": "Extremely efficient at gathering resources and uncovering rare components.",
+    "type": "Gathering",
+    "level": 45,
+    "rarity": "Masterwork",
+    "vendor_value": 86,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23024,
+    "chat_link": "[&AgHwWQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Foraging Sickle",
+    "description": "More efficient at gathering resources and uncovering rare components.",
+    "type": "Gathering",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 94,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23025,
+    "chat_link": "[&AgHxWQAA]",
+    "icon": "https://render.guildwars2.com/file/AA1BD042F1EAB6A0F5D614DC6113E356C4B836C1/66591.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Copper Harvesting Sickle",
+    "description": "Used to gather Blueberries, Button Mushrooms, Onions, Carrots, Herb Seedlings, Potatoes, and Lettuce.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23029,
+    "chat_link": "[&AgH1WQAA]",
+    "icon": "https://render.guildwars2.com/file/AA1BD042F1EAB6A0F5D614DC6113E356C4B836C1/66591.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Copper Logging Axe",
+    "description": "Used to chop down Aspen Saplings, Kertch Saplings, and Ekku saplings.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23030,
+    "chat_link": "[&AgH2WQAA]",
+    "icon": "https://render.guildwars2.com/file/201CC6E60448CB4BA8AD919C74904EE1F9AEC54F/66597.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Copper Mining Pick",
+    "description": "Used to mine Copper Ore.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 3,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23031,
+    "chat_link": "[&AgH3WQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Pick Axe",
+    "description": "<c=@flavor>For chipping away at minerals</c>",
+    "type": "Gathering",
+    "level": 32,
+    "rarity": "Basic",
+    "vendor_value": 16,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23035,
+    "chat_link": "[&AgH7WQAA]",
+    "icon": "https://render.guildwars2.com/file/3CD995B576C8CB39B02D4826EA04690701755ECB/66254.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  {
+    "name": "Worker's Sickle",
+    "description": "<c=@flavor>The common man's weed sickle</c>",
+    "type": "Gathering",
+    "level": 34,
+    "rarity": "Basic",
+    "vendor_value": 17,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23036,
+    "chat_link": "[&AgH8WQAA]",
+    "icon": "https://render.guildwars2.com/file/AA1BD042F1EAB6A0F5D614DC6113E356C4B836C1/66591.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Bun Yan Axe",
+    "description": "<c=@flavor>Bringing down trees everywhere</c>",
+    "type": "Gathering",
+    "level": 20,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23037,
+    "chat_link": "[&AgH9WQAA]",
+    "icon": "https://render.guildwars2.com/file/201CC6E60448CB4BA8AD919C74904EE1F9AEC54F/66597.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  {
+    "name": "Crude Salvage Kit",
+    "description": "Double-click to salvage crafting materials from an item in your inventory. Has a small chance of salvaging upgrades.",
+    "type": "Tool",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 4,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23038,
+    "chat_link": "[&AgH+WQAA]",
+    "icon": "https://render.guildwars2.com/file/9F09ACD431CE4906631E271E650ABB0454F90705/63123.png",
+    "details": {
+      "type": "Salvage",
+      "charges": 15
+    }
+  },
+  {
+    "name": "Basic Salvage Kit",
+    "description": "Double-click to salvage crafting materials from an item in your inventory. 10% chance of rarer materials. 20% chance of salvaging upgrades.",
+    "type": "Tool",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23040,
+    "chat_link": "[&AgEAWgAA]",
+    "icon": "https://render.guildwars2.com/file/F0B4025A23D3D1ADE0466FFEAA7023D8EFD8422C/66765.png",
+    "details": {
+      "type": "Salvage",
+      "charges": 25
+    }
+  },
+  {
+    "name": "Fine Salvage Kit",
+    "description": "Double-click to salvage crafting materials from an item in your inventory. 15% chance of rarer materials. 40% chance of salvaging upgrades.",
+    "type": "Tool",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 36,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23041,
+    "chat_link": "[&AgEBWgAA]",
+    "icon": "https://render.guildwars2.com/file/CA01D91B20EB19359FFF313C6DC5C2480A0872B0/66766.png",
+    "details": {
+      "type": "Salvage",
+      "charges": 25
+    }
+  },
+  {
+    "name": "Journeyman's Salvage Kit",
+    "description": "Double-click to salvage crafting materials from an item in your inventory. 20% chance of rarer materials. 60% chance of salvaging upgrades.",
+    "type": "Tool",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 100,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23042,
+    "chat_link": "[&AgECWgAA]",
+    "icon": "https://render.guildwars2.com/file/7902452AAF4824D66ED0A914CB1C0864D33A116F/66767.png",
+    "details": {
+      "type": "Salvage",
+      "charges": 25
+    }
+  },
+  {
+    "name": "Master's Salvage Kit",
+    "description": "Double-click to salvage crafting materials from an item in your inventory. 25% chance of rarer materials. 80% chance of salvaging upgrades.",
+    "type": "Tool",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23043,
+    "chat_link": "[&AgEDWgAA]",
+    "icon": "https://render.guildwars2.com/file/75FB93F7EA0D3CFC0E023D1C72BE205457F905F7/66768.png",
+    "details": {
+      "type": "Salvage",
+      "charges": 25
+    }
+  },
+  {
+    "name": "Mystic Salvage Kit",
+    "description": "Double-click to salvage crafting materials from an item in your inventory. 25% chance of rarer materials. 80% chance of salvaging upgrades.",
+    "type": "Tool",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23045,
+    "chat_link": "[&AgEFWgAA]",
+    "icon": "https://render.guildwars2.com/file/75FB93F7EA0D3CFC0E023D1C72BE205457F905F7/66768.png",
+    "details": {
+      "type": "Salvage",
+      "charges": 250
+    }
+  },
+  {
+    "name": "PvP Salvage Kit",
+    "description": "Double-click to salvage materials from a PvP reward item in your inventory. These materials can be recombined in the Mystic Forge.",
+    "type": "Tool",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23046,
+    "chat_link": "[&AgEGWgAA]",
+    "icon": "https://render.guildwars2.com/file/9F09ACD431CE4906631E271E650ABB0454F90705/63123.png",
+    "details": {
+      "type": "Salvage",
+      "charges": 15
+    }
+  },
+  {
+    "name": "Blue Coral Ring",
+    "description": "",
+    "type": "Trinket",
+    "level": 15,
+    "rarity": "Fine",
+    "vendor_value": 33,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix"
+    ],
+    "restrictions": [],
+    "id": 23092,
+    "chat_link": "[&AgE0WgAA]",
+    "icon": "https://render.guildwars2.com/file/F72942065C9028739427806FA89AA69E1526F13A/66769.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 28.368
+    }
+  },
+  {
+    "name": "Purple Coral Ring",
+    "type": "Trinket",
+    "level": 15,
+    "rarity": "Masterwork",
+    "vendor_value": 66,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23093,
+    "chat_link": "[&AgE1WgAA]",
+    "icon": "https://render.guildwars2.com/file/D9127171A2330B0B7C19C1EE3E2B58C20ABC6657/66770.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 31.824
+    }
+  },
+  {
+    "name": "White Coral Ring",
+    "type": "Trinket",
+    "level": 15,
+    "rarity": "Basic",
+    "vendor_value": 17,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix"
+    ],
+    "restrictions": [],
+    "id": 23094,
+    "chat_link": "[&AgE2WgAA]",
+    "icon": "https://render.guildwars2.com/file/7DFD0F47B8EF9D929904EA655C0CE6FA4D245F11/66771.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 21.723
+    }
+  },
+  {
+    "name": "Triforge Pendant",
+    "description": "\"True greatness comes for those who have wisdom to do right, the courage to embark, and the power to follow through.\" -Logan Thackeray",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23095,
+    "chat_link": "[&AgE3WgAA]",
+    "icon": "https://render.guildwars2.com/file/E60B5A47DA0A9702580267066637C2DBE071E8D6/222402.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 559,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 56
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Emerald Pendant",
+    "description": "True courage understands the importance of fear.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23096,
+    "chat_link": "[&AgE4WgAA]",
+    "icon": "https://render.guildwars2.com/file/B866BC350C206B007C06B61E65ADE60D28EA016E/222404.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 162,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 85
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ruby Pendant",
+    "description": "True power comes from the heart.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23097,
+    "chat_link": "[&AgE5WgAA]",
+    "icon": "https://render.guildwars2.com/file/ED460DE2CFE378F9C27E0C9876AFC009D62406C0/222406.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sapphire Pendant",
+    "description": "Wisdom comes with experience, not age.",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23098,
+    "chat_link": "[&AgE6WgAA]",
+    "icon": "https://render.guildwars2.com/file/2F110FE312A1FB3D094C0DF330211C2654A20EDD/222400.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 120
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Orange Lucky Rabbit's Foot",
+    "description": "<c=@flavor>\"This rabbit died of natural causes!\"<br>—Dena</c>",
+    "type": "Trinket",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23099,
+    "chat_link": "[&AgE7WgAA]",
+    "icon": "https://render.guildwars2.com/file/4EC8344C64B3A074E90DF8BAA1FA7D2D11660B7E/66778.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 6.825
+    }
+  },
+  {
+    "name": "Blue Lucky Rabbit's Foot",
+    "description": "<c=@flavor>\"This rabbit died of natural causes!\"<br>—Dena</c>",
+    "type": "Trinket",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23100,
+    "chat_link": "[&AgE8WgAA]",
+    "icon": "https://render.guildwars2.com/file/0F98D8071FEB0D7010AAE2E6F5BC9F1706E04191/66780.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 6.825
+    }
+  },
+  {
+    "name": "Red Lucky Rabbit's Foot",
+    "description": "<c=@flavor>\"This rabbit died of natural causes!\"<br>—Dena</c>",
+    "type": "Trinket",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23101,
+    "chat_link": "[&AgE9WgAA]",
+    "icon": "https://render.guildwars2.com/file/3F9C0D7C01E13538201594D19EA9115D2D4AD76D/66781.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 6.825
+    }
+  },
+  {
+    "name": "Purple Lucky Rabbit's Foot",
+    "description": "<c=@flavor>\"This rabbit died of natural causes!\"<br>—Dena</c>",
+    "type": "Trinket",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23102,
+    "chat_link": "[&AgE+WgAA]",
+    "icon": "https://render.guildwars2.com/file/2EA425194C09AF19767D760E50CA420DF7E36AED/66783.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 6.825
+    }
+  },
+  {
+    "name": "Yellow Lucky Rabbit's Foot",
+    "description": "<c=@flavor>\"This rabbit died of natural causes!\"<br>—Dena</c>",
+    "type": "Trinket",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23103,
+    "chat_link": "[&AgE/WgAA]",
+    "icon": "https://render.guildwars2.com/file/E96CD62B46D140D429E1B55E0AF7A1DAFFD112D4/66784.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 6.825
+    }
+  },
+  {
+    "name": "Green Lucky Rabbit's Foot",
+    "description": "<c=@flavor>\"This rabbit died of natural causes!\"<br>—Dena</c>",
+    "type": "Trinket",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 5,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23104,
+    "chat_link": "[&AgFAWgAA]",
+    "icon": "https://render.guildwars2.com/file/15BCE4A6FC0EA8FBFB7CA437CC41226728FC9433/66785.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 6.825
+    }
+  },
+  {
+    "name": "Swift Griffon Necklace",
+    "description": "",
+    "type": "Trinket",
+    "level": 40,
+    "rarity": "Rare",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23105,
+    "chat_link": "[&AgFBWgAA]",
+    "icon": "https://render.guildwars2.com/file/AA26E9092621670E6C55A65307B7F43C0CC5F138/63595.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 109.728,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 38
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 27
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Insightful Griffon Necklace",
+    "description": "",
+    "type": "Trinket",
+    "level": 40,
+    "rarity": "Rare",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23106,
+    "chat_link": "[&AgFCWgAA]",
+    "icon": "https://render.guildwars2.com/file/AA26E9092621670E6C55A65307B7F43C0CC5F138/63595.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 109.728,
+      "infix_upgrade": {
+        "id": 145,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 27
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 38
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mighty Griffon Necklace",
+    "description": "",
+    "type": "Trinket",
+    "level": 40,
+    "rarity": "Rare",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23107,
+    "chat_link": "[&AgFDWgAA]",
+    "icon": "https://render.guildwars2.com/file/AA26E9092621670E6C55A65307B7F43C0CC5F138/63595.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 109.728,
+      "infix_upgrade": {
+        "id": 150,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 38
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 27
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Topaz Heart",
+    "description": "",
+    "type": "Trinket",
+    "level": 9,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23108,
+    "chat_link": "[&AgFEWgAA]",
+    "icon": "https://render.guildwars2.com/file/7056017FCDF3E273CB3F2ECE66DBE435B25B7631/66786.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 11.856,
+      "infix_upgrade": {
+        "id": 138,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ruby Heart",
+    "description": "",
+    "type": "Trinket",
+    "level": 9,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23110,
+    "chat_link": "[&AgFGWgAA]",
+    "icon": "https://render.guildwars2.com/file/9B2F7DF8C5BE57A257D16FB64AD474B63F1FC2AE/66788.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 11.856,
+      "infix_upgrade": {
+        "id": 137,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Emerald Heart",
+    "description": "",
+    "type": "Trinket",
+    "level": 9,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23111,
+    "chat_link": "[&AgFHWgAA]",
+    "icon": "https://render.guildwars2.com/file/927747D7FF36EC5D7807AA80FF307D0A6D78F661/66789.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 11.856,
+      "infix_upgrade": {
+        "id": 139,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Amethyst Heart",
+    "description": "",
+    "type": "Trinket",
+    "level": 9,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23112,
+    "chat_link": "[&AgFIWgAA]",
+    "icon": "https://render.guildwars2.com/file/D82CC45CC9B206AADFD6A9F392426B75115D794B/66790.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 11.856,
+      "infix_upgrade": {
+        "id": 140,
+        "attributes": [
+          {
+            "attribute": "Toughness",
+            "modifier": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Sapphire Heart",
+    "description": "",
+    "type": "Trinket",
+    "level": 9,
+    "rarity": "Basic",
+    "vendor_value": 11,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23113,
+    "chat_link": "[&AgFJWgAA]",
+    "icon": "https://render.guildwars2.com/file/C00439EF2BE3B9E5F86299D9F47E32C0D40AD6C4/63109.png",
+    "details": {
+      "type": "Ring",
+      "infusion_slots": [],
+      "attribute_adjustment": 11.856,
+      "infix_upgrade": {
+        "id": 175,
+        "attributes": [
+          {
+            "attribute": "Healing",
+            "modifier": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Beautiful Pendant",
+    "description": "This pendant appears to bear the markings of an Ascalonian craftsman from many generations ago.",
+    "type": "Trinket",
+    "level": 20,
+    "rarity": "Rare",
+    "vendor_value": 156,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23114,
+    "chat_link": "[&AgFKWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 59.4
+    }
+  },
+  {
+    "name": "Whisper's Power",
+    "type": "Trinket",
+    "level": 28,
+    "rarity": "Masterwork",
+    "vendor_value": 116,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23117,
+    "chat_link": "[&AgFNWgAA]",
+    "icon": "https://render.guildwars2.com/file/B9595BAFC57D70621D0A0C745C6E475FC540707C/66230.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 67.932,
+      "infix_upgrade": {
+        "id": 150,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 24
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 17
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Vigil's Might",
+    "type": "Trinket",
+    "level": 28,
+    "rarity": "Masterwork",
+    "vendor_value": 116,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23120,
+    "chat_link": "[&AgFQWgAA]",
+    "icon": "https://render.guildwars2.com/file/B9595BAFC57D70621D0A0C745C6E475FC540707C/66230.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 67.932,
+      "infix_upgrade": {
+        "id": 150,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 24
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 17
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Priory Pride",
+    "type": "Trinket",
+    "level": 28,
+    "rarity": "Masterwork",
+    "vendor_value": 116,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23123,
+    "chat_link": "[&AgFTWgAA]",
+    "icon": "https://render.guildwars2.com/file/B9595BAFC57D70621D0A0C745C6E475FC540707C/66230.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 67.932,
+      "infix_upgrade": {
+        "id": 150,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 24
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 17
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Copper Cowbell",
+    "description": "A sturdy cowbell.",
+    "type": "Trinket",
+    "level": 20,
+    "rarity": "Fine",
+    "vendor_value": 28,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23131,
+    "chat_link": "[&AgFbWgAA]",
+    "icon": "https://render.guildwars2.com/file/4A623D4E30B908406605930BA89551D9ECF7B4D5/66797.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 23.64,
+      "infix_upgrade": {
+        "id": 137,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 8
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Silver Cowbell",
+    "description": "\"I gotta have more cowbell, baby!\"",
+    "type": "Trinket",
+    "level": 20,
+    "rarity": "Masterwork",
+    "vendor_value": 55,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSalvage",
+      "SoulbindOnAcquire",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23134,
+    "chat_link": "[&AgFeWgAA]",
+    "icon": "https://render.guildwars2.com/file/5C514FC25F020AFD4018ADEF0C01D2BA50F5DF77/66799.png",
+    "details": {
+      "type": "Accessory",
+      "infusion_slots": [],
+      "attribute_adjustment": 26.52,
+      "infix_upgrade": {
+        "id": 137,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 9
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mighty Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 14,
+    "rarity": "Masterwork",
+    "vendor_value": 76,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23136,
+    "chat_link": "[&AgFgWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 33.728,
+      "infix_upgrade": {
+        "id": 137,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 12
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Mighty Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 20,
+    "rarity": "Masterwork",
+    "vendor_value": 96,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23137,
+    "chat_link": "[&AgFhWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 46.988,
+      "infix_upgrade": {
+        "id": 137,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 16
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 26,
+    "rarity": "Masterwork",
+    "vendor_value": 112,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23138,
+    "chat_link": "[&AgFiWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 61.744,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 22
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 15
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 32,
+    "rarity": "Masterwork",
+    "vendor_value": 128,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23139,
+    "chat_link": "[&AgFjWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 80.308,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 28
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 20
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 44,
+    "rarity": "Masterwork",
+    "vendor_value": 160,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23140,
+    "chat_link": "[&AgFkWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 121.176,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 42
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 30
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 56,
+    "rarity": "Masterwork",
+    "vendor_value": 196,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23141,
+    "chat_link": "[&AgFlWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 168.096,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 59
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 42
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 38,
+    "rarity": "Masterwork",
+    "vendor_value": 144,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23142,
+    "chat_link": "[&AgFmWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 100.096,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 35
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 25
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 50,
+    "rarity": "Masterwork",
+    "vendor_value": 180,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23143,
+    "chat_link": "[&AgFnWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 144.228,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 50
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 36
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23144,
+    "chat_link": "[&AgFoWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 98
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 70
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 70
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Precise Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 45,
+    "rarity": "Masterwork",
+    "vendor_value": 164,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23145,
+    "chat_link": "[&AgFpWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 124.644,
+      "infix_upgrade": {
+        "id": 138,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 44
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 68,
+    "rarity": "Masterwork",
+    "vendor_value": 228,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23146,
+    "chat_link": "[&AgFqWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 221.204,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 77
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 55
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 55
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Penetrating Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 33,
+    "rarity": "Masterwork",
+    "vendor_value": 132,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23147,
+    "chat_link": "[&AgFrWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 83.436,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 29
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 21
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 62,
+    "rarity": "Masterwork",
+    "vendor_value": 212,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23148,
+    "chat_link": "[&AgFsWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 194.004,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 68
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 49
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 49
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 74,
+    "rarity": "Masterwork",
+    "vendor_value": 244,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23149,
+    "chat_link": "[&AgFtWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 249.56,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 87
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 62
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 62
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Penetrating Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 27,
+    "rarity": "Masterwork",
+    "vendor_value": 112,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23150,
+    "chat_link": "[&AgFuWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 64.872,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 23
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 16
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Penetrating Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 39,
+    "rarity": "Masterwork",
+    "vendor_value": 148,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23151,
+    "chat_link": "[&AgFvWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 103.632,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 36
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 26
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 69,
+    "rarity": "Masterwork",
+    "vendor_value": 232,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23152,
+    "chat_link": "[&AgFwWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 225.896,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 56
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 56
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 79
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Penetrating Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 57,
+    "rarity": "Masterwork",
+    "vendor_value": 200,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23153,
+    "chat_link": "[&AgFxWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 176.732,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 62
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 44
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Masterwork",
+    "vendor_value": 264,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23154,
+    "chat_link": "[&AgFyWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 279.956,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 70
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 70
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 98
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Penetrating Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 51,
+    "rarity": "Masterwork",
+    "vendor_value": 180,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23155,
+    "chat_link": "[&AgFzWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 148.104,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 52
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 37
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 63,
+    "rarity": "Masterwork",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23156,
+    "chat_link": "[&AgF0WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 198.356,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 50
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 50
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 69
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Masterwork",
+    "vendor_value": 248,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23157,
+    "chat_link": "[&AgF1WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 254.252,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 64
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 89
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 39,
+    "rarity": "Rare",
+    "vendor_value": 222,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23158,
+    "chat_link": "[&AgF2WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 113.472,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 40
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 28
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Penetrating Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 47,
+    "rarity": "Rare",
+    "vendor_value": 252,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23159,
+    "chat_link": "[&AgF3WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 144.432,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 51
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 36
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 53,
+    "rarity": "Rare",
+    "vendor_value": 282,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23160,
+    "chat_link": "[&AgF4WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 169.272,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 59
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 42
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Penetrating Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 54,
+    "rarity": "Rare",
+    "vendor_value": 282,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23161,
+    "chat_link": "[&AgF5WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 173.448,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 61
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 43
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Honed Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 55,
+    "rarity": "Rare",
+    "vendor_value": 288,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23162,
+    "chat_link": "[&AgF6WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 177.984,
+      "infix_upgrade": {
+        "id": 152,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 62
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 44
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 60,
+    "rarity": "Rare",
+    "vendor_value": 312,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23163,
+    "chat_link": "[&AgF7WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 200.88,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 70
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 50
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 61,
+    "rarity": "Rare",
+    "vendor_value": 312,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23164,
+    "chat_link": "[&AgF8WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 205.416,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 51
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 51
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 72
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Rampager's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 62,
+    "rarity": "Rare",
+    "vendor_value": 318,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23165,
+    "chat_link": "[&AgF9WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 210.024,
+      "infix_upgrade": {
+        "id": 159,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 53
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 74
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 53
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 67,
+    "rarity": "Rare",
+    "vendor_value": 336,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23166,
+    "chat_link": "[&AgF+WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 234.216,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 82
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 59
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 68,
+    "rarity": "Rare",
+    "vendor_value": 342,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23167,
+    "chat_link": "[&AgF/WgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 239.184,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 60
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 60
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 84
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Rampager's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 69,
+    "rarity": "Rare",
+    "vendor_value": 348,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23168,
+    "chat_link": "[&AgGAWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 244.224,
+      "infix_upgrade": {
+        "id": 159,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 61
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 61
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Shaman's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 70,
+    "rarity": "Rare",
+    "vendor_value": 354,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23169,
+    "chat_link": "[&AgGBWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 249.192,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 87
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 62
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 62
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 74,
+    "rarity": "Rare",
+    "vendor_value": 366,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23170,
+    "chat_link": "[&AgGCWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 269.208,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 94
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 67
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 67
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 75,
+    "rarity": "Rare",
+    "vendor_value": 372,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23171,
+    "chat_link": "[&AgGDWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 274.68,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 69
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 69
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 96
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Rampager's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 76,
+    "rarity": "Rare",
+    "vendor_value": 378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23172,
+    "chat_link": "[&AgGEWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 280.08,
+      "infix_upgrade": {
+        "id": 159,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 70
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 98
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 70
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Shaman's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 77,
+    "rarity": "Rare",
+    "vendor_value": 378,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23173,
+    "chat_link": "[&AgGFWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 285.552,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 100
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 71
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 71
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23174,
+    "chat_link": "[&AgGGWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 106
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 75
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 75
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23175,
+    "chat_link": "[&AgGHWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 75
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 75
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 106
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Rampager's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23176,
+    "chat_link": "[&AgGIWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 159,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 75
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 106
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Shaman's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 396,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23177,
+    "chat_link": "[&AgGJWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 301.824,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 106
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 75
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 75
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Penetrating Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 40,
+    "rarity": "Rare",
+    "vendor_value": 228,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23178,
+    "chat_link": "[&AgGKWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 117.144,
+      "infix_upgrade": {
+        "id": 151,
+        "attributes": [
+          {
+            "attribute": "Precision",
+            "modifier": 41
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 29
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Strong Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 46,
+    "rarity": "Rare",
+    "vendor_value": 252,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23179,
+    "chat_link": "[&AgGLWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 140.256,
+      "infix_upgrade": {
+        "id": 142,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 49
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 35
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 62,
+    "rarity": "Exotic",
+    "vendor_value": 424,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23180,
+    "chat_link": "[&AgGMWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 238.4,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 83
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 60
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 60
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Rampager's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 64,
+    "rarity": "Exotic",
+    "vendor_value": 432,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23181,
+    "chat_link": "[&AgGNWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 249.04,
+      "infix_upgrade": {
+        "id": 159,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 62
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 87
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 62
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 78,
+    "rarity": "Exotic",
+    "vendor_value": 512,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23182,
+    "chat_link": "[&AgGOWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 329.36,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 115
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 82
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 82
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 528,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23183,
+    "chat_link": "[&AgGPWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Berserker's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 70,
+    "rarity": "Exotic",
+    "vendor_value": 472,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23184,
+    "chat_link": "[&AgGQWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 282.48,
+      "infix_upgrade": {
+        "id": 161,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 99
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 71
+          },
+          {
+            "attribute": "CritDamage",
+            "modifier": 71
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Shaman's Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 65,
+    "rarity": "Exotic",
+    "vendor_value": 440,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23185,
+    "chat_link": "[&AgGRWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 254.64,
+      "infix_upgrade": {
+        "id": 153,
+        "attributes": [
+          {
+            "attribute": "Vitality",
+            "modifier": 89
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 64
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 64
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 63,
+    "rarity": "Exotic",
+    "vendor_value": 432,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23186,
+    "chat_link": "[&AgGSWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 243.52,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 61
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 61
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Carrion Amulet",
+    "description": "",
+    "type": "Trinket",
+    "level": 71,
+    "rarity": "Exotic",
+    "vendor_value": 472,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 23187,
+    "chat_link": "[&AgGTWgAA]",
+    "icon": "https://render.guildwars2.com/file/4D9C6F58C20F052359BA5D1D10B9E4B97ED5F012/66791.png",
+    "details": {
+      "type": "Amulet",
+      "infusion_slots": [],
+      "attribute_adjustment": 288,
+      "infix_upgrade": {
+        "id": 160,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 72
+          },
+          {
+            "attribute": "Vitality",
+            "modifier": 72
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 101
+          }
+        ]
+      }
+    }
+  }
+]

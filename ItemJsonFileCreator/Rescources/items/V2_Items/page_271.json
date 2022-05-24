@@ -1,0 +1,8918 @@
+[
+  {
+    "name": "Chak Infusion",
+    "description": "Double-click to apply to an unused infusion slot. May cause slight discomfort.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85668,
+    "chat_link": "[&AgGkTgEA]",
+    "icon": "https://render.guildwars2.com/file/FE73F012119252F1935797B2EC2C94482AB5A308/831485.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1415,
+        "buff": {
+          "skill_id": 48467,
+          "description": "+5 Expertise\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Defender's Boots of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Wade through Spawning Pools, in Vales Forgotten Tread</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7855,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85669,
+    "chat_link": "[&AgGlTgEA]",
+    "icon": "https://render.guildwars2.com/file/72E0F72409C892C30E2C40D3C5B2C03C439E99BB/1895228.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Astral Knobkerrie",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85670,
+    "chat_link": "[&AgGmTgEA]",
+    "icon": "https://render.guildwars2.com/file/802E0895B53955AC0E23CAB89C01D42C6E3525AF/849289.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12516
+    }
+  },
+  {
+    "name": "Healer's Footwear",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 115,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85673,
+    "chat_link": "[&AgGpTgEA]",
+    "icon": "https://render.guildwars2.com/file/5C63AF3E5541CBBF54C8656DD8F5E274590BEA52/699213.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Gauntlets of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>From Serpents Two Wring Breath</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7854,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85674,
+    "chat_link": "[&AgGqTgEA]",
+    "icon": "https://render.guildwars2.com/file/0251CE1BC4303F36301E61E0D240CFE0EC147528/1895229.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Mysteries of the Night Sky",
+    "description": "Checked out by Junior Astrologist Hamia. Last seen in the Plains of Jarin.<br><br>Double-click from inventory to read.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85675,
+    "chat_link": "[&AgGrTgEA]",
+    "icon": "https://render.guildwars2.com/file/AE63AC0D3D59ED0DE3AB46D410F76861E10A770A/1894645.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Defender's Reaver",
+    "description": "A high-quality ax.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4191,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85676,
+    "chat_link": "[&AgGsTgEA]",
+    "icon": "https://render.guildwars2.com/file/C757E23AE505CFC0B8FCAD1C36B0D99BF3776591/632291.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 900,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Defender's Shoulderguards of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Through Ice and Maze Bring Death</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7895,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85677,
+    "chat_link": "[&AgGtTgEA]",
+    "icon": "https://render.guildwars2.com/file/07FABCCE068045E6F7F03FB6E1A92C601AAB1BF8/1895231.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Spoils of Death",
+    "description": "Double-click to open. Contains a choice of rewards unique to the Dhuum encounter.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85678,
+    "chat_link": "[&AgGuTgEA]",
+    "icon": "https://render.guildwars2.com/file/A565E2A72643970299713833ACCBFD631719F603/1635212.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Defender's Claymore",
+    "description": "A high-quality greatsword.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4227,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85680,
+    "chat_link": "[&AgGwTgEA]",
+    "icon": "https://render.guildwars2.com/file/33A36BE506586D709D2FF5C7581B65D9B26EF961/632311.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 1045,
+      "max_power": 1155,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Spirit of the Springer",
+    "description": "In the Mystic Forge, combine a Spirit of the Raptor, a Spirit of the Springer, a Spirit of the Jackal, and a Spirit of the Skimmer to create a Gift of the Rider.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85681,
+    "chat_link": "[&AgGxTgEA]",
+    "icon": "https://render.guildwars2.com/file/E4F9AE26E70EE2E69F1F071366D431C978B64D3E/1894686.png"
+  },
+  {
+    "name": "Polyluminescent Undulating Infusion (Green)",
+    "description": "Double-click to apply to an unused infusion slot. Adds a ghoulish hue.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85682,
+    "chat_link": "[&AgGyTgEA]",
+    "icon": "https://render.guildwars2.com/file/97EDAF65FCECF802544DD54B36DC3A09323B254A/888374.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1396,
+        "buff": {
+          "skill_id": 48634,
+          "description": "+5 Concentration\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "BoonDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Healer's Herald",
+    "description": "A high-quality warhorn.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4153,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85683,
+    "chat_link": "[&AgGzTgEA]",
+    "icon": "https://render.guildwars2.com/file/130BD3A5F923FEF5131BF2B544CCA3D42369CF5A/632402.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 855,
+      "max_power": 945,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Skyclad Mushroom",
+    "description": "Found near a natural skylight in Modri Caverns and used by the Corsair, Mehdi, to craft his famous tainted grog in the Domain of Istan.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85686,
+    "chat_link": "[&AgG2TgEA]",
+    "icon": "https://render.guildwars2.com/file/6DD10F7B68503FE33C03056DE9D9CAB46202175B/1894891.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Defender's Final Death",
+    "description": "<c=@flavor>Your hands seem to sink into the grip of this sword.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7910,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85688,
+    "chat_link": "[&AgG4TgEA]",
+    "icon": "https://render.guildwars2.com/file/7B0F78E0B69E655F991901083366603950A4D1F9/1895051.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 1045,
+      "max_power": 1155,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Sulfur Dye",
+    "description": "Double-click to unlock this dye color for all characters.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 5,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85690,
+    "chat_link": "[&AgG6TgEA]",
+    "icon": "https://render.guildwars2.com/file/FFE3A6302A0409148059239E05C9064D5DAF1E04/561734.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Dye",
+      "color_id": 1575
+    }
+  },
+  {
+    "name": "Assaulter's Final Death",
+    "description": "<c=@flavor>Your hands seem to sink into the grip of this sword.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7910,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85691,
+    "chat_link": "[&AgG7TgEA]",
+    "icon": "https://render.guildwars2.com/file/7B0F78E0B69E655F991901083366603950A4D1F9/1895051.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 1045,
+      "max_power": 1155,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Footwear",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 115,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85692,
+    "chat_link": "[&AgG8TgEA]",
+    "icon": "https://render.guildwars2.com/file/5C63AF3E5541CBBF54C8656DD8F5E274590BEA52/699213.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Healer's Flanged Mace",
+    "description": "A high-quality mace.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4193,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85693,
+    "chat_link": "[&AgG9TgEA]",
+    "icon": "https://render.guildwars2.com/file/0E01F92B7A10E3146D7D5072D9080D01550C0F78/632335.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 940,
+      "max_power": 1060,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Polyluminescent Undulating Infusion (Orange)",
+    "description": "Double-click to apply to an unused infusion slot. Adds a pumpkin-like hue.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85694,
+    "chat_link": "[&AgG+TgEA]",
+    "icon": "https://render.guildwars2.com/file/04050CC5764DC198D8126812E66305C676954F0C/888376.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1407,
+        "buff": {
+          "skill_id": 48337,
+          "description": "+5 Expertise\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Marshal's Stellar Harbinger",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "default_skin": 7906,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85695,
+    "chat_link": "[&AgG/TgEA]",
+    "icon": "https://render.guildwars2.com/file/050E4BDD6B35DEFADFBDE1C0640964A2722DEC38/1894598.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 855,
+      "max_power": 945,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 108
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 108
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Healer's Sledge of the Red Witch",
+    "description": "<c=@flavor>Deliberation is no longer necessary.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7894,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85696,
+    "chat_link": "[&AgHATgEA]",
+    "icon": "https://render.guildwars2.com/file/7F146DABA9B7E7929AF318A52638E8033F5F7C11/1895047.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Spire",
+    "description": "A high-quality staff.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4249,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85697,
+    "chat_link": "[&AgHBTgEA]",
+    "icon": "https://render.guildwars2.com/file/400DB5354831059EDE4B0798165E16CBA45B7318/632377.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Malicious Short Bow",
+    "description": "A high-quality short bow.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4157,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85698,
+    "chat_link": "[&AgHCTgEA]",
+    "icon": "https://render.guildwars2.com/file/051EBCEBE5A6D00B19DCC167ACE26399CEB79644/632365.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Skullcap of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Gaze upon Chaotic Planes and Pits of Brittle Dead</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7872,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85702,
+    "chat_link": "[&AgHGTgEA]",
+    "icon": "https://render.guildwars2.com/file/EB2EC20814AAD400AB01F348A0C1352C5EE62CA0/1895230.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Spire",
+    "description": "A high-quality staff.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4249,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85703,
+    "chat_link": "[&AgHHTgEA]",
+    "icon": "https://render.guildwars2.com/file/400DB5354831059EDE4B0798165E16CBA45B7318/632377.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Healer's Touch of Dhuum",
+    "description": "<c=@flavor>Even a touch can be fatal.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7867,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85704,
+    "chat_link": "[&AgHITgEA]",
+    "icon": "https://render.guildwars2.com/file/39051E49C4E9B5F42A073AAA010741F2250A7CFA/1895050.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 970,
+      "max_power": 1030,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Voice in the Void",
+    "description": "<c=@flavor>If you put your ear up to it, you can almost hear an ocean of nothingness.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7845,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85705,
+    "chat_link": "[&AgHJTgEA]",
+    "icon": "https://render.guildwars2.com/file/5633E4F1443C0129A97D1D2ADD5A60CEEA3FA261/1895052.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 846,
+      "max_power": 954,
+      "defense": 64,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Spirit of the Raptor",
+    "description": "In the Mystic Forge, combine a Spirit of the Raptor, a Spirit of the Springer, a Spirit of the Jackal, and a Spirit of the Skimmer to create a Gift of the Rider.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85707,
+    "chat_link": "[&AgHLTgEA]",
+    "icon": "https://render.guildwars2.com/file/9BCA7316F0C8A2F9BC2D18E2A195647F07AF230A/1894684.png"
+  },
+  {
+    "name": "Karmic Retribution",
+    "description": "Permanently gain bonus karma while killing foes in the Domain of Istan. Stacks up to 3 times.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 85708,
+    "chat_link": "[&AgHMTgEA]",
+    "icon": "https://render.guildwars2.com/file/5E59941324A514D92F132CD87603AEADEA76344C/1493241.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Defender's Epaulets",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 119,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85712,
+    "chat_link": "[&AgHQTgEA]",
+    "icon": "https://render.guildwars2.com/file/0C4E1FEED2C75BC8F6F1D3D11C18303EEF573EED/699208.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Superior Rune of the Stars",
+    "description": "<c=@abilitytype>Element: </c>Skill<br>Double-click to apply to a piece of armor.",
+    "type": "UpgradeComponent",
+    "level": 60,
+    "rarity": "Exotic",
+    "vendor_value": 216,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 85713,
+    "chat_link": "[&AgHRTgEA]",
+    "icon": "https://render.guildwars2.com/file/BEDDD1D249DF6FC417451E0CA25F803FA818294A/1894695.png",
+    "details": {
+      "type": "Rune",
+      "flags": [
+        "HeavyArmor",
+        "LightArmor",
+        "MediumArmor"
+      ],
+      "infusion_upgrade_flags": [],
+      "bonuses": [
+        "+8 to All Stats",
+        "-30% Incoming Weakness Duration",
+        "+12 to All Stats",
+        "-30% Incoming Chill and Cripple Duration",
+        "+16 to All Stats",
+        "-10% Incoming Condition Damage; -10% Incoming Condition Duration"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 112,
+        "attributes": []
+      },
+      "suffix": "of the Stars"
+    }
+  },
+  {
+    "name": "Assaulter's Short Bow",
+    "description": "A high-quality short bow.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4157,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85714,
+    "chat_link": "[&AgHSTgEA]",
+    "icon": "https://render.guildwars2.com/file/051EBCEBE5A6D00B19DCC167ACE26399CEB79644/632365.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Astral Avenger",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85715,
+    "chat_link": "[&AgHTTgEA]",
+    "icon": "https://render.guildwars2.com/file/F634A41B46C73C3AD3A70E02697C9370A2F9F34B/849291.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12500
+    }
+  },
+  {
+    "name": "Assaulter's Flanged Mace",
+    "description": "A high-quality mace.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4193,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85716,
+    "chat_link": "[&AgHUTgEA]",
+    "icon": "https://render.guildwars2.com/file/0E01F92B7A10E3146D7D5072D9080D01550C0F78/632335.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 940,
+      "max_power": 1060,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Malevolent Coalescence",
+    "description": "Double-click to unlock the first collection in the journey to craft Coalescence, a truly legendary ring.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85717,
+    "chat_link": "[&AgHVTgEA]",
+    "icon": "https://render.guildwars2.com/file/78C0E5FE1523374C3634532C425E055FE7E90B4E/1302740.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Winter's Heart Infusion",
+    "description": "Double-click to apply to an unused infusion slot. Adds a wintry chill.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85718,
+    "chat_link": "[&AgHWTgEA]",
+    "icon": "https://render.guildwars2.com/file/EE68160F571F59549B02CA246ED9742CEDCC9AB6/1614397.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1391,
+        "buff": {
+          "skill_id": 47706,
+          "description": "+5 Concentration\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "BoonDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Ancient Weapons: Gold",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85719,
+    "chat_link": "[&AgHXTgEA]",
+    "icon": "https://render.guildwars2.com/file/2D6DA36B3062DD261E4F382664039CCFA8B2C218/1201555.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Pouch of Fractal Relics",
+    "description": "Contains 5 fractal relics. Right-click to consume them all.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 25,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85720,
+    "chat_link": "[&AgHYTgEA]",
+    "icon": "https://render.guildwars2.com/file/F435090B4D1205CD0491DA2D5D20A12FE2023B6E/740217.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Defender's Footwear",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 115,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85722,
+    "chat_link": "[&AgHaTgEA]",
+    "icon": "https://render.guildwars2.com/file/5C63AF3E5541CBBF54C8656DD8F5E274590BEA52/699213.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Gold Desmina Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85723,
+    "chat_link": "[&AgHbTgEA]",
+    "icon": "https://render.guildwars2.com/file/04030D7E9FA5F9D03F9BCF4AC4523890B19763D4/1894790.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 939
+    }
+  },
+  {
+    "name": "Trophy Shipment",
+    "description": "Open to receive a collection of crafting trophies.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 32,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85725,
+    "chat_link": "[&AgHdTgEA]",
+    "icon": "https://render.guildwars2.com/file/12280A76B8BF2B15ADFE092A0B9FF6EE442851EE/1894768.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Astral Apparatus",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85726,
+    "chat_link": "[&AgHeTgEA]",
+    "icon": "https://render.guildwars2.com/file/0C12706107D16B1A782A19C9E3A052003438B95C/849339.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12492
+    }
+  },
+  {
+    "name": "Blazing Kralkatite",
+    "description": "Bring this to Yasna in the Astralarium.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85728,
+    "chat_link": "[&AgHgTgEA]",
+    "icon": "https://render.guildwars2.com/file/48BFE5352D76AF37AF1FBFA42E1F23049E3F4095/1894601.png"
+  },
+  {
+    "name": "Defender's Short Bow",
+    "description": "A high-quality short bow.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4157,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85729,
+    "chat_link": "[&AgHhTgEA]",
+    "icon": "https://render.guildwars2.com/file/051EBCEBE5A6D00B19DCC167ACE26399CEB79644/632365.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Meditation Logbook",
+    "description": "Used to track calming actions and thoughts.\n\nCreated by combining Transcendental Ink, Binding, Parchment, and Brandsparks in the Mystic Forge.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85731,
+    "chat_link": "[&AgHjTgEA]",
+    "icon": "https://render.guildwars2.com/file/18ADBDA40409481BD43D464DA44CDE1C23CA1C1A/1894953.png"
+  },
+  {
+    "name": "Defender's Visage",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 124,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85732,
+    "chat_link": "[&AgHkTgEA]",
+    "icon": "https://render.guildwars2.com/file/0EBB9F33579CC54CC39F685868FFD79D7A0FEEDC/699204.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Volatile Harvesting Sickle",
+    "description": "Used to gather all plants.\n\nRewards Volatile Magic in addition to harvesting results.",
+    "type": "Gathering",
+    "level": 60,
+    "rarity": "Fine",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85733,
+    "chat_link": "[&AgHlTgEA]",
+    "icon": "https://render.guildwars2.com/file/510BDDD537EDFE435515527817CA301704E54DE9/1947028.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  {
+    "name": "Winter's Heart Infusion",
+    "description": "Double-click to apply to an unused infusion slot. Adds a wintry chill.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85734,
+    "chat_link": "[&AgHmTgEA]",
+    "icon": "https://render.guildwars2.com/file/EE68160F571F59549B02CA246ED9742CEDCC9AB6/1614397.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1404,
+        "buff": {
+          "skill_id": 48293,
+          "description": "+5 Expertise\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Malicious Shoulderguards of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Through Ice and Maze Bring Death</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7895,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85735,
+    "chat_link": "[&AgHnTgEA]",
+    "icon": "https://render.guildwars2.com/file/07FABCCE068045E6F7F03FB6E1A92C601AAB1BF8/1895231.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Defender's Grips",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 120,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85736,
+    "chat_link": "[&AgHoTgEA]",
+    "icon": "https://render.guildwars2.com/file/E3BCBC4053466DEBC50B0B0894996353DE03C749/699205.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Knuckle Salve",
+    "description": "An item from the Stonefist crew used by the Corsair, Mehdi, to craft his famous tainted grog in the Domain of Istan.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85737,
+    "chat_link": "[&AgHpTgEA]",
+    "icon": "https://render.guildwars2.com/file/1E0DE4179FA6732ED4B6FC3C13BFBDDC0F0967EC/1894673.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Astral Revolver",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85738,
+    "chat_link": "[&AgHqTgEA]",
+    "icon": "https://render.guildwars2.com/file/0FE244BAD2EF262F95F17948AA23076A2AB407EF/849299.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12486
+    }
+  },
+  {
+    "name": "Healer's Guise",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 111,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85739,
+    "chat_link": "[&AgHrTgEA]",
+    "icon": "https://render.guildwars2.com/file/957B01535AB96230450BA110704557C9C607054F/699206.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 355,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "First Follower Desmina Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85740,
+    "chat_link": "[&AgHsTgEA]",
+    "icon": "https://render.guildwars2.com/file/542769E4E3BD29EDDE9F063E51940EE22CD05C75/1895224.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  {
+    "name": "Defender's Helm of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Gaze upon Chaotic Planes and Pits of Brittle Dead</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7905,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85741,
+    "chat_link": "[&AgHtTgEA]",
+    "icon": "https://render.guildwars2.com/file/EB2EC20814AAD400AB01F348A0C1352C5EE62CA0/1895230.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Volatile Magic",
+    "description": "Receive 50 Volatile Magic.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "NotUpgradeable",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85742,
+    "chat_link": "[&AgHuTgEA]",
+    "icon": "https://render.guildwars2.com/file/57F51A1F62E3FBB7B5E02CBD7C9717371D1CC8F2/1894697.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Mist Attunement 4",
+    "description": "Become one with the Mists and gain the following:\n• The \"Fractal God\" title\n• 5 agony resistance, 3% increased outgoing damage, and 50 health per second in fractals for every character in your account\n• 1 additional fractal encryption and bag of fractal relics from the final chest in every fractal\nLevel 4 of 4—Effects stack with previous level.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 85743,
+    "chat_link": "[&AgHvTgEA]",
+    "icon": "https://render.guildwars2.com/file/4F62FCB59814EF5F4DFDFBE7C4B6253F31BC587F/1465587.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Gift of Ipos",
+    "description": "Used to craft the legendary focus, the Binding of Ipos.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Legendary",
+    "vendor_value": 640,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85744,
+    "chat_link": "[&AgHwTgEA]",
+    "icon": "https://render.guildwars2.com/file/0FB6ADF503D70A2F7D144E18D2AF4597F7F5C145/1894812.png"
+  },
+  {
+    "name": "Istani Strongbox",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85747,
+    "chat_link": "[&AgHzTgEA]",
+    "icon": "https://render.guildwars2.com/file/C8246DDA51367909C74D2F68FFE6502B587607C8/1748126.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Chest of Raider's Boots",
+    "description": "Double-click to choose a pair of ascended boots.\nContains all armor classes.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85748,
+    "chat_link": "[&AgH0TgEA]",
+    "icon": "https://render.guildwars2.com/file/B3D1BCA875590CB29E980E4DE5CBAF649CE1E592/631167.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Healer's Warhammer",
+    "description": "A high-quality hammer.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4235,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85749,
+    "chat_link": "[&AgH1TgEA]",
+    "icon": "https://render.guildwars2.com/file/A21C2A3AA930CD6F245AC248C0A5F5362833626C/632317.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Greatbow",
+    "description": "A high-quality longbow.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4212,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85753,
+    "chat_link": "[&AgH5TgEA]",
+    "icon": "https://render.guildwars2.com/file/62F520F89F42B82B2606BE31450D2022507F8077/632329.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 966,
+      "max_power": 1134,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Ars Goetia",
+    "description": "Unlocks the recipe to craft Ars Goetia.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 160,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85754,
+    "chat_link": "[&AgH6TgEA]",
+    "icon": "https://render.guildwars2.com/file/077B91E457CFA9ABE67DAFF923570A4BDB974D47/849320.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12497,
+      "extra_recipe_ids": [
+        11851,
+        11847,
+        11854,
+        11849,
+        11852,
+        11867,
+        11850,
+        10442,
+        11987
+      ]
+    }
+  },
+  {
+    "name": "Marshal's Stellar Avenger",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "default_skin": 7896,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85755,
+    "chat_link": "[&AgH7TgEA]",
+    "icon": "https://render.guildwars2.com/file/595C19BAFC6260FA2A1703FCD75D05D04E97FC9D/1894575.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 1045,
+      "max_power": 1155,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 215
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 118
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 215
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Treatise on Astral Alignments",
+    "description": "Bring this to Yasna in the Astralarium.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85756,
+    "chat_link": "[&AgH8TgEA]",
+    "icon": "https://render.guildwars2.com/file/6DD5DEEBE6A7EF8099F53E0AD1D44813A8E50AD4/1894617.png"
+  },
+  {
+    "name": "Permanent Choya Finisher",
+    "description": "Celebrate your victory with this candy-filled choya piñata.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85757,
+    "chat_link": "[&AgH9TgEA]",
+    "icon": "https://render.guildwars2.com/file/3A7A06F67DADC7E19F71E820B3B73AC1C3DFBBA9/1894940.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Content"
+    }
+  },
+  {
+    "name": "Marshal's Astral Cleaver",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 7840,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85760,
+    "chat_link": "[&AgEATwEA]",
+    "icon": "https://render.guildwars2.com/file/B66774A27A75B467AE0C5BDD1C6B46400276775A/1894567.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 857,
+      "max_power": 1048,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 102
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Healer's Brazier",
+    "description": "A high-quality torch.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4139,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85761,
+    "chat_link": "[&AgEBTwEA]",
+    "icon": "https://render.guildwars2.com/file/0A54A1D76D48E9A3C77893130E0DEE3ECAF4467D/632389.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 828,
+      "max_power": 972,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Istani Empowerment",
+    "description": "Permanently gain 10% bonus experience while in Istan. Stacks up to 3 times.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 85762,
+    "chat_link": "[&AgECTwEA]",
+    "icon": "https://render.guildwars2.com/file/0B38D6CC150C35AB156D3ECCC641C00DC7DC9209/1465581.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Healer's Shoulderguard",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 121,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85763,
+    "chat_link": "[&AgEDTwEA]",
+    "icon": "https://render.guildwars2.com/file/D52D7C621150ADD5AC264256194D9A58B85E447B/699202.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Healer's Ender of All",
+    "description": "<c=@flavor>In your hands, the howl of the damned is silent no more...</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7863,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85764,
+    "chat_link": "[&AgEETwEA]",
+    "icon": "https://render.guildwars2.com/file/9C0AA3B821A949E1030715BBFED190300759945C/1895053.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Trident",
+    "description": "A high-quality trident.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4145,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85766,
+    "chat_link": "[&AgEGTwEA]",
+    "icon": "https://render.guildwars2.com/file/C84199EC557036E5DF42E20BF3D75C750A9CC058/632396.png",
+    "details": {
+      "type": "Trident",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Malicious Sledge of the Red Witch",
+    "description": "<c=@flavor>Deliberation is no longer necessary.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7894,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85768,
+    "chat_link": "[&AgEITwEA]",
+    "icon": "https://render.guildwars2.com/file/7F146DABA9B7E7929AF318A52638E8033F5F7C11/1895047.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Bag of Loot",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 66,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85769,
+    "chat_link": "[&AgEJTwEA]",
+    "icon": "https://render.guildwars2.com/file/70F67BE580E740231D5F23C2B85317D5E2072CD7/1894640.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Healer's Mantle of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Through Ice and Maze Bring Death</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7911,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85770,
+    "chat_link": "[&AgEKTwEA]",
+    "icon": "https://render.guildwars2.com/file/07FABCCE068045E6F7F03FB6E1A92C601AAB1BF8/1895231.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Defender's Skullcap of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Gaze upon Chaotic Planes and Pits of Brittle Dead</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7872,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85774,
+    "chat_link": "[&AgEOTwEA]",
+    "icon": "https://render.guildwars2.com/file/EB2EC20814AAD400AB01F348A0C1352C5EE62CA0/1895230.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Light",
+      "defense": 77,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Bundle of Kralkatite",
+    "description": "Can be traded with vendors in the Domain of Istan, used for crafting, or consumed for Volatile Magic.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 128,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85775,
+    "chat_link": "[&AgEPTwEA]",
+    "icon": "https://render.guildwars2.com/file/380A7E3B250B050C2C39B1106CA39AED65C8396B/1894933.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Healer's Warfists",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 116,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85777,
+    "chat_link": "[&AgERTwEA]",
+    "icon": "https://render.guildwars2.com/file/BD20599D290345BE7D98BD270FBE502CF5212654/699217.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Slippers of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Wade through Spawning Pools, in Vales Forgotten Tread</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7887,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85778,
+    "chat_link": "[&AgESTwEA]",
+    "icon": "https://render.guildwars2.com/file/72E0F72409C892C30E2C40D3C5B2C03C439E99BB/1895228.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Karmic Retribution 1",
+    "description": "Permanently gain bonus karma from the final chest in every fractal. Level 1 out of 4.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85781,
+    "chat_link": "[&AgEVTwEA]",
+    "icon": "https://render.guildwars2.com/file/5E59941324A514D92F132CD87603AEADEA76344C/1493241.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Defender's Sledge of the Red Witch",
+    "description": "<c=@flavor>Deliberation is no longer necessary.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7894,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85782,
+    "chat_link": "[&AgEWTwEA]",
+    "icon": "https://render.guildwars2.com/file/7F146DABA9B7E7929AF318A52638E8033F5F7C11/1895047.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Taimi's Hair Bow",
+    "description": "She'd probably like this back.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85783,
+    "chat_link": "[&AgEXTwEA]",
+    "icon": "https://render.guildwars2.com/file/5B19120AB7C2196170DC0F1F05A99BE2A0029B73/1894694.png"
+  },
+  {
+    "name": "River of Souls Token",
+    "description": "Found in the completion chest for the River of Souls event in the Underworld. Double-click or trade in at the guild decoration trader to earn a decoration.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85785,
+    "chat_link": "[&AgEZTwEA]",
+    "icon": "https://render.guildwars2.com/file/53A9A17A23C1E29C1714773B0FDF1C41294FE50D/1894804.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 944
+    }
+  },
+  {
+    "name": "Meditation Log: The Desolation",
+    "description": "Beware the danger of secrets kept.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85787,
+    "chat_link": "[&AgEbTwEA]",
+    "icon": "https://render.guildwars2.com/file/4138FD4D21A0C6A5751FE3600F331A44C346736D/1894956.png"
+  },
+  {
+    "name": "Marshal's Astral Beacon",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 7864,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85788,
+    "chat_link": "[&AgEcTwEA]",
+    "icon": "https://render.guildwars2.com/file/5E0B2D7B0371A23F04B994966DDF39C160AE0C3A/1894595.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 102
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Defender's Wristguards",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 118,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85789,
+    "chat_link": "[&AgEdTwEA]",
+    "icon": "https://render.guildwars2.com/file/5859B5CF97C0D394CF5CB5B3042775C6E6C1A1EB/699211.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Karmic Retribution",
+    "description": "Double-click to gain 100 karma.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Fine",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85790,
+    "chat_link": "[&AgEeTwEA]",
+    "icon": "https://render.guildwars2.com/file/6240EEC0A0671BA972F5024BAE08C244563D1D07/1894701.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  {
+    "name": "Defender's Razor",
+    "description": "A high-quality dagger.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4246,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85791,
+    "chat_link": "[&AgEfTwEA]",
+    "icon": "https://render.guildwars2.com/file/B9DA373EF1202777B2D9102134BF65AEEE294BD2/632299.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 970,
+      "max_power": 1030,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Healer's Breeches",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 110,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85792,
+    "chat_link": "[&AgEgTwEA]",
+    "icon": "https://render.guildwars2.com/file/58F7090A0E429EA35DF1C9F36DBD281552CA12F9/699209.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 203,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Istan Griffon Expert: Silver",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85793,
+    "chat_link": "[&AgEhTwEA]",
+    "icon": "https://render.guildwars2.com/file/EB06E07FD75BEBF77506A278402AC5B843315F4E/1201556.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Marshal's Stellar Scepter",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "default_skin": 7830,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85794,
+    "chat_link": "[&AgEiTwEA]",
+    "icon": "https://render.guildwars2.com/file/690A0F434E7065044D7B3336D507FF2507E5FDFF/1894586.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 940,
+      "max_power": 1060,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 108
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 108
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Malicious Footwear",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 115,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85795,
+    "chat_link": "[&AgEjTwEA]",
+    "icon": "https://render.guildwars2.com/file/5C63AF3E5541CBBF54C8656DD8F5E274590BEA52/699213.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Chest of Raider's Chest Armor",
+    "description": "Double-click to choose a piece of ascended chest armor.\nContains all armor classes.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85796,
+    "chat_link": "[&AgEkTwEA]",
+    "icon": "https://render.guildwars2.com/file/B3D1BCA875590CB29E980E4DE5CBAF649CE1E592/631167.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Dhuum's Top-Tier Supplies",
+    "description": "Contains a selection of rewards including ascended items and valuable consumables.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85797,
+    "chat_link": "[&AgElTwEA]",
+    "icon": "https://render.guildwars2.com/file/F3CC3D19A2BDF9026DD7B376B49557C6C42EA5BB/1635211.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Stellar Orrery",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85798,
+    "chat_link": "[&AgEmTwEA]",
+    "icon": "https://render.guildwars2.com/file/0E6ECF2B7D5B300979A70325120A646195C213F0/849290.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12509
+    }
+  },
+  {
+    "name": "Mini Adolescent Aurene",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85799,
+    "chat_link": "[&AgEnTwEA]",
+    "icon": "https://render.guildwars2.com/file/027E1BE1B2B3E6170601051ECF52E3920CCBD46E/1896047.png",
+    "details": {
+      "minipet_id": 619
+    }
+  },
+  {
+    "name": "Statue Token",
+    "description": "Found in the completion chest for the statue events in the Underworld. Double-click or trade in at the guild decoration trader to earn a decoration.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85800,
+    "chat_link": "[&AgEoTwEA]",
+    "icon": "https://render.guildwars2.com/file/D60F0721EC3AD122A2D4A47B68D50F355CE49303/1894800.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 935
+    }
+  },
+  {
+    "name": "Recipe: Stellar Disk",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85802,
+    "chat_link": "[&AgEqTwEA]",
+    "icon": "https://render.guildwars2.com/file/D201924467E3C9DF60B5F79631689F90DCE89478/849288.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12464
+    }
+  },
+  {
+    "name": "Healer's Striders",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 117,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85803,
+    "chat_link": "[&AgErTwEA]",
+    "icon": "https://render.guildwars2.com/file/33BC7FAC99DD9F5E68DFEAED70AC3145DBA707B0/699207.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Marshal's Astral Razor",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 7903,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85804,
+    "chat_link": "[&AgEsTwEA]",
+    "icon": "https://render.guildwars2.com/file/5C75442353C9076D0FC27DA0375FF0B321CF21FE/1894570.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 102
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 56
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 102
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 56
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Chest of Raider's Gloves",
+    "description": "Double-click to choose a pair of ascended gloves.\nContains all armor classes.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85805,
+    "chat_link": "[&AgEtTwEA]",
+    "icon": "https://render.guildwars2.com/file/B3D1BCA875590CB29E980E4DE5CBAF649CE1E592/631167.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Impact Site Marker",
+    "description": "Unlocks the Impact Site Marker skill for use while hunting for meteorites in Istan.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85806,
+    "chat_link": "[&AgEuTwEA]",
+    "icon": "https://render.guildwars2.com/file/999C0277580F9B22637C00A87697496500ABAF7F/1896074.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Defender's Ender of All",
+    "description": "<c=@flavor>In your hands, the howl of the damned is silent no more...</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7863,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85807,
+    "chat_link": "[&AgEvTwEA]",
+    "icon": "https://render.guildwars2.com/file/9C0AA3B821A949E1030715BBFED190300759945C/1895053.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Greaves of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Wade through Spawning Pools, in Vales Forgotten Tread</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7868,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85808,
+    "chat_link": "[&AgEwTwEA]",
+    "icon": "https://render.guildwars2.com/file/72E0F72409C892C30E2C40D3C5B2C03C439E99BB/1895228.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Fractal Empowerment 2",
+    "description": "Permanently gain an extra Writ of Tyrian Mastery from the final chest in every fractal. Level 2 out of 4.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 85811,
+    "chat_link": "[&AgEzTwEA]",
+    "icon": "https://render.guildwars2.com/file/0B38D6CC150C35AB156D3ECCC641C00DC7DC9209/1465581.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Crystal Mirror",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85812,
+    "chat_link": "[&AgE0TwEA]",
+    "icon": "https://render.guildwars2.com/file/F315FA9F6ABBFA090139F82C02771C9C09E0D440/1894611.png"
+  },
+  {
+    "name": "Assaulter's Breastplate",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 107,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85814,
+    "chat_link": "[&AgE2TwEA]",
+    "icon": "https://render.guildwars2.com/file/64725E0CEBDA22C75C16B70B0CDE58E4E6E7400A/699218.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 381,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Chest of Raider's Two-Handed Weapons",
+    "description": "Double-click to choose an ascended weapon.\nContains only two-handed weapons.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85815,
+    "chat_link": "[&AgE3TwEA]",
+    "icon": "https://render.guildwars2.com/file/B3D1BCA875590CB29E980E4DE5CBAF649CE1E592/631167.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Healer's Spire",
+    "description": "A high-quality staff.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4249,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85816,
+    "chat_link": "[&AgE4TwEA]",
+    "icon": "https://render.guildwars2.com/file/400DB5354831059EDE4B0798165E16CBA45B7318/632377.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Bronze Desmina Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85817,
+    "chat_link": "[&AgE5TwEA]",
+    "icon": "https://render.guildwars2.com/file/7DC94FD724CDC4F3C1C52631558057DF444520D3/1894789.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 942
+    }
+  },
+  {
+    "name": "Recipe: Astral Beacon",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85818,
+    "chat_link": "[&AgE6TwEA]",
+    "icon": "https://render.guildwars2.com/file/2AA251A1001C64AFAEFFBC2443B4D8BFE0373B52/849302.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12475
+    }
+  },
+  {
+    "name": "Assaulter's Guise",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 111,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85819,
+    "chat_link": "[&AgE7TwEA]",
+    "icon": "https://render.guildwars2.com/file/957B01535AB96230450BA110704557C9C607054F/699206.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 355,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Astral Cleaver",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85820,
+    "chat_link": "[&AgE8TwEA]",
+    "icon": "https://render.guildwars2.com/file/D1CC662DD44379089A64450B395C4B54BE2EE756/849298.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12473
+    }
+  },
+  {
+    "name": "Defender's Wand",
+    "description": "A high-quality scepter.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4218,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85822,
+    "chat_link": "[&AgE+TwEA]",
+    "icon": "https://render.guildwars2.com/file/76B41872F7B0DA64542FC6AB5C25C7A898EA9837/632353.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 940,
+      "max_power": 1060,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Shoulderguard",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 121,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85823,
+    "chat_link": "[&AgE/TwEA]",
+    "icon": "https://render.guildwars2.com/file/D52D7C621150ADD5AC264256194D9A58B85E447B/699202.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Blade",
+    "description": "A high-quality sword.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4256,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85825,
+    "chat_link": "[&AgFBTwEA]",
+    "icon": "https://render.guildwars2.com/file/1A07F221AB290414DB3533D96B80635AD5CE0F98/632383.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Petite Statue of Joko the Immortal",
+    "description": "Purchase to deposit this decoration into guild storage.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85826,
+    "chat_link": "[&AgFCTwEA]",
+    "icon": "https://render.guildwars2.com/file/764B29BB32A707D8E00B14DB2FFF94EAD1542A1A/1999100.png",
+    "details": {
+      "type": "Default",
+      "guild_upgrade_id": 933
+    }
+  },
+  {
+    "name": "Defender's Greaves of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Wade through Spawning Pools, in Vales Forgotten Tread</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7868,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85827,
+    "chat_link": "[&AgFDTwEA]",
+    "icon": "https://render.guildwars2.com/file/72E0F72409C892C30E2C40D3C5B2C03C439E99BB/1895228.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Kralkatite Ingot",
+    "type": "CraftingMaterial",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 64,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85828,
+    "chat_link": "[&AgFETwEA]",
+    "icon": "https://render.guildwars2.com/file/48BFE5352D76AF37AF1FBFA42E1F23049E3F4095/1894601.png"
+  },
+  {
+    "name": "Assaulter's Pauldrons",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 113,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85829,
+    "chat_link": "[&AgFFTwEA]",
+    "icon": "https://render.guildwars2.com/file/BCF8FD08CF3F4A263704370659D69FEE2EDD0C45/699214.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Stellar Razor",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85830,
+    "chat_link": "[&AgFGTwEA]",
+    "icon": "https://render.guildwars2.com/file/A4334E5830B017094A03FBF208A79B4BBF392917/849292.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12495
+    }
+  },
+  {
+    "name": "Malicious Warfists",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 116,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85831,
+    "chat_link": "[&AgFHTwEA]",
+    "icon": "https://render.guildwars2.com/file/BD20599D290345BE7D98BD270FBE502CF5212654/699217.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Gauntlets of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>From Serpents Two Wring Breath</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7854,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85832,
+    "chat_link": "[&AgFITwEA]",
+    "icon": "https://render.guildwars2.com/file/0251CE1BC4303F36301E61E0D240CFE0EC147528/1895229.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Heavy",
+      "defense": 191,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Celestial Infusion (Red)",
+    "description": "Double-click to apply to an unused infusion slot. Infuses character with a cosmic aura.",
+    "type": "UpgradeComponent",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 32,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85833,
+    "chat_link": "[&AgFJTwEA]",
+    "icon": "https://render.guildwars2.com/file/E05108050955E3D4A50E9196C8A5CDFFB4D7C891/1729287.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1411,
+        "buff": {
+          "skill_id": 47979,
+          "description": "+5 Concentration\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "BoonDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Recipe: Superior Rune of the Stars",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85834,
+    "chat_link": "[&AgFKTwEA]",
+    "icon": "https://render.guildwars2.com/file/64F6762697317B5472056E11A3B2310E273BA16C/849265.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12463
+    }
+  },
+  {
+    "name": "Malicious Brazier",
+    "description": "A high-quality torch.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4139,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85835,
+    "chat_link": "[&AgFLTwEA]",
+    "icon": "https://render.guildwars2.com/file/0A54A1D76D48E9A3C77893130E0DEE3ECAF4467D/632389.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 828,
+      "max_power": 972,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Visage",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 124,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85837,
+    "chat_link": "[&AgFNTwEA]",
+    "icon": "https://render.guildwars2.com/file/0EBB9F33579CC54CC39F685868FFD79D7A0FEEDC/699204.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Stellar Avenger",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85839,
+    "chat_link": "[&AgFPTwEA]",
+    "icon": "https://render.guildwars2.com/file/F634A41B46C73C3AD3A70E02697C9370A2F9F34B/849291.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12493
+    }
+  },
+  {
+    "name": "Assaulter's Shako of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Gaze upon Chaotic Planes and Pits of Brittle Dead</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7889,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85840,
+    "chat_link": "[&AgFQTwEA]",
+    "icon": "https://render.guildwars2.com/file/EB2EC20814AAD400AB01F348A0C1352C5EE62CA0/1895230.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Medium",
+      "defense": 102,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Healer's Leggings",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 112,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85843,
+    "chat_link": "[&AgFTTwEA]",
+    "icon": "https://render.guildwars2.com/file/0D284759AF7E3E9454210A3E7DECF0000B7E5D7F/699203.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Medium",
+      "defense": 229,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Corsair Sharpening Stone",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85844,
+    "chat_link": "[&AgFUTwEA]",
+    "icon": "https://render.guildwars2.com/file/E19734B71C949924A1353106E513DE62729A5313/849374.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12503
+    }
+  },
+  {
+    "name": "Malicious Final Death",
+    "description": "<c=@flavor>Your hands seem to sink into the grip of this sword.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7910,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85846,
+    "chat_link": "[&AgFWTwEA]",
+    "icon": "https://render.guildwars2.com/file/7B0F78E0B69E655F991901083366603950A4D1F9/1895051.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 1045,
+      "max_power": 1155,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Defender's Gloves of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>From Serpents Two Wring Breath</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7848,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85847,
+    "chat_link": "[&AgFXTwEA]",
+    "icon": "https://render.guildwars2.com/file/0251CE1BC4303F36301E61E0D240CFE0EC147528/1895229.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Astral Razor",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85849,
+    "chat_link": "[&AgFZTwEA]",
+    "icon": "https://render.guildwars2.com/file/A4334E5830B017094A03FBF208A79B4BBF392917/849292.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12470
+    }
+  },
+  {
+    "name": "Powdered Gemstone Research",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85851,
+    "chat_link": "[&AgFbTwEA]",
+    "icon": "https://render.guildwars2.com/file/389CA6C2026C7780F4041733F07AC1FD6ED7A49D/1894619.png"
+  },
+  {
+    "name": "Transcendental Binding",
+    "description": "Can be placed in the Mystic Forge along with other bookmaking materials to create a Meditation Logbook.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85852,
+    "chat_link": "[&AgFcTwEA]",
+    "icon": "https://render.guildwars2.com/file/18B70BB6FF63F10BFBBED59ABC6EE0B728DA215D/1894954.png"
+  },
+  {
+    "name": "Assaulter's Gloves of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>From Serpents Two Wring Breath</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7848,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85853,
+    "chat_link": "[&AgFdTwEA]",
+    "icon": "https://render.guildwars2.com/file/0251CE1BC4303F36301E61E0D240CFE0EC147528/1895229.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Transcendental Parchment",
+    "description": "Can be placed in the Mystic Forge along with other bookmaking materials to create a Meditation Logbook.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85855,
+    "chat_link": "[&AgFfTwEA]",
+    "icon": "https://render.guildwars2.com/file/AAED450A0B0D5C73762A6390A176A499D1C8079B/1894958.png"
+  },
+  {
+    "name": "Marshal's Astral Short Bow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 7856,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85857,
+    "chat_link": "[&AgFhTwEA]",
+    "icon": "https://render.guildwars2.com/file/1933F81D33184554D148CC21FC9401360FAFF4B7/1894589.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 205
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Malicious Razor",
+    "description": "A high-quality dagger.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4246,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85858,
+    "chat_link": "[&AgFiTwEA]",
+    "icon": "https://render.guildwars2.com/file/B9DA373EF1202777B2D9102134BF65AEEE294BD2/632299.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 970,
+      "max_power": 1030,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Breeches",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 110,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85859,
+    "chat_link": "[&AgFjTwEA]",
+    "icon": "https://render.guildwars2.com/file/58F7090A0E429EA35DF1C9F36DBD281552CA12F9/699209.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Light",
+      "defense": 203,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Astral Water",
+    "description": "Found in the Astralarium and used by the Corsair, Mehdi, to craft his famous tainted grog in the Domain of Istan.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85860,
+    "chat_link": "[&AgFkTwEA]",
+    "icon": "https://render.guildwars2.com/file/A60C5F6001F695232A0DC7F1B73B1FB7B2075491/1895045.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Assaulter's Wristguards",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 118,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85861,
+    "chat_link": "[&AgFlTwEA]",
+    "icon": "https://render.guildwars2.com/file/5859B5CF97C0D394CF5CB5B3042775C6E6C1A1EB/699211.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Marshal's Stellar Knobkerrie",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "default_skin": 7866,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85862,
+    "chat_link": "[&AgFmTwEA]",
+    "icon": "https://render.guildwars2.com/file/DDE593A0FA2803E00FDE260E57E27803DC916D37/1894580.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 940,
+      "max_power": 1060,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 108
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 59
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 108
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 59
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Phospholuminescent Infusion",
+    "description": "Double-click to apply to an unused infusion slot. Adds a festive glow.\n<c=@Warning>Warning!</c>\n<c=@Flavor>Captain's Council recommends avoiding direct contact with this substance.</c>",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85863,
+    "chat_link": "[&AgFnTwEA]",
+    "icon": "https://render.guildwars2.com/file/0461C37EFE7D1C507174A226BA34AF160BE5C693/1508108.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1399,
+        "buff": {
+          "skill_id": 47514,
+          "description": "+5 Concentration\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "BoonDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Molten Light",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85864,
+    "chat_link": "[&AgFoTwEA]",
+    "icon": "https://render.guildwars2.com/file/804F6AA0A15430F6BED5050D4D3522CBA025FD13/1894607.png"
+  },
+  {
+    "name": "Silver River of Souls Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85865,
+    "chat_link": "[&AgFpTwEA]",
+    "icon": "https://render.guildwars2.com/file/5276C15002466D2B7D48094396D3117762E12E6C/1894803.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 934
+    }
+  },
+  {
+    "name": "Recipe: Corsair Maintenance Oil",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85866,
+    "chat_link": "[&AgFqTwEA]",
+    "icon": "https://render.guildwars2.com/file/E19734B71C949924A1353106E513DE62729A5313/849374.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12510
+    }
+  },
+  {
+    "name": "Defender's Doublet",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 109,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85867,
+    "chat_link": "[&AgFrTwEA]",
+    "icon": "https://render.guildwars2.com/file/6E0C12721BAA5E343813DE9F2C7EFE064AECCE0A/699212.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 330,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Corrupted Mirror",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85868,
+    "chat_link": "[&AgFsTwEA]",
+    "icon": "https://render.guildwars2.com/file/61C8D1D71260C86EDDEB4FEB5863BEFE6D55F6FB/1894610.png"
+  },
+  {
+    "name": "Meditation Log: Completed Log",
+    "description": "Your journey of self has come to an end, for now...",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85869,
+    "chat_link": "[&AgFtTwEA]",
+    "icon": "https://render.guildwars2.com/file/A0240BA62F6F912305F20AD3A407CB12E1F00CDC/1894955.png"
+  },
+  {
+    "name": "Randa's Eviscerator",
+    "description": "<c=@flavor>Useful for opening casks of beer or enemy skulls.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 7841,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85870,
+    "chat_link": "[&AgFuTwEA]",
+    "icon": "https://render.guildwars2.com/file/08666D515A0C28575E42BEEB763A9A420C9DC735/1894961.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Choking",
+      "min_power": 857,
+      "max_power": 1048,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 1363,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 85
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Healer's Slippers of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Wade through Spawning Pools, in Vales Forgotten Tread</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7887,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85871,
+    "chat_link": "[&AgFvTwEA]",
+    "icon": "https://render.guildwars2.com/file/72E0F72409C892C30E2C40D3C5B2C03C439E99BB/1895228.png",
+    "details": {
+      "type": "Boots",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Cloth Shipment",
+    "description": "Open to receive an assortment of cloth.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 32,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85873,
+    "chat_link": "[&AgFxTwEA]",
+    "icon": "https://render.guildwars2.com/file/2744D4804A0EC667FF2624FFC2DFE10A39B148C0/1894765.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Assaulter's Helm of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Gaze upon Chaotic Planes and Pits of Brittle Dead</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7905,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85876,
+    "chat_link": "[&AgF0TwEA]",
+    "icon": "https://render.guildwars2.com/file/EB2EC20814AAD400AB01F348A0C1352C5EE62CA0/1895230.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 179.256,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Fractal Empowerment 4",
+    "description": "Permanently gain an extra Writ of Tyrian Mastery from the final chest in every fractal. Level 4 out of 4.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [],
+    "restrictions": [],
+    "id": 85878,
+    "chat_link": "[&AgF2TwEA]",
+    "icon": "https://render.guildwars2.com/file/0B38D6CC150C35AB156D3ECCC641C00DC7DC9209/1465581.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Healer's Gloves of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>From Serpents Two Wring Breath</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7848,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85879,
+    "chat_link": "[&AgF3TwEA]",
+    "icon": "https://render.guildwars2.com/file/0251CE1BC4303F36301E61E0D240CFE0EC147528/1895229.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Light",
+      "defense": 140,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Mystical +7 Agony Infusion",
+    "description": "Double-click to apply to an unused infusion slot.",
+    "type": "UpgradeComponent",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 16,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85881,
+    "chat_link": "[&AgF5TwEA]",
+    "icon": "https://render.guildwars2.com/file/F4DC0A52220F32D708D574D4E7AC322299FD4754/511836.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1413,
+        "buff": {
+          "skill_id": 47436,
+          "description": "+5 Concentration\n+7 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "BoonDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 7
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Heavy Corsair Turban",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 25000,
+    "default_skin": 7844,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85882,
+    "chat_link": "[&AgF6TwEA]",
+    "icon": "https://render.guildwars2.com/file/56D34F2AAFC03392564602B54F5601F1911040A8/1895227.png",
+    "details": {
+      "type": "Helm",
+      "weight_class": "Heavy",
+      "defense": 121,
+      "infusion_slots": [],
+      "attribute_adjustment": 170.72,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Brazier",
+    "description": "A high-quality torch.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4139,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85883,
+    "chat_link": "[&AgF7TwEA]",
+    "icon": "https://render.guildwars2.com/file/0A54A1D76D48E9A3C77893130E0DEE3ECAF4467D/632389.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 828,
+      "max_power": 972,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Istan Portal Scroll",
+    "description": "Double-click to teleport to the Chalon Docks in the Domain of Istan. <c=@Warning>This item cannot be used while in combat.</c>",
+    "type": "Gizmo",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85884,
+    "chat_link": "[&AgF8TwEA]",
+    "icon": "https://render.guildwars2.com/file/54B25CDFC135413932710DCA9A77C20F1B573EDD/1894771.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Phospholuminescent Infusion",
+    "description": "Double-click to apply to an unused infusion slot. Adds a festive glow.\n<c=@Warning>Warning!</c>\n<c=@Flavor>Captain's Council recommends avoiding direct contact with this substance.</c>",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85885,
+    "chat_link": "[&AgF9TwEA]",
+    "icon": "https://render.guildwars2.com/file/0461C37EFE7D1C507174A226BA34AF160BE5C693/1508108.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1390,
+        "buff": {
+          "skill_id": 47422,
+          "description": "+5 Expertise\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "Defender's Bastion",
+    "description": "A high-quality shield.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4219,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85888,
+    "chat_link": "[&AgGATwEA]",
+    "icon": "https://render.guildwars2.com/file/276CA1110C02EE552019014808D89CE74D15C154/632359.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 846,
+      "max_power": 954,
+      "defense": 64,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Defender's Pauldrons of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Through Ice and Maze Bring Death</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7871,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85889,
+    "chat_link": "[&AgGBTwEA]",
+    "icon": "https://render.guildwars2.com/file/07FABCCE068045E6F7F03FB6E1A92C601AAB1BF8/1895231.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Defender's Handguards of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>From Serpents Two Wring Breath</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7874,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85891,
+    "chat_link": "[&AgGDTwEA]",
+    "icon": "https://render.guildwars2.com/file/0251CE1BC4303F36301E61E0D240CFE0EC147528/1895229.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        616,
+        559,
+        754,
+        628,
+        158,
+        1026,
+        686,
+        700,
+        153,
+        162,
+        1232,
+        1226,
+        1229,
+        1228,
+        1225,
+        1377,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Assaulter's Pauldrons of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>Through Ice and Maze Bring Death</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7871,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85892,
+    "chat_link": "[&AgGETwEA]",
+    "icon": "https://render.guildwars2.com/file/07FABCCE068045E6F7F03FB6E1A92C601AAB1BF8/1895231.png",
+    "details": {
+      "type": "Shoulders",
+      "weight_class": "Heavy",
+      "defense": 127,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Darkspear",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 7888,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85894,
+    "chat_link": "[&AgGGTwEA]",
+    "icon": "https://render.guildwars2.com/file/710F30DF6B490927E2E2451AE2116F94A57609C7/1895022.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Choking",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1363,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 171
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 171
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Charged Mirror",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85895,
+    "chat_link": "[&AgGHTwEA]",
+    "icon": "https://render.guildwars2.com/file/97FC4CBB921AA7B439ECBE063C9639185C02D570/1894609.png"
+  },
+  {
+    "name": "Glacial Light",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85898,
+    "chat_link": "[&AgGKTwEA]",
+    "icon": "https://render.guildwars2.com/file/12DF73734BB410DA2B081730FD65016240DA5645/1894606.png"
+  },
+  {
+    "name": "Healer's Flesh and Sinew",
+    "description": "<c=@flavor>An offering to the god of death.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7909,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85899,
+    "chat_link": "[&AgGLTwEA]",
+    "icon": "https://render.guildwars2.com/file/63DD06A65D901B5FB30604C73817B7160C17DB42/1895049.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 900,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Festive Confetti Infusion",
+    "description": "Double-click to apply to an unused infusion slot. Adds a festive confetti explosion.",
+    "type": "UpgradeComponent",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 10000,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85900,
+    "chat_link": "[&AgGMTwEA]",
+    "icon": "https://render.guildwars2.com/file/00ED7EC9BB0A01045205ED6144FB24E9189B25C2/1822094.png",
+    "details": {
+      "type": "Default",
+      "flags": [
+        "ShortBow",
+        "HeavyArmor",
+        "LightArmor",
+        "Dagger",
+        "MediumArmor",
+        "Focus",
+        "Greatsword",
+        "Hammer",
+        "Trinket",
+        "Harpoon",
+        "Mace",
+        "Pistol",
+        "Rifle",
+        "Scepter",
+        "Shield",
+        "Speargun",
+        "Axe",
+        "Staff",
+        "Sword",
+        "Torch",
+        "Trident",
+        "Warhorn",
+        "LongBow"
+      ],
+      "infusion_upgrade_flags": [
+        "Infusion"
+      ],
+      "attribute_adjustment": 0,
+      "infix_upgrade": {
+        "id": 1398,
+        "buff": {
+          "skill_id": 48449,
+          "description": "+5 Expertise\n+9 Agony Resistance"
+        },
+        "attributes": [
+          {
+            "attribute": "ConditionDuration",
+            "modifier": 5
+          },
+          {
+            "attribute": "AgonyResistance",
+            "modifier": 9
+          }
+        ]
+      },
+      "suffix": ""
+    }
+  },
+  {
+    "name": "101 Things the Mordant Crescent Doesn't Want You to Know!",
+    "description": "Checked out by 5-Finger Fareem. Last seen being arrested for subversion.<br><br>Double-click from inventory to read.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85901,
+    "chat_link": "[&AgGNTwEA]",
+    "icon": "https://render.guildwars2.com/file/F70D98EB32C709C9ABC8702719A84D754A5C01BB/1894641.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Recipe: Superior Sigil of the Stars",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85902,
+    "chat_link": "[&AgGOTwEA]",
+    "icon": "https://render.guildwars2.com/file/066F0AB6170D56AAC780AC68CA04C3EBF20C18D7/849268.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12467
+    }
+  },
+  {
+    "name": "Malicious Breastplate",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 107,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85903,
+    "chat_link": "[&AgGPTwEA]",
+    "icon": "https://render.guildwars2.com/file/64725E0CEBDA22C75C16B70B0CDE58E4E6E7400A/699218.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 381,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 403.326,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Healer's Oblivion",
+    "description": "<c=@flavor>The fang in the mouth at the edge of darkness.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7881,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85904,
+    "chat_link": "[&AgGQTwEA]",
+    "icon": "https://render.guildwars2.com/file/05533D7448DFD3A4C55D414275FA52CD6D06BDF2/1895048.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Gold Statue of Grenth Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85906,
+    "chat_link": "[&AgGSTwEA]",
+    "icon": "https://render.guildwars2.com/file/15BABCE0A0BB75AE54380738FAB40B41797E14C5/1894798.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 938
+    }
+  },
+  {
+    "name": "Machete",
+    "description": "Used to open noxious pods in Dragon's Stand. Pods can contain armor, weapons, and recipes.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85907,
+    "chat_link": "[&AgGTTwEA]",
+    "icon": "https://render.guildwars2.com/file/2539DA0C2F1259A20DEE6707B8D8BCDA050372E2/1203080.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Crystal Light",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85910,
+    "chat_link": "[&AgGWTwEA]",
+    "icon": "https://render.guildwars2.com/file/543CFF09EF6107F8DAFB20A718B67DDAC608DBDE/1894604.png"
+  },
+  {
+    "name": "Trader's Key",
+    "description": "Used to open trade crates in the Crystal Desert.\n\n<c=@flavor>\"Don't waste time watching a merchant's eyes or lips; watch their hands to find their keys.\"\n—Zalambur.</c>",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85911,
+    "chat_link": "[&AgGXTwEA]",
+    "icon": "https://render.guildwars2.com/file/7CD20D4B072AD23F97202F05E4130CF8A4B069C5/69116.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Silver Statue of Grenth Trophy",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85912,
+    "chat_link": "[&AgGYTwEA]",
+    "icon": "https://render.guildwars2.com/file/BE1651A4BBDAD1E3FE6CC1986A26029FBDE3AE39/1894799.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 923
+    }
+  },
+  {
+    "name": "Healer's Handguards of Dhuum",
+    "description": "Armor forged in the Underworld, steeped in mortal souls.\n<c=@flavor>From Serpents Two Wring Breath</c>",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 7874,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85914,
+    "chat_link": "[&AgGaTwEA]",
+    "icon": "https://render.guildwars2.com/file/0251CE1BC4303F36301E61E0D240CFE0EC147528/1895229.png",
+    "details": {
+      "type": "Gloves",
+      "weight_class": "Medium",
+      "defense": 165,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 134.442,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Flanged Mace",
+    "description": "A high-quality mace.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4193,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85916,
+    "chat_link": "[&AgGcTwEA]",
+    "icon": "https://render.guildwars2.com/file/0E01F92B7A10E3146D7D5072D9080D01550C0F78/632335.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 940,
+      "max_power": 1060,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Mini Koss",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85917,
+    "chat_link": "[&AgGdTwEA]",
+    "icon": "https://render.guildwars2.com/file/3597FA15FD32CF9FA33A1B22F89EB1AAB24C6AA1/1896048.png",
+    "details": {
+      "minipet_id": 624
+    }
+  },
+  {
+    "name": "Marshal's Astral Longbow",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "default_skin": 7891,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85919,
+    "chat_link": "[&AgGfTwEA]",
+    "icon": "https://render.guildwars2.com/file/110850B27BE7F1E8EF41212B77AA6241034237EA/1894569.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 205
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 113
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 205
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 113
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Reconfigure Multitool",
+    "description": "Unlocks the Reconfigure Multitool skill while hunting for meteorites in Istan, which transforms your multitool into a weapon.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 85923,
+    "chat_link": "[&AgGjTwEA]",
+    "icon": "https://render.guildwars2.com/file/CC2EECF3645372FBC1A1CDDC987DB2DB3323691C/1896077.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Chest of Raider's Headgear",
+    "description": "Double-click to choose a piece of ascended headgear.\nContains all armor classes.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Ascended",
+    "vendor_value": 320,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85925,
+    "chat_link": "[&AgGlTwEA]",
+    "icon": "https://render.guildwars2.com/file/B3D1BCA875590CB29E980E4DE5CBAF649CE1E592/631167.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  {
+    "name": "Marshal's Stellar Spire",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 0,
+    "default_skin": 7865,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85926,
+    "chat_link": "[&AgGmTwEA]",
+    "icon": "https://render.guildwars2.com/file/D704CA0D0E92440FA70D7FED630D4162430FF701/1894592.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 1034,
+      "max_power": 1166,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "infix_upgrade": {
+        "id": 1378,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 215
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 118
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 215
+          },
+          {
+            "attribute": "ConditionDamage",
+            "modifier": 118
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Powderkeg Shrapnel",
+    "description": "An item from the Powderkegs crew used by the Corsair, Mehdi, to craft his famous tainted grog in the Domain of Istan.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell",
+      "SoulbindOnAcquire",
+      "Unique",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85928,
+    "chat_link": "[&AgGoTwEA]",
+    "icon": "https://render.guildwars2.com/file/1749BBAA1303343F260769060B0F6DE4EF2500C1/1894674.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  {
+    "name": "Recipe: Astral Spire",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85929,
+    "chat_link": "[&AgGpTwEA]",
+    "icon": "https://render.guildwars2.com/file/B00E062899E80C806A7BB83DDCCDE213E19151B9/849329.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12474
+    }
+  },
+  {
+    "name": "Recipe: Stellar Revolver",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85930,
+    "chat_link": "[&AgGqTwEA]",
+    "icon": "https://render.guildwars2.com/file/0FE244BAD2EF262F95F17948AA23076A2AB407EF/849299.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12507
+    }
+  },
+  {
+    "name": "Malicious Impaler",
+    "description": "A high-quality harpoon.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4164,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85931,
+    "chat_link": "[&AgGrTwEA]",
+    "icon": "https://render.guildwars2.com/file/3E0C2B4067E476034C2D5E6EFF4DC3A6450464EF/632323.png",
+    "details": {
+      "type": "Harpoon",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Healer's Short Bow",
+    "description": "A high-quality short bow.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4157,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85932,
+    "chat_link": "[&AgGsTwEA]",
+    "icon": "https://render.guildwars2.com/file/051EBCEBE5A6D00B19DCC167ACE26399CEB79644/632365.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Mini Tar Elemental",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85934,
+    "chat_link": "[&AgGuTwEA]",
+    "icon": "https://render.guildwars2.com/file/98C180083BC729AFEC9A562F43320706E499C4AA/1896051.png",
+    "details": {
+      "minipet_id": 620
+    }
+  },
+  {
+    "name": "Assaulter's Touch of Dhuum",
+    "description": "<c=@flavor>Even a touch can be fatal.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 7867,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85935,
+    "chat_link": "[&AgGvTwEA]",
+    "icon": "https://render.guildwars2.com/file/39051E49C4E9B5F42A073AAA010741F2250A7CFA/1895050.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 970,
+      "max_power": 1030,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 358.512,
+      "stat_choices": [
+        753,
+        161,
+        559,
+        616,
+        158,
+        159,
+        1067,
+        162,
+        157,
+        799,
+        1227,
+        1232,
+        1231,
+        1228,
+        1224,
+        1225,
+        1539,
+        1379,
+        1377,
+        1378
+      ]
+    }
+  },
+  {
+    "name": "Recipe: Stellar Longbow",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 10,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85936,
+    "chat_link": "[&AgGwTwEA]",
+    "icon": "https://render.guildwars2.com/file/3AB66FABE1F5A5FD90E49851D0D9D8DDB591135E/849285.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 12505
+    }
+  },
+  {
+    "name": "Meditation Log: Elon Riverlands",
+    "description": "A quiet place for rest in the graveyard of stone, albeit modestly damp.",
+    "type": "Trophy",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "game_types": [
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85937,
+    "chat_link": "[&AgGxTwEA]",
+    "icon": "https://render.guildwars2.com/file/4138FD4D21A0C6A5751FE3600F331A44C346736D/1894956.png"
+  },
+  {
+    "name": "Malicious Tassets",
+    "description": "A piece of high-quality armor.",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 240,
+    "default_skin": 108,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85938,
+    "chat_link": "[&AgGyTwEA]",
+    "icon": "https://render.guildwars2.com/file/089C3C370428039590EF055CA33AED03E99E7951/699215.png",
+    "details": {
+      "type": "Leggings",
+      "weight_class": "Heavy",
+      "defense": 254,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 268.884,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Malicious Musket",
+    "description": "A high-quality rifle.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4220,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85940,
+    "chat_link": "[&AgG0TwEA]",
+    "icon": "https://render.guildwars2.com/file/EEEEA9B831DF5E50D17C0A5D07084F75CDD8CDDD/632347.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 1035,
+      "max_power": 1265,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        1032,
+        160,
+        559,
+        754,
+        154,
+        153,
+        1067,
+        1230,
+        1229,
+        1224,
+        1379,
+        1484
+      ]
+    }
+  },
+  {
+    "name": "Healer's Harpoon Gun",
+    "description": "A high-quality harpoon.",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Ascended",
+    "vendor_value": 10000,
+    "default_skin": 4140,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 85941,
+    "chat_link": "[&AgG1TwEA]",
+    "icon": "https://render.guildwars2.com/file/E1A1923F0AE8740E35060E57305C0EF39874EB13/632371.png",
+    "details": {
+      "type": "Speargun",
+      "damage_type": "Physical",
+      "min_power": 950,
+      "max_power": 1050,
+      "defense": 0,
+      "infusion_slots": [
+        {
+          "flags": [
+            "Infusion"
+          ]
+        },
+        {
+          "flags": [
+            "Infusion"
+          ]
+        }
+      ],
+      "attribute_adjustment": 717.024,
+      "stat_choices": [
+        605,
+        559,
+        155,
+        628,
+        156,
+        1226,
+        1230,
+        1539,
+        1377,
+        1378,
+        1484
+      ]
+    }
+  }
+]
