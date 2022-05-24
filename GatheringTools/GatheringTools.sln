@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatheringTools", "Gathering
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItemJsonFileCreator", "..\ItemJsonFileCreator\ItemJsonFileCreator.csproj", "{1E8C390D-6968-4FCB-93E0-A53990021A9A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatheringTools.UnitTest", "..\GatheringTools.UnitTest\GatheringTools.UnitTest.csproj", "{5CD37592-FF62-444B-9A93-688F1B808E6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1E8C390D-6968-4FCB-93E0-A53990021A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E8C390D-6968-4FCB-93E0-A53990021A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E8C390D-6968-4FCB-93E0-A53990021A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD37592-FF62-444B-9A93-688F1B808E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD37592-FF62-444B-9A93-688F1B808E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD37592-FF62-444B-9A93-688F1B808E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD37592-FF62-444B-9A93-688F1B808E6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
