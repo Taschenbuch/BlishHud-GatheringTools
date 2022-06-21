@@ -17,7 +17,7 @@ namespace GatheringTools.ToolSearch.Services
             WindowBackgroundTexture          = contentsManager.GetTexture(@"toolSearch\textures\windowsBackground_155985.png");
             ToolSearchWindowEmblem           = contentsManager.GetTexture(@"toolSearch\textures\toolSearchWindowEmblem.png");
             CornerIconTexture                = contentsManager.GetTexture(@"toolSearch\textures\cornerIcon.png");
-            HoverCornerIconTexture           = contentsManager.GetTexture(@"toolSearch\textures\cornerIcon_hover.png");
+            CornerIconHoverTexture           = contentsManager.GetTexture(@"toolSearch\textures\cornerIcon_hover.png");
             BankTexture                      = contentsManager.GetTexture(@"toolSearch\textures\bank_156670.png");
             CharacterInventoryTexture        = contentsManager.GetTexture(@"toolSearch\textures\inventory_157098.png");
             SharedInventoryTexture           = contentsManager.GetTexture(@"toolSearch\textures\sharedInventory.png");
@@ -36,7 +36,7 @@ namespace GatheringTools.ToolSearch.Services
             WindowBackgroundTexture?.Dispose();
             ToolSearchWindowEmblem?.Dispose();
             CornerIconTexture?.Dispose();
-            HoverCornerIconTexture?.Dispose();
+            CornerIconHoverTexture?.Dispose();
             BankTexture?.Dispose();
             CharacterInventoryTexture?.Dispose();
             SharedInventoryTexture?.Dispose();
@@ -53,7 +53,7 @@ namespace GatheringTools.ToolSearch.Services
         public Texture2D WindowBackgroundTexture { get; }
         public Texture2D ToolSearchWindowEmblem { get; }
         public Texture2D CornerIconTexture { get; }
-        public Texture2D HoverCornerIconTexture { get; }
+        public Texture2D CornerIconHoverTexture { get; }
         public Texture2D BankTexture { get; }
         public Texture2D CharacterInventoryTexture { get; }
         public Texture2D SharedInventoryTexture { get; }

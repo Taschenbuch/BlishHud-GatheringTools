@@ -63,7 +63,7 @@ namespace GatheringTools
                     HideReminderAndResetRunningTime();
             };
 
-            _logoutButton = new LogoutButton(_settingService, _textureService);
+            _logoutButton       =  new LogoutButton(_settingService, _textureService);
             _logoutButton.Click += OnLogoutButtonClicked;
 
             _escKeyBinding           =  new KeyBinding(Keys.Escape);
@@ -93,9 +93,13 @@ namespace GatheringTools
             _settingService.ToolSearchKeyBindingSetting.Value.Activated += async (s, e) => await _toolSearchStandardWindow.ToggleVisibility();
             _settingService.ToolSearchKeyBindingSetting.Value.Enabled   =  true;
 
-            _cornerIconService = new CornerIconService(_settingService.ShowToolSearchCornerIconSetting, _toolSearchStandardWindow, _textureService);
+            _cornerIconService = new CornerIconService(
+                _settingService.ShowToolSearchCornerIconSetting,
+                "Click to show/hide which character has gathering tools equipped.\nIcon can be hidden by module settings.",
+                (s, e) => _toolSearchStandardWindow.ToggleWindow(),
+                _textureService);
         }
-        
+
         protected override void Unload()
         {
             _escKeyBinding.Activated                                -= OnEscKeyBindingActivated;
@@ -107,7 +111,7 @@ namespace GatheringTools
             _textureService?.Dispose();
             _toolSearchStandardWindow?.Dispose();
             _reminderContainer?.Dispose();
-            _cornerIconService?.RemoveCornerIcon();
+            _cornerIconService?.Dispose();
         }
 
         protected override void Update(GameTime gameTime)
