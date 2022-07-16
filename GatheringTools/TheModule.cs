@@ -96,7 +96,7 @@ namespace GatheringTools
             _cornerIconService = new CornerIconService(
                 _settingService.ShowToolSearchCornerIconSetting,
                 "Click to show/hide which character has gathering tools equipped.\nIcon can be hidden by module settings.",
-                (s, e) => _toolSearchStandardWindow.ToggleWindow(),
+                (s, e) => _toolSearchStandardWindow.ToggleVisibility(),
                 _textureService);
         }
 

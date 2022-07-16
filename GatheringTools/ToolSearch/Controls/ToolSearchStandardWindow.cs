@@ -71,6 +71,7 @@ namespace GatheringTools.ToolSearch.Controls
             {
                 WidthSizingMode  = SizingMode.AutoSize,
                 HeightSizingMode = SizingMode.AutoSize,
+                Visible          = false,
                 Parent           = rootFlowPanel
             };
 
