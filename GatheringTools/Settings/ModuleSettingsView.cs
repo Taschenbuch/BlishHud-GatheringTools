@@ -1,4 +1,5 @@
-﻿using Blish_HUD.Controls;
+﻿using System.Diagnostics;
+using Blish_HUD.Controls;
 using Blish_HUD.Graphics.UI;
 using Blish_HUD.Settings;
 using Blish_HUD.Settings.UI.Views;
@@ -25,6 +26,8 @@ namespace GatheringTools.Settings
                 HeightSizingMode    = SizingMode.Fill,
                 Parent              = buildPanel
             };
+
+            CreatePatchNotesButton(_rootFlowPanel);
 
             var toolSearchFlowPanel = CreateSettingsGroupFlowPanel("Tool Search", _rootFlowPanel);
             ShowSettingWithViewContainer(_settingService.ToolSearchKeyBindingSetting, toolSearchFlowPanel, buildPanel.Width);
@@ -61,6 +64,25 @@ namespace GatheringTools.Settings
             ShowSettingWithViewContainer(_settingService.ReminderScreenNotificationIsEnabledSetting, reminderFlowPanel, buildPanel.Width);
             ShowSettingWithViewContainer(_settingService.EscIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);
             ShowSettingWithViewContainer(_settingService.EnterIsHidingReminderSetting, reminderFlowPanel, buildPanel.Width);
+        }
+
+        private static void CreatePatchNotesButton(Container parent)
+        {
+            var patchNotesButton = new StandardButton
+            {
+                Text             = "Patch notes",
+                BasicTooltipText = "Show patch notes in your default web browser.",
+                Parent           = parent
+            };
+
+            patchNotesButton.Click += (s, e) =>
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName        = "https://pkgs.blishhud.com/ecksofa.gatheringtools.html",
+                    UseShellExecute = true
+                });
+            };
         }
 
         private void ShowOrHideLogoutButtonSettings(bool isVisible)
