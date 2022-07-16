@@ -7,7 +7,7 @@ using ItemJsonFileCreator.Model;
 using Newtonsoft.Json;
 using File = System.IO.File;
 
-namespace ItemJsonFileCreator
+namespace GatheringTools.ItemJsonFileCreator
 {
     class Program
     {

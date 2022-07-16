@@ -1,4 +1,4 @@
-﻿namespace ItemJsonFileCreator.Model
+﻿namespace GatheringTools.ItemJsonFileCreator.Model
 {
     public class Gw2Item
     {
