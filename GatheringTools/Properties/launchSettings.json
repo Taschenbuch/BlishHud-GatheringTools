@@ -2,17 +2,17 @@
   "profiles": {
     "powershell": {
       "commandName": "Executable",
-      "executablePath": "C:\\gw2\\Blish.HUD\\Blish HUD.exe",
+      "executablePath": "C:\\Dev\\blish\\Blish.HUD\\Blish HUD.exe",
       "commandLineArgs": "--debug --process powershell --window ConsoleWindowClass --module \"$(ProjectDir)\\$(BaseOutputPath)\\$(Configuration)/$(TargetFramework)\\$(TargetName).bhm\" --settings \"..\\Settings_$(TargetName)\""
     },
     "gw2": {
       "commandName": "Executable",
-      "executablePath": "C:\\gw2\\Blish.HUD\\Blish HUD.exe",
+      "executablePath": "C:\\Dev\\blish\\Blish.HUD\\Blish HUD.exe",
       "commandLineArgs": "--debug --module \"$(ProjectDir)\\$(BaseOutputPath)\\$(Configuration)/$(TargetFramework)\\$(TargetName).bhm\" --settings \"..\\Settings_$(TargetName)\""
     },
     "prerelease_test": {
       "commandName": "Executable",
-      "executablePath": "C:\\gw2\\Blish.HUD.0.11.8-ci.113\\Blish HUD.exe",
+      "executablePath": "C:\\Dev\\blish\\Blish.HUD\\Blish HUD.exe",
       "commandLineArgs": "--debug --process powershell --window ConsoleWindowClass --module \"$(ProjectDir)\\$(BaseOutputPath)\\$(Configuration)/$(TargetFramework)\\$(TargetName).bhm\" --settings \"..\\Settings_$(TargetName)_prerelease\""
     }
   }
