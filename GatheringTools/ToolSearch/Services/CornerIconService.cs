@@ -43,6 +43,7 @@ namespace GatheringTools.ToolSearch.Services
                 Icon             = _cornerIconTexture,
                 HoverIcon        = _cornerIconHoverTexture,
                 BasicTooltipText = _tooltip,
+                Priority         = RANDOM_INTEGER_FOR_PRIORITY,
                 Parent           = GameService.Graphics.SpriteScreen,
             };
 
@@ -73,5 +74,6 @@ namespace GatheringTools.ToolSearch.Services
         private readonly EventHandler<MouseEventArgs> _cornerIconClickEventHandler;
         private readonly string _tooltip;
         private CornerIcon _cornerIcon;
+        private const int RANDOM_INTEGER_FOR_PRIORITY = -1131282938;
     }
 }
