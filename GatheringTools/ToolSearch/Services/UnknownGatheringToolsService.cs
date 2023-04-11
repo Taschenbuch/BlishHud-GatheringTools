@@ -76,7 +76,7 @@ namespace GatheringTools.ToolSearch.Services
                                                                .Select(c => c.CharacterName)
                                                                .ToList();
 
-                logger.Error(e, $"V2.Items.ManyAsync() for unknown gathering tool ids failed. " +
+                logger.Warn(e, $"V2.Items.ManyAsync() for unknown gathering tool ids failed. " +
                                 $"This can be the case for old historical items. " +
                                 $"unknown ids: {String.Join(", ", unknownGatheringToolIds)}. " +
                                 $"Characters equipped with unknown tools: {String.Join(", ", characterNamesWithUnknownTools)}.");

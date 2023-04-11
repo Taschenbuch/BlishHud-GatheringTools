@@ -34,7 +34,7 @@ namespace GatheringTools.ToolSearch.Services
             }
             catch (Exception e)
             {
-                logger.Error(e, "Could not get gathering tools from API");
+                logger.Warn(e, "Could not get gathering tools from API");
                 return (new Account(), true);
             }
         }
@@ -74,7 +74,7 @@ namespace GatheringTools.ToolSearch.Services
             {
                 // .Bags == null happened to a user, though the permission check should have prevented it.
                 // But it worked later for the user without changing anything.
-                logger.Error($"Character.Bags is NULL for a character (Name: {characterResponse.Name}). " +
+                logger.Warn($"Character.Bags is NULL for a character (Name: {characterResponse.Name}). " +
                              $"This can happen when api key is missing inventory permission.");
 
                 return new List<GatheringTool>

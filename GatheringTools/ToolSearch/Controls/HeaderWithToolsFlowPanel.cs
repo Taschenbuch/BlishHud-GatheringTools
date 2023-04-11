@@ -82,7 +82,7 @@ namespace GatheringTools.ToolSearch.Controls
             }
             catch (Exception e)
             {
-                logger.Error(e, "Could not get gathering tool icon from API. Show placeholder icon instead.");
+                logger.Warn(e, "Could not get gathering tool icon from API. Show placeholder icon instead.");
                 return unknownToolTexture;
             }
         }
