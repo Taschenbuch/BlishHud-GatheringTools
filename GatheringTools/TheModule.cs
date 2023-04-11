@@ -102,12 +102,18 @@ namespace GatheringTools
 
         protected override void Unload()
         {
-            _escKeyBinding.Activated                                -= OnEscKeyBindingActivated;
-            _settingService.LogoutKeyBindingSetting.Value.Activated -= OnLogoutKeyBindingActivated;
+            if(_escKeyBinding != null) 
+                _escKeyBinding.Activated -= OnEscKeyBindingActivated;
 
-            _logoutButton.Click -= OnLogoutButtonClicked;
-            _logoutButton?.Dispose();
+            if (_settingService != null && _settingService.LogoutKeyBindingSetting != null)
+                _settingService.LogoutKeyBindingSetting.Value.Activated -= OnLogoutKeyBindingActivated;
 
+            if(_logoutButton != null)
+            {
+                _logoutButton.Click -= OnLogoutButtonClicked;
+                _logoutButton.Dispose();
+            }
+           
             _textureService?.Dispose();
             _toolSearchStandardWindow?.Dispose();
             _reminderContainer?.Dispose();
