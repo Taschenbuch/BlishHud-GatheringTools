@@ -6,7 +6,6 @@ using Blish_HUD;
 using Blish_HUD.Modules.Managers;
 using GatheringTools.ToolSearch.Model;
 using Gw2Sharp.WebApi.V2.Models;
-using Microsoft.IdentityModel.Tokens;
 using Character = GatheringTools.ToolSearch.Model.Character;
 
 namespace GatheringTools.ToolSearch.Services
@@ -39,7 +38,7 @@ namespace GatheringTools.ToolSearch.Services
         {
             var unknownGatheringTools = GetUnknownGatheringTools(characters);
 
-            if (unknownGatheringTools.IsNullOrEmpty())
+            if (unknownGatheringTools == null || !unknownGatheringTools.Any())
                 return;
 
             var matchingGatheringToolItems = await GetGatheringToolItemsFromApi(unknownGatheringTools, characters, gw2ApiManager, logger);
