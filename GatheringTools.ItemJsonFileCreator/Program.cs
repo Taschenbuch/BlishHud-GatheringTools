@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using GatheringTools.ToolSearch.Model;
+using GatheringTools.ToolSearch.Services;
 using Gw2Sharp;
 using Gw2Sharp.WebApi.V2.Models;
 using Newtonsoft.Json;
@@ -34,7 +35,7 @@ namespace GatheringTools.ItemJsonFileCreator
                                 Id          = g.Id,
                                 Name        = g.Name,
                                 IsUnlimited = g.Rarity == ItemRarity.Rare,
-                                IconUrl     = g.Icon.Url.ToString(),
+                                IconAssetId = UnknownGatheringToolsService.GetIconAssetId(g.Icon.Url.ToString())
                             }
                         )
                         .OrderBy(g => g.IsUnlimited)

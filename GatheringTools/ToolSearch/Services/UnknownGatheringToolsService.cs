@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Blish_HUD;
@@ -12,6 +13,11 @@ namespace GatheringTools.ToolSearch.Services
 {
     public class UnknownGatheringToolsService
     {
+        public static int GetIconAssetId(string iconUrl)
+        {
+            return int.Parse(Path.GetFileNameWithoutExtension(iconUrl));
+        }
+
         public static GatheringTool CreateNoInventoryAccessPlaceholderTool()
         {
             return new GatheringTool
@@ -90,7 +96,7 @@ namespace GatheringTools.ToolSearch.Services
             {
                 var matchingGatheringToolItem = matchingGatheringToolItems.Single(i => i.Id == unknownGatheringTool.Id);
                 unknownGatheringTool.Name        = matchingGatheringToolItem.Name;
-                unknownGatheringTool.IconUrl     = matchingGatheringToolItem.Icon.Url.ToString();
+                unknownGatheringTool.IconAssetId = GetIconAssetId(matchingGatheringToolItem.Icon.Url.ToString());
                 unknownGatheringTool.IsUnlimited = matchingGatheringToolItem.Rarity == ItemRarity.Rare;
                 unknownGatheringTool.ToolType    = ToolType.Normal;
             }

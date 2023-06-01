@@ -79,10 +79,9 @@ namespace GatheringTools.ToolSearch.Controls
 
             try
             {
-                var assetId = int.Parse(Path.GetFileNameWithoutExtension(gatheringTool.IconUrl)); 
-                return GameService.Content.DatAssetCache.TryGetTextureFromAssetId(assetId, out AsyncTexture2D texture)
+                return GameService.Content.DatAssetCache.TryGetTextureFromAssetId(gatheringTool.IconAssetId, out AsyncTexture2D texture)
                     ? texture
-                    : throw new Exception($"DatAssetCache is missing texture for '{gatheringTool.Name}', itemId: {gatheringTool.Id}, assetId: {assetId} ");
+                    : throw new Exception($"DatAssetCache is missing texture for '{gatheringTool.Name}', itemId: {gatheringTool.Id}, assetId: {gatheringTool.IconAssetId} ");
             }
             catch (Exception e)
             {
