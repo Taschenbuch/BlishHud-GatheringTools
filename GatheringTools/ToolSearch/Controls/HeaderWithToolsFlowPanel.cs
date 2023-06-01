@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using Blish_HUD;
 using Blish_HUD.Content;
 using Blish_HUD.Controls;
@@ -78,7 +79,10 @@ namespace GatheringTools.ToolSearch.Controls
 
             try
             {
-                return GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl);
+                var assetId = int.Parse(Path.GetFileNameWithoutExtension(gatheringTool.IconUrl)); 
+                return GameService.Content.DatAssetCache.TryGetTextureFromAssetId(assetId, out AsyncTexture2D texture)
+                    ? texture
+                    : throw new Exception($"DatAssetCache is missing texture for '{gatheringTool.Name}', itemId: {gatheringTool.Id}, assetId: {assetId} ");
             }
             catch (Exception e)
             {

@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Blish_HUD;
+using Blish_HUD.Content;
 using Blish_HUD.Controls;
 using Blish_HUD.Modules.Managers;
 using GatheringTools.Settings;
@@ -122,6 +124,10 @@ namespace GatheringTools.ToolSearch.Controls
             try
             {
                 await UpdateToolsInUiFromApi();
+            } 
+            catch(Exception e)
+            {
+                _logger.Error(e, "Failed to UpdateToolsInUiFromApi");
             }
             finally
             {
