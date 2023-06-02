@@ -17,7 +17,7 @@ namespace GatheringTools.ItemJsonFileCreator
         static async Task Main()
         {
             var gw2Connection = new Connection();
-            var gw2Client = new Gw2Client(gw2Connection);
+            using var gw2Client = new Gw2Sharp.Gw2Client(gw2Connection);
             var itemIds = await gw2Client.WebApi.V2.Items.IdsAsync();
             var items = await gw2Client.WebApi.V2.Items.ManyAsync(itemIds);
             var gatheringTools = FindAndCreateGatheringTools(items);
