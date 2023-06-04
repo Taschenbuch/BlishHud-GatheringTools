@@ -8,21 +8,21 @@ namespace GatheringTools.ToolSearch.Services
     {
         public TextureService(ContentsManager contentsManager)
         {
-            LogoutButtonTexture              = contentsManager.GetTexture(@"reminder\logoutButton.png");
-            LogoutButtonActiveTexture        = contentsManager.GetTexture(@"reminder\logoutButtonActive.png");
-            ReminderBackgroundTexture        = contentsManager.GetTexture(@"reminder\logoutDialogTextArea.png");
-            ReminderImageNoOutlineTexture    = contentsManager.GetTexture(@"reminder\reminderImage_noOutline.png");
-            ReminderImageSmallOutlineTexture = contentsManager.GetTexture(@"reminder\reminderImage_smallOutline.png");
-            ReminderImageBigOutlineTexture   = contentsManager.GetTexture(@"reminder\reminderImage_bigOutline.png");
-            WindowBackgroundTexture          = contentsManager.GetTexture(@"toolSearch\textures\windowsBackground_155985.png");
-            ToolSearchWindowEmblem           = contentsManager.GetTexture(@"toolSearch\textures\toolSearchWindowEmblem.png");
-            CornerIconTexture                = contentsManager.GetTexture(@"toolSearch\textures\cornerIcon.png");
-            CornerIconHoverTexture           = contentsManager.GetTexture(@"toolSearch\textures\cornerIcon_hover.png");
-            BankTexture                      = contentsManager.GetTexture(@"toolSearch\textures\bank_156670.png");
-            CharacterInventoryTexture        = contentsManager.GetTexture(@"toolSearch\textures\inventory_157098.png");
-            SharedInventoryTexture           = contentsManager.GetTexture(@"toolSearch\textures\sharedInventory.png");
-            EquipmentTexture                 = contentsManager.GetTexture(@"toolSearch\textures\equipment_156714.png");
-            UnknownToolTexture               = contentsManager.GetTexture(@"toolSearch\textures\unknownTool_66591.png");
+            LogoutButtonTexture              = contentsManager.GetTexture(@"textures\reminder\logoutButton.png");
+            LogoutButtonActiveTexture        = contentsManager.GetTexture(@"textures\reminder\logoutButtonActive.png");
+            ReminderBackgroundTexture        = contentsManager.GetTexture(@"textures\reminder\logoutDialogTextArea.png");
+            ReminderImageNoOutlineTexture    = contentsManager.GetTexture(@"textures\reminder\reminderImage_noOutline.png");
+            ReminderImageSmallOutlineTexture = contentsManager.GetTexture(@"textures\reminder\reminderImage_smallOutline.png");
+            ReminderImageBigOutlineTexture   = contentsManager.GetTexture(@"textures\reminder\reminderImage_bigOutline.png");
+            WindowBackgroundTexture          = contentsManager.GetTexture(@"textures\toolSearch\windowsBackground_155985.png");
+            ToolSearchWindowEmblem           = contentsManager.GetTexture(@"textures\toolSearch\toolSearchWindowEmblem.png");
+            CornerIconTexture                = contentsManager.GetTexture(@"textures\toolSearch\cornerIcon.png");
+            CornerIconHoverTexture           = contentsManager.GetTexture(@"textures\toolSearch\cornerIcon_hover.png");
+            BankTexture                      = contentsManager.GetTexture(@"textures\toolSearch\bank_156670.png");
+            CharacterInventoryTexture        = contentsManager.GetTexture(@"textures\toolSearch\inventory_157098.png");
+            SharedInventoryTexture           = contentsManager.GetTexture(@"textures\toolSearch\sharedInventory.png");
+            EquipmentTexture                 = contentsManager.GetTexture(@"textures\toolSearch\equipment_156714.png");
+            UnknownToolTexture               = contentsManager.GetTexture(@"textures\toolSearch\unknownTool_66591.png");
         }
 
         public void Dispose()
