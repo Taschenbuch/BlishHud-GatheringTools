@@ -43,8 +43,6 @@ namespace GatheringTools.ToolSearch.Services
             catch (Exception e)
             {
                 logger.Error(e, "Failed to update module data. :(");
-                throw; // todo weg?
-                // todo logging sonst was? 
             }
         }
 

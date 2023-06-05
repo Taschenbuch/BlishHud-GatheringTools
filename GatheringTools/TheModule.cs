@@ -79,16 +79,20 @@ namespace GatheringTools
 
 
             var isModuleVersionDeprecated = await FileService.IsModuleVersionDeprecated();
-            if (isModuleVersionDeprecated)
+            if (!isModuleVersionDeprecated)
             {
-                // todo user benachrichtigen
-                return;
+                await FileService.UpdateDataInModuleFolderIfNecessary(DirectoriesManager, Logger);
+                var allGatheringTools = await FileReadService.GetAllGatheringToolsFromFiles(DirectoriesManager, Logger);
+                _allGatheringTools.AddRange(allGatheringTools);
             }
-            await FileService.UpdateDataInModuleFolderIfNecessary(DirectoriesManager, Logger);
-            var allGatheringTools = await FileReadService.GetAllGatheringToolsFromFiles(DirectoriesManager, Logger);
-            _allGatheringTools.AddRange(allGatheringTools);
 
-            _toolSearchStandardWindow = new ToolSearchStandardWindow(_textureService, _settingService, _allGatheringTools, Gw2ApiManager, Logger)
+            _toolSearchStandardWindow = new ToolSearchStandardWindow(
+                _textureService, 
+                _settingService, 
+                _allGatheringTools, 
+                isModuleVersionDeprecated, 
+                Gw2ApiManager, 
+                Logger)
             {
                 Emblem        = _textureService.ToolSearchWindowEmblem, // hack: has to be first to prevent bug of emblem not being visible
                 Title         = "Tools",
