@@ -111,9 +111,11 @@ namespace GatheringTools.ToolSearch.Services
         public static readonly string GATHERING_TOOLS_MISSING_IN_V2_ITEMS_API_RELATIVE_FILE_PATH = $"data/format_version_{format_version}/gatheringToolsMissingInV2ItemsApi.json";
         static readonly List<string> DATA_RELATIVE_FILE_PATHS = new List<string>()
         {
-            CONTENT_VERSION_RELATIVE_FILE_PATH,
             GATHERING_TOOLS_FROM_V2_ITEMS_API_RELATIVE_FILE_PATH,
-            GATHERING_TOOLS_MISSING_IN_V2_ITEMS_API_RELATIVE_FILE_PATH
+            GATHERING_TOOLS_MISSING_IN_V2_ITEMS_API_RELATIVE_FILE_PATH,
+            // version file MUST be the last file. When a previous file fails to download, version file will not be updated, too.
+            // because of that on the next module startup it will then retry the download of all files including the previously failed files.
+            CONTENT_VERSION_RELATIVE_FILE_PATH,
         };
     }
 }
