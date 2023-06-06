@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
 using System.Linq;
-using GatheringTools.ItemJsonFileCreator.Model;
+using System.Threading.Tasks;
 using GatheringTools.ToolSearch.Model;
+using GatheringTools.ToolSearch.Services;
+using Gw2Sharp;
+using Gw2Sharp.WebApi.V2.Models;
 using Newtonsoft.Json;
 using File = System.IO.File;
 
@@ -11,55 +12,43 @@ namespace GatheringTools.ItemJsonFileCreator
 {
     class Program
     {
-        private const string OUTPUT_JSON_FILE_PATH = @"c:\gw2\gatheringTools.json";
+        private const string OUTPUT_JSON_FILE_PATH = @"C:\Dev\blish\gatheringToolsFromV2ItemsApi.json";
 
-        static void Main()
+        static async Task Main()
         {
-            // GetFullPath required to resolve going to parent folder with "\..\"
-            var inputFolderPathWithJsonFiles = Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, @"..\..\..\Resources\V2_Items")); 
-            var items                        = ParseItemsFromJsonFiles(inputFolderPathWithJsonFiles);
-            var gatheringTools               = FindGatheringTools(items);
+            var gw2Connection = new Connection();
+            using var gw2Client = new Gw2Sharp.Gw2Client(gw2Connection);
+            var itemIds = await gw2Client.WebApi.V2.Items.IdsAsync();
+            var items = await gw2Client.WebApi.V2.Items.ManyAsync(itemIds);
+            var gatheringTools = FindAndCreateGatheringTools(items);
             WriteToJsonOutputFile(gatheringTools, OUTPUT_JSON_FILE_PATH);
         }
 
-        private static List<Gw2Item> ParseItemsFromJsonFiles(string inputFolderPathWithJsonFiles)
+        private static IEnumerable<GatheringTool> FindAndCreateGatheringTools(IReadOnlyList<Item> items)
         {
-            var filePaths = Directory.GetFiles(inputFolderPathWithJsonFiles);
-            var items     = new List<Gw2Item>();
-
-            foreach (var filePath in filePaths)
-            {
-                var json          = File.ReadAllText(filePath);
-                var itemsFromFile = JsonConvert.DeserializeObject<List<Gw2Item>>(json);
-                items.AddRange(itemsFromFile);
-            }
-
-            return items;
-        }
-
-        private static IEnumerable<GatheringTool> FindGatheringTools(List<Gw2Item> items)
-        {
-            return items.Where(IsGatheringTool)
+            return items.Where(i => i.Type == ItemType.Gathering) // includes fishing baits ands lures
+                        .Cast<ItemGathering>()
+                        .Where(IsPickOrAxeOrSickle)
                         .Select(g =>
                             new GatheringTool()
                             {
                                 Id          = g.Id,
                                 Name        = g.Name,
-                                IsUnlimited = g.Rarity.Equals("rare", StringComparison.OrdinalIgnoreCase),
-                                IconUrl     = g.Icon
+                                IsUnlimited = g.Rarity == ItemRarity.Rare,
+                                IconAssetId = UnknownGatheringToolsService.GetIconAssetId(g.Icon.Url.ToString())
                             }
                         )
                         .OrderBy(g => g.IsUnlimited)
                         .ThenBy(g => g.Name);
         }
 
-        private static bool IsGatheringTool(Gw2Item c)
+        private static bool IsPickOrAxeOrSickle(ItemGathering item)
         {
-            var type = c.Details.Type;
+            var type = item.Details.Type;
 
-            return type.Equals("Foraging", StringComparison.OrdinalIgnoreCase)
-                   || type.Equals("Logging", StringComparison.OrdinalIgnoreCase)
-                   || type.Equals("Mining", StringComparison.OrdinalIgnoreCase);
+            return type == ItemGatheringType.Mining
+                || type == ItemGatheringType.Logging
+                || type == ItemGatheringType.Foraging;
         }
 
         private static void WriteToJsonOutputFile(IEnumerable<GatheringTool> gatheringTools, string filePath)

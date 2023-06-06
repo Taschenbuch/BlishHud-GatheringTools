@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
+using System.Linq;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
@@ -77,10 +78,31 @@ namespace GatheringTools
             _settingService.LogoutKeyBindingSetting.Value.Activated += OnLogoutKeyBindingActivated;
             _settingService.LogoutKeyBindingSetting.Value.Enabled   =  true;
 
-            var allGatheringTools = await FileService.GetAllGatheringToolsFromFiles(ContentsManager, Logger);
-            _allGatheringTools.AddRange(allGatheringTools);
 
-            _toolSearchStandardWindow = new ToolSearchStandardWindow(_textureService, _settingService, _allGatheringTools, Gw2ApiManager, Logger)
+            var isModuleVersionDeprecated = await FileService.IsModuleVersionDeprecated();
+            if (!isModuleVersionDeprecated)
+            {
+                await FileService.UpdateDataInModuleFolderIfNecessary(DirectoriesManager, Logger);
+                var allGatheringTools = await FileReadService.GetAllGatheringToolsFromFiles(DirectoriesManager, Logger);
+                _allGatheringTools.AddRange(allGatheringTools);
+
+                if (!allGatheringTools.Any())
+                {
+                    ScreenNotification.ShowNotification(
+                        "GatheringTools: Tool files missing. Blish or Module restart may help! :(",
+                        ScreenNotification.NotificationType.Error,
+                        null,
+                        8);
+                }
+            }
+
+            _toolSearchStandardWindow = new ToolSearchStandardWindow(
+                _textureService, 
+                _settingService, 
+                _allGatheringTools, 
+                isModuleVersionDeprecated, 
+                Gw2ApiManager, 
+                Logger)
             {
                 Emblem        = _textureService.ToolSearchWindowEmblem, // hack: has to be first to prevent bug of emblem not being visible
                 Title         = "Tools",

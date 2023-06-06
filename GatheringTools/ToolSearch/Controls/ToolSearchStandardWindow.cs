@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -9,6 +10,7 @@ using GatheringTools.Settings;
 using GatheringTools.ToolSearch.Model;
 using GatheringTools.ToolSearch.Services;
 using Microsoft.Xna.Framework;
+using static Blish_HUD.ContentService;
 
 namespace GatheringTools.ToolSearch.Controls
 {
@@ -17,14 +19,33 @@ namespace GatheringTools.ToolSearch.Controls
         public ToolSearchStandardWindow(TextureService textureService,
                                         SettingService settingService,
                                         List<GatheringTool> allGatheringTools,
+                                        bool isModuleVersionDeprecated,
                                         Gw2ApiManager gw2ApiManager,
                                         Logger logger)
             : base(textureService.WindowBackgroundTexture, new Rectangle(10, 30, 235, 610), new Rectangle(30, 30, 230, 600))
         {
+            _isModuleVersionDeprecated = isModuleVersionDeprecated;
             _textureService    = textureService;
             _allGatheringTools = allGatheringTools;
             _gw2ApiManager     = gw2ApiManager;
             _logger            = logger;
+
+            if(isModuleVersionDeprecated)
+            {
+                _infoLabel = new Label()
+                {
+                    Text = "This module version is deprecated. :-(\n" +
+                           "Please update to the newest module version. " +
+                           "To have access to the newest module version, make sure you are also using the newest Blish HUD version.\n:-)",
+                    ShowShadow = true,
+                    Size = new Point(MAX_CONTENT_WIDTH, 0),
+                    Font = GameService.Content.GetFont(FontFace.Menomonia, FontSize.Size20, FontStyle.Regular),
+                    AutoSizeHeight = true,
+                    WrapText = true,
+                    Parent = this
+                };
+                return;
+            } 
 
             var rootFlowPanel = new FlowPanel
             {
@@ -114,6 +135,8 @@ namespace GatheringTools.ToolSearch.Controls
         private async Task ShowWindowAndUpdateToolsInUi()
         {
             Show();
+            if (_isModuleVersionDeprecated)
+                return;
 
             // ReSharper disable once MethodHasAsyncOverload // no need for AsyncWait because it would return instantly anyway and wont be awaited
             if (_semaphoreSlim.Wait(0) == false)
@@ -122,6 +145,10 @@ namespace GatheringTools.ToolSearch.Controls
             try
             {
                 await UpdateToolsInUiFromApi();
+            } 
+            catch(Exception e)
+            {
+                _logger.Error(e, "Failed to UpdateToolsInUiFromApi");
             }
             finally
             {
@@ -248,6 +275,7 @@ namespace GatheringTools.ToolSearch.Controls
             }
         }
 
+        private readonly bool _isModuleVersionDeprecated;
         private readonly TextureService _textureService;
         private readonly List<GatheringTool> _allGatheringTools;
         private readonly Gw2ApiManager _gw2ApiManager;

@@ -1,18 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Modules.Managers;
 using GatheringTools.ToolSearch.Model;
 using Gw2Sharp.WebApi.V2.Models;
-using Microsoft.IdentityModel.Tokens;
 using Character = GatheringTools.ToolSearch.Model.Character;
 
 namespace GatheringTools.ToolSearch.Services
 {
     public class UnknownGatheringToolsService
     {
+        public static int GetIconAssetId(string iconUrl)
+        {
+            return int.Parse(Path.GetFileNameWithoutExtension(iconUrl));
+        }
+
         public static GatheringTool CreateNoInventoryAccessPlaceholderTool()
         {
             return new GatheringTool
@@ -39,7 +44,7 @@ namespace GatheringTools.ToolSearch.Services
         {
             var unknownGatheringTools = GetUnknownGatheringTools(characters);
 
-            if (unknownGatheringTools.IsNullOrEmpty())
+            if (unknownGatheringTools == null || !unknownGatheringTools.Any())
                 return;
 
             var matchingGatheringToolItems = await GetGatheringToolItemsFromApi(unknownGatheringTools, characters, gw2ApiManager, logger);
@@ -91,7 +96,7 @@ namespace GatheringTools.ToolSearch.Services
             {
                 var matchingGatheringToolItem = matchingGatheringToolItems.Single(i => i.Id == unknownGatheringTool.Id);
                 unknownGatheringTool.Name        = matchingGatheringToolItem.Name;
-                unknownGatheringTool.IconUrl     = matchingGatheringToolItem.Icon.Url.ToString();
+                unknownGatheringTool.IconAssetId = GetIconAssetId(matchingGatheringToolItem.Icon.Url.ToString());
                 unknownGatheringTool.IsUnlimited = matchingGatheringToolItem.Rarity == ItemRarity.Rare;
                 unknownGatheringTool.ToolType    = ToolType.Normal;
             }

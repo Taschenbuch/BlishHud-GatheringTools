@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using Blish_HUD;
 using Blish_HUD.Content;
 using Blish_HUD.Controls;
@@ -78,7 +79,16 @@ namespace GatheringTools.ToolSearch.Controls
 
             try
             {
-                return GameService.Content.GetRenderServiceTexture(gatheringTool.IconUrl);
+                if (GameService.Content.DatAssetCache.TryGetTextureFromAssetId(gatheringTool.IconAssetId, out AsyncTexture2D gatheringToolTexture))
+                {
+                    return gatheringToolTexture;
+                }
+                else
+                {
+                    // blish will only show info message for that instead of a warning. That is why this was added here to make it more obvious
+                    logger.Warn($"DatAssetCache is missing texture for '{gatheringTool.Name}', itemId: {gatheringTool.Id}, iconAssetId: {gatheringTool.IconAssetId}");
+                    return unknownToolTexture;
+                }
             }
             catch (Exception e)
             {
