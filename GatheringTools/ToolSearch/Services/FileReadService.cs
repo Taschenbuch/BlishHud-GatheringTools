@@ -30,7 +30,7 @@ namespace GatheringTools.ToolSearch.Services
             }
             catch (Exception e)
             {
-                logger.Error(e, $@"Failed to load gathering tools from files :(");
+                logger.Error(e, $"Failed to load gathering tools from files :(");
                 return new List<GatheringTool>();
             }
         }
@@ -39,11 +39,9 @@ namespace GatheringTools.ToolSearch.Services
         {
             try
             {
-                using (var streamReader = new StreamReader(filePath))
-                {
-                    var json = await streamReader.ReadToEndAsync();
-                    return JsonConvert.DeserializeObject<List<GatheringTool>>(json);
-                }
+                using var streamReader = new StreamReader(filePath);
+                var json = await streamReader.ReadToEndAsync();
+                return JsonConvert.DeserializeObject<List<GatheringTool>>(json);
             }
             catch (Exception e)
             {

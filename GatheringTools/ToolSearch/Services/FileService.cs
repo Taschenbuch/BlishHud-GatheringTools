@@ -18,7 +18,7 @@ namespace GatheringTools.ToolSearch.Services
                 await GetTextFromUrl(DEPRECATED_URL);
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return false;
             }
@@ -42,7 +42,7 @@ namespace GatheringTools.ToolSearch.Services
             }
             catch (Exception e)
             {
-                logger.Error(e, "Failed to update module data. :(");
+                logger.Warn(e, "Failed to update module data from online host. :("); // just a warn, because module may still work. check for empty gathering tools is somewhere else
             }
         }
 
@@ -50,9 +50,9 @@ namespace GatheringTools.ToolSearch.Services
         {
             foreach (var relativeFilePath in relativeFilePaths)
             {
+                var filePath = Path.Combine(moduleFolderPath, relativeFilePath);
                 var fileUrl = Path.Combine(baseUrl, relativeFilePath);
                 var fileContent = await GetTextFromUrl(fileUrl); // could be optimized by awaiting multiple at once
-                var filePath = Path.Combine(moduleFolderPath, relativeFilePath);
                 await WriteFileAsync(fileContent, filePath);
             }
         }
@@ -75,8 +75,8 @@ namespace GatheringTools.ToolSearch.Services
 
         private static int GetLocalVersion(string moduleDataFolderPath)
         {
-            var versionPath = Path.Combine(moduleDataFolderPath, CONTENT_VERSION_RELATIVE_FILE_PATH);
-            var versionText = File.ReadAllText(versionPath);
+            var versionFilePath = Path.Combine(moduleDataFolderPath, CONTENT_VERSION_RELATIVE_FILE_PATH);
+            var versionText = File.ReadAllText(versionFilePath);
             return int.Parse(versionText);
         }
 
@@ -89,6 +89,7 @@ namespace GatheringTools.ToolSearch.Services
 
         private static async Task<string> GetTextFromUrl(string url)
         {
+            // dont add try catch. checking if module is deprecated relies on this throwing an exception when deprecated.txt file is not found
             using var httpClient = new HttpClient();
             return await httpClient.GetStringAsync(url);
         }
