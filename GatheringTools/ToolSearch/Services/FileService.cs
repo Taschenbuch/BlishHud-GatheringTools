@@ -102,7 +102,7 @@ namespace GatheringTools.ToolSearch.Services
         }
 
         // todo strings -> overengineered, ggf. Path object bauen das alle für einen zusammensetzt? "paths.ModuleDataFolderName"
-        public static readonly string MODULE_FOLDER_NAME = "gathering-tools-module";
+        public static readonly string MODULE_FOLDER_NAME = "gathering-tools-module-data";
         static readonly string format_version = "1";
         static readonly string BASE_URL = "https://bhm.blishhud.com/ecksofa.gatheringtools";
         static readonly string DEPRECATED_URL = $"https://bhm.blishhud.com/ecksofa.gatheringtools/data/format_version_{format_version}/deprecated.txt";
