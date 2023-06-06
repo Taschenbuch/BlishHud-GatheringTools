@@ -45,7 +45,7 @@ namespace GatheringTools.ToolSearch.Controls
                     Parent = this
                 };
                 return;
-            }
+            } 
 
             var rootFlowPanel = new FlowPanel
             {

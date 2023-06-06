@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
+using System.Linq;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
@@ -84,6 +85,15 @@ namespace GatheringTools
                 await FileService.UpdateDataInModuleFolderIfNecessary(DirectoriesManager, Logger);
                 var allGatheringTools = await FileReadService.GetAllGatheringToolsFromFiles(DirectoriesManager, Logger);
                 _allGatheringTools.AddRange(allGatheringTools);
+
+                if (!allGatheringTools.Any())
+                {
+                    ScreenNotification.ShowNotification(
+                        "GatheringTools: Tool files missing. Blish or Module restart may help! :(",
+                        ScreenNotification.NotificationType.Error,
+                        null,
+                        8);
+                }
             }
 
             _toolSearchStandardWindow = new ToolSearchStandardWindow(

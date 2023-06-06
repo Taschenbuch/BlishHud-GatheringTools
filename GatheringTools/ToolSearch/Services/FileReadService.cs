@@ -30,7 +30,7 @@ namespace GatheringTools.ToolSearch.Services
             }
             catch (Exception e)
             {
-                logger.Error(e, $"Failed to load gathering tools from files :(");
+                logger.Error(e, $"Failed to load gathering tools from files. A Blish HUD or module restart may fix that issue. :(");
                 return new List<GatheringTool>();
             }
         }
