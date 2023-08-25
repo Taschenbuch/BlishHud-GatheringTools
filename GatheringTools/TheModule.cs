@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Controls;
 using Blish_HUD.Controls.Extern;
+using Blish_HUD.GameIntegration;
 using Blish_HUD.Graphics.UI;
 using Blish_HUD.Input;
 using Blish_HUD.Modules;
@@ -48,6 +49,7 @@ namespace GatheringTools
 
         protected override async Task LoadAsync()
         {
+            runShiftBlishCornerIconsWorkaroundBecauseOfNewWizardVaultIcon();
             _textureService    = new TextureService(ContentsManager);
             _reminderContainer = new ReminderContainer(_textureService, _settingService);
 
@@ -215,6 +217,19 @@ namespace GatheringTools
                     ScreenNotification.NotificationType.Error,
                     null,
                     (int)_settingService.ReminderDisplayDurationInSecondsSetting.Value);
+        }
+
+        private static void runShiftBlishCornerIconsWorkaroundBecauseOfNewWizardVaultIcon()
+        {
+            if (Program.OverlayVersion < new SemVer.Version(1, 1, 0))
+            {
+                try
+                {
+                    var tacoActive = typeof(TacOIntegration).GetProperty(nameof(TacOIntegration.TacOIsRunning)).GetSetMethod(true);
+                    tacoActive?.Invoke(GameService.GameIntegration.TacO, new object[] { true });
+                }
+                catch { /* NOOP */ }
+            }
         }
 
         private double _runningTime;
