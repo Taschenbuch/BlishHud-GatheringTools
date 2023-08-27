@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using GatheringTools.ToolSearch.Model;
@@ -17,11 +19,39 @@ namespace GatheringTools.ItemJsonFileCreator
         static async Task Main()
         {
             var gw2Connection = new Connection();
-            using var gw2Client = new Gw2Sharp.Gw2Client(gw2Connection);
+            using var gw2Client = new Gw2Client(gw2Connection);
+            
+            Console.WriteLine("getting item ids...");
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
+            
             var itemIds = await gw2Client.WebApi.V2.Items.IdsAsync();
+            
+            Console.WriteLine($"getting item ids finished in {getFormattedTime(stopWatch)}. Got {itemIds.Count} itemIds!");
+            stopWatch.Restart();
+            Console.WriteLine("getting items... (this takes about 5 minutes)");
+            
             var items = await gw2Client.WebApi.V2.Items.ManyAsync(itemIds);
+            
+            Console.WriteLine($"getting items finished in {getFormattedTime(stopWatch)} ms");
+            stopWatch.Restart();
+            Console.WriteLine("searching for gathering tools...");
+            
             var gatheringTools = FindAndCreateGatheringTools(items);
+            
+            Console.WriteLine($"searching for gathering tools finished in {getFormattedTime(stopWatch)} ms. Found {gatheringTools.Count()} gathering tools");
+            stopWatch.Restart();
+            Console.WriteLine("writing gathering tools to file...");
+            
             WriteToJsonOutputFile(gatheringTools, OUTPUT_JSON_FILE_PATH);
+            
+            Console.WriteLine($"writing gathering tools to file finished in {getFormattedTime(stopWatch)} ms");
+            stopWatch.Stop();
+        }
+
+        private static string getFormattedTime(Stopwatch stopWatch)
+        {
+            return stopWatch.Elapsed.ToString("hh':'mm':'ss':'fff' (hh:mm:ss:ms)'");
         }
 
         private static IEnumerable<GatheringTool> FindAndCreateGatheringTools(IReadOnlyList<Item> items)
