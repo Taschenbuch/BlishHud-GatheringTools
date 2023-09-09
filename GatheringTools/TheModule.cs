@@ -81,10 +81,10 @@ namespace GatheringTools
             _settingService.LogoutKeyBindingSetting.Value.Enabled   =  true;
 
 
-            var isModuleVersionDeprecated = await FileService.IsModuleVersionDeprecated();
+            var isModuleVersionDeprecated = await StaticHostFilesService.IsModuleVersionDeprecated();
             if (!isModuleVersionDeprecated)
             {
-                await FileService.UpdateDataInModuleFolderIfNecessary(DirectoriesManager, Logger);
+                await StaticHostFilesService.UpdateDataInModuleFolderIfNecessary(DirectoriesManager, Logger);
                 var allGatheringTools = await FileReadService.GetAllGatheringToolsFromFiles(DirectoriesManager, Logger);
                 _allGatheringTools.AddRange(allGatheringTools);
 

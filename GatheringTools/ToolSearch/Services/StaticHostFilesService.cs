@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Modules.Managers;
-using HttpClient = System.Net.Http.HttpClient;
 
 namespace GatheringTools.ToolSearch.Services
 {
-    public class FileService
+    public class StaticHostFilesService
     {
         public static async Task<bool> IsModuleVersionDeprecated()
         {

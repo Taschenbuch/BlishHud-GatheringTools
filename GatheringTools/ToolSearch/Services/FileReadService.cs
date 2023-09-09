@@ -16,13 +16,13 @@ namespace GatheringTools.ToolSearch.Services
         {
             try
             {
-                var moduleFolderPath = directoriesManager.GetFullDirectoryPath(FileService.MODULE_FOLDER_NAME);
+                var moduleFolderPath = directoriesManager.GetFullDirectoryPath(StaticHostFilesService.MODULE_FOLDER_NAME);
                 var v2GatheringToolsTask = GetGatheringToolsFromFile(
-                    Path.Combine(moduleFolderPath, FileService.GATHERING_TOOLS_FROM_V2_ITEMS_API_RELATIVE_FILE_PATH),
+                    Path.Combine(moduleFolderPath, StaticHostFilesService.GATHERING_TOOLS_FROM_V2_ITEMS_API_RELATIVE_FILE_PATH),
                     logger);
 
                 var missingInV2GatheringToolsTask = GetGatheringToolsFromFile(
-                    Path.Combine(moduleFolderPath, FileService.GATHERING_TOOLS_MISSING_IN_V2_ITEMS_API_RELATIVE_FILE_PATH),
+                    Path.Combine(moduleFolderPath, StaticHostFilesService.GATHERING_TOOLS_MISSING_IN_V2_ITEMS_API_RELATIVE_FILE_PATH),
                     logger);
 
                 await Task.WhenAll(v2GatheringToolsTask, missingInV2GatheringToolsTask);
