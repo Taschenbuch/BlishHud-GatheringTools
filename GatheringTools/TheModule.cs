@@ -18,6 +18,7 @@ using GatheringTools.Settings;
 using GatheringTools.ToolSearch.Controls;
 using GatheringTools.ToolSearch.Model;
 using GatheringTools.ToolSearch.Services;
+using GatheringTools.ToolSearch.Services.RemoteFiles;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
@@ -49,7 +50,7 @@ namespace GatheringTools
 
         protected override async Task LoadAsync()
         {
-            runShiftBlishCornerIconsWorkaroundBecauseOfNewWizardVaultIcon();
+            RunShiftBlishCornerIconsWorkaroundBecauseOfNewWizardVaultIcon();
             _textureService    = new TextureService(ContentsManager);
             _reminderContainer = new ReminderContainer(_textureService, _settingService);
 
@@ -80,21 +81,21 @@ namespace GatheringTools
             _settingService.LogoutKeyBindingSetting.Value.Activated += OnLogoutKeyBindingActivated;
             _settingService.LogoutKeyBindingSetting.Value.Enabled   =  true;
 
-
-            var isModuleVersionDeprecated = await StaticHostFilesService.IsModuleVersionDeprecated();
+            var localAndRemoteFileLocations = new LocalAndRemoteFileLocations(new FileConstants(), DirectoriesManager);
+            var isModuleVersionDeprecated = await RemoteFilesService.IsModuleVersionDeprecated(localAndRemoteFileLocations.DeprecatedTextUrl);
             if (!isModuleVersionDeprecated)
             {
-                await StaticHostFilesService.UpdateDataInModuleFolderIfNecessary(DirectoriesManager, Logger);
-                var allGatheringTools = await FileReadService.GetAllGatheringToolsFromFiles(DirectoriesManager, Logger);
+                await RemoteFilesService.UpdateLocalWithRemoteFilesIfNecessary(localAndRemoteFileLocations, Logger);
+                var allGatheringTools = await FileReadService.GetAllGatheringToolsFromFiles(localAndRemoteFileLocations, Logger);
                 _allGatheringTools.AddRange(allGatheringTools);
 
                 if (!allGatheringTools.Any())
                 {
                     ScreenNotification.ShowNotification(
-                        "GatheringTools: Tool files missing. Blish or Module restart may help! :(",
+                        "GatheringTools Module: files missing because download failed. :(", // warning: ShowNotification cuts off too long messages
                         ScreenNotification.NotificationType.Error,
                         null,
-                        8);
+                        12);
                 }
             }
 
@@ -219,7 +220,7 @@ namespace GatheringTools
                     (int)_settingService.ReminderDisplayDurationInSecondsSetting.Value);
         }
 
-        private static void runShiftBlishCornerIconsWorkaroundBecauseOfNewWizardVaultIcon()
+        private static void RunShiftBlishCornerIconsWorkaroundBecauseOfNewWizardVaultIcon()
         {
             if (Program.OverlayVersion < new SemVer.Version(1, 1, 0))
             {

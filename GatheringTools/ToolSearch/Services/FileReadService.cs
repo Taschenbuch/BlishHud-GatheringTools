@@ -1,5 +1,4 @@
-﻿using Blish_HUD.Modules.Managers;
-using Blish_HUD;
+﻿using Blish_HUD;
 using GatheringTools.ToolSearch.Model;
 using System;
 using System.Collections.Generic;
@@ -7,22 +6,24 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using GatheringTools.ToolSearch.Services.RemoteFiles;
 
 namespace GatheringTools.ToolSearch.Services
 {
     internal class FileReadService
     {
-        public static async Task<IEnumerable<GatheringTool>> GetAllGatheringToolsFromFiles(DirectoriesManager directoriesManager, Logger logger)
+        public static async Task<IEnumerable<GatheringTool>> GetAllGatheringToolsFromFiles(
+            LocalAndRemoteFileLocations localAndRemoteFileLocations,
+            Logger logger)
         {
             try
             {
-                var moduleFolderPath = directoriesManager.GetFullDirectoryPath(StaticHostFilesService.MODULE_FOLDER_NAME);
                 var v2GatheringToolsTask = GetGatheringToolsFromFile(
-                    Path.Combine(moduleFolderPath, StaticHostFilesService.GATHERING_TOOLS_FROM_V2_ITEMS_API_RELATIVE_FILE_PATH),
+                    localAndRemoteFileLocations.GetLocalFilePath(FileConstants.GatheringToolsFromV2ItemsApiFileName),
                     logger);
 
                 var missingInV2GatheringToolsTask = GetGatheringToolsFromFile(
-                    Path.Combine(moduleFolderPath, StaticHostFilesService.GATHERING_TOOLS_MISSING_IN_V2_ITEMS_API_RELATIVE_FILE_PATH),
+                    localAndRemoteFileLocations.GetLocalFilePath(FileConstants.GatheringToolsMissingInV2ItemsApiFileName),
                     logger);
 
                 await Task.WhenAll(v2GatheringToolsTask, missingInV2GatheringToolsTask);
