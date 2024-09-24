@@ -6,3 +6,9 @@
 
 
 ![Screenshot](docs/gatheringTools_ingame_screenshot.png)
+
+# How to update available gathering tools
+1. run `GatheringTools.ItemJsonFileCreator` project to create the gatherin tools file.
+2. copy the file into the newest `data/format_version_<number>/` folder on the static data git branch.
+3. increment number inside `data/format_version_<number>/content_version.txt` by one.
+4. commit and push changes.
