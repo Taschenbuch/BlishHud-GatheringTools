@@ -1,3 +1,7 @@
+# Archived
+This module is no longer being maintained by me but the BlishHUD community has access to the code and may maintain it.
+
+# General
 - A Module for the third party overlay https://blishhud.com/ for Guild Wars 2.
 - Search for (unlimited) gathering tools in your bank, shared inventory slots, character inventories or which character has which gathering tools equipped.
 - WARNING: The search result can be older than 5 minutes because of API delays.
